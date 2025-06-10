@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcademiQ - University Resource Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-900 font-inter">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50 backdrop-blur-lg bg-opacity-95">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <div class="text-2xl">🎓</div>
+                    <span class="text-xl font-bold text-white">ExamForge</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" onclick="showDepartments()" class="nav-link text-gray-300 hover:text-white transition-colors">Home</a>
+                    <a href="#pyqs" class="nav-link text-gray-300 hover:text-white transition-colors">PYQs</a>
+                    <a href="#solutions" class="nav-link text-gray-300 hover:text-white transition-colors">Solutions</a>
+                    <a href="#topics" class="nav-link text-gray-300 hover:text-white transition-colors">Important Topics</a>
+                    <a href="#predicted" class="nav-link text-gray-300 hover:text-white transition-colors">AI Predicted</a>
+                    <a href="#upload" class="nav-link text-gray-300 hover:text-white transition-colors">Contribute</a>
+                    <div class="relative">
+                        <input type="text" id="search-input" placeholder="Search subjects..." class="bg-gray-700 text-white px-4 py-2 rounded-lg text-sm w-48 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <button onclick="searchSubjects()" class="absolute right-2 top-2 text-gray-400 hover:text-white">
+                            🔍
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="#home" onclick="showDepartments(); closeMobileMenu();" class="nav-link text-gray-300 hover:text-white transition-colors">Home</a>
+                    <a href="#pyqs" class="nav-link text-gray-300 hover:text-white transition-colors">PYQs</a>
+                    <a href="#solutions" class="nav-link text-gray-300 hover:text-white transition-colors">Solutions</a>
+                    <a href="#topics" class="nav-link text-gray-300 hover:text-white transition-colors">Important Topics</a>
+                    <a href="#predicted" class="nav-link text-gray-300 hover:text-white transition-colors">AI Predicted</a>
+                    <a href="#upload" class="nav-link text-gray-300 hover:text-white transition-colors">Contribute</a>
+                    <div class="pt-2">
+                        <input type="text" placeholder="Search subjects..." class="bg-gray-700 text-white px-4 py-2 rounded-lg text-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 text-white">
+        <div class="container mx-auto px-4 py-8">
+            <div class="text-center">
+                
+                <!-- Main Title with Blur Text Animation -->
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                    <span id="blur-text" class="blur-text-main bg-clip-text drop-shadow-[0_0_5px_white]">
+                        ExamForge
+                    </span>
+                </h1>
+                
+                <!-- Subtitle with Blur Animation -->
+                <p class="text-xl md:text-2xl text-gray-300 mb-6">
+                    <span id="blur-subtitle" class="blur-text-subtitle">
+                        Study Smarter with AI-Curated Topics and Questions
+                    </span>
+                </p>
+                
+                <p class="text-gray-400 max-w-3xl mx-auto mb-8">
+                    <span id="blur-description" class="blur-text-description">
+                        Access past question papers, solutions, important topics, and AI-generated predicted papers for all departments and courses.
+                    </span>
+                </p>
+            
+                
+
+
+
+
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                    <button onclick="showDepartments()" class="cta-button bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                        🚀 Browse Resources
+                    </button>
+                    <button onclick="scrollToCTA()" class="cta-button bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                        📤 Contribute Notes
+                    </button>
+                </div>
+            </div>
+            <!-- Breadcrumb Navigation -->
+            <div id="breadcrumb" class="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm">
+                <button onclick="showDepartments()" class="text-blue-400 hover:text-blue-300 transition-colors">
+                    🏠 Home
+                </button>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Departments View -->
+        <div id="departments-view" class="view">
+            <h2 class="text-3xl font-bold text-center mb-12 text-white blur-reveal-text">Select Your Department</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="department-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-dept="cse">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">💻</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">Computer Science</h3>
+                    <p class="text-gray-400 text-sm text-center">Core CS subjects, algorithms, programming, and software engineering</p>
+                    <div class="mt-4 text-center">
+                        <span class="bg-blue-600 text-white text-xs px-2 py-1 rounded-full">50+ Subjects</span>
+                    </div>
+                </div>
+                
+                <div class="department-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-dept="cse-ai">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">🤖</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">CSEAI</h3>
+                    <p class="text-gray-400 text-sm text-center">Computer science with specialized focus on artificial intelligence</p>
+                    <div class="mt-4 text-center">
+                        <span class="bg-purple-600 text-white text-xs px-2 py-1 rounded-full">45+ Subjects</span>
+                    </div>
+                </div>
+                
+                <div class="department-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-dept="aiml">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">🧠</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">AI & Machine Learning</h3>
+                    <p class="text-gray-400 text-sm text-center">Focused on AI, ML algorithms, neural networks and data science</p>
+                    <div class="mt-4 text-center">
+                        <span class="bg-green-600 text-white text-xs px-2 py-1 rounded-full">40+ Subjects</span>
+                    </div>
+                </div>
+                
+                <div class="department-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-dept="ece">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">⚡</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">Electronics & Communication</h3>
+                    <p class="text-gray-400 text-sm text-center">Circuit design, signal processing, communication systems</p>
+                    <div class="mt-4 text-center">
+                        <span class="bg-yellow-600 text-white text-xs px-2 py-1 rounded-full">55+ Subjects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Years View -->
+        <div id="years-view" class="view hidden">
+            <h2 id="years-title" class="text-3xl font-bold text-center mb-12 text-white blur-reveal-text">Select Year</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <div class="year-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-year="1">
+                    <div class="text-3xl mb-4 text-center group-hover:scale-110 transition-transform">📚</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">1st Year</h3>
+                    <p class="text-gray-400 text-sm text-center">Foundation courses</p>
+                </div>
+                
+                <div class="year-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-year="2">
+                    <div class="text-3xl mb-4 text-center group-hover:scale-110 transition-transform">📖</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">2nd Year</h3>
+                    <p class="text-gray-400 text-sm text-center">Core subjects</p>
+                </div>
+                
+                <div class="year-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-year="3">
+                    <div class="text-3xl mb-4 text-center group-hover:scale-110 transition-transform">📝</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">3rd Year</h3>
+                    <p class="text-gray-400 text-sm text-center">Advanced topics</p>
+                </div>
+                
+                <div class="year-card bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-year="4">
+                    <div class="text-3xl mb-4 text-center group-hover:scale-110 transition-transform">🎓</div>
+                    <h3 class="text-xl font-semibold text-white mb-2 text-center">4th Year</h3>
+                    <p class="text-gray-400 text-sm text-center">Specialization & Projects</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Semester View -->
+        <div id="semester-view" class="view hidden">
+            <h2 id="semester-title" class="text-3xl font-bold text-center mb-12 text-white blur-reveal-text">Select Semester</h2>
+            <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <div class="semester-card bg-gray-800 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-semester="odd">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">📅</div>
+                    <h3 id="odd-semester-title" class="text-2xl font-semibold text-white text-center mb-2">1st Semester</h3>
+                    <p class="text-gray-400 text-center">Odd semester courses</p>
+                </div>
+                
+                <div class="semester-card bg-gray-800 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-semester="even">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">📆</div>
+                    <h3 id="even-semester-title" class="text-2xl font-semibold text-white text-center mb-2">2nd Semester</h3>
+                    <p class="text-gray-400 text-center">Even semester courses</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exam Types View -->
+        <div id="exam-types-view" class="view hidden">
+            <h2 id="exam-types-title" class="text-3xl font-bold text-center mb-12 text-white blur-reveal-text">Select Exam Type</h2>
+            <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <div class="exam-type-card bg-gray-800 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-exam="mid">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">📝</div>
+                    <h3 class="text-2xl font-semibold text-white text-center">Mid Term</h3>
+                    <p class="text-gray-400 text-center">Internal assessment exams</p>
+                </div>
+                
+                <div class="exam-type-card bg-gray-800 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 cursor-pointer border border-gray-700 hover:border-blue-500 group" data-exam="end">
+                    <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform">📋</div>
+                    <h3 class="text-2xl font-semibold text-white text-center">End Term</h3>
+                    <p class="text-gray-400 text-center">Final semester exams</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subjects View -->
+        <div id="subjects-view" class="view hidden">
+            <h2 id="subjects-title" class="text-3xl font-bold text-center mb-12 text-white blur-reveal-text">Subjects</h2>
+            <div id="subjects-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Subjects will be dynamically populated -->
+            </div>
+        </div>
+    </main>
+
+    <!-- CTA Section -->
+    <section id="cta-section" class="bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6 blur-reveal-text">Help Your Fellow Students</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto blur-reveal-text">
+                Contribute your notes, question papers, and solutions to help build the largest academic resource hub for your university.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 cta-card" data-delay="0">
+                    <div class="text-4xl mb-4">📤</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Upload Resources</h3>
+                    <p class="text-gray-300 text-sm">Share your question papers, notes, and study materials</p>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 cta-card" data-delay="100">
+                    <div class="text-4xl mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Community Driven</h3>
+                    <p class="text-gray-300 text-sm">Built by students, for students with quality moderation</p>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 cta-card" data-delay="200">
+                    <div class="text-4xl mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Recognition</h3>
+                    <p class="text-gray-300 text-sm">Get recognition for your contributions to the community</p>
+                </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <button class="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 cta-button">
+                    📁 Upload Resources
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300 cta-button">
+                    💬 Join Community
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 border-t border-gray-700">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand Section -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="text-2xl">🎓</div>
+                        <span class="text-xl font-bold">ExamForge</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Track Trends. Spot Topics. Get Ahead.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">📧</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">📱</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">🌐</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">💬</a>
+                    </div>
+                </div>
+                
+                <!-- Resources -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Question Papers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Solutions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Important Topics</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">AI Predicted Papers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Study Guides</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Departments -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Departments</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Computer Science</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">CSE with AI</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">AI & ML</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Electronics & Comm.</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">More Coming Soon</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Support -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contribute</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Report Issue</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2025 ExamForge. Built with ❤️ for university students.
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="flex space-x-6 text-sm">
+                        
+                        <div class="text-center">
+                            <div class="text-green-400 font-semibold">600+</div>
+                            <div class="text-gray-400">Papers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-purple-400 font-semibold">200+</div>
+                            <div class="text-gray-400">Subjects</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-yellow-400 font-semibold">4</div>
+                            <div class="text-gray-400">Departments</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
