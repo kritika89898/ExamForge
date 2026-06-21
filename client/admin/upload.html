@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ExamForge Admin</title>
+
+    <link rel="stylesheet" href="upload.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>ExamForge Admin</h1>
+
+        <h2>Upload Previous Year Paper</h2>
+
+        <form id="uploadForm">
+
+            <label>Department</label>
+
+            <select id="department" required>
+                <option value="">Select Department</option>
+                <option value="CSE">Computer Science</option>
+                <option value="IT">Information Technology</option>
+                <option value="ECE">Electronics</option>
+            </select>
+
+            <label>Semester</label>
+
+            <select id="semester" required>
+                <option value="">Select Semester</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+
+            <label>Subject</label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Example: DBMS"
+                required>
+
+            <label>Select Previous Year Paper</label>
+
+            <input
+                type="file"
+                id="pdf"
+                accept=".pdf"
+                required>
+
+            <button type="submit">
+                Upload Paper
+            </button>
+
+        </form>
+
+
+
+        <div id="status"></div>
+
+    </div>
+
+<script src="upload.js"></script>
+
+</body>
+
+</html>

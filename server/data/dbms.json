@@ -1,0 +1,24 @@
+{
+    "subject": "DBMS",
+    "semester": 4,
+    "importantTopics": [
+        "Normalization",
+        "BCNF",
+        "SQL Joins",
+        "Transactions",
+        "Deadlock",
+        "ER Model",
+        "Indexing",
+        "Concurrency Control"
+    ],
+    "previousQuestions": [
+        "Explain Normalization with example.",
+        "Explain BCNF.",
+        "Differentiate 2NF and 3NF.",
+        "Explain SQL JOIN types.",
+        "What is Deadlock?",
+        "Explain Transactions.",
+        "Explain ER Model.",
+        "Explain Indexing."
+    ]
+}

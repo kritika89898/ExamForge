@@ -1,0 +1,22 @@
+# Node modules
+server/node_modules/
+
+# Environment variables
+server/.env
+
+# Uploaded PDFs
+server/uploads/
+
+# Extracted text files
+server/extracted/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

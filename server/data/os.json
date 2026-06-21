@@ -1,0 +1,20 @@
+{
+    "subject": "Operating System",
+    "semester": 4,
+    "importantTopics": [
+        "Process Scheduling",
+        "Deadlock",
+        "Paging",
+        "Segmentation",
+        "Semaphore",
+        "Banker's Algorithm"
+    ],
+    "previousQuestions": [
+        "Explain FCFS Scheduling.",
+        "Explain Round Robin.",
+        "What is Deadlock?",
+        "Explain Paging.",
+        "Explain Segmentation.",
+        "Explain Semaphore."
+    ]
+}
