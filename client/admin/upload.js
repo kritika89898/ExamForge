@@ -32,7 +32,7 @@ form.addEventListener("submit", async (e) => {
         console.log("Sending request...");
 
         const response = await fetch(
-            "http://localhost:5000/api/pdf/upload",
+            "https://examforge-7e63.onrender.com/api/pdf/upload",
             {
                 method: "POST",
                 body: formData

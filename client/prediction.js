@@ -8,7 +8,7 @@ async function loadSubjects() {
 
     try {
 
-        const res = await fetch("http://localhost:5000/api/subjects");
+        const res = await fetch("https://examforge-7e63.onrender.com/api/subjects");
 
         const data = await res.json();
 
@@ -59,7 +59,7 @@ predictBtn.addEventListener("click", async () => {
 
         const res = await fetch(
 
-            `http://localhost:5000/api/predict/${subject}`
+            `https://examforge-7e63.onrender.com/api/predict/${subject}`
 
         );
 

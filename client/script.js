@@ -535,7 +535,7 @@ async function startAIGeneration() {
 
         const response = await fetch(
 
-            `http://localhost:5000/api/predict/${currentSubjectCode}`
+            `https://examforge-7e63.onrender.com/api/predict/${currentSubjectCode}`
 
         );
 
