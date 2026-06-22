@@ -12,24 +12,17 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// API Routes
+// API
 app.use("/api/pdf", pdfRoutes);
 app.use("/api/predict", predictionRoutes);
 app.use("/api/subjects", subjectRoutes);
 
-// Serve frontend
+// Static frontend
 app.use(express.static(path.join(__dirname, "../client")));
 
-// Frontend homepage
+// Homepage
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../client/index.html"));
-});
-
-// Any other frontend route (optional but recommended)
-app.get("*", (req, res) => {
-    if (!req.path.startsWith("/api")) {
-        res.sendFile(path.join(__dirname, "../client/index.html"));
-    }
 });
 
 const PORT = process.env.PORT || 5000;
