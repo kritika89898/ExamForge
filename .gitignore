@@ -17,3 +17,7 @@ server/extracted/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local proof-of-concept artifacts. Final PDFs belong in Supabase Storage.
+output/pdf/*.pdf
+tmp/pdfs/

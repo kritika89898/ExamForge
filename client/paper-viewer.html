@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <title>Paper Viewer - ExamForge</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="paper-viewer.css">
+</head>
+<body>
+    <header class="viewer-header">
+        <a class="back-link" href="/" aria-label="Return to ExamForge">&larr; ExamForge</a>
+        <div class="paper-heading">
+            <p class="eyebrow" id="paper-context">Loading paper...</p>
+            <h1 id="paper-title">Preparing viewer</h1>
+        </div>
+        <div class="viewer-actions">
+            <span class="source-badge" id="source-badge">Loading</span>
+            <a class="action-link" id="open-link" href="#" target="_blank" rel="noopener noreferrer">Open PDF</a>
+            <a class="action-link primary" id="download-link" href="#" download>Download</a>
+        </div>
+    </header>
+
+    <main class="viewer-shell">
+        <aside class="paper-details" aria-label="Paper details">
+            <div>
+                <span>University</span>
+                <strong id="detail-college">-</strong>
+            </div>
+            <div>
+                <span>Programme</span>
+                <strong id="detail-programme">-</strong>
+            </div>
+            <div>
+                <span>Semester</span>
+                <strong id="detail-semester">-</strong>
+            </div>
+            <div>
+                <span>Examination</span>
+                <strong id="detail-exam">-</strong>
+            </div>
+        </aside>
+
+        <section class="document-panel" aria-live="polite">
+            <div class="loading-state" id="loading-state">
+                <div class="spinner" aria-hidden="true"></div>
+                <p id="loading-message">Fetching paper metadata...</p>
+            </div>
+            <div class="error-state hidden" id="error-state">
+                <h2>Unable to display this paper</h2>
+                <p id="error-message">Please try opening the original PDF.</p>
+            </div>
+            <div class="pdf-pages" id="pdf-pages"></div>
+        </section>
+    </main>
+
+    <script src="/runtime-config.js"></script>
+    <script src="supabase-config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="paper-viewer.js"></script>
+</body>
+</html>

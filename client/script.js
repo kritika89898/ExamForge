@@ -1,750 +1,429 @@
-let currentSubjectCode = "";
-// Global state management
-let currentState = {
-    department: '',
-    year: '',
-    semester: '',
-    examType: '',
-    view: 'departments'
-};
+(function () {
+    "use strict";
 
-// Department data
-const departments = {
-    'cse': { name: 'Computer Science', shortName: 'CSE' },
-    'cse-ai': { name: 'CSEAI', shortName: 'CSE (AI)' },
-    'aiml': { name: 'AI & Machine Learning', shortName: 'AIML' },
-    'ece': { name: 'Electronics & Communication', shortName: 'ECE' }
-};
-
-// Year data
-const years = {
-    '1': { name: '1st Year', semester: 'Foundation courses' },
-    '2': { name: '2nd Year', semester: 'Core subjects' },
-    '3': { name: '3rd Year', semester: 'Advanced topics' },
-    '4': { name: '4th Year', semester: 'Specialization & Projects' }
-};
-
-// Semester data
-const semesters = {
-    '1': { odd: '1st Semester', even: '2nd Semester' },
-    '2': { odd: '3rd Semester', even: '4th Semester' },
-    '3': { odd: '5th Semester', even: '6th Semester' },
-    '4': { odd: '7th Semester', even: '8th Semester' }
-};
-
-// Exam types
-const examTypes = {
-    'mid': { name: 'Mid Term', icon: '📝' },
-    'end': { name: 'End Term', icon: '📋' }
-};
-
-// Sample subjects data
-const subjectsData = {
-    'cn': {
-        name: 'Computer Networks',
-        code: 'CS204',
-        description: 'Network protocols, TCP/IP, routing algorithms, and network security concepts.',
-        pyqs: {
-            mid: {
-                2022: 'https://drive.google.com/file/d/1-p_wfJ39Z5eQ4JK2SWofMuODZV5tX6MU/view?usp=sharing',
-                2023: 'https://drive.google.com/file/d/1-r4R38-ybzRAnf93SKaqjZ8ZcMGnt0xN/view?usp=sharing',
-                2024: 'https://drive.google.com/file/d/1ebFq5Oss7N5kKTw-0J2gH31hnsp15Rhn/view?usp=sharing'
-            },
-            end: {
-                2022: 'https://drive.google.com/file/d/1PvCTZupJbGceoAcwr97rV-ta7ROX-SlF/view?usp=sharing',
-                2023: 'https://drive.google.com/file/d/1Eeob3s0Fg56yEpQDUjWAfEKIYRAPKSjS/view?usp=sharing',
-                2024: 'https://drive.google.com/file/d/16TacdaquRLZT7AhQkzqZj97QLr18rQtS/view?usp=sharing'
-            }
-        },
-        solutions: {
-            mid: { 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2024: '#' }
-        },
-        aiPredicted: true
-    },
-    'os': {
-        name: 'Operating Systems',
-        code: 'CS203',
-        description: 'Process management, memory management, file systems, and scheduling algorithms.',
-        pyqs: {
-            mid: { 2022: '#', 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2023: '#', 2024: '#' }
-        },
-        solutions: {
-            mid: { 2023: '#' },
-            end: { 2024: '#' }
-        },
-        aiPredicted: true
-    },
-    'dsa': {
-        name: 'Data Structures & Algorithms',
-        code: 'CS201',
-        description: 'Arrays, linked lists, trees, graphs, sorting algorithms, and more.',
-        pyqs: {
-            mid: { 2022: '#', 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2023: '#', 2024: '#' }
-        },
-        solutions: {
-            mid: { 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2024: '#' }
-        },
-        aiPredicted: true
-    },
-    'dbms': {
-        name: 'Database Management Systems',
-        code: 'CS202',
-        description: 'SQL, normalization, transactions, query optimization, and DBMS architecture.',
-        pyqs: {
-            mid: { 2022: '#', 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2023: '#', 2024: '#' }
-        },
-        solutions: {
-            mid: { 2023: '#' },
-            end: { 2024: '#' }
-        },
-        aiPredicted: true
-    },
-    'se': {
-        name: 'Software Engineering',
-        code: 'CS205',
-        description: 'SDLC, agile methodologies, software testing, and project management.',
-        pyqs: {
-            mid: { 2022: '#', 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2023: '#', 2024: '#' }
-        },
-        solutions: {
-            mid: { 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2024: '#' }
-        },
-        aiPredicted: true
-    },
-    'ml': {
-        name: 'Machine Learning',
-        code: 'CS206',
-        description: 'Supervised and unsupervised learning, neural networks, and model evaluation.',
-        pyqs: {
-            mid: { 2022: '#', 2023: '#', 2024: '#' },
-            end: { 2022: '#', 2023: '#', 2024: '#' }
-        },
-        solutions: {
-            mid: { 2023: '#' },
-            end: { 2024: '#' }
-        },
-        aiPredicted: true
+    const curriculum = window.EXAMFORGE_CURRICULUM;
+    if (!curriculum || !curriculum.branches) {
+        throw new Error("ExamForge curriculum data could not be loaded.");
     }
-};
 
-// Blur text animation functions
-function animateBlurText() {
-    // Animate stats items with staggered delays
-    const statsItems = document.querySelectorAll('.stats-item');
-    statsItems.forEach((item, index) => {
-        const delay = parseInt(item.dataset.delay) || index * 100;
-        setTimeout(() => {
-            item.style.animationDelay = `${delay}ms`;
-        }, delay);
-    });
-}
+    const branches = curriculum.branches;
+    const state = {
+        view: "departments",
+        branch: "",
+        year: 0,
+        semester: 0,
+        filter: "all",
+        papers: []
+    };
 
-function triggerBlurReveal(element) {
-    if (element && !element.classList.contains('blur-revealed')) {
-        element.classList.add('blur-revealed');
-        element.style.animationPlayState = 'running';
+    const elements = {
+        title: document.getElementById("view-title"),
+        description: document.getElementById("view-description"),
+        source: document.getElementById("syllabus-source"),
+        breadcrumb: document.getElementById("breadcrumb"),
+        departmentGrid: document.getElementById("department-grid"),
+        yearGrid: document.getElementById("year-grid"),
+        semesterGrid: document.getElementById("semester-grid"),
+        subjectsContainer: document.getElementById("subjects-container"),
+        subjectResultCount: document.getElementById("subject-result-count"),
+        searchForm: document.getElementById("search-form"),
+        searchInput: document.getElementById("search-input"),
+        searchDialog: document.getElementById("search-dialog"),
+        searchTitle: document.getElementById("search-title"),
+        searchResults: document.getElementById("search-results"),
+        menuToggle: document.getElementById("menu-toggle"),
+        mobileNav: document.getElementById("mobile-nav")
+    };
+
+    const viewIds = ["departments-view", "years-view", "semesters-view", "subjects-view"];
+    const categoryDescriptions = {
+        DCC: "Core course in the official branch curriculum.",
+        BAS: "Basic and applied sciences curriculum course.",
+        HMC: "Humanities, management and professional development course.",
+        OEC: "Open elective slot; the offered subject can vary by batch.",
+        GEC: "Generic elective slot selected from the university basket.",
+        DEC: "Departmental elective slot; offerings can change by semester.",
+        Project: "Practical training, internship or project component."
+    };
+
+    function escapeHTML(value) {
+        return String(value).replace(/[&<>"']/g, (character) => ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#039;"
+        })[character]);
     }
-}
 
-function createLetterBlurEffect(element, text) {
-    element.innerHTML = '';
-    element.classList.add('blur-letters');
-    
-    text.split('').forEach((char, index) => {
-        const span = document.createElement('span');
-        span.className = 'blur-letter';
-        span.textContent = char === ' ' ? '\u00A0' : char;
-        span.style.animationDelay = `${index * 50}ms`;
-        element.appendChild(span);
-        
-        setTimeout(() => {
-            span.classList.add('revealed');
-        }, index * 50 + 100);
-    });
-}
+    function normalizeCode(value) {
+        return String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    }
 
-// Intersection Observer for reveal animations
-function setupIntersectionObserver() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                if (entry.target.classList.contains('blur-reveal-text')) {
-                    triggerBlurReveal(entry.target);
-                }
-                if (entry.target.classList.contains('cta-card')) {
-                    entry.target.style.animationPlayState = 'running';
-                }
-            }
+    function ordinal(value) {
+        const labels = ["", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"];
+        return labels[value] || `${value}th`;
+    }
+
+    function yearForSemester(semester) {
+        return Math.ceil(Number(semester) / 2);
+    }
+
+    function subjectEntries(branchId, semester) {
+        const branch = branches[branchId];
+        return branch && branch.semesters[semester] ? branch.semesters[semester] : [];
+    }
+
+    function totalSubjects(branch) {
+        return Object.values(branch.semesters).reduce((total, semester) => total + semester.length, 0);
+    }
+
+    function branchMatchesPaper(branchId, paper) {
+        const programme = String(paper.programme || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        const expected = {
+            cse: ["btechcse"],
+            "cse-ai": ["btechcseai", "btechcseartificialintelligence"],
+            it: ["btechit"],
+            aiml: ["btechaiml", "btechartificialintelligencemachinelearning"],
+            ece: ["btechece"],
+            "ece-ai": ["btecheceai"],
+            mae: ["btechmae"]
+        };
+        return (expected[branchId] || []).includes(programme);
+    }
+
+    function papersForSubject(branchId, semester, code) {
+        const normalized = normalizeCode(code);
+        return state.papers
+            .filter((paper) => paper.is_published !== false)
+            .filter((paper) => Number(paper.semester) === Number(semester))
+            .filter((paper) => branchMatchesPaper(branchId, paper))
+            .filter((paper) => normalizeCode(paper.subject_code) === normalized)
+            .sort((a, b) => b.year - a.year || a.exam_type.localeCompare(b.exam_type));
+    }
+
+    function paperCountForBranch(branchId) {
+        return state.papers.filter((paper) => paper.is_published !== false && branchMatchesPaper(branchId, paper)).length;
+    }
+
+    function setView(view) {
+        state.view = view;
+        viewIds.forEach((id) => {
+            document.getElementById(id).hidden = id !== `${view}-view`;
         });
-    }, {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    });
-
-    // Observe all blur reveal elements
-    document.querySelectorAll('.blur-reveal-text, .cta-card').forEach(el => {
-        observer.observe(el);
-    });
-}
-
-// Utility functions
-function convertGoogleDriveLink(link) {
-    if (!link || link === '#') return '#';
-    const fileId = link.match(/\/d\/([a-zA-Z0-9-_]+)/);
-    return fileId ? `https://drive.google.com/uc?export=download&id=${fileId[1]}` : link;
-}
-
-function hideAllViews() {
-    document.querySelectorAll('.view').forEach(view => {
-        view.classList.add('hidden');
-    });
-}
-
-function updateBreadcrumb() {
-    const breadcrumb = document.getElementById('breadcrumb');
-    let breadcrumbHTML = '<button onclick="showDepartments()" class="text-blue-400 hover:text-blue-300 transition-colors">🏠 Home</button>';
-    
-    if (currentState.department) {
-        breadcrumbHTML += '<span class="text-gray-500"> / </span>';
-        breadcrumbHTML += `<button onclick="showYears()" class="text-blue-400 hover:text-blue-300 transition-colors">${departments[currentState.department].shortName}</button>`;
+        renderHeader();
+        renderBreadcrumb();
     }
-    
-    if (currentState.year) {
-        breadcrumbHTML += '<span class="text-gray-500"> / </span>';
-        breadcrumbHTML += `<button onclick="showSemesters()" class="text-blue-400 hover:text-blue-300 transition-colors">${years[currentState.year].name}</button>`;
-    }
-    
-    if (currentState.semester) {
-        breadcrumbHTML += '<span class="text-gray-500"> / </span>';
-        breadcrumbHTML += `<button onclick="showExamTypes()" class="text-blue-400 hover:text-blue-300 transition-colors">${semesters[currentState.year][currentState.semester]}</button>`;
-    }
-    
-    if (currentState.examType) {
-        breadcrumbHTML += '<span class="text-gray-500"> / </span>';
-        breadcrumbHTML += `<span class="text-gray-300">${examTypes[currentState.examType].name}</span>`;
-    }
-    
-    breadcrumb.innerHTML = breadcrumbHTML;
-}
 
-// Navigation functions
-function toggleMobileMenu() {
-    const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.classList.toggle('hidden');
-}
+    function renderHeader() {
+        const branch = branches[state.branch];
+        elements.source.href = branch ? branch.sourceUrl : curriculum.catalogueUrl;
+        elements.source.innerHTML = branch
+            ? `${escapeHTML(branch.sourceLabel)} <span>↗</span>`
+            : "Official syllabus catalogue <span>↗</span>";
 
-function closeMobileMenu() {
-    const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.classList.add('hidden');
-}
-
-function scrollToCTA() {
-    document.getElementById('cta-section').scrollIntoView({ behavior: 'smooth' });
-}
-
-// View functions
-function showDepartments() {
-    currentState = { department: '', year: '', semester: '', examType: '', view: 'departments' };
-    hideAllViews();
-    document.getElementById('departments-view').classList.remove('hidden');
-    updateBreadcrumb();
-    
-    // Trigger reveal animation for the title
-    setTimeout(() => {
-        const title = document.querySelector('#departments-view .blur-reveal-text');
-        triggerBlurReveal(title);
-    }, 100);
-}
-
-function showYears() {
-    currentState.view = 'years';
-    currentState.semester = '';
-    currentState.examType = '';
-    hideAllViews();
-    document.getElementById('years-view').classList.remove('hidden');
-    document.getElementById('years-title').textContent = `Select Year - ${departments[currentState.department].shortName}`;
-    updateBreadcrumb();
-    
-    // Trigger reveal animation for the title
-    setTimeout(() => {
-        const title = document.querySelector('#years-view .blur-reveal-text');
-        triggerBlurReveal(title);
-    }, 100);
-}
-
-function showSemesters() {
-    currentState.view = 'semesters';
-    currentState.examType = '';
-    hideAllViews();
-    document.getElementById('semester-view').classList.remove('hidden');
-    document.getElementById('semester-title').textContent = `Select Semester - ${years[currentState.year].name}`;
-    
-    // Update semester titles
-    document.getElementById('odd-semester-title').textContent = semesters[currentState.year].odd;
-    document.getElementById('even-semester-title').textContent = semesters[currentState.year].even;
-    
-    updateBreadcrumb();
-    
-    // Trigger reveal animation for the title
-    setTimeout(() => {
-        const title = document.querySelector('#semester-view .blur-reveal-text');
-        triggerBlurReveal(title);
-    }, 100);
-}
-
-function showExamTypes() {
-    currentState.view = 'examTypes';
-    hideAllViews();
-    document.getElementById('exam-types-view').classList.remove('hidden');
-    document.getElementById('exam-types-title').textContent = `Select Exam Type - ${semesters[currentState.year][currentState.semester]}`;
-    updateBreadcrumb();
-    
-    // Trigger reveal animation for the title
-    setTimeout(() => {
-        const title = document.querySelector('#exam-types-view .blur-reveal-text');
-        triggerBlurReveal(title);
-    }, 100);
-}
-
-function showSubjects() {
-    currentState.view = 'subjects';
-    hideAllViews();
-    document.getElementById('subjects-view').classList.remove('hidden');
-    document.getElementById('subjects-title').textContent = `${examTypes[currentState.examType].name} Subjects - ${semesters[currentState.year][currentState.semester]}`;
-    
-    // Populate subjects
-    const container = document.getElementById('subjects-container');
-    container.innerHTML = '';
-    
-    Object.keys(subjectsData).forEach((subjectId, index) => {
-        const subject = subjectsData[subjectId];
-        const subjectCard = createSubjectCard(subject, index);
-        container.appendChild(subjectCard);
-    });
-    
-    updateBreadcrumb();
-    
-    // Trigger reveal animation for the title
-    setTimeout(() => {
-        const title = document.querySelector('#subjects-view .blur-reveal-text');
-        triggerBlurReveal(title);
-    }, 100);
-}
-
-function createSubjectCard(subject, index) {
-    const card = document.createElement('div');
-    card.className = 'bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300';
-    card.style.opacity = '0';
-    card.style.transform = 'translateY(30px)';
-    card.style.animation = `cardFadeIn 0.8s ease-out ${index * 0.1}s forwards`;
-    
-    // Create year buttons for PYQs
-    const pyqButtons = ['2022', '2023', '2024'].map(year => {
-        const link = subject.pyqs[currentState.examType] && subject.pyqs[currentState.examType][year];
-        const isAvailable = link && link !== '#';
-        
-        return `
-            <a href="${isAvailable ? convertGoogleDriveLink(link) : '#'}" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="text-center py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
-                   isAvailable 
-                       ? 'bg-blue-600 hover:bg-blue-700 text-white transform hover:scale-105' 
-                       : 'bg-gray-700 text-gray-500 cursor-not-allowed'
-               }">
-                ${year}
-            </a>
-        `;
-    }).join('');
-    
-    // Create year buttons for Solutions
-    const solutionButtons = ['2022', '2023', '2024'].map(year => {
-        const link = subject.solutions[currentState.examType] && subject.solutions[currentState.examType][year];
-        const isAvailable = link && link !== '#';
-        
-        return `
-            <a href="${isAvailable ? convertGoogleDriveLink(link) : '#'}" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="text-center py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
-                   isAvailable 
-                       ? 'bg-green-600 hover:bg-green-700 text-white transform hover:scale-105' 
-                       : 'bg-gray-700 text-gray-500 cursor-not-allowed'
-               }">
-                ${year}
-            </a>
-        `;
-    }).join('');
-    
-    card.innerHTML = `
-        <div class="flex items-start justify-between mb-4">
-            <div>
-                <h3 class="text-xl font-semibold text-white mb-1">${subject.name}</h3>
-                <p class="text-blue-400 text-sm font-medium">${subject.code}</p>
-            </div>
-            ${subject.aiPredicted ? '<span class="bg-purple-600 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1"><span>🤖</span> AI Ready</span>' : ''}
-        </div>
-        
-        <p class="text-gray-400 text-sm mb-6">${subject.description}</p>
-        
-        <div class="space-y-4">
-            <div>
-                <h4 class="text-white font-medium mb-3 flex items-center gap-2">
-                    <span>📋</span> Past Question Papers
-                    <span class="text-xs bg-blue-900 text-blue-300 px-2 py-1 rounded">3 years</span>
-                </h4>
-                <div class="grid grid-cols-3 gap-2">
-                    ${pyqButtons}
-                </div>
-            </div>
-            
-            <div>
-                <h4 class="text-white font-medium mb-3 flex items-center gap-2">
-                    <span>📖</span> Solutions
-                    <span class="text-xs bg-green-900 text-green-300 px-2 py-1 rounded">Available</span>
-                </h4>
-                <div class="grid grid-cols-3 gap-2">
-                    ${solutionButtons}
-                </div>
-            </div>
-            
-            ${subject.aiPredicted ? `
-                <button onclick="generateAIPredictedPaper('${subject.code}')" class="w-full bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white py-3 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
-                    <span>🤖</span> Generate AI Predicted Paper
-                </button>
-            ` : ''}
-            
-            <div class="mt-4 pt-4 border-t border-gray-700">
-                <div class="flex justify-between text-xs text-gray-400">
-                    <span>📊 Difficulty: Medium</span>
-                    <span>⏱️ Exam Duration: 3hrs</span>
-                </div>
-            </div>
-        </div>
-    `;
-    
-    return card;
-}
-
-function generateAIPredictedPaper(subjectCode) {
-    currentSubjectCode = subjectCode;
-    // Create a modal or notification with blur effect
-    const subject = Object.values(subjectsData).find(s => s.code === subjectCode);
-    
-    // Create modal with blur background
-    const modal = document.createElement('div');
-    modal.className = 'fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50 flex items-center justify-center p-4';
-    modal.innerHTML = `
-        <div class="bg-gray-800 rounded-xl p-8 max-w-md w-full border border-gray-600 transform scale-95 opacity-0 transition-all duration-300" id="ai-modal">
-            <div class="text-center">
-                <div class="text-4xl mb-4">🤖</div>
-                <h3 class="text-xl font-bold text-white mb-4">AI Predicted Paper</h3>
-                <p class="text-gray-300 mb-6">
-                    Generate a predicted question paper for <strong>${subject.name} (${subjectCode})</strong> based on:
-                </p>
-                <ul class="text-sm text-gray-400 text-left mb-6 space-y-2">
-                    <li>• Previous year patterns</li>
-                    <li>• Important topics analysis</li>
-                    <li>• Difficulty distribution</li>
-                    <li>• Current syllabus trends</li>
-                </ul>
-                <div class="flex gap-3">
-                    <button onclick="closeModal()" class="flex-1 bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 rounded-lg transition-colors">
-                        Cancel
-                    </button>
-                    <button onclick="openPredictionPage()" class="flex-1 bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg transition-colors">
-                        Generate Now
-                    </button>
-                </div>
-            </div>
-        </div>
-    `;
-    
-    document.body.appendChild(modal);
-    
-    // Animate modal in
-    setTimeout(() => {
-        const modalContent = modal.querySelector('#ai-modal');
-        modalContent.style.transform = 'scale(1)';
-        modalContent.style.opacity = '1';
-    }, 10);
-    
-    // Close on background click
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            closeModal();
+        if (state.view === "departments") {
+            elements.title.textContent = "Choose your branch";
+            elements.description.textContent = "Seven IGDTUW B.Tech programmes, mapped from official curriculum documents.";
+        } else if (state.view === "years") {
+            elements.title.textContent = branch.name;
+            elements.description.textContent = "Choose your academic year to see its two semesters.";
+        } else if (state.view === "semesters") {
+            elements.title.textContent = `${ordinal(state.year)} year · ${branch.shortName}`;
+            elements.description.textContent = "Choose the semester whose syllabus and papers you want to browse.";
+        } else {
+            elements.title.textContent = `${ordinal(state.semester)} semester · ${branch.shortName}`;
+            elements.description.textContent = "Official curriculum subjects with live PYQ availability shown clearly.";
         }
-    });
-}
-
-function closeModal() {
-    const modal = document.querySelector('.fixed.inset-0');
-    if (modal) {
-        const modalContent = modal.querySelector('#ai-modal');
-        modalContent.style.transform = 'scale(0.95)';
-        modalContent.style.opacity = '0';
-        setTimeout(() => {
-            modal.remove();
-        }, 300);
     }
-}
-function openPredictionPage() {
 
-    closeModal();
+    function renderBreadcrumb() {
+        const parts = [{ label: "All branches", view: "departments" }];
+        if (state.branch) parts.push({ label: branches[state.branch].shortName, view: "years" });
+        if (state.year) parts.push({ label: `${ordinal(state.year)} year`, view: "semesters" });
+        if (state.semester) parts.push({ label: `${ordinal(state.semester)} semester`, view: "subjects" });
 
-    window.location.href = "prediction.html";
+        elements.breadcrumb.innerHTML = parts.map((part, index) => {
+            const current = index === parts.length - 1;
+            const separator = index ? '<span aria-hidden="true">/</span>' : "";
+            return `${separator}${current
+                ? `<span aria-current="page">${escapeHTML(part.label)}</span>`
+                : `<button type="button" data-breadcrumb-view="${part.view}">${escapeHTML(part.label)}</button>`}`;
+        }).join("");
+    }
 
-}
+    function renderDepartments() {
+        elements.departmentGrid.innerHTML = Object.entries(branches).map(([branchId, branch]) => {
+            const papers = paperCountForBranch(branchId);
+            const subjectCount = totalSubjects(branch);
+            return `
+                <button class="department-card" type="button" data-branch="${escapeHTML(branchId)}" data-accent="${escapeHTML(branch.accent)}">
+                    <span class="department-mark">${escapeHTML(branch.mark)}</span>
+                    <h3>${escapeHTML(branch.name)}</h3>
+                    <p>${escapeHTML(branch.summary)}</p>
+                    <span class="department-meta"><span>8 semesters</span><span>${subjectCount} curriculum entries</span></span>
+                    <span class="department-link">${papers ? `${papers} papers live` : "Syllabus mapped"}<span>→</span></span>
+                </button>`;
+        }).join("");
+    }
 
-async function startAIGeneration() {
+    function renderYears() {
+        const branch = branches[state.branch];
+        elements.yearGrid.innerHTML = [1, 2, 3, 4].map((year) => {
+            const firstSemester = year * 2 - 1;
+            const secondSemester = year * 2;
+            const count = subjectEntries(state.branch, firstSemester).length + subjectEntries(state.branch, secondSemester).length;
+            const papers = state.papers.filter((paper) => branchMatchesPaper(state.branch, paper) && yearForSemester(paper.semester) === year).length;
+            return `
+                <button class="choice-card" type="button" data-year="${year}">
+                    <span class="choice-number">YEAR 0${year}</span>
+                    <h3>${ordinal(year)} year</h3>
+                    <p>${year === 1 ? "Foundation" : year === 2 ? "Core engineering" : year === 3 ? "Advanced branch courses" : "Specialisation and projects"}</p>
+                    <span class="choice-count">${count} curriculum entries · ${papers ? `${papers} papers live` : branch.shortName}</span>
+                </button>`;
+        }).join("");
+    }
 
-    const modal = document.getElementById("ai-modal");
+    function renderSemesters() {
+        const semesterNumbers = [state.year * 2 - 1, state.year * 2];
+        elements.semesterGrid.innerHTML = semesterNumbers.map((semester) => {
+            const count = subjectEntries(state.branch, semester).length;
+            const papers = state.papers.filter((paper) => branchMatchesPaper(state.branch, paper) && Number(paper.semester) === semester).length;
+            return `
+                <button class="choice-card" type="button" data-semester="${semester}">
+                    <span class="choice-number">SEMESTER 0${semester}</span>
+                    <h3>${ordinal(semester)} semester</h3>
+                    <p>${semester % 2 ? "Odd semester curriculum" : "Even semester curriculum"}</p>
+                    <span class="choice-count">${count} subjects · ${papers ? `${papers} verified PDFs` : "syllabus mapped"}</span>
+                </button>`;
+        }).join("");
+    }
 
-    modal.innerHTML = `
+    function isCoreCategory(category) {
+        return ["DCC", "BAS", "HMC"].includes(category);
+    }
 
-        <div class="text-center">
+    function subjectMatchesFilter(entry) {
+        const [code, , category] = entry;
+        if (state.filter === "available") return papersForSubject(state.branch, state.semester, code).length > 0;
+        if (state.filter === "core") return isCoreCategory(category);
+        return true;
+    }
 
-            <div class="animate-spin text-5xl mb-5">
-                🤖
+    function renderPaperActions(papers) {
+        if (!papers.length) {
+            return `<div class="paper-empty"><span>PYQs coming soon</span><a href="${escapeHTML(branches[state.branch].sourceUrl)}" target="_blank" rel="noopener noreferrer">Syllabus ↗</a></div>`;
+        }
+
+        const groups = [
+            ["Mid Semester", "Mid"],
+            ["End Semester", "End"],
+        ].map(([type, label]) => ({
+            label,
+            papers: papers.filter((paper) => paper.exam_type === type).slice(0, 3),
+        })).filter((group) => group.papers.length);
+
+        return `<div class="paper-actions">${groups.map((group) => `
+            <div class="paper-action-group">
+                <span class="paper-action-label">${group.label} papers</span>
+                <div class="paper-action-years">${group.papers.map((paper) => {
+                    const typeClass = group.label === "End" ? " end" : "";
+                    return `<a class="paper-action${typeClass}" href="paper-viewer.html?id=${encodeURIComponent(paper.id)}"><span>▱</span>${escapeHTML(paper.year)}</a>`;
+                }).join("")}</div>
             </div>
+        `).join("")}</div>`;
+    }
 
-            <h2 class="text-2xl font-bold text-white">
+    function renderSubjects() {
+        const entries = subjectEntries(state.branch, state.semester).filter(subjectMatchesFilter);
+        elements.subjectResultCount.textContent = `${entries.length} ${entries.length === 1 ? "subject" : "subjects"}`;
+        document.querySelectorAll(".filter-pill").forEach((button) => {
+            button.classList.toggle("active", button.dataset.filter === state.filter);
+        });
 
-                AI is Predicting Questions...
-
-            </h2>
-
-            <p class="text-gray-400 mt-3">
-
-                This usually takes 3-5 seconds.
-
-            </p>
-
-        </div>
-
-    `;
-
-    try {
-
-        const response = await fetch(
-
-            `https://examforge-7e63.onrender.com/api/predict/${currentSubjectCode}`
-
-        );
-
-        const result = await response.json();
-
-        if (!result.success) {
-
-            modal.innerHTML = `
-                <h2 class="text-red-400 text-xl">
-                    Prediction Failed
-                </h2>
-            `;
-
+        if (!entries.length) {
+            elements.subjectsContainer.innerHTML = `<div class="empty-state"><strong>No subjects match this filter.</strong><br>Try “All subjects” to see the complete semester curriculum.</div>`;
             return;
-
         }
 
-        const data = result.data;
-
-        modal.innerHTML = `
-
-            <h2 class="text-3xl font-bold text-white mb-6">
-
-                AI Prediction
-
-            </h2>
-
-            <h3 class="text-xl text-blue-400 mb-3">
-
-                Predicted Questions
-
-            </h3>
-
-            <ol class="list-decimal pl-6 text-gray-300 space-y-2">
-
-                ${data.predictedQuestions.map(q => `
-                    <li>${q}</li>
-                `).join("")}
-
-            </ol>
-
-            <h3 class="text-xl text-yellow-400 mt-8 mb-3">
-
-                Important Topics
-
-            </h3>
-
-            <ul class="list-disc pl-6 text-gray-300 space-y-2">
-
-                ${data.importantTopics.map(t => `
-                    <li>${t}</li>
-                `).join("")}
-
-            </ul>
-
-            <h3 class="text-xl text-green-400 mt-8 mb-3">
-
-                Study Strategy
-
-            </h3>
-
-            <p class="text-gray-300">
-
-                ${data.studyStrategy}
-
-            </p>
-
-            <button
-                onclick="closeModal()"
-                class="mt-8 bg-purple-600 px-6 py-3 rounded-lg">
-
-                Close
-
-            </button>
-
-        `;
-
+        elements.subjectsContainer.innerHTML = entries.map(([code, name, category]) => {
+            const papers = papersForSubject(state.branch, state.semester, code);
+            return `
+                <article class="subject-card" data-paper-count="${papers.length}" data-category="${escapeHTML(category)}">
+                    <div class="subject-card-top"><span class="subject-code">${escapeHTML(code)}</span><span class="category-pill">${escapeHTML(category)}</span></div>
+                    <h3>${escapeHTML(name)}</h3>
+                    <p>${escapeHTML(categoryDescriptions[category] || categoryDescriptions.DCC)}</p>
+                    ${renderPaperActions(papers)}
+                </article>`;
+        }).join("");
     }
 
-    catch (err) {
-
-        console.log(err);
-
-        modal.innerHTML = `
-
-            <h2 class="text-red-400">
-
-                Server Error
-
-            </h2>
-
-        `;
-
+    function showDepartments(options = {}) {
+        state.branch = "";
+        state.year = 0;
+        state.semester = 0;
+        state.filter = "all";
+        renderDepartments();
+        setView("departments");
+        if (options.scroll) document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
     }
 
-}
-
-function searchSubjects() {
-    const query = document.getElementById('search-input').value.toLowerCase();
-    if (!query) return;
-    
-    // Filter subjects based on search query
-    const filteredSubjects = Object.entries(subjectsData).filter(([id, subject]) => 
-        subject.name.toLowerCase().includes(query) || 
-        subject.code.toLowerCase().includes(query) ||
-        subject.description.toLowerCase().includes(query)
-    );
-    
-    if (filteredSubjects.length > 0) {
-        // Create search results modal
-        const modal = document.createElement('div');
-        modal.className = 'fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-50 flex items-center justify-center p-4';
-        modal.innerHTML = `
-            <div class="bg-gray-800 rounded-xl p-6 max-w-lg w-full border border-gray-600" id="search-modal">
-                <h3 class="text-xl font-bold text-white mb-4">Search Results for "${query}"</h3>
-                <div class="space-y-3 mb-6">
-                    ${filteredSubjects.map(([id, subject]) => `
-                        <div class="bg-gray-700 rounded-lg p-3">
-                            <div class="flex justify-between items-start">
-                                <div>
-                                    <h4 class="text-white font-medium">${subject.name}</h4>
-                                    <p class="text-blue-400 text-sm">${subject.code}</p>
-                                </div>
-                                <span class="text-xs bg-purple-600 text-white px-2 py-1 rounded">Available</span>
-                            </div>
-                        </div>
-                    `).join('')}
-                </div>
-                <button onclick="closeModal()" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
-                    Close
-                </button>
-            </div>
-        `;
-        document.body.appendChild(modal);
-        
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                closeModal();
-            }
-        });
-    } else {
-        alert(`No subjects found matching "${query}". Try searching with:\n• Subject name (e.g., "Computer Networks")\n• Subject code (e.g., "CS204")\n• Keywords (e.g., "network", "database")`);
+    function showYears(branchId, options = {}) {
+        if (!branches[branchId]) return;
+        state.branch = branchId;
+        state.year = 0;
+        state.semester = 0;
+        state.filter = "all";
+        renderYears();
+        setView("years");
+        if (options.scroll) document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
     }
-}
 
-// Event listeners
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize blur text animations
-    animateBlurText();
-    
-    // Setup intersection observer for scroll-triggered animations
-    setupIntersectionObserver();
-    
-    // Mobile menu toggle
-    document.getElementById('mobile-menu-btn').addEventListener('click', toggleMobileMenu);
-    
-    // Search on Enter key
-    document.getElementById('search-input').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            searchSubjects();
+    function showSemesters(year) {
+        state.year = Number(year);
+        state.semester = 0;
+        state.filter = "all";
+        renderSemesters();
+        setView("semesters");
+    }
+
+    function showSubjects(semester) {
+        state.semester = Number(semester);
+        state.year = yearForSemester(state.semester);
+        state.filter = "all";
+        renderSubjects();
+        setView("subjects");
+    }
+
+    function followBreadcrumb(view) {
+        if (view === "departments") showDepartments();
+        if (view === "years") showYears(state.branch);
+        if (view === "semesters") showSemesters(state.year);
+    }
+
+    function allSearchEntries() {
+        return Object.entries(branches).flatMap(([branchId, branch]) =>
+            Object.entries(branch.semesters).flatMap(([semester, entries]) =>
+                entries.map(([code, name, category]) => ({ branchId, branch, semester: Number(semester), code, name, category }))
+            )
+        );
+    }
+
+    function openSearch(query) {
+        const cleanQuery = String(query || "").trim();
+        if (!cleanQuery) {
+            elements.searchInput.focus();
+            return;
+        }
+        const needle = cleanQuery.toLowerCase();
+        const results = allSearchEntries().filter((entry) =>
+            entry.name.toLowerCase().includes(needle)
+            || entry.code.toLowerCase().includes(needle)
+            || entry.branch.name.toLowerCase().includes(needle)
+            || entry.branch.shortName.toLowerCase().includes(needle)
+        ).slice(0, 60);
+
+        elements.searchTitle.textContent = `${results.length} result${results.length === 1 ? "" : "s"} for “${cleanQuery}”`;
+        elements.searchResults.innerHTML = results.length ? results.map((entry) => `
+            <button class="search-result" type="button" data-search-route="${escapeHTML(entry.branchId)},${entry.semester}">
+                <div><h3>${escapeHTML(entry.name)}</h3><p>${escapeHTML(entry.branch.shortName)} · ${ordinal(entry.semester)} semester · ${escapeHTML(entry.category)}</p></div>
+                <span>${escapeHTML(entry.code)} →</span>
+            </button>`).join("") : `<div class="empty-state">No curriculum subject matched “${escapeHTML(cleanQuery)}”.</div>`;
+        if (!elements.searchDialog.open) elements.searchDialog.showModal();
+    }
+
+    async function loadPapers() {
+        try {
+            const response = await fetch("data/papers.json", { cache: "no-store" });
+            if (!response.ok) throw new Error(`Paper catalogue request failed with ${response.status}`);
+            state.papers = await response.json();
+        } catch (error) {
+            console.warn("ExamForge paper catalogue is unavailable; curriculum browsing will still work.", error);
+            state.papers = [];
+        }
+
+        document.getElementById("paper-count").textContent = state.papers.filter((paper) => paper.is_published !== false).length;
+        document.getElementById("branch-count").textContent = Object.keys(branches).length;
+        document.getElementById("semester-count").textContent = Object.keys(branches).length * 8;
+        if (state.view === "departments") renderDepartments();
+        if (state.view === "years") renderYears();
+        if (state.view === "semesters") renderSemesters();
+        if (state.view === "subjects") renderSubjects();
+    }
+
+    document.addEventListener("click", (event) => {
+        const departmentCard = event.target.closest("[data-branch]");
+        if (departmentCard) showYears(departmentCard.dataset.branch);
+
+        const yearCard = event.target.closest("[data-year]");
+        if (yearCard) showSemesters(yearCard.dataset.year);
+
+        const semesterCard = event.target.closest("[data-semester]");
+        if (semesterCard) showSubjects(semesterCard.dataset.semester);
+
+        const breadcrumbButton = event.target.closest("[data-breadcrumb-view]");
+        if (breadcrumbButton) followBreadcrumb(breadcrumbButton.dataset.breadcrumbView);
+
+        const action = event.target.closest("[data-action]");
+        if (action && action.dataset.action === "home") {
+            showDepartments();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+        if (action && action.dataset.action === "departments") showDepartments({ scroll: true });
+
+        const quickRoute = event.target.closest("[data-quick-route]");
+        if (quickRoute) {
+            const [branchId, year, semester] = quickRoute.dataset.quickRoute.split(",");
+            state.branch = branchId;
+            state.year = Number(year);
+            showSubjects(Number(semester));
+            document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
+        }
+
+        const filter = event.target.closest("[data-filter]");
+        if (filter) {
+            state.filter = filter.dataset.filter;
+            renderSubjects();
+        }
+
+        const searchRoute = event.target.closest("[data-search-route]");
+        if (searchRoute) {
+            const [branchId, semester] = searchRoute.dataset.searchRoute.split(",");
+            state.branch = branchId;
+            showSubjects(Number(semester));
+            elements.searchDialog.close();
+            document.getElementById("explore").scrollIntoView({ behavior: "smooth" });
         }
     });
-    
-    // Department cards click handlers
-    document.querySelectorAll('.department-card').forEach(card => {
-        card.addEventListener('click', function() {
-            currentState.department = this.dataset.dept;
-            showYears();
-        });
-    });
-    
-    // Year cards click handlers
-    document.querySelectorAll('.year-card').forEach(card => {
-        card.addEventListener('click', function() {
-            currentState.year = this.dataset.year;
-            showSemesters();
-        });
-    });
-    
-    // Semester cards click handlers
-    document.querySelectorAll('.semester-card').forEach(card => {
-        card.addEventListener('click', function() {
-            currentState.semester = this.dataset.semester;
-            showExamTypes();
-        });
-    });
-    
-    // Exam type cards click handlers
-    document.querySelectorAll('.exam-type-card').forEach(card => {
-        card.addEventListener('click', function() {
-            currentState.examType = this.dataset.exam;
-            showSubjects();
-        });
-    });
-    
-    // Initialize with departments view
-    showDepartments();
-});
 
-// Export functions for global access
-window.showDepartments = showDepartments;
-window.showYears = showYears;
-window.showSemesters = showSemesters;
-window.showExamTypes = showExamTypes;
-window.showSubjects = showSubjects;
-window.generateAIPredictedPaper = generateAIPredictedPaper;
-window.searchSubjects = searchSubjects;
-window.toggleMobileMenu = toggleMobileMenu;
-window.closeMobileMenu = closeMobileMenu;
-window.scrollToCTA = scrollToCTA;
-window.closeModal = closeModal;
-window.startAIGeneration = startAIGeneration;
+    elements.searchForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        openSearch(elements.searchInput.value);
+    });
+
+    document.getElementById("close-search").addEventListener("click", () => elements.searchDialog.close());
+    elements.searchDialog.addEventListener("click", (event) => {
+        if (event.target === elements.searchDialog) elements.searchDialog.close();
+    });
+
+    elements.menuToggle.addEventListener("click", () => {
+        const expanded = elements.menuToggle.getAttribute("aria-expanded") === "true";
+        elements.menuToggle.setAttribute("aria-expanded", String(!expanded));
+        elements.mobileNav.hidden = expanded;
+    });
+
+    document.addEventListener("keydown", (event) => {
+        const activeTag = document.activeElement && document.activeElement.tagName;
+        if (event.key === "/" && !["INPUT", "TEXTAREA"].includes(activeTag)) {
+            event.preventDefault();
+            elements.searchInput.focus();
+        }
+    });
+
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+    renderDepartments();
+    setView("departments");
+    loadPapers();
+
+    window.ExamForge = { showDepartments, showYears, showSemesters, showSubjects, openSearch };
+})();

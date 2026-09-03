@@ -1,53 +1,88 @@
 const { getDataset } = require("../services/datasetService");
 const { generatePrediction } = require("../services/geminiService");
+const {
+    collectAnalysisSources,
+    parsePaperIds,
+    parseUploadYears,
+} = require("../services/paperAnalysisService");
+
+function validSubject(value) {
+    if (typeof value !== "string") return false;
+
+    const subject = value.trim();
+    return subject.length >= 2
+        && subject.length <= 100
+        && !subject.includes("..")
+        && !subject.includes("\\")
+        && /^[\p{L}\p{N} ()&.,+'’:/-]+$/u.test(subject);
+}
 
 exports.predict = async (req, res) => {
-    console.log("Prediction API Hit");
-    console.log(req.body);
-
     try {
+        const subject = req.body?.subject?.trim();
 
-        const { subject } = req.body;
-
-        if (!subject) {
-
+        if (!validSubject(subject)) {
             return res.status(400).json({
                 success: false,
-                message: "Subject is required"
+                message: "A valid subject is required",
             });
-
         }
 
-        const dataset = getDataset(subject);
+        const paperIds = parsePaperIds(req.body?.paperIds);
+        const uploadYears = parseUploadYears(req.body?.uploadYears);
+        const examType = req.body?.examType?.trim();
+        const subjectCode = req.body?.subjectCode?.trim();
+        let sources;
 
-        if (!dataset) {
-
-            return res.status(404).json({
-                success: false,
-                message: "Dataset not found"
+        if (paperIds.length || req.files?.length) {
+            sources = await collectAnalysisSources({
+                paperIds,
+                uploads: req.files,
+                uploadYears,
+                examType,
+                subjectCode,
             });
+        } else {
+            const dataset = getDataset(subject);
+            if (!dataset) {
+                return res.status(400).json({
+                    success: false,
+                    message: "Select or upload at least one previous-year paper",
+                });
+            }
 
+            sources = [{
+                label: `${dataset.subject} existing question dataset`,
+                origin: "ExamForge dataset",
+                text: [
+                    ...dataset.importantTopics.map((topic) => `Topic: ${topic}`),
+                    ...dataset.previousQuestions.map((question) => `Question: ${question}`),
+                ].join("\n"),
+            }];
         }
 
-        const prediction = await generatePrediction(dataset);
+        const prediction = await generatePrediction({
+            subject,
+            examType: examType || "Previous examinations",
+            sources,
+        });
 
-        res.json({
+        return res.json({
             success: true,
-            data: prediction
+            data: {
+                ...prediction,
+                sourceCount: sources.length,
+                sources: sources.map(({ label, origin }) => ({ label, origin })),
+            },
         });
+    } catch (error) {
+        if (!error.status) {
+            console.error("Prediction failed:", error);
+        }
 
-    } catch (err) {
-
-        console.error(err);
-
-        res.status(500).json({
-
+        return res.status(error.status || 500).json({
             success: false,
-
-            message: err.message
-
+            message: error.status ? error.message : "Unable to analyse the selected papers",
         });
-
     }
-
 };
