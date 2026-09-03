@@ -1,48 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>AI Question Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Analyse selected or privately uploaded previous-year papers with ExamForge AI Studio.">
+    <meta name="theme-color" content="#070b14">
+    <title>AI Studio - ExamForge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prediction.css">
 </head>
-
 <body>
+    <a class="skip-link" href="#studio">Skip to AI Studio</a>
 
-    <div class="container">
+    <nav class="topbar" aria-label="Primary navigation">
+        <div class="shell nav-shell studio-nav">
+            <a class="brand" href="index.html" aria-label="ExamForge home">
+                <span class="brand-mark" aria-hidden="true">ϟ</span>
+                <span>Exam<span>Forge</span></span>
+            </a>
+            <div class="desktop-nav">
+                <a href="index.html#explore">Explore</a>
+                <a href="index.html#explore">Departments</a>
+                <a class="active-nav" href="prediction.html" aria-current="page">AI Studio</a>
+                <a href="admin/upload.html">Contribute</a>
+            </div>
+            <a class="back-home" href="index.html">← Back to archive</a>
+        </div>
+    </nav>
 
-        <h1>AI Exam Prediction</h1>
+    <header class="studio-hero">
+        <div class="studio-orb studio-orb-one"></div>
+        <div class="studio-orb studio-orb-two"></div>
+        <div class="shell studio-hero-content">
+            <p class="section-kicker">ExamForge AI Studio</p>
+            <h1>Turn past papers into <span>focused exam insights.</span></h1>
+            <p>Compare three years of the same exam type, add missing PDFs if needed, and find important topics and likely questions.</p>
+            <div class="studio-promise" aria-label="AI Studio safeguards">
+                <span>✓ 3 different years</span>
+                <span>✓ Not added to the archive</span>
+                <span>✓ No guaranteed predictions</span>
+            </div>
+        </div>
+    </header>
 
-        <label>Select Subject</label>
+    <main class="studio-main" id="studio">
+        <div class="shell studio-layout">
+            <form class="studio-builder" id="analysis-form">
+                <section class="studio-panel">
+                    <div class="panel-heading">
+                        <span class="step-number">1</span>
+                        <div>
+                            <h2>Choose the subject</h2>
+                            <p>This filters the papers already available in ExamForge.</p>
+                        </div>
+                    </div>
 
-       <select id="subject"></select>
+                    <div class="field-grid">
+                        <label class="studio-field">
+                            <span>Branch</span>
+                            <select id="branch-select" required></select>
+                        </label>
+                        <label class="studio-field">
+                            <span>Semester</span>
+                            <select id="semester-select" required></select>
+                        </label>
+                        <label class="studio-field">
+                            <span>Subject</span>
+                            <select id="subject-select" required></select>
+                        </label>
+                        <label class="studio-field">
+                            <span>Exam type</span>
+                            <select id="exam-type-select" required>
+                                <option value="Mid Semester">Mid Semester</option>
+                                <option value="End Semester">End Semester</option>
+                            </select>
+                        </label>
+                    </div>
+                </section>
 
-        <br><br>
+                <section class="studio-panel">
+                    <div class="panel-heading panel-heading-split">
+                        <div class="panel-heading-copy">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h2>Select papers from different years</h2>
+                                <p id="archive-help">Only Mid Semester papers are shown. Mid and End papers are never mixed.</p>
+                            </div>
+                        </div>
+                        <span class="selection-counter" id="selection-counter">0 of 3 years selected</span>
+                    </div>
+                    <div class="archive-paper-list" id="archive-paper-list" aria-live="polite"></div>
+                    <div class="year-coverage" id="year-coverage" aria-label="Latest three year availability"></div>
+                </section>
 
-        <button id="predictBtn">
+                <section class="studio-panel">
+                    <div class="panel-heading">
+                        <span class="step-number">3</span>
+                        <div>
+                            <h2>Add missing papers <span class="optional-label">Optional</span></h2>
+                            <p id="upload-help">Upload only Mid Semester papers for years missing from the archive.</p>
+                        </div>
+                    </div>
 
-            Generate Prediction
+                    <label class="pdf-dropzone" id="pdf-dropzone" for="pdf-input">
+                        <input id="pdf-input" type="file" accept="application/pdf,.pdf" multiple>
+                        <span class="upload-mark" aria-hidden="true">⇧</span>
+                        <strong id="dropzone-title">Drop Mid Semester PDFs here or choose files</strong>
+                        <small>PDF only · 10 MB per file · exactly 3 different years per analysis</small>
+                    </label>
+                    <div class="upload-list" id="upload-list"></div>
+                </section>
 
-        </button>
+                <div class="analysis-action">
+                    <div>
+                        <strong>Ready to analyse?</strong>
+                        <p id="analysis-summary">Choose three Mid Semester papers from different years.</p>
+                    </div>
+                    <button class="button button-primary analyse-button" id="analyse-button" type="submit">
+                        <span class="button-spark">✦</span>
+                        <span id="analyse-button-label">Find topics &amp; likely questions</span>
+                    </button>
+                </div>
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
 
-        <hr>
+            <aside class="studio-guide">
+                <div class="guide-card">
+                    <p class="section-kicker">How it works</p>
+                    <ol>
+                        <li><span>01</span><div><strong>Choose one exam type</strong><p>Mid and End Semester papers stay separate.</p></div></li>
+                        <li><span>02</span><div><strong>Compare three years</strong><p>Select archive papers or upload missing years.</p></div></li>
+                        <li><span>03</span><div><strong>Review insights</strong><p>Get only important topics and likely questions.</p></div></li>
+                    </ol>
+                </div>
+                <div class="privacy-card">
+                    <span aria-hidden="true">⌁</span>
+                    <div><strong>Your upload is not published</strong><p>Session PDFs are held in memory and sent to Gemini only for the requested analysis.</p></div>
+                </div>
+                <a class="contribute-link" href="admin/upload.html"><span>Want to share a paper publicly?</span><strong>Contribute to ExamForge →</strong></a>
+            </aside>
+        </div>
 
-        <h2>Predicted Questions</h2>
+        <section class="results-section" id="results-section" hidden>
+            <div class="shell">
+                <div class="results-heading">
+                    <div><p class="section-kicker">Analysis complete</p><h2 id="results-title">Your exam insights</h2></div>
+                    <span id="result-source-count"></span>
+                </div>
+                <div class="result-grid">
+                    <article class="result-card topics-card">
+                        <div class="result-card-heading"><span>◎</span><div><h3>Important topics</h3><p>Areas worth prioritising during revision</p></div></div>
+                        <ol class="topic-results" id="topic-results"></ol>
+                    </article>
+                    <article class="result-card questions-card">
+                        <div class="result-card-heading"><span>?</span><div><h3>Likely questions</h3><p>Evidence-based possibilities, not guarantees</p></div></div>
+                        <ol class="question-results" id="question-results"></ol>
+                    </article>
+                </div>
+                <div class="result-disclaimer">
+                    <span>!</span>
+                    <p>AI-generated suggestions can be incomplete or incorrect. Use them with the official syllabus and do not treat them as guaranteed exam questions.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <ol id="questions"></ol>
+    <footer>
+        <div class="shell footer-grid">
+            <div><div class="brand footer-brand"><span class="brand-mark">ϟ</span><span>Exam<span>Forge</span></span></div><p>Track trends. Spot topics. Get ahead.</p></div>
+            <div class="footer-links"><a href="index.html#explore">Browse archive</a><a href="prediction.html">AI Studio</a><a href="admin/upload.html">Contribute</a></div>
+            <p class="copyright">© <span id="current-year"></span> ExamForge</p>
+        </div>
+    </footer>
 
-        <h2>Important Topics</h2>
-
-        <ul id="topics"></ul>
-
-        <h2>Study Strategy</h2>
-
-        <p id="strategy"></p>
-
-    </div>
-
+    <script src="data/curriculum.js"></script>
     <script src="prediction.js"></script>
-
 </body>
-
 </html>
