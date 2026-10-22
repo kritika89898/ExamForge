@@ -86,7 +86,13 @@
 .analysis-action strong { font-family: "Space Grotesk", sans-serif; font-size: .9rem; }
 .analysis-action p { margin: .15rem 0 0; color: var(--muted); font-size: .65rem; }
 .analyse-button { flex: 0 0 auto; border: 0; cursor: pointer; }
-.analyse-button:disabled { opacity: .55; cursor: wait; transform: none; }
+/* Not ready (fewer than 3 papers): clearly inactive, never a loading cursor. */
+.analyse-button:disabled { opacity: .4; filter: grayscale(.7); cursor: not-allowed; transform: none; box-shadow: none; }
+/* Analysing: keep full colour and show a spinner so it reads as "working". */
+.analyse-button.is-loading { opacity: 1; filter: none; cursor: progress; }
+.analyse-button.is-loading .button-spark { display: inline-block; animation: analyse-spin 1s linear infinite; }
+@keyframes analyse-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .analyse-button.is-loading .button-spark { animation: none; } }
 .button-spark { color: #fef3c7; }
 .form-status { min-height: 1.1rem; margin: -.35rem .2rem 0; color: var(--muted); font-size: .68rem; }
 .form-status.error { color: #fca5a5; }
