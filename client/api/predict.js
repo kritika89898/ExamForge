@@ -24,7 +24,11 @@ const MAX_ARCHIVE_PAPER_BYTES = 10 * 1024 * 1024;
 const MAX_UPLOAD_BYTES = 3 * 1024 * 1024;
 const EXAM_TYPES = new Set(["Mid Semester", "End Semester"]);
 const CDN_CACHE_SECONDS = 7 * 24 * 60 * 60;
-const GEMINI_TIMEOUT_MS = 90 * 1000;
+// A slow model is abandoned after this long so the backup model still has time.
+const GEMINI_TIMEOUT_MS = 40 * 1000;
+// Stay safely inside the function's 120 s maxDuration (client/vercel.json).
+const TOTAL_BUDGET_MS = 100 * 1000;
+const RETRYABLE_STATUSES = [404, 429, 500, 502, 503, 504];
 
 // Free-tier friendly defaults; override with GEMINI_MODEL (comma-separated).
 const DEFAULT_MODELS = ["gemini-3.5-flash-lite", "gemini-3.8-flash"];
@@ -217,7 +221,7 @@ function configuredModels() {
     return fromEnv.length ? fromEnv : DEFAULT_MODELS;
 }
 
-async function callGemini(model, apiKey, parts) {
+async function callGemini(model, apiKey, parts, timeoutMs) {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
     const response = await fetch(url, {
         method: "POST",
@@ -226,7 +230,7 @@ async function callGemini(model, apiKey, parts) {
             contents: [{ role: "user", parts }],
             generationConfig: { responseMimeType: "application/json", temperature: 0.4 },
         }),
-        signal: AbortSignal.timeout(GEMINI_TIMEOUT_MS),
+        signal: AbortSignal.timeout(timeoutMs),
     });
 
     const payload = await response.json().catch(() => ({}));
@@ -260,15 +264,24 @@ async function generatePrediction({ subject, examType, sources }) {
         parts.push({ inlineData: { mimeType: "application/pdf", data: source.buffer.toString("base64") } });
     });
 
+    const started = Date.now();
     let lastError;
     for (const model of configuredModels()) {
+        const remaining = TOTAL_BUDGET_MS - (Date.now() - started);
+        if (remaining < 5000) break;
+
+        const attemptStarted = Date.now();
         try {
-            return await callGemini(model, apiKey, parts);
+            const prediction = await callGemini(model, apiKey, parts, Math.min(GEMINI_TIMEOUT_MS, remaining));
+            console.log(`Gemini ${model} answered in ${Date.now() - attemptStarted} ms`);
+            return prediction;
         } catch (error) {
             lastError = error;
-            // Try the next model when this one is missing, unavailable or out of quota.
-            if (error instanceof HttpError || ![404, 429, 500, 503].includes(error.geminiStatus)) break;
-            console.warn(`Gemini model ${model} failed (${error.geminiStatus}), trying the next one`);
+            const timedOut = error?.name === "TimeoutError" || error?.name === "AbortError";
+            console.warn(`Gemini ${model} failed after ${Date.now() - attemptStarted} ms (${timedOut ? "timeout" : error.geminiStatus || error.message})`);
+            // Try the next model when this one is slow, missing, unavailable or out of quota.
+            if (error instanceof HttpError) break;
+            if (!timedOut && !RETRYABLE_STATUSES.includes(error.geminiStatus)) break;
         }
     }
 
@@ -277,7 +290,7 @@ async function generatePrediction({ subject, examType, sources }) {
     if (lastError?.geminiStatus === 429) {
         throw new HttpError(429, "AI Studio is busy right now (free daily limit reached). Please try again in a few minutes.");
     }
-    if (lastError?.name === "TimeoutError") {
+    if (lastError?.name === "TimeoutError" || lastError?.name === "AbortError") {
         throw new HttpError(504, "The analysis took too long. Please try again.");
     }
     throw new HttpError(502, "AI Studio could not analyse these papers right now. Please try again.");
@@ -349,6 +362,7 @@ module.exports._internal = {
     HttpError,
     MAX_UPLOAD_BYTES,
     analyse,
+    GEMINI_TIMEOUT_MS,
     configuredModels,
     decodeUploads,
     hasPdfSignature,
