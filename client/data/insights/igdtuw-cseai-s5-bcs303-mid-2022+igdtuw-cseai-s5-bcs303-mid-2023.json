@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022",
+    "igdtuw-cseai-s5-bcs303-mid-2023"
+  ],
+  "importantTopics": [
+    "DFA and NFA construction and conversion",
+    "Regular expressions and Arden's theorem",
+    "Grammar simplification and reduced grammar",
+    "Chomsky Normal Form (CNF) conversion",
+    "Greibach Normal Form (GNF) conversion",
+    "Derivations and ambiguity in CFG",
+    "Pumping Lemma for Regular Languages",
+    "Basic definitions of Automata and Grammars"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts strings over {0, 1} with specific numerical divisibility conditions.",
+    "Obtain a regular expression from a finite automaton using Arden's theorem.",
+    "Construct an NFA equivalent to a given regular expression and convert it to a reduced DFA.",
+    "Design a DFA for a language defined by specific substring or length constraints.",
+    "Explain the tuples of a grammar with an example and discuss null productions, useless symbols, and unit productions.",
+    "Find the language accepted by a given finite automaton diagram.",
+    "Convert a given Context Free Grammar into Chomsky Normal Form (CNF).",
+    "Construct the GNF for a given context-free grammar.",
+    "Explain leftmost and rightmost derivations and check whether a grammar is ambiguous for a given string.",
+    "Define the Pumping Lemma for Regular Languages and explain with a suitable example."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

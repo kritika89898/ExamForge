@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2022",
+    "igdtuw-cseai-s5-hmc301-end-2025"
+  ],
+  "importantTopics": [
+    "Moral Values and Professional Ethics",
+    "Moral Development Theories",
+    "Professionalism and Responsibilities",
+    "Ethical Theories and Classifications",
+    "Engineering as Experimentation and Safety",
+    "Intellectual Property Rights",
+    "Corporate Social Responsibility",
+    "Environmental and Global Ethics"
+  ],
+  "likelyQuestions": [
+    "Define moral dilemma and explain its significance in professional decision making.",
+    "Compare and contrast Kohlberg's theory and Gilligan's theory of moral development.",
+    "Explain the concept of engineering as experimentation along with safety and risk considerations.",
+    "Discuss the difference between professional and professionalism with suitable examples.",
+    "Explain right-based and duty-based ethical theories and differentiate between them.",
+    "How does Intellectual Property Rights (IPR) provide security to the manufacturing and selling of a product?",
+    "Describe the concept of Corporate Social Responsibility (CSR) and its importance for integrated social growth.",
+    "Explain environmental ethics along with all its parameters and global scenarios.",
+    "Discuss the role of religion and vedas in shaping moral views and values across geographical regions.",
+    "Explain research ethics along with all its parameters and related issues in detail."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

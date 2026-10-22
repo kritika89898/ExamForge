@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2022",
+    "igdtuw-cseai-s4-hmc202-end-2024"
+  ],
+  "importantTopics": [
+    "Hazard, Risk, and Vulnerability Assessment",
+    "Post-Disaster Management (Rehabilitation and Reconstruction)",
+    "Earthquake Causes and Management",
+    "Landslide Causes and Mitigation",
+    "Geoinformatics, GIS, and Remote Sensing",
+    "Drone and ICT Applications",
+    "Cyclones and Tsunami Early Warning Systems",
+    "Disaster Management Act 2005 and NDMA/State Government Roles"
+  ],
+  "likelyQuestions": [
+    "What do you mean by Hazard and how is it different from a Disaster?",
+    "What is Risk? How is it related to hazard, and what factors affect vulnerability?",
+    "Discuss in detail the concepts of rehabilitation, reconstruction, and post-disaster management stages.",
+    "What are the causes of earthquakes? Discuss all steps of pre- and post-disaster management for earthquakes.",
+    "What is a landslide, what are its causes, and how can it be managed?",
+    "How are remote sensing, GIS, and ICT useful in disaster management?",
+    "How can drone technology be utilized effectively for disaster management?",
+    "Discuss the Indian Tsunami Early Warning System in detail.",
+    "What is the role of National Disaster Management Authority (NDMA) and state governments in disaster management?",
+    "Discuss the Disaster Management Act-2005 in detail along with the role of international agencies and search and rescue operations."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

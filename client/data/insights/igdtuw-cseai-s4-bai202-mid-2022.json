@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-mid-2022"
+  ],
+  "importantTopics": [
+    "OSI Model Layers",
+    "Data Link Control Protocols",
+    "Medium Access Control Protocols",
+    "Slotted Aloha Throughput",
+    "Sliding Window Protocols",
+    "Guided Transmission Media",
+    "Optical Fiber Propagation Modes",
+    "Error Detection and Correction Codes"
+  ],
+  "likelyQuestions": [
+    "List and explain the functions of each layer of the OSI model in sequence.",
+    "What is the standard 8-bit binary flag value used in the HDLC protocol?",
+    "Name and briefly describe two collision-free medium access control protocols.",
+    "Derive or state the maximum theoretical throughput for Slotted ALOHA and explain why it occurs.",
+    "Describe what happens to network communication in a bus topology if a single station is abruptly unplugged.",
+    "In a selective repeat protocol, trace the sender's window contents given a specific sequence of timeouts and new frame transmissions.",
+    "Explain the operation of the Go-Back-N ARQ protocol using a clear numerical example and timing diagram.",
+    "Explain the working principles of twisted-pair cable, coaxial cable, and fiber optic cable as guided media.",
+    "Explain the different propagation modes in optical fibers, such as single-mode and multi-mode propagation.",
+    "Explain the working mechanism of Cyclic Redundancy Check (CRC) for error detection using a binary division example."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Networks - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

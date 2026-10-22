@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2023"
+  ],
+  "importantTopics": [
+    "Sampling and Quantization",
+    "Histogram Processing and Matching",
+    "Spatial Filtering and Point Operations",
+    "Frequency Domain Transforms and Filtering",
+    "Image Noise Models",
+    "Image Segmentation and Region Growing",
+    "Lossless Image Compression and Huffman Coding",
+    "Morphological Image Processing"
+  ],
+  "likelyQuestions": [
+    "Differentiate between sampling and quantization in digital image representation.",
+    "Perform histogram specification or matching given two input histograms.",
+    "Explain point operations in digital image processing and perform thresholding or intensity level slicing on a given matrix.",
+    "Define image noise, state its primary sources, and describe four types of noise with their probability density functions.",
+    "Convert a given spatial domain image using Fourier transform and apply an ideal high-pass or low-pass filter.",
+    "Find the Haar transform of a given small 2x2 or 4x4 image sequence.",
+    "Differentiate between region-based segmentation and thresholding, and apply region growing algorithm on a given matrix.",
+    "Define Huffman coding in image compression, construct codes for a given frequency table, and find the compression ratio and efficiency.",
+    "Differentiate between morphological dilation and erosion, and compute operations using a given structuring element and binary image.",
+    "Explain object recognition, the steps involved in designing an object recognition system, and central design issues."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

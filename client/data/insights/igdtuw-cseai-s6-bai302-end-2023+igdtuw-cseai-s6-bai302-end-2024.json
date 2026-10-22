@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 302",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai302-end-2023",
+    "igdtuw-cseai-s6-bai302-end-2024"
+  ],
+  "importantTopics": [
+    "NLP Pipeline and Preprocessing",
+    "Tokenization and Stop Word Removal",
+    "Word Embeddings and CBOW",
+    "TF-IDF Vector Representation",
+    "Machine Translation Approaches",
+    "Chatbot Architectures and Conversational Models",
+    "Recurrent Neural Networks and LSTMs",
+    "Gated Recurrent Units (GRU)"
+  ],
+  "likelyQuestions": [
+    "Explain the different phases of NLP with suitable examples for each phase.",
+    "Perform sentence tokenization, word tokenization, and stop word removal on a given text passage.",
+    "Assume given sentences and create Word2vec vectors using the CBOW model along with one-hot encoded vector representations.",
+    "Assume given sentences and create TF-IDF vectors using a term-document matrix.",
+    "Discuss the Skip-gram model in detail with a suitable example.",
+    "Explain the working, types, and future of conversational models and chatbot architectures.",
+    "Compare word-based and phrase-based machine translation systems, including rule-based and neural approaches.",
+    "Explain Sequence-to-Sequence models and Attention models with diagrams and examples.",
+    "Discuss the architecture, applications, advantages, and disadvantages of LSTM networks.",
+    "Explain Gated Recurrent Unit (GRU) architecture along with its applications, challenges, and limitations."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Natural Language Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Natural Language Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

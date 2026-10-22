@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 302",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai302-end-2023"
+  ],
+  "importantTopics": [
+    "Phases of NLP and Syntax Analysis",
+    "Text Preprocessing and Tokenization",
+    "Bag of Words and TF-IDF Vectors",
+    "Word2Vec and Skip-gram Models",
+    "Ambiguity and Challenges in NLP",
+    "Machine Translation Systems",
+    "Chatbots and Conversational Models",
+    "RNN, LSTM, and GRU Architectures"
+  ],
+  "likelyQuestions": [
+    "Explain the different phases of NLP pipeline with suitable examples for each phase.",
+    "Perform Sentence Tokenization, Word Tokenization, and Stop Word Removal on a given paragraph.",
+    "Explain lexical, syntactic, and semantic ambiguity with appropriate examples.",
+    "Create Bag of Words (BOW) vectors for a given set of sentences before and after text cleaning.",
+    "Compute TF-IDF vectors using a term-document matrix for a given corpus of text.",
+    "Explain the working of the Skip-gram model in detail with a suitable example.",
+    "Compare Word-Based and Phrase-Based Machine Translation systems along with their challenges.",
+    "Discuss the different types of chatbot architectures and the working of conversational models.",
+    "Discuss the architecture, advantages, and disadvantages of LSTM networks.",
+    "Explain the different types of RNN architectures along with their applications and limitations."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Natural Language Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

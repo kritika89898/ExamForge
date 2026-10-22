@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2023"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Feature Engineering",
+    "Logistic Regression and Classification Metrics",
+    "Decision Trees and Hyperparameter Tuning",
+    "Naive Bayes Classifier",
+    "k-Nearest Neighbors Algorithm",
+    "K-Means Clustering",
+    "Dimensionality Reduction and PCA",
+    "Ensemble Learning and Boosting"
+  ],
+  "likelyQuestions": [
+    "Explain how the ROC curve and cutoff values change in logistic regression when evaluating classifier performance.",
+    "Discuss the potential consequences of not handling outliers during data preprocessing and how quantiles can be used to detect them.",
+    "Build a Naive Bayes model using a given symptom-disease dataset to calculate specific conditional probabilities.",
+    "Calculate the time complexity scaling for training a Decision Tree given larger dataset sizes.",
+    "Apply the k-Nearest Neighbors (KNN) algorithm to classify a new unlabeled data point using Euclidean distance for a given value of k.",
+    "Compute full iterations of k-means clustering for K=2 with specified initial centroids and explain the resulting clusters.",
+    "What are the main motivations and drawbacks for reducing a dataset's dimensionality, and can PCA handle nonlinear datasets?",
+    "Calculate the final prediction of a boosted strong learner formed by multiple weak learners with assigned weights.",
+    "Explain the differences between hard and soft voting classifiers and discuss how to tune hyperparameters when an AdaBoost ensemble underfits.",
+    "Describe Random Forest in the context of ensemble learning, highlighting how it differs from a single Decision Tree and the benefits of employing it."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

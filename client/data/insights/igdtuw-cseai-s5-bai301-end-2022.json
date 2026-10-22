@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2022"
+  ],
+  "importantTopics": [
+    "Data attribute types and similarity measures",
+    "Cross-validation techniques",
+    "Supervised classification algorithms (Logistic, SVM, Naive Bayes, kNN, Decision Trees)",
+    "Regularization techniques and linear regression drawbacks",
+    "Partitional clustering algorithms and numerical clustering",
+    "Hierarchical agglomerative clustering and dendrograms",
+    "Evaluation metrics, ROC curves, and AUC calculation",
+    "Ensemble learning methods (Bagging and Boosting)"
+  ],
+  "likelyQuestions": [
+    "List 5 domains where machine learning application is extremely challenging or ineffective, and justify your choices.",
+    "Explain the necessity of validation sets and cross-validation over a simple train-test split in model evaluation.",
+    "Illustrate 5-fold cross validation for a dataset containing 150 samples step by step.",
+    "Compare and contrast the merits and demerits of Support Vector Classifiers, Naive Bayes, and Decision Tree classifiers.",
+    "Explain the limitations of ordinary least squares linear regression and discuss how Ridge and Lasso regularization address these issues.",
+    "Cluster a given set of six 2D spatial points into two clusters using the k-means algorithm for two iterations.",
+    "Perform agglomerative hierarchical clustering on a given proximity matrix and draw the resulting dendrogram specifying the linkage criteria.",
+    "Plot the ROC curve for a provided classification probability dataset at specified thresholds and calculate the Area Under the Curve (AUC).",
+    "Explain the underlying mechanism of adaptive boosting, detailing what gets adapted and what gets boosted during training.",
+    "Contrast bagging and ensemble boosting techniques with the help of clear structural diagrams."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

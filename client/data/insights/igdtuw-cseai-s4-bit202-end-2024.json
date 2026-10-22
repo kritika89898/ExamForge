@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2024"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Paging and Address Translation",
+    "Banker's Algorithm and Deadlock Avoidance",
+    "Resource Allocation Graphs and Deadlock Detection",
+    "Process Synchronization and Classical Problems",
+    "Disk Scheduling Algorithms",
+    "I/O Device Management and Disk Structure",
+    "File Systems and Directory Implementation"
+  ],
+  "likelyQuestions": [
+    "Explain different types of Operating Systems along with examples and architectural diagrams.",
+    "Given a logical address space of 256KB, physical address space of 1MB, and page size of 32KB, calculate the number of bits for logical address, physical address, pages, frames, and the total page table size.",
+    "Consider a set of processes with given arrival times and burst times. Draw the Gantt chart and calculate the average waiting time, turnaround time, and response time using the Round Robin scheduling algorithm.",
+    "Given a set of processes with arrival and burst times, calculate the performance metrics using preemptive Shortest Job First (SJF) scheduling.",
+    "Explain Banker's Algorithm, construct the Need matrix for a given system state, determine whether the system is in a safe state, and test if a specific resource request can be granted immediately.",
+    "Discuss the concept of Process Synchronization and explain any two classical problems of synchronization such as Producer-Consumer or Readers-Writers.",
+    "For a given Resource Allocation Graph with multiple instances of various resources, determine whether a deadlock will occur and find a safe sequence if it exists.",
+    "Given a disk request queue and an initial head position, calculate the total head movement overhead using SSTF, SCAN, LOOK, C-SCAN, and C-LOOK disk scheduling algorithms.",
+    "Describe disk structure, seek time, rotational latency, and features of device management along with categories of I/O devices.",
+    "Discuss free space management techniques and describe directory implementation methods in operating systems using singly linked lists."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

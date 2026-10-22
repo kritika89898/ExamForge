@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2023"
+  ],
+  "importantTopics": [
+    "Ethical living and harmony in life",
+    "Sympathy and Empathy",
+    "Normative Enquiry",
+    "Moral Dilemma",
+    "Religion and Human Values",
+    "Indian values in Vedas",
+    "Kohlberg's Theory of Moral Development",
+    "Justice vs Care-based morality and Professional Obligations for Engineers"
+  ],
+  "likelyQuestions": [
+    "Write a short note on ethical living and its role in maintaining harmony in life.",
+    "Distinguish between sympathy and empathy with appropriate real-life examples.",
+    "Define normative enquiry and explain its significance with a suitable example.",
+    "What is a moral dilemma? Discuss a scenario where an individual faces a conflict between two moral duties.",
+    "Explain the fundamental relationship between religion and human values, providing relevant examples.",
+    "Elaborate on the core Indian values as derived from the conceptual framework of the Vedas.",
+    "A person witnesses a situation involving public injustice or distress and must decide whether to intervene or follow traffic and safety rules. Analyze how different ethical frameworks would guide a decision in such a scenario.",
+    "Discuss the concept of moral development and explain the six stages of Kohlberg's Theory of Moral Development.",
+    "Differentiate between justice-based morality and care-based morality, supporting your answer with examples.",
+    "Explain the different ethical obligations that apply to engineers in professional practice, with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-end-2023"
+  ],
+  "importantTopics": [
+    "CNN Filter Weights and Feature Map Dimensions",
+    "Neural Network Forward and Backpropagation",
+    "Optimization Algorithms and Batch Size",
+    "Regularization and Dropout",
+    "Batch Normalization",
+    "Confusion Matrix Performance Metrics",
+    "Hyperparameter Tuning Methods",
+    "Autoencoders and GANs"
+  ],
+  "likelyQuestions": [
+    "Calculate the number of weights to be learned in a convolutional layer given filter dimensions, number of channels, and number of filters without bias.",
+    "Perform a single forward pass and one backpropagation step to update weights in a small multi-layer neural network with mean squared error loss.",
+    "Determine the output feature map size and kernel depth for a sequence of convolutional and max-pooling layers given input dimensions, padding, stride, and filter sizes.",
+    "Compare and contrast the RMSprop and Adam optimization algorithms, highlighting how they adapt learning rates.",
+    "Explain the impact of different batch sizes on the convergence and performance of gradient descent algorithms.",
+    "Differentiate between L1 and L2 regularization techniques and discuss their effects on neural network weights.",
+    "Explain whether dropout layers are active during testing and justify your reasoning.",
+    "Calculate accuracy, error rate, precision, recall, and F1-score from a given binary classification confusion matrix.",
+    "Differentiate between parameter tuning and hyperparameter tuning, explaining both Grid Search and Random Search approaches.",
+    "Describe the architecture and application areas of Autoencoders, and discuss the structure and working mechanism of Generative Adversarial Networks (GANs)."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-II - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

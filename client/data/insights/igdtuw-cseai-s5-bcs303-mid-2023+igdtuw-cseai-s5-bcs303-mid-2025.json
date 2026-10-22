@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2023",
+    "igdtuw-cseai-s5-bcs303-mid-2025"
+  ],
+  "importantTopics": [
+    "Finite Automata and DFA vs NDFA",
+    "NFA to DFA Conversion",
+    "Grammar Tuples and Context Free Grammars",
+    "Null, Useless, and Unit Productions",
+    "Pumping Lemma for Regular Languages",
+    "CFG Simplification and CNF",
+    "Grammar Ambiguity and Parse Trees",
+    "Pushdown Automata Introduction"
+  ],
+  "likelyQuestions": [
+    "Define Finite Automata and discuss the difference between DFA and NDFA.",
+    "Explain the tuples of grammar with the help of an example grammar.",
+    "What are Null Production, Useless Symbols, and Unit Productions in grammar? Discuss with example.",
+    "Convert the given NFA to an equivalent DFA.",
+    "Design a DFA that accepts strings having restrictions over the alphabet sigma.",
+    "Define Pumping Lemma for Regular Languages and explain with a suitable example.",
+    "What is ambiguity? Find the equivalent unambiguous grammar for the given grammar.",
+    "What is CNF? Convert the given CFG to CNF.",
+    "Simplify the given CFG and discuss the simplification procedure.",
+    "What is a Pushdown Automaton (PDA)? Why only stack is used as a memory element in PDA?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

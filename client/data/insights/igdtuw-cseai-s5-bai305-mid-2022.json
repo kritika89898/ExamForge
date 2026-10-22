@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2022"
+  ],
+  "importantTopics": [
+    "McCulloch-Pitts Neuron",
+    "Feature Scaling",
+    "Computational Graphs and Derivatives",
+    "Multi-Layer Neural Network Forward Propagation",
+    "Perceptron Learning Algorithm",
+    "Loss Functions and Softmax",
+    "Model Training Workflow and Regularization",
+    "Data Augmentation"
+  ],
+  "likelyQuestions": [
+    "Using McCulloch-Pitts units, implement NAND and NOR gates with neat diagrams.",
+    "Explain the two types of feature scaling techniques with formulas and perform them on the 1-D data: 2, 4, 6, 2, 3, 4, 8, 2, 9.",
+    "Draw the computational graph for the equation J(theta) = 3(xy + z), find all partial derivatives, and evaluate them for x=1, y=2, z=4.",
+    "Consider a two-layer neural network with three inputs, two neurons in the first hidden layer using ReLU, and one output neuron using sigmoid. Given weights equal to 1 and inputs [1, 1, 0], compute the output at each neuron.",
+    "Explain the internal calculations of a neuron using equations and a diagram, and outline the steps of the perceptron learning algorithm.",
+    "Given the predicted logits for a 3-class classifier as [3.1, 1.5, 0.4] and actual target as [1, 0, 0], calculate the cross-entropy loss, MAE, and MSE.",
+    "Explain the model training process starting from a simple model using a comprehensive flow diagram.",
+    "Describe the concepts of overfitting and underfitting using learning curves, and discuss methods to recover from each.",
+    "Compute the softmax operation for the 4-class classifier output vector [2, 1, -1, 3].",
+    "Explain how data augmentation is performed for numeric, image, and text datasets respectively."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

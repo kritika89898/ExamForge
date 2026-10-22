@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2022",
+    "igdtuw-cseai-s4-bai202-end-2023",
+    "igdtuw-cseai-s4-bai202-end-2024"
+  ],
+  "importantTopics": [
+    "OSI and TCP/IP Reference Models",
+    "Transmission Media and Network Topologies",
+    "Data Link Layer Protocols and ALOHA",
+    "Routing Algorithms and Dijkstra's Algorithm",
+    "IP Addressing, Subnetting, and CIDR",
+    "IPv4 and IPv6 Headers",
+    "Transport Layer Protocols and UDP Header",
+    "Application Layer Protocols (HTTP and SMTP)"
+  ],
+  "likelyQuestions": [
+    "Draw the OSI network architecture and explain the functionalities of every layer in detail.",
+    "Compare and contrast ISO-OSI and TCP/IP reference models.",
+    "Explain the Shielded twisted pair (STP) and Unshielded twisted pair (UTP) along with advantages of fiber optics.",
+    "A group of terminals are to be connected to a central site using ALOHA schemes over a 9600 bps channel. Estimate the maximum throughput and number of supported terminals for Pure ALOHA and Slotted ALOHA.",
+    "Explain the Go-Back-N ARQ protocol and describe the sliding window mechanism.",
+    "Using Dijkstra's algorithm, find the shortest path tree for the given network graph.",
+    "Perform subnetting on a given IP address block to create a specified number of subnets and determine host ranges, subnet masks, and broadcast addresses.",
+    "Compare and contrast IPv4 header with IPv6 header.",
+    "Draw and explain different fields of the UDP header and compute header parameters from a given hexadecimal representation.",
+    "Discuss the features and working of HTTP and explain the working of Electronic mail using SMTP."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

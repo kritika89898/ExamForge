@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2025"
+  ],
+  "importantTopics": [
+    "McCulloch-Pitts Neuron",
+    "Perceptron Model",
+    "Overfitting and Underfitting",
+    "Gradient Descent",
+    "Perceptron Learning Algorithm",
+    "Non-linearly Separable Problems",
+    "Activation Functions",
+    "Multi-Layer Perceptron and Backpropagation"
+  ],
+  "likelyQuestions": [
+    "Explain the structure and working mechanism of a McCulloch-Pitts neuron with a neat diagram.",
+    "Verify the statement: 'Perceptron model considers the linear combination of inputs' and explain its decision boundary.",
+    "Differentiate between overfitting and underfitting in neural networks, and state their primary causes.",
+    "Explain gradient descent and its purpose in optimizing weights during neural network training.",
+    "Describe the Perceptron Learning Algorithm (PLA) in detail along with its convergence properties.",
+    "Why does the single-layer perceptron fail for non-linearly separable problems? Explain with a suitable example like XOR.",
+    "Explain the thresholding activation function and compare its advantages and limitations with the logistic sigmoid function.",
+    "Explain the architecture and working of a Multi-Layer Perceptron (MLP) along with its key design parameters.",
+    "Discuss various regularization and architectural methods used to prevent overfitting in deep learning models.",
+    "Describe the Backpropagation algorithm for training a Multi-Layer Perceptron with a numerical or structural example."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-I - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

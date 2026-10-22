@@ -1,0 +1,39 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2023"
+  ],
+  "importantTopics": [
+    "Resilience and Vulnerability",
+    "Hazard Prevention",
+    "Volcanic Eruptions",
+    "Development Projects and Disasters",
+    "Rehabilitation in Disaster Management",
+    "Flood Causes and Control Measures",
+    "Industrial Disasters",
+    "Natural and Man-induced Disasters",
+    "Geological Disasters",
+    "Disaster Management Act 2005"
+  ],
+  "likelyQuestions": [
+    "Define resilience and vulnerability in the context of disaster management.",
+    "Discuss the strategies used to prevent a hazard from escalating into a full-scale disaster.",
+    "Explain the environmental impacts caused by volcanic eruptions.",
+    "Examine the impact of major development projects on recent disasters in India.",
+    "Explain the various approaches and significance of rehabilitation in disaster management.",
+    "What are the primary causes of floods and explain different methods of flood control measures?",
+    "Explain the causes and effects of the Bhopal Gas tragedy.",
+    "Describe the different types of natural and man-induced disasters.",
+    "Explain the cause and effect of the Joshimath disaster.",
+    "Explain briefly the key provisions of the Disaster Management Act, 2005."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

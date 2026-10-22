@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2022"
+  ],
+  "importantTopics": [
+    "Multi-programming and Multi-tasking OS",
+    "Process States and Schedulers",
+    "Memory Allocation and Fragmentation",
+    "Real-Time Operating Systems",
+    "Non-preemptive and Preemptive CPU Scheduling",
+    "Shortest Job First Scheduling",
+    "Priority CPU Scheduling",
+    "Round Robin Scheduling and Page Replacement Algorithms"
+  ],
+  "likelyQuestions": [
+    "Explain how multi-tasking is an extension of multi-programming with valid justifications.",
+    "Draw and explain the complete process state transition diagram along with the functions of different types of schedulers.",
+    "Differentiate between internal and external fragmentation in contiguous memory allocation and explain what type of fragmentation paging experiences.",
+    "Write short notes on real-time operating systems and clearly differentiate between hard real-time and soft real-time operating systems.",
+    "Calculate the average waiting time and average turnaround time using the Shortest Job First (SJF) scheduling algorithm for a given set of processes with arrival times and burst times.",
+    "Explain the concept of CPU preemption and analyze its impact on the average waiting time and turnaround time for a set of processes.",
+    "Compute the average waiting time and average turnaround time for a set of processes using non-preemptive priority scheduling, and discuss how the results would change with preemption.",
+    "Calculate the total number of page faults for a given reference string using the LRU page replacement algorithm with a specified number of frames.",
+    "Determine the average waiting time and average turnaround time using the Round Robin scheduling algorithm given a specific time quantum and arrival times.",
+    "Calculate the number of page faults for a given page reference string using the optimal page replacement algorithm and explain why it is theoretically superior to other algorithms."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

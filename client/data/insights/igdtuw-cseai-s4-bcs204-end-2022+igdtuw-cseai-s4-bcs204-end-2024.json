@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2022",
+    "igdtuw-cseai-s4-bcs204-end-2024"
+  ],
+  "importantTopics": [
+    "Recurrence Relations and Master Method",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Matrix Chain Multiplication",
+    "Graph Algorithms and Shortest Paths",
+    "String Matching Algorithms",
+    "Backtracking and Branch and Bound",
+    "Greedy Graph Algorithms and Spanning Trees",
+    "NP-Completeness and Polynomial-Time Reductions"
+  ],
+  "likelyQuestions": [
+    "Solve the given recurrence relation using the master method or substitution method.",
+    "Explain Huffman coding and construct an optimal binary code for a given set of frequencies.",
+    "Find an optimal parenthesization of a matrix-chain product using dynamic programming.",
+    "Run the Floyd-Warshall algorithm on a given weighted directed graph and show the resulting matrices after each iteration.",
+    "Explain how the Knuth-Morris-Pratt (KMP) algorithm works and search for a given pattern in a text.",
+    "Perform the Rabin-Karp string matching algorithm step by step showing the hash values at each step.",
+    "Solve the N-Queen problem using backtracking for a specific value of N.",
+    "Compare the backtracking technique with the branch and bound technique using a suitable example.",
+    "Explain the Bellman-Ford algorithm and show the table filled during execution for a given graph.",
+    "Prove that a specific problem is NP-complete using polynomial-time reduction."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

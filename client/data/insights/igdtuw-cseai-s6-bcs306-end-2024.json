@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bcs306-end-2024"
+  ],
+  "importantTopics": [
+    "Phases of Compiler",
+    "Lexical Analysis and Tokens",
+    "Top-Down and Bottom-Up Parsing",
+    "SLR and LALR Parsers",
+    "Syntax-Directed Translation",
+    "Source Language Issues and Storage Allocation",
+    "Intermediate Code Generation",
+    "Code Optimization"
+  ],
+  "likelyQuestions": [
+    "Explain the different phases of a compiler with the help of a block diagram and trace an example expression through each phase.",
+    "Describe the role of the lexical analyzer and explain how tokens are recognized using regular expressions and finite automata.",
+    "Define FIRST and FOLLOW functions. Compute the FIRST and FOLLOW sets for a given context-free grammar and explain grammar ambiguity.",
+    "Construct an SLR parsing table for a given expression grammar and demonstrate parsing of an input string.",
+    "Explain the steps for constructing an LALR parsing table and build the table for a given augmented grammar.",
+    "What is Syntax-Directed Translation? Explain the bottom-up evaluation of S-attributed and inherited definitions with examples.",
+    "Discuss the various storage allocation strategies used during runtime execution in compiler design.",
+    "Explain different representations of intermediate code including Three Address Code, Quadruples, and Triples with suitable examples.",
+    "What is code optimization? Discuss its significance in the compilation process and explain the principal sources of optimization.",
+    "Write short notes on bootstrapping, finite automata, derivation trees, and semantic analysis with appropriate examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Compiler Design - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

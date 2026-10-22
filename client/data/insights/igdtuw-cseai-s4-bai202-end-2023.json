@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2023"
+  ],
+  "importantTopics": [
+    "Transmission Media and Network Topologies",
+    "OSI and TCP/IP Models",
+    "IPv4 Addressing and Subnetting",
+    "Medium Access Control Protocols",
+    "ARQ Protocols",
+    "Routing Algorithms",
+    "Transport Layer Protocols",
+    "Application Layer Protocols"
+  ],
+  "likelyQuestions": [
+    "List the characteristics of baseband coaxial cable and compare them with fiber optic cables.",
+    "Explain how routers overcome the limitations of bridges and repeaters in large networks.",
+    "Compare and contrast the OSI model and the TCP/IP model with respect to their layer architectures.",
+    "Calculate the number of cable links required for a mesh, ring, star, and bus topology for n devices.",
+    "Given the IP address 192.168.10.50 with a subnet mask of 255.255.255.192, find the network address, broadcast address, and range of valid host IPs.",
+    "An organization is granted the IP block 172.16.0.0/12 and wants to create 512 subnets. Find the new subnet mask, the number of addresses in each subnet, and the first/last addresses of the first and last subnets.",
+    "A channel has a bandwidth of 10 Mbps and uses Slotted ALOHA. If frames are 1000 bits long and stations generate 50 frames per second in total, calculate the throughput and explain the maximum throughput condition.",
+    "Explain the operation of Selective Repeat ARQ and compare its efficiency with Go-Back-N ARQ.",
+    "Explain Dijkstra's routing algorithm and trace the shortest path tree for a given weighted graph.",
+    "Discuss the features of HTTP and explain the working mechanism of SMTP in email applications."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

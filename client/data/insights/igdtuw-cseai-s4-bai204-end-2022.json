@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2022"
+  ],
+  "importantTopics": [
+    "Linear Programming and Feasibility",
+    "Mathematical Modeling of Optimization Problems",
+    "Network Flow and Transshipment Problems",
+    "Shortest Path Formulation for Replacement Models",
+    "Ant Colony Optimization (ACO)",
+    "Particle Swarm Optimization (PSO)",
+    "Genetic Algorithms and Metaheuristics",
+    "Decision-Making Models and Knowledge Management"
+  ],
+  "likelyQuestions": [
+    "Classify whether the feasible set of an LP in standard form is always bounded, providing appropriate mathematical justification or a counterexample.",
+    "Explain the role of constraints and feasible regions in real-world mathematical optimization problems with suitable illustrations.",
+    "Formulate a given design problem as a mathematical programming problem and detail its real-world applications.",
+    "Analyze a transshipment problem with supply and demand nodes to determine the feasibility conditions and spanning-tree solutions.",
+    "Propose a shortest path or network flow formulation for an equipment replacement problem involving maintenance costs and trade-in values over multiple years.",
+    "Describe the steps, nature, and advantages of the Ant Colony Optimization (ACO) algorithm with real-world applications.",
+    "Illustrate the Particle Swarm Optimization (PSO) technique, explain the velocity update equations, and compare it with Genetic Algorithms.",
+    "Discuss how Particle Swarm Optimization differs from Ant Colony Optimization and analyze scenarios where one performs better than the other.",
+    "Define decision-making and illustrate the role of decision trees in classification and prediction for solving real-world problems.",
+    "Explain general decision-making styles using examples and analyze the advantages and disadvantages of group-aided decision-making in knowledge management."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

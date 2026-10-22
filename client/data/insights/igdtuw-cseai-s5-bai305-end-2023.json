@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2023"
+  ],
+  "importantTopics": [
+    "Perceptron learning algorithm and update equations",
+    "MP-Neuron model and Boolean logic",
+    "Activation functions (ReLU, Sigmoid, Tanh)",
+    "Forward pass and backpropagation in neural networks",
+    "Regularization techniques (L1, L2, Dropout)",
+    "Convolutional Neural Networks (CNNs) and feature map sizing",
+    "Recurrent Neural Networks (RNNs) and vanishing gradients",
+    "Advanced architectures (LSTM, GRU, AlexNet, VGG, InceptionNet)"
+  ],
+  "likelyQuestions": [
+    "Consider a two-input neuron with given initial weights and objective function. Compute the updated weights after two iterations of the perceptron learning algorithm.",
+    "Explain the differences between ReLU, Sigmoid, and Tanh activation functions, and state the scenarios where each is preferred.",
+    "Discuss the MP-Neuron unit along with the thresholding function, and determine the threshold values for implementing logical AND and OR functions.",
+    "Perform a forward pass and one iteration of backpropagation on a given neural network with specified weights, inputs, and learning rate, reporting values up to 2 decimal places.",
+    "Differentiate between L1 and L2 regularization techniques, and explain whether the dropout layer is active during the testing phase of a deep neural network.",
+    "Explain the necessity of activation functions in hidden layers of ANNs and discuss whether initializing all weights of a CNN to zero is a good practice.",
+    "Calculate the output feature map sizes and kernel depths for a given CNN architecture consisting of multiple convolutional and max-pooling layers.",
+    "Discuss the architecture of Long Short-Term Memory (LSTM) networks, highlighting how they differ from standard RNNs in handling sequential data.",
+    "Explain the architecture of Gated Recurrent Units (GRUs) and compare their structure and performance with LSTM units.",
+    "Discuss the concept of transfer learning with an example, and compare the architectural differences between AlexNet, VGG, and InceptionNet."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

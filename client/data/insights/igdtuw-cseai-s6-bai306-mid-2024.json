@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-mid-2024"
+  ],
+  "importantTopics": [
+    "Analog and Digital Image Fundamentals",
+    "Sampling and Quantization",
+    "Fundamental Steps of Digital Image Processing",
+    "Histogram Equalization",
+    "Pixel Distance Measures and Connectivity",
+    "2D Discrete Cosine Transform (DCT)",
+    "Contrast Stretching",
+    "Filtering Techniques and Wiener Filter"
+  ],
+  "likelyQuestions": [
+    "What is the difference between an analog image and a digital image? What are the applications of digital image processing?",
+    "Distinguish between image sampling and quantization in detail.",
+    "Why is the median filter considered better than the mean filter for salt-and-pepper noise removal?",
+    "Define homomorphic filtering along with its mathematical equations and block diagram.",
+    "Explain the fundamental steps of digital image processing with a neat diagram.",
+    "Given a 5x5 image with gray levels varying from 0 to 7, perform histogram equalization and obtain the final equalized image.",
+    "Consider an image segment and compute Dm, D4, and D8 distances between specified pixels for a given set of grey values V.",
+    "Compute the 2D Discrete Cosine Transform (DCT) for a given small grayscale image.",
+    "Perform contrast stretching on a given image matrix using specified input and output grey level thresholds.",
+    "Find the deblur filter using the Wiener filter approach given specific noise and blur filter parameters."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

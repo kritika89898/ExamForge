@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-end-2023",
+    "igdtuw-cseai-s6-bai304-end-2024"
+  ],
+  "importantTopics": [
+    "Neural Network Fundamentals and Perceptrons",
+    "Convolutional Neural Networks (CNN) Architecture",
+    "Optimization Algorithms and Learning Rates",
+    "Regularization Techniques and Dropout",
+    "Performance Metrics and Confusion Matrix",
+    "Hyper-parameter Tuning Strategies",
+    "Autoencoders (Under-complete and Regularized)",
+    "Generative Adversarial Networks (GANs)"
+  ],
+  "likelyQuestions": [
+    "Explain the problems associated with using the sigmoid activation function in deep learning models and how to mitigate them.",
+    "Calculate the prediction value, error value, and updated weights after one iteration of backpropagation for a given neural network.",
+    "Determine the output feature map sizes, kernel shapes, and weight counts for a given Convolutional Neural Network (CNN) configuration.",
+    "Explain the working mechanisms of Adagrad, momentum gradient descent, and Adam optimizers, and compare their performance.",
+    "Differentiate between L1 and L2 regularization techniques, and discuss their relationship with vanishing gradients and zero initialization.",
+    "Calculate performance parameters such as Accuracy, Precision, Recall, Sensitivity, Specificity, and F1-score from a given confusion matrix.",
+    "Differentiate between parameter tuning and hyper-parameter tuning, explaining both Grid and Random search approaches.",
+    "Explain the architecture, types, and applications of Autoencoders, including the relationship between autoencoders and PCA.",
+    "Discuss the structure, loss functions, and training dynamics of Generative Adversarial Networks (GANs), explaining how the generator and discriminator interact.",
+    "Explain the concepts of Batch Normalization, Dropout, and Early Stopping, and analyze whether they can be used simultaneously in deep learning models."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning-II - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-II - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

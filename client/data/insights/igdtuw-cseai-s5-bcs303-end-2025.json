@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2025"
+  ],
+  "importantTopics": [
+    "DFA, NFA and Epsilon-NFA",
+    "Regular Languages and Pumping Lemma",
+    "Context-Free Grammars and Parse Trees",
+    "Pushdown Automata",
+    "Greibach Normal Form",
+    "Turing Machines and Linear Bounded Automata",
+    "Mealy and Moore Machines",
+    "P, NP, NP-Complete and Halting Problem"
+  ],
+  "likelyQuestions": [
+    "Explain epsilon-closure of a state and differentiate between DFA, NFA, and epsilon-NFA.",
+    "Convert the given NFA transition table to an optimized DFA.",
+    "Show that the language L = {a^(k^2) | k >= 1} is not regular using the pumping lemma.",
+    "Find a Greibach normal form grammar equivalent to the given CFG.",
+    "Design a Pushdown Automata for the language L = {a^(2m) b^(3n) c^(3n) d^(2m) | m, n >= 1}.",
+    "Design a Turing Machine for the language L = {a^n b^n c^(2n) | n >= 1}.",
+    "Show that the language L = {a^(2^k) | k >= 1} is not context-free.",
+    "Explain P, NP, NP-complete, and NP-hard problems with suitable examples.",
+    "Explain Post Correspondence Problem with a suitable example.",
+    "Design a Moore machine for the input alphabet {0,1}* that outputs A if input ends in 101, outputs B if it ends in 110, and outputs C otherwise."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

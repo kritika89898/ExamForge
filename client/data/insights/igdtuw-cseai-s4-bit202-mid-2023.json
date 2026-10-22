@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2023"
+  ],
+  "importantTopics": [
+    "System Calls and Types",
+    "Process Concept and PCB",
+    "Logical vs Physical Address Space",
+    "Demand Paging and Page Faults",
+    "CPU Scheduling Algorithms",
+    "Preemptive and Non-Preemptive SJF",
+    "Round Robin Scheduling",
+    "Deadlock Characteristics and Handling"
+  ],
+  "likelyQuestions": [
+    "Define system calls and explain different types of system calls with suitable examples.",
+    "Explain the concept of a process and describe the contents of a Process Control Block (PCB).",
+    "Differentiate between physical and logical memory address spaces with examples.",
+    "Define page fault and explain page replacement using demand paging with a block diagram.",
+    "Given a set of processes with arrival times, burst times, and priorities, calculate the average waiting time using Priority and SJF scheduling algorithms.",
+    "Find the turnaround time and average waiting time for a set of processes using Round Robin Scheduling with a given time quantum.",
+    "Consider a preemptive SJF scheduling algorithm and find the average waiting time and average turnaround time for a given set of processes.",
+    "Calculate the number of page faults for a given reference string and number of frames using the Optimal Page Replacement Algorithm.",
+    "Calculate the number of page faults for a given reference string and number of frames using the LRU Page Replacement Algorithm.",
+    "What is Deadlock? Explain the necessary conditions for deadlock and methods for handling it in detail."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

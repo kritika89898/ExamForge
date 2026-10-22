@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2022",
+    "igdtuw-cseai-s4-bai202-end-2023"
+  ],
+  "importantTopics": [
+    "OSI and TCP/IP Reference Models",
+    "IPv4 and IPv6 Addressing and Subnetting",
+    "Error Detection and Correction Codes",
+    "Medium Access Control Protocols",
+    "Routing Algorithms and Protocols",
+    "Transport Layer Protocols and Handshaking",
+    "Flow and Congestion Control Mechanisms",
+    "Application Layer Protocols"
+  ],
+  "likelyQuestions": [
+    "Compare and contrast the OSI reference model with the TCP/IP model.",
+    "Explain IPv4 header fields and discuss how IP version 4 address space is divided into classful addresses.",
+    "Compare and contrast Link State routing and Distance Vector routing algorithms.",
+    "Explain the three-way handshaking protocol with relevant diagrams.",
+    "Discuss the leaky bucket algorithm for traffic shaping.",
+    "Explain CSMA/CD protocol in Ethernet and compare it with ALOHA schemes.",
+    "Explain the reason for moving from Stop-and-Wait ARQ protocol to Go-Back-N ARQ protocol.",
+    "What is subnetting? Given an IP address and network block, find the subnet mask, number of addresses, and first/last addresses.",
+    "Explain error detection and correction mechanisms such as CRC, VRC, LRC, and LDPC codes.",
+    "Discuss the features of HTTP, explain how HTTP works, and describe the working of electronic mail using SMTP."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

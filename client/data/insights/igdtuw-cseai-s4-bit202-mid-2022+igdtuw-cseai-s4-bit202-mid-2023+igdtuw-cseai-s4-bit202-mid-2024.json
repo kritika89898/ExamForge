@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2022",
+    "igdtuw-cseai-s4-bit202-mid-2023",
+    "igdtuw-cseai-s4-bit202-mid-2024"
+  ],
+  "importantTopics": [
+    "Process States and Schedulers",
+    "CPU Scheduling Algorithms (FCFS, SJF, Priority, Round Robin)",
+    "Preemptive vs Non-Preemptive Scheduling",
+    "Deadlock Characterization and Handling",
+    "Logical and Physical Address Space",
+    "Memory Management and Fragmentation",
+    "Paging and Segmentation",
+    "Page Replacement Algorithms (FIFO, LRU, Optimal)"
+  ],
+  "likelyQuestions": [
+    "Explain the various states that a process can be in using a process state diagram, and briefly explain the different types of schedulers.",
+    "Define system calls and explain the various types of system calls provided by operating systems with examples.",
+    "Differentiate between physical and logical address space with a suitable explanation.",
+    "Explain the concept of process control block (PCB) and describe its contents.",
+    "What is Deadlock? What are the four necessary conditions for deadlock and explain different methods for handling it in detail.",
+    "Explain the different types of fragmentation that can occur in contiguous memory allocation and discuss what kind of fragmentation paging suffers from.",
+    "Consider a set of processes with given arrival times and burst times. Calculate the average waiting time and average turnaround time using the Shortest Job First (SJF) preemptive scheduling algorithm.",
+    "Consider a set of processes with given arrival times and burst times. Calculate the average waiting time and average turnaround time using the Round Robin scheduling algorithm for a given time quantum.",
+    "Consider a set of processes with given arrival times, burst times, and priorities. Calculate the average waiting time and average turnaround time using preemptive priority scheduling.",
+    "Consider a page reference string and a fixed number of page frames. Find the total number of page faults using Optimal, FIFO, and Least Recently Used (LRU) page replacement algorithms."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

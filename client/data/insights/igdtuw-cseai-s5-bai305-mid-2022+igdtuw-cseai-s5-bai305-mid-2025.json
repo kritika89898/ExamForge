@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2022",
+    "igdtuw-cseai-s5-bai305-mid-2025"
+  ],
+  "importantTopics": [
+    "McCulloch-Pitts Neuron and Logic Gates",
+    "Perceptron Model and Learning Algorithm",
+    "Activation Functions and Thresholding",
+    "Multi-Layer Perceptron (MLP) Architecture",
+    "Loss Functions and Metrics",
+    "Overfitting and Underfitting",
+    "Computational Graphs and Derivatives",
+    "Data Augmentation and Feature Scaling"
+  ],
+  "likelyQuestions": [
+    "Explain the structure and working of a McCulloch-Pitts neuron with the help of a diagram and implement AND/OR gates.",
+    "Describe the Perceptron Learning Algorithm (PLA) and explain why the perceptron fails for non-linearly separable problems.",
+    "Explain the architecture, working, and design parameters of a Multi-Layer Perceptron (MLP).",
+    "Differentiate between overfitting and underfitting in neural networks using learning curves and discuss methods to prevent them.",
+    "Calculate cross-entropy loss, Mean Absolute Error (MAE), and Mean Squared Error (MSE) given predicted and actual outputs.",
+    "Compute the softmax operation on a given set of classifier outputs.",
+    "Explain gradient descent and its purpose in training neural networks, including the drawing of computational graphs and partial derivatives.",
+    "What are the two types of feature scaling techniques for numeric data? Explain with formulas and perform them on a given 1-D dataset.",
+    "How do you perform data augmentation for numeric, image, and text datasets?",
+    "Describe the Backpropagation algorithm of MLP with an example."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

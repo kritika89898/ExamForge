@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bcs306-end-2023",
+    "igdtuw-cseai-s6-bcs306-end-2024"
+  ],
+  "importantTopics": [
+    "Phases of Compiler and Lexical Analysis",
+    "Grammar Transformations and Parsing Techniques",
+    "FIRST and FOLLOW Functions",
+    "SLR and LALR Parsing",
+    "Syntax Directed Translation",
+    "Source Language Issues and Storage Allocation",
+    "Intermediate Code Generation",
+    "Code Optimization"
+  ],
+  "likelyQuestions": [
+    "Explain in detail about various phases of a compiler with a neat diagram and suitable example for each phase.",
+    "What is left factoring in a grammar? Remove left factoring from the given grammar and eliminate left recursion.",
+    "Define FIRST and FOLLOW functions, and explain the rules with an example grammar.",
+    "Define Ambiguity and check whether the given grammar is ambiguous or not.",
+    "Briefly explain about Finite Automata, Derivation tree and parse tree, Ambiguity with an example, and Bootstrapping.",
+    "Construct LR(0) items and SLR Parsing table for the given grammar.",
+    "By explaining the steps followed to construct LALR parse table, design a LALR parse table for the given grammar.",
+    "Define what Syntax Directed Definitions are, and explain bottom-up evaluation of S-attributed and inherited attributes with examples.",
+    "Discuss about different source language issues and explain about various storage allocation strategies.",
+    "Explain about Three Address Code, Quadruples, Triples, and Principal sources of code optimization with suitable examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Compiler Design - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Compiler Design - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

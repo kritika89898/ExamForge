@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2022",
+    "igdtuw-cseai-s5-bai301-mid-2025"
+  ],
+  "importantTopics": [
+    "Confusion Matrix Evaluation Metrics",
+    "Linear and Least Squares Regression",
+    "Ridge and Lasso Regularization",
+    "Support Vector Machines and Kernels",
+    "K-Nearest Neighbors (KNN) Algorithm",
+    "Decision Tree Learning and ID3/CART",
+    "Cross Validation Techniques",
+    "Data Preprocessing and Handling Missing Data"
+  ],
+  "likelyQuestions": [
+    "Compute evaluation metrics such as F1 score, TPR, TNR, FPR, and FNR from a given confusion matrix.",
+    "Derive or create the least square regression line for a given set of 2D points.",
+    "Differentiate between Ridge Regression and LASSO Regression, highlighting their contrasting penalties.",
+    "Explain the working principle of Support Vector Machines, maximum margin hyperplanes, and the role of kernels in handling non-linear data.",
+    "Apply the K-Nearest Neighbors (KNN) lazy learning algorithm with a specified value of k to classify a new data point using Euclidean distance.",
+    "Demonstrate the choice of a root node for a decision tree using ID3 or CART algorithms on a given dataset.",
+    "Explain the concept of K-Fold Cross Validation and calculate the number of training and testing samples for each fold.",
+    "Explain the bias-variance tradeoff when applied to classification models.",
+    "Discuss the importance of data cleaning, integration, and handling missing or inconsistent data in machine learning.",
+    "Explain Decision Tree learning along with its advantages, limitations, and construction steps."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

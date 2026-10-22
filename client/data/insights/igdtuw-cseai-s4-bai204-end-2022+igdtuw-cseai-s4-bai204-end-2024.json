@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2022",
+    "igdtuw-cseai-s4-bai204-end-2024"
+  ],
+  "importantTopics": [
+    "Engineering Optimization Fundamentals and Problem Formulation",
+    "Linear Programming and Graphical Method",
+    "Simplex Method and LP Optimality Conditions",
+    "Network Flow and Transshipment Problems",
+    "Genetic Algorithms (GA)",
+    "Ant Colony Optimization (ACO)",
+    "Particle Swarm Optimization (PSO)",
+    "Decision Analysis and Decision Making under Uncertainty"
+  ],
+  "likelyQuestions": [
+    "Discuss two applications of optimization in engineering, and explain the steps and general structure of optimization algorithms.",
+    "Define and explain the role of constraints in defining the feasible region using a practical example.",
+    "A manufacturer produces two products A and B processed on two different machines. Compute the maximum profit using the Graphical Method and discuss its limitations compared to the Simplex Method.",
+    "Discuss the conditions under which the Simplex method terminates and how it detects an unbounded solution in linear programming.",
+    "Develop an integer programming model or network flow formulation for a logistical routing or transshipment problem.",
+    "Explain how Genetic Algorithms are applied to solve the Knapsack Problem, highlighting encoding, fitness function, selection, crossover, and mutation.",
+    "Design an Ant Colony Optimization algorithm for the Traveling Salesman Problem, outlining the pheromone update rule, ant movement strategy, and solution construction.",
+    "Illustrate the Particle Swarm Optimization technique (PSO), including how velocity is updated and how it differs from genetic algorithms.",
+    "Formulate a decision-making situation under probabilistic demand into a decision tree, calculate expected values, and determine the most preferred decision.",
+    "Analyze a given payoff matrix under various decision-making criteria including Maximin, Maximax, Equal Probability, Regret, and Hurwicz criteria."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

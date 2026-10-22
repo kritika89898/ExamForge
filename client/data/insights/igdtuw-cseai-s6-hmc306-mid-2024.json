@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-mid-2024"
+  ],
+  "importantTopics": [
+    "Time Value of Money and Perpetuity",
+    "Compounding and Future Value",
+    "Capital Structure and Business Risk",
+    "Features of Preference Shares",
+    "Sinking Fund and Replacement Decisions",
+    "Profit Maximisation vs Wealth Maximisation",
+    "Determinants of Optimum Capital Structure",
+    "Explicit and Implicit Cost of Capital"
+  ],
+  "likelyQuestions": [
+    "Calculate the present value of a perpetuity of Rs 1,000 receivable annually at a 12% interest rate.",
+    "An investor deposits Rs 2,00,000 at the beginning of a year at 12% compounded annually. What amount will be received at the end of the second year?",
+    "Explain how high financial leverage impacts a firm with high business risk.",
+    "Discuss the primary characteristics and advantages of issuing preference shares for a corporation.",
+    "Determine the annual deposit required at an 8% interest rate to accumulate Rs 5,00,000 in 5 years for equipment replacement.",
+    "Why is wealth maximisation considered a more comprehensive goal for a firm than profit maximisation? Illustrate with an example.",
+    "Justify the concept that money has time value using a numerical example involving present and future values.",
+    "As a financial manager of a manufacturing startup, what key factors would you consider while determining its optimum capital structure?",
+    "Explain the significance of the cost of capital in capital budgeting and valuation decisions.",
+    "Define explicit and implicit costs. Differentiate between them with suitable corporate examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Financial Management - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

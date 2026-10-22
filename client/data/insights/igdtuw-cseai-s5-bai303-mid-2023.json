@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2023"
+  ],
+  "importantTopics": [
+    "General Security Issues",
+    "SQL Injection",
+    "Wireless Network Security",
+    "Security in Laptops",
+    "Classifications of Security Threats",
+    "DOS and DDOS",
+    "Virus and Worms",
+    "Transposition Ciphers, Digital Signatures, and VPNs"
+  ],
+  "likelyQuestions": [
+    "Write a short note on security issues.",
+    "Explain SQL injection with a suitable example.",
+    "Discuss the key challenges in wireless network security.",
+    "What are the main security concerns and mitigation strategies for laptops?",
+    "Discuss the classifications of security threats in detail.",
+    "Differentiate between Denial of Service (DOS) and Distributed Denial of Service (DDOS) attacks.",
+    "Differentiate between computer viruses and worms.",
+    "Encrypt the plaintext 'Cyber Security' using a transposition cipher with the key 'Secure'.",
+    "Explain the working of the Digital Signature algorithm.",
+    "What is a Virtual Private Network (VPN)? Explain its types."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}
