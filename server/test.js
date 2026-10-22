@@ -14,6 +14,7 @@ const {
     validateComparison,
     validatePrediction,
 } = require("../client/api/predict")._internal;
+const { _internal } = require("../client/api/predict");
 
 const crypto = require("node:crypto");
 
@@ -347,6 +348,60 @@ test("AI Studio tells Gemini how many years it is comparing", async () => {
         assert.equal(response.status, 200);
         assert.match(calls[0].body.contents[0].parts[0].text, /The 2 supplied papers/);
     });
+});
+
+test("AI Studio moves to the backup model when the first one is too slow", async () => {
+    const prediction = { importantTopics: ["Topic"], likelyQuestions: ["Question?"] };
+
+    await withFakeGemini((model) => {
+        if (model === "gemini-3.5-flash-lite") {
+            const timeout = new Error("The operation was aborted due to timeout");
+            timeout.name = "TimeoutError";
+            throw timeout;
+        }
+        return geminiReply(prediction);
+    }, async (calls) => {
+        const response = await fetch(predictUrl({
+            subjectCode: "BAI 303",
+            examType: "End Semester",
+            paperIds: "igdtuw-cseai-s5-bai303-end-2025",
+        }));
+        assert.equal(response.status, 200);
+        assert.deepEqual(calls.map((call) => call.model), ["gemini-3.5-flash-lite", "gemini-3.8-flash"]);
+    });
+});
+
+test("AI Studio reports a timeout clearly when every model is too slow", async () => {
+    await withFakeGemini(() => {
+        const timeout = new Error("timeout");
+        timeout.name = "TimeoutError";
+        throw timeout;
+    }, async (calls) => {
+        const response = await fetch(predictUrl({
+            subjectCode: "BAI 303",
+            examType: "End Semester",
+            paperIds: "igdtuw-cseai-s5-bai303-end-2025",
+        }));
+        assert.equal(response.status, 504);
+        assert.match((await response.json()).message, /took too long/);
+        assert.equal(calls.length, 2);
+    });
+});
+
+test("AI Studio does not retry a request Gemini rejects as invalid", async () => {
+    await withFakeGemini(() => geminiReply(null, 400), async (calls) => {
+        const response = await fetch(predictUrl({
+            subjectCode: "BAI 303",
+            examType: "End Semester",
+            paperIds: "igdtuw-cseai-s5-bai303-end-2025",
+        }));
+        assert.equal(response.status, 502);
+        assert.equal(calls.length, 1);
+    });
+});
+
+test("each Gemini attempt is capped well below the function limit", () => {
+    assert.equal(_internal.GEMINI_TIMEOUT_MS <= 45 * 1000, true);
 });
 
 test("GEMINI_MODEL overrides the default model list", () => {
