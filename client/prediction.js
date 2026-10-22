@@ -75,7 +75,8 @@
     }
 
     function comparisonReady() {
-        return totalSelected() === maxPapers && hasUniqueYears();
+        // One paper is enough to analyse; more years make patterns more reliable.
+        return totalSelected() >= 1 && totalSelected() <= maxPapers && hasUniqueYears();
     }
 
     function setStatus(message, type = "") {
@@ -114,7 +115,7 @@
 
         elements.coverage.innerHTML = targetYears().map((year) => {
             let status = "missing";
-            let label = "Upload needed";
+            let label = "Optional upload";
             if (archiveYears.has(year)) {
                 status = "available";
                 label = "On site";
@@ -129,22 +130,23 @@
 
     function refreshSelectionSummary() {
         const total = totalSelected();
-        const remaining = maxPapers - total;
-        elements.counter.textContent = `${total} of ${maxPapers} years selected`;
+        elements.counter.textContent = `${total} of up to ${maxPapers} years selected`;
 
         if (!hasUniqueYears()) {
             elements.summary.textContent = "Each selected paper must be from a different year.";
-        } else if (comparisonReady()) {
-            elements.summary.textContent = `${elements.examType.value}: ${selectionYears().sort((a, b) => a - b).join(", ")} ready for analysis.`;
+        } else if (total === 0) {
+            elements.summary.textContent = `Choose 1 to ${maxPapers} ${elements.examType.value} papers. More years give more reliable patterns.`;
         } else {
-            elements.summary.textContent = `Add ${remaining} more ${elements.examType.value} paper${remaining === 1 ? "" : "s"} from different years.`;
+            const years = selectionYears().sort((a, b) => a - b).join(", ");
+            const tip = total < maxPapers ? " Add another year for stronger patterns, or analyse now." : "";
+            elements.summary.textContent = `${elements.examType.value}: ${years} ready for analysis.${tip}`;
         }
 
         elements.button.disabled = !comparisonReady();
         if (!elements.button.classList.contains("is-loading")) {
             let label = "Find topics & likely questions";
             if (!hasUniqueYears()) label = "Pick papers from different years";
-            else if (remaining > 0) label = `Add ${remaining} more paper${remaining === 1 ? "" : "s"} to analyse`;
+            else if (total === 0) label = "Select a paper to analyse";
             elements.buttonLabel.textContent = label;
         }
         renderYearCoverage();
@@ -161,7 +163,7 @@
             elements.archiveList.innerHTML = `
                 <div class="papers-empty">
                     <strong>No ${escapeHTML(elements.examType.value)} papers for this subject yet</strong>
-                    Upload three papers from different years below.
+                    Upload 1 to 3 papers from different years below.
                 </div>`;
             refreshSelectionSummary();
             return;
@@ -300,7 +302,7 @@
         const current = selectedSubject();
 
         if (!current || !comparisonReady()) {
-            setStatus("Choose exactly three papers of the selected exam type from different years.", "error");
+            setStatus(`Choose 1 to ${maxPapers} papers of the selected exam type, each from a different year.`, "error");
             return;
         }
 
@@ -317,7 +319,10 @@
         elements.button.classList.add("is-loading");
         elements.buttonLabel.textContent = "Analysing... (usually under a minute)";
         elements.results.hidden = true;
-        setStatus(`Comparing three years of ${elements.examType.value} papers...`);
+        const paperCount = totalSelected();
+        setStatus(paperCount === 1
+            ? `Analysing one ${elements.examType.value} paper...`
+            : `Comparing ${paperCount} years of ${elements.examType.value} papers...`);
 
         try {
             // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
