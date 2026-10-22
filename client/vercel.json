@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/predict.js": {
+      "maxDuration": 120,
+      "includeFiles": "{data/papers.json,papers/**}"
+    }
+  }
+}
