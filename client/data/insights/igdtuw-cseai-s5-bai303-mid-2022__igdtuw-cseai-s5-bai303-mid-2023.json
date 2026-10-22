@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2022",
+    "igdtuw-cseai-s5-bai303-mid-2023"
+  ],
+  "importantTopics": [
+    "Active and Passive Attacks",
+    "Denial of Service and Distributed Denial of Service Attacks",
+    "Password Attacks and Countermeasures",
+    "Network Security and Spoofing",
+    "Malicious Software and Security Threats",
+    "Encryption and Transposition Ciphers",
+    "Digital Signatures and Authentication",
+    "Virtual Private Networks and Proxy Servers"
+  ],
+  "likelyQuestions": [
+    "Conceptually analyze the difference between active and passive attacks with examples.",
+    "Elucidate the conceptual difference in the working principle of DoS and DDoS attacks along with countermeasures.",
+    "Critically examine the difference between password guessing and password cracking with a suitable example.",
+    "Discuss the classifications of security threats in the context of cybersecurity.",
+    "Differentiate between virus and worms with appropriate examples.",
+    "Explain transposition cipher and encrypt the plain text 'I love my India' using a transposition cipher and key 'Backup'.",
+    "Explain the Digital Signature algorithm and its significance in information security.",
+    "What is a VPN? Explain its types and underlying principles.",
+    "Critically analyze the significance of man-in-the-middle attacks and illustrate attack prevention techniques.",
+    "Discuss the consequences of identity theft in today's cyber world and analyze its prevention techniques."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

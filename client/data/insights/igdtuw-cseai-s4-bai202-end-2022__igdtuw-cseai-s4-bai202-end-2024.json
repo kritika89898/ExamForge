@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2022",
+    "igdtuw-cseai-s4-bai202-end-2024"
+  ],
+  "importantTopics": [
+    "OSI Reference Model and Layering",
+    "Transmission Media and Network Topologies",
+    "Data Link Layer Protocols and Error Control",
+    "Medium Access Control (MAC) and Ethernet",
+    "IPv4/IPv6 Addressing and Subnetting",
+    "Routing Algorithms and Protocols",
+    "Transport Layer Protocols and UDP Header",
+    "Application Layer Protocols (HTTP and SMTP)"
+  ],
+  "likelyQuestions": [
+    "Draw the OSI network architecture and explain the functionalities of every layer in detail.",
+    "Explain the Shielded twisted pair (STP), Unshielded twisted pair (UTP), and mention the advantages of fiber optics.",
+    "Explain CRC, LRC, and VRC along with relevant examples.",
+    "Describe CSMA/CD protocol in Ethernet and discuss ALOHA throughput calculations.",
+    "Describe the sliding window protocol using Go-Back-N.",
+    "Compare and contrast Link State routing and Distance vector routing, or use Dijkstra's algorithm to find the shortest path tree.",
+    "Compare and contrast IPv4 header with IPv6 header and explain the need for IPv6 addressing.",
+    "Perform IP subnetting to find subnets, subnet masks, host counts, and specific host IP addresses.",
+    "Draw and explain different fields of a UDP header and extract details from a hexadecimal UDP header format.",
+    "Explain the three-way handshaking protocol, leaky bucket algorithm, HTTP features, and SMTP in email applications."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

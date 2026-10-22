@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2022",
+    "igdtuw-cseai-s5-hmc301-end-2023"
+  ],
+  "importantTopics": [
+    "Professionalism and Professional Ethics",
+    "Moral Development Theories",
+    "Feminist Ethics",
+    "Human Rights and Employee Rights",
+    "Intellectual Property Rights",
+    "Engineering Safety and Industrial Case Studies",
+    "Computer Ethics",
+    "Corporate Social Responsibility"
+  ],
+  "likelyQuestions": [
+    "Define morals, values, and ethics, and explain the difference between professional and professionalism.",
+    "Discuss the relevance of professional ethics and human values in today's environment of conflicts and stress, citing a company example and work-life balance initiatives.",
+    "Compare and contrast the theories of moral development and discuss their limitations.",
+    "Why are feminist ethics important in the 21st century?",
+    "Explain rights-based and duty-based ethical theories and differentiate between them with suitable examples.",
+    "How does Intellectual Property Rights (IPR) provide security to the manufacturing and selling of a product?",
+    "Discuss the role of organizations and ethical issues/faults in major engineering disasters such as the Bhopal gas tragedy, the Challenger disaster, or the Fukushima nuclear disaster.",
+    "Explain the concept of engineering as experimentation and discuss its implications with suitable examples.",
+    "Describe the concept of computer ethics, its significance, and related issues in detail.",
+    "Define Corporate Social Responsibility (CSR), explain its models, and evaluate a company's CSR ventures."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2022",
+    "igdtuw-cseai-s5-bai301-mid-2023",
+    "igdtuw-cseai-s5-bai301-mid-2025"
+  ],
+  "importantTopics": [
+    "Confusion Matrix and Evaluation Metrics",
+    "Linear Regression and Least Squares",
+    "Regularization Techniques (Ridge and Lasso)",
+    "Support Vector Machines and Kernels",
+    "Decision Tree Induction (ID3/CART)",
+    "K-Nearest Neighbors (KNN) Algorithm",
+    "Data Preprocessing and Exploratory Data Analysis",
+    "Cross-Validation and Data Splitting"
+  ],
+  "likelyQuestions": [
+    "Compute F1 score, Accuracy, Precision, Recall, TPR, TNR, FPR, and FNR from a given confusion matrix.",
+    "Derive or compute the least square regression line and R-squared value for a set of given 2D points.",
+    "Contrast Lasso and Ridge regression, explaining their differences and penalties.",
+    "Explain the working principle of Support Vector Machines, maximum margin hyperplanes, and the role of kernels.",
+    "Demonstrate the choice of root node and build a decision tree using algorithms like ID3 or CART based on a dataset with categorical features.",
+    "Apply the K-Nearest Neighbors (KNN) lazy learner classifier with a specified value of K (e.g., K=3) to classify a new data point and determine test accuracy.",
+    "Explain the role of data preprocessing, handling missing/inconsistent data, data splitting, and standardization in machine learning.",
+    "Describe the concept of K-Fold Cross Validation and calculate training and testing sample counts for each fold.",
+    "Explain the Bias-Variance tradeoff when applied to classification and regression models.",
+    "Explain the importance of Exploratory Data Analysis (EDA) and data visualization techniques in machine learning."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

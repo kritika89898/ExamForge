@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2022",
+    "igdtuw-cseai-s5-hmc301-mid-2023"
+  ],
+  "importantTopics": [
+    "Sympathy and Empathy",
+    "Normative Enquiry",
+    "Moral Dilemma",
+    "Kohlberg's Theory of Moral Development",
+    "Indian Values and Vedas",
+    "Engineering Ethics and Ethical Obligations",
+    "Code of Conduct for Engineers",
+    "Ethical Living and Harmony"
+  ],
+  "likelyQuestions": [
+    "Write a short note on sympathy and empathy with examples.",
+    "Explain normative enquiry with a suitable example.",
+    "What is a moral dilemma? Enumerate the steps in confronting a moral dilemma.",
+    "Explain in detail Kohlberg's theory of moral development including its six stages.",
+    "Explain Indian values and human values on the conceptual framework of Vedas.",
+    "What are the ethical obligations and code of conduct for engineers? Cite examples.",
+    "Write short notes on sharing and caring in a professional environment.",
+    "Differentiate between justice-based morality and care-based morality with examples.",
+    "What is ethics and how does it relate specifically to engineering ethics?",
+    "Explain the concept of religion and human values with examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

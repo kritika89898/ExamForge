@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2023",
+    "igdtuw-cseai-s5-hmc301-end-2025"
+  ],
+  "importantTopics": [
+    "Moral values and ethics",
+    "Moral development theories",
+    "Engineering as experimentation",
+    "Corporate Social Responsibility",
+    "Intellectual Property Rights",
+    "Professionalism and moral dilemmas",
+    "Environmental ethics",
+    "Research ethics"
+  ],
+  "likelyQuestions": [
+    "Define morals, values and ethics with examples.",
+    "Explain Kohlberg's and Gilligan's theories of moral development.",
+    "Discuss engineering as experimentation and its role in the design process.",
+    "Explain the concept of Corporate Social Responsibility along with its models and parameters.",
+    "What are Intellectual Property Rights (IPR) and why is it necessary to have IPR with examples?",
+    "Discuss the role of organization and ethical issues considering major cases like Bhopal gas tragedy or Chernobyl/Three Mile Island accident.",
+    "Define Professionalism and explain moral dilemmas and responsibilities with respect to professionalism.",
+    "Define the terms profession and professionalism.",
+    "Explain environmental ethics along with its all parameters.",
+    "Explain research ethics along with its all parameters and relevance."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

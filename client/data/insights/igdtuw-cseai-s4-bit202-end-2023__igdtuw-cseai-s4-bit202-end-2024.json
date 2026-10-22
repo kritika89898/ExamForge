@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2023",
+    "igdtuw-cseai-s4-bit202-end-2024"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Banker's Algorithm for Deadlock Avoidance",
+    "Disk Scheduling Algorithms",
+    "Page Replacement Algorithms",
+    "Paging and Virtual Memory Address Translation",
+    "Process Synchronization and Classical Problems",
+    "Free Space and Swap Space Management",
+    "Directory Implementation and File Systems"
+  ],
+  "likelyQuestions": [
+    "Consider a set of processes with arrival times and CPU bursts, draw the Gantt chart and calculate average waiting time and average turnaround time for FCFS, SJF, SRTF, and Round Robin scheduling algorithms.",
+    "Given a system snapshot with allocation, max need, and available resources, calculate the need matrix, determine if the system is in a safe state using Banker's Algorithm, and evaluate if a specific resource request can be granted immediately.",
+    "Given a disk drive with a specified number of cylinders, a current head position, and a queue of pending requests, calculate the total head movement/overhead using SSTF, SCAN, C-SCAN, LOOK, and C-LOOK algorithms.",
+    "Consider a logical address space, physical address space, and page size, calculate the number of bits for logical/physical addresses, number of pages, number of frames, and page table size.",
+    "Consider a reference string and a fixed number of frames, calculate the number of page faults using FIFO, LRU, Optimal, and LFU page replacement algorithms.",
+    "What do you understand by process synchronization? Explain any two classical problems of process synchronization.",
+    "Explain different types of operating systems along with examples and diagrams.",
+    "Discuss free space management in operating systems using suitable diagrams and explain swap-space management.",
+    "Describe different directory implementation methods in operating systems, including directory implementation using singly linked lists.",
+    "What is a directory? What are the different ways of implementing a directory, and explain the allocation schemes that exist for allocating secondary storage to files."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

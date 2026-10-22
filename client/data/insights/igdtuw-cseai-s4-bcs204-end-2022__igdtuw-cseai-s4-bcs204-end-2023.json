@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2022",
+    "igdtuw-cseai-s4-bcs204-end-2023"
+  ],
+  "importantTopics": [
+    "Asymptotic Analysis and Recurrence Relations",
+    "Divide and Conquer Algorithms",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Optimal Binary Search Trees",
+    "Graph Algorithms: Shortest Paths and Bellman-Ford",
+    "Graph Algorithms: Minimum Spanning Trees and Traversals",
+    "String Matching Algorithms: KMP, Finite Automata, and Rabin-Karp",
+    "NP-Completeness and Polynomial-Time Reductions"
+  ],
+  "likelyQuestions": [
+    "Compare the growth rates of two algorithms and determine for which problem sizes one outperforms the other.",
+    "Solve a given recurrence relation using substitution, iteration, or the master method.",
+    "Design a greedy algorithm for an optimization problem and analyze its time complexity.",
+    "Explain the Greedy algorithm for generating Huffman codes and construct an optimal binary code given a set of characters and frequencies.",
+    "Explain and write the dynamic programming algorithm for constructing an optimal binary search tree.",
+    "Run the Bellman-Ford algorithm on a given weighted directed graph and explain how to detect negative-weight cycles.",
+    "Find the minimum spanning tree of a weighted graph using Kruskal's or Prim's algorithm.",
+    "Search for a pattern in a given text string using the Knuth-Morris-Pratt (KMP) or Finite Automata string matching algorithm.",
+    "Explain the Rabin-Karp string matching algorithm with an example and write its pseudo code.",
+    "Define NP-complete problems and provide a polynomial-time reduction proof between known NP-complete problems such as clique, vertex cover, or set cover."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

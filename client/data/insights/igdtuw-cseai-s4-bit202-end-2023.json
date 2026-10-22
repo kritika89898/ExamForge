@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2023"
+  ],
+  "importantTopics": [
+    "RAID Structure",
+    "CPU Scheduling Algorithms",
+    "Page Replacement Algorithms",
+    "Banker's Algorithm and Deadlock",
+    "Disk Scheduling Algorithms",
+    "Process Synchronization and Race Conditions",
+    "Paging and Segmentation",
+    "File System Allocation and Directory Structure"
+  ],
+  "likelyQuestions": [
+    "Explain how RAID structure guarantees improvement of reliability and performance.",
+    "When does context switch occur? Describe the actions taken by the OS when a context switch occurs.",
+    "When does a race condition arise? Can we guard against this condition? How?",
+    "How can paging and segmentation be combined together?",
+    "Given a set of processes with arrival times, burst times, and priorities, draw the Gantt chart and calculate the average waiting time and average turnaround time for SJF, SRTF, Round Robin, and Priority scheduling algorithms.",
+    "Given a reference string and a fixed number of allocated frames, calculate the number of page faults for FIFO, LRU, Optimal, LFU, and MFU page replacement algorithms.",
+    "Given an allocation matrix, max matrix, and available resources, calculate the need matrix, determine if the system is in a safe state, and evaluate if a specific resource request can be granted immediately.",
+    "Given a disk drive with a specific number of cylinders, a current head position, previous request position, and a queue of pending requests, calculate the total head movement distance for Elevator, LOOK, C-SCAN, and C-LOOK algorithms.",
+    "What is a directory? What are the different ways of implementing a directory? Explain the allocation schemes that exist for allocating secondary storage to files.",
+    "Write short notes on the following: (i) Disk management, (ii) Free space management, (iii) Swap space management, (iv) Disk Structure."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

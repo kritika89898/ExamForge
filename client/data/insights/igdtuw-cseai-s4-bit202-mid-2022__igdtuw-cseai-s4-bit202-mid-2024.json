@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2022",
+    "igdtuw-cseai-s4-bit202-mid-2024"
+  ],
+  "importantTopics": [
+    "Process States and Schedulers",
+    "CPU Scheduling Algorithms (FCFS, SJF, Round Robin, Priority)",
+    "Preemption and Non-preemptive Scheduling",
+    "Memory Management and Contiguous Allocation",
+    "Fragmentation (Internal and External)",
+    "Virtual Memory and Paging",
+    "Page Replacement Algorithms (FIFO, LRU, Optimal)",
+    "Deadlock Conditions and Characteristics"
+  ],
+  "likelyQuestions": [
+    "Explain the various states that a process can be in with the help of a process state diagram, and briefly explain different types of schedulers.",
+    "Differentiate between long-term and short-term schedulers, and discuss how multi-tasking is an extension of multi-programming.",
+    "Given a set of processes with arrival times and burst times, calculate the average waiting time and average turnaround time using the Shortest Job First (SJF) scheduling algorithm.",
+    "Explain the concept of preemption in CPU scheduling and show how it affects average waiting time and turnaround time.",
+    "Calculate the average waiting time and average turnaround time for a given set of processes using the Round Robin scheduling algorithm with a specified time quantum.",
+    "Solve for average waiting time and average turnaround time using pre-emptive priority CPU scheduling for a given set of processes.",
+    "What are the different types of fragmentation that occur in contiguous memory allocation, and what kind of fragmentation does paging suffer from?",
+    "Explain the concept of Logical Address Space, Physical Address Space, and Contiguous Memory Allocation.",
+    "Consider a given page reference string and a fixed number of frames, calculate the total number of page faults using the Least Recently Used (LRU) page replacement algorithm.",
+    "Given a page reference string, find the number of page faults using the Optimal page replacement algorithm and explain why it is considered better than other algorithms."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2022"
+  ],
+  "importantTopics": [
+    "Natural and Man-made Disasters",
+    "Hazard and Vulnerability Concepts",
+    "Cold Wave and Meteorological Events",
+    "Rehabilitation and Post-Disaster Recovery",
+    "Disaster Management Framework",
+    "Landslide Disaster Analysis",
+    "Earthquake Management and Case Studies",
+    "Industrial and Conflict-Related Disasters"
+  ],
+  "likelyQuestions": [
+    "Differentiate between natural and man-made disasters with suitable examples.",
+    "Define hazard and explain its relationship with vulnerability.",
+    "Explain cold wave as a meteorological disaster and discuss its impacts.",
+    "What do you understand by rehabilitation? Discuss its key components in disaster recovery.",
+    "What is disaster management? Explain its various phases in detail.",
+    "Define landslide disaster and discuss its primary causes and management strategies.",
+    "What is an earthquake? Discuss specific mitigation and management steps for earthquakes.",
+    "Discuss the causes and consequences of the Bhopal gas tragedy.",
+    "Analyze the Bhuj earthquake event and the lessons learned from disaster response.",
+    "What is a cyclone? Discuss the pre-disaster, during-disaster, and post-disaster management steps for cyclones."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

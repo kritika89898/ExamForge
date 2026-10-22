@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2025"
+  ],
+  "importantTopics": [
+    "Data Visualization Techniques",
+    "K-Fold Cross Validation",
+    "Ridge and LASSO Regression",
+    "Support Vector Machines and Kernels",
+    "Classification Metrics and Confusion Matrix",
+    "Data Cleaning and Preprocessing",
+    "Decision Tree Learning",
+    "K-Nearest Neighbors Algorithm"
+  ],
+  "likelyQuestions": [
+    "What are Data Visualization techniques and their significance in exploratory data analysis?",
+    "Explain the concept of K-Fold Cross Validation using a clear example.",
+    "Differentiate between Ridge Regression and LASSO Regression with respect to their penalty terms.",
+    "Explain the working principle of Support Vector Machines and describe how kernels help in handling non-linear data.",
+    "Given a confusion matrix with specified True Positives, False Positives, True Negatives, and False Negatives, calculate the Accuracy, Precision, Recall, and F1 Score.",
+    "Explain the importance of data cleaning and integration in machine learning, and detail common techniques used for handling missing or inconsistent data.",
+    "Given a dataset of N samples, calculate the number of training and testing samples in each fold for 5-Fold Cross Validation and Stratified 5-Fold Cross Validation.",
+    "Explain Decision Tree Learning with a neat diagram and discuss its advantages and limitations.",
+    "Classify a new data point using the KNN algorithm with k=3 and Euclidean distance for a given set of numerical features and target labels.",
+    "Given a dataset with two features (X1 and X2) and binary classification labels, use the KNN algorithm with K=3 and Euclidean Distance to classify a new data point."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

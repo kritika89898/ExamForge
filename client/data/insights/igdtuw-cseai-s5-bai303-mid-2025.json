@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2025"
+  ],
+  "importantTopics": [
+    "Active and Passive Attacks",
+    "CIA Triad",
+    "Credit Card Skimming and M-Commerce Security",
+    "Malware Types and Examples",
+    "Advanced Persistent Threat (APT)",
+    "Session Hijacking Techniques",
+    "Cyber Warfare Cyber Terrorism and Hacktivism",
+    "Cloud Computing Security Challenges"
+  ],
+  "likelyQuestions": [
+    "Differentiate between active and passive attacks with appropriate examples.",
+    "Explain the CIA Triad and discuss the significance of each component in maintaining information security.",
+    "What is Credit Card Skimming? Explain how attackers perform this technique.",
+    "List and explain the major security issues and vulnerabilities present in M-Commerce applications.",
+    "Classify different types of malwares and provide suitable examples for each.",
+    "Define Advanced Persistent Threat (APT) and explain its characteristics, working cycle, and defense mechanisms.",
+    "Describe Session Hijacking and explain any two techniques used to execute it.",
+    "Compare and contrast Cyber Warfare, Cyber Terrorism, and Hacktivism based on motives, actors, and techniques.",
+    "Explain the Cyber Attack Lifecycle in detail with suitable examples for each phase.",
+    "What are the main security challenges associated with cloud-based services?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

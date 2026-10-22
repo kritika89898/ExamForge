@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2022",
+    "igdtuw-cseai-s5-bai305-end-2025"
+  ],
+  "importantTopics": [
+    "Perceptron and McCulloch-Pitts Neurons",
+    "Activation Functions and Loss Functions",
+    "Regularization and Hyperparameter Tuning",
+    "Logistic Regression",
+    "Convolutional Neural Networks and Image Processing",
+    "Recurrent Neural Networks",
+    "LSTM and GRU Architectures",
+    "Advanced CNN Architectures and Transfer Learning"
+  ],
+  "likelyQuestions": [
+    "Differentiate between sigmoid and softmax using formulae.",
+    "Explain linear separable data and how non-linear data can be transformed into linear form.",
+    "Discuss why L2 regularization is generally considered more applicable than L1 regularization in many deep learning models.",
+    "Explain at least three loss functions with equations and suitable examples.",
+    "Explain the MP-neuron model in detail along with its key advantages and limitations.",
+    "Discuss the improvements introduced by the Perceptron unit over the MP-neuron model.",
+    "Explain RNN using all equations and a suitable diagram for sequence modeling.",
+    "Explain LSTM and GRU units with all relevant equations, advantages, and disadvantages.",
+    "Consider a 3x3 image and a 2x2 filter; perform convolution operation with specified pool and stride settings.",
+    "Explain 1x1 convolution along with its advantages and differentiate between ResNet and InceptionNet architectures."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

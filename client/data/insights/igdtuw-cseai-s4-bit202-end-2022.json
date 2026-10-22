@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2022"
+  ],
+  "importantTopics": [
+    "Process Threads and Multi-threading",
+    "CPU Scheduling Algorithms",
+    "Deadlock Characterization and Prevention",
+    "Banker's Algorithm for Deadlock Avoidance",
+    "Page Replacement Algorithms",
+    "Process Synchronization and Semaphores",
+    "File Systems and Free Space Management",
+    "Disk Scheduling Algorithms"
+  ],
+  "likelyQuestions": [
+    "Explain the primary differences between a process and a thread, and illustrate the architecture of a multi-threaded process versus a single-threaded process.",
+    "Discuss the four necessary conditions for deadlock and explain various strategies used for deadlock prevention.",
+    "Given a set of processes with arrival times, burst times, and priorities, calculate the average waiting time and average turnaround time using a priority scheduling GANTT chart.",
+    "Compare and contrast Shortest Job First (SJF) and Shortest Remaining Time First (SRTF) CPU scheduling algorithms using a set of processes with given arrival and burst times.",
+    "Calculate the total waiting time, turnaround time, and total context switches for a set of processes using the Round Robin scheduling algorithm with a specified time slice and context switch overhead.",
+    "Calculate the number of page faults for a given reference string and number of frames using Optimal and Least Recently Used (LRU) page replacement algorithms.",
+    "Explain the Banker's algorithm for deadlock avoidance, calculate the Need matrix, determine the safety state of the system, and evaluate resource request outcomes.",
+    "What are the two atomic operations of semaphores? Differentiate between binary and counting semaphores and provide implementation examples for critical section problems.",
+    "Enumerate the classical problems of process synchronization and explain any two in detail along with their synchronization code snippets.",
+    "Define disk scheduling and explain the working mechanism of FCFS and SCAN disk scheduling algorithms along with their advantages and disadvantages."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

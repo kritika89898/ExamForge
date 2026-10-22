@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2022"
+  ],
+  "importantTopics": [
+    "Threats and Attacks",
+    "Rootkits and Backdoors",
+    "Email Security and Reconnaissance",
+    "Cloud Security and Wi-Fi Security",
+    "Symmetric and Asymmetric Encryption",
+    "Message Authentication Codes",
+    "Authentication and Spoofing",
+    "Network and Session Security"
+  ],
+  "likelyQuestions": [
+    "Conceptually analyze the mechanics of Session Hijacking and Advanced Persistent Threats with suitable examples.",
+    "Discuss the functioning of different types of Rootkits and suggest suitable defensive mechanisms against them.",
+    "Explain how Backdoor attacks work in real-world scenarios and discuss their significance in the cybersecurity realm.",
+    "Analytically discuss email security threats including Deceptive Phishing, Whaling, and Pharming, along with industry best practices.",
+    "Elucidate the significance of Reconnaissance in the cyber attack process and explain email harvesting, port scanning, and vulnerability scanning.",
+    "Explain the concepts of tokenization, obfuscation, and penetration testing in the context of secure cloud storage spaces.",
+    "Highlight the significance of SSID in Wi-Fi security and suggest preventive measures to ensure robust wireless functioning.",
+    "Categorically differentiate between Symmetric and Asymmetric Key Encryption algorithms with suitable mathematical examples.",
+    "Analyze the significance of Message Authentication Codes (MAC), discussing their important properties and limitations.",
+    "Compare and contrast Shoulder Surfing, Spear Phishing, and Email Spoofing with appropriate real-world defense strategies."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

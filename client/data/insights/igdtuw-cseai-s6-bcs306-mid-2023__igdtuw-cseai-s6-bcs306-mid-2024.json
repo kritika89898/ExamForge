@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bcs306-mid-2023",
+    "igdtuw-cseai-s6-bcs306-mid-2024"
+  ],
+  "importantTopics": [
+    "Phases of a Compiler and Bootstrapping",
+    "Lexical Analyzer and Input Buffering",
+    "Context-Free Grammar and Parse Trees",
+    "Ambiguity in Grammars",
+    "Left Recursion Elimination",
+    "FIRST and FOLLOW Functions",
+    "Top-Down and Bottom-Up Parsing",
+    "SLR and Operator Precedence Parsers"
+  ],
+  "likelyQuestions": [
+    "Explain the various phases of a compiler with a neat diagram.",
+    "Discuss about bootstrapping and its use with a neat diagram.",
+    "Discuss the role of Lexical Analyzer and explain input buffering.",
+    "Define CFG and write about derivation trees and parse trees with suitable examples.",
+    "Define ambiguity and check whether the given grammar is ambiguous or not.",
+    "What is left recursion? Eliminate left recursion from the given grammar.",
+    "Define FIRST and FOLLOW functions and compute them for the given grammar.",
+    "Discuss Recursive Descent Parser and apply it to a given grammar.",
+    "Discuss the difference between Top-down Parsing and Bottom-up Parsing, and write about Operator precedence parser with an example.",
+    "Construct SLR parsing table for the given grammar and parse the input string using a shift-reduce parser."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Compiler Design - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Compiler Design - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

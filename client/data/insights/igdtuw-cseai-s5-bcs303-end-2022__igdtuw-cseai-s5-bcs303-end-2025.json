@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2022",
+    "igdtuw-cseai-s5-bcs303-end-2025"
+  ],
+  "importantTopics": [
+    "Finite Automata and NFA-DFA Conversion",
+    "Regular Expressions and Arden's Theorem",
+    "Context-Free Grammars and Chomsky Normal Form",
+    "Pushdown Automata (PDA)",
+    "Turing Machines and Decidability",
+    "Pumping Lemma for Regular and Context-Free Languages",
+    "Moore and Mealy Machines",
+    "Chomsky Hierarchy and Complexity Classes"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts the language L = {a^n | n is either a multiple of 3 or a multiple of 5}.",
+    "Convert the given NFA with epsilon transitions or transition table to an optimized equivalent DFA.",
+    "Explain and compare DFA, NFA, epsilon-NFA, Pushdown Automata, and Turing Machines.",
+    "Construct a regular expression from a given finite automaton using Arden's theorem.",
+    "Design a Pushdown Automata (PDA) that accepts the language L = {a^n b^(2n) | n > 0} and show the Instantaneous Description for a string.",
+    "Design a Turing Machine that accepts the language L = {a^n b^n c^n | n >= 1} and show the Instantaneous Description for a string.",
+    "Reduce a given Context-Free Grammar (CFG) into Chomsky Normal Form (CNF) or Greibach Normal Form (GNF).",
+    "Show that the given language is not regular using the pumping lemma.",
+    "Design a Moore machine or Mealy machine for a specific binary sequence detection pattern and convert between them.",
+    "Explain P, NP, NP-complete, NP-hard problems, and the Post Correspondence Problem with suitable examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

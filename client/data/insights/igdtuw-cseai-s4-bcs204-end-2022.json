@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2022"
+  ],
+  "importantTopics": [
+    "Divide and Conquer and Recurrence Relations",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Shortest Path Algorithms",
+    "Graph Traversals and Connected Components",
+    "Branch and Bound",
+    "String Matching using Finite Automata",
+    "NP-Completeness and Polynomial-Time Reductions",
+    "Array and Sorting Manipulation"
+  ],
+  "likelyQuestions": [
+    "Describe an O(n)-time method for merging two sorted arrays into a single sorted array containing unique elements.",
+    "Solve the 0/1 Knapsack problem using a branch and bound approach and illustrate it with an example.",
+    "Explain how Depth First Search (DFS) traversal can be utilized to find strongly connected components in a directed graph with an example.",
+    "Design an O(log n) time algorithm to find a specific element in an array that first strictly increases and then strictly decreases.",
+    "Use the Master Theorem to find the running times of given divide-and-conquer recurrences and justify the optimal algorithm choice.",
+    "Trace the Floyd-Warshall algorithm on a given weighted directed graph and show the distance matrices after each iteration.",
+    "Explain Huffman coding as a greedy approach for data compression, analyze its complexity, and construct an optimal prefix code for a given set of character frequencies.",
+    "Run the Bellman-Ford algorithm on a weighted directed graph to find single-source shortest paths, and explain how an extra iteration detects negative-weight cycles.",
+    "Explain the finite state automaton-based string matching algorithm and demonstrate its execution for a given pattern and text.",
+    "Define NP-complete problems and provide a formal polynomial-time reduction proof between two classical NP-complete problems such as Clique and Vertex Cover."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

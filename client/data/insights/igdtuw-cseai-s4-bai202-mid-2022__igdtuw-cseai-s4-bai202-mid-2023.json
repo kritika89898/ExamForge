@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-mid-2022",
+    "igdtuw-cseai-s4-bai202-mid-2023"
+  ],
+  "importantTopics": [
+    "OSI and TCP/IP Reference Models",
+    "Guided and Unguided Transmission Media",
+    "Optical Fiber Propagation Modes",
+    "Cyclic Redundancy Check (CRC)",
+    "LDPC Codes and Gallager's Construction",
+    "Slotted and Pure ALOHA Protocols",
+    "Sliding Window Protocols (Go-Back-N and Selective Repeat)",
+    "Medium Access Control and CSMA Persistence Methods"
+  ],
+  "likelyQuestions": [
+    "Give the layers of the OSI model in sequence and contrast it with the TCP/IP networking model.",
+    "Explain the working of various guided transmission media with relevant diagrams.",
+    "Explain the various propagation modes for optical fibers and light propagation principles.",
+    "Explain the working of Cyclic Redundancy Check (CRC) with a suitable example.",
+    "Give Gallager's construction for regular LDPC codes given specific parameters.",
+    "What is maximum throughput for slotted ALOHA and how is throughput improved in slotted ALOHA over pure ALOHA?",
+    "Explain the Go-Back-N protocol with an example.",
+    "Describe the contents and working of a sender's window in the Selective Repeat protocol after a series of transmissions and timeouts.",
+    "What is CSMA? Explain the different persistence methods of CSMA.",
+    "Explain in detail about the ARQ-Sliding window algorithm, along with its merits and demerits."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Networks - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

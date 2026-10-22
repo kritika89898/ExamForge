@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2022",
+    "igdtuw-cseai-s4-bai204-end-2023"
+  ],
+  "importantTopics": [
+    "Linear Programming and Graphical/Simplex Methods",
+    "Semi-Definite Programming and Convex Sets",
+    "Network Flow and Transshipment Problems",
+    "Genetic Algorithms and Crossover Operators",
+    "Ant Colony Optimization Algorithm",
+    "Particle Swarm Optimization Algorithm",
+    "Decision Making Trees and Analysis",
+    "Group Decision Making and Knowledge Management"
+  ],
+  "likelyQuestions": [
+    "Define the role of optimization in real-world mathematical problems and explain the importance of constraints and feasible regions.",
+    "Elaborate on the classification of optimization problems based on the nature of the equations involved.",
+    "Solve the given linear programming problem using the graphical method.",
+    "Solve the given linear programming problem using the Simplex method.",
+    "What is an integer programming problem? Discuss the Knapsack problem in reference to integer programming.",
+    "Explain the steps, advantages, disadvantages, and real-world applications of the Ant Colony Optimization (ACO) algorithm.",
+    "Illustrate the Particle Swarm Optimization (PSO) technique, detailing how velocity is updated and comparing it with Genetic Algorithms.",
+    "Explain the operations of Genetic Algorithms, including single-point, two-point, and uniform crossover operators on given binary strings.",
+    "What is meant by decision-making? Define the role of decision-making trees in classification or prediction and discuss decision-making steps.",
+    "Compare and contrast group decision-making methods, highlighting their advantages and disadvantages."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

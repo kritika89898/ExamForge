@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-mid-2023"
+  ],
+  "importantTopics": [
+    "Algorithm Complexity Analysis",
+    "Recurrence Relations and Recursion Trees",
+    "Divide and Conquer Algorithms",
+    "Sorting Algorithms and Recurrences",
+    "Greedy Algorithms",
+    "Minimum Spanning Trees",
+    "Knapsack Problem",
+    "Huffman Codes"
+  ],
+  "likelyQuestions": [
+    "Analyse the time complexity of the given recursive increment function.",
+    "Solve the recurrence relation T(n) = 2T(n/4) + sqrt(n) using the recursion tree method.",
+    "Explain greedy algorithms and discuss their limitations.",
+    "Find the minimum spanning tree of a given graph using Kruskal's algorithm.",
+    "Explain Strassen's Matrix multiplication algorithm and analyse its complexity.",
+    "Describe an efficient approach to find a local minimum in a complete binary tree using O(log n) probes.",
+    "Give the best case and worst case conditions for quick sort, write its recurrences, and analyse all case complexities.",
+    "Explain the greedy algorithm for solving the Fractional Knapsack problem and analyse its complexity.",
+    "Design a greedy algorithm to place sequenced songs on CDs to minimize the number of CDs needed.",
+    "Explain the greedy algorithm for generating Huffman codes and analyse its complexity."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

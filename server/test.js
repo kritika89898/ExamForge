@@ -434,3 +434,35 @@ test("Contribute page sends contributors to the Google Form", () => {
     assert.match(page, /href="https:\/\/forms\.gle\/[A-Za-z0-9]+"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
     assert.doesNotMatch(page, /upload\.js|type="file"/);
 });
+
+test("every archive paper combination has a valid stored AI Studio answer", () => {
+    const { allCombinations, insightFileName } = require("./scripts/generate-insights");
+    const insightsDirectory = path.join(__dirname, "../client/data/insights");
+    const papers = new Map(
+        JSON.parse(fs.readFileSync(path.join(__dirname, "../client/data/papers.json"), "utf8"))
+            .map((paper) => [paper.id, paper])
+    );
+    const expected = new Set(allCombinations().map((combination) => insightFileName(combination.paperIds)));
+    const files = new Set(fs.readdirSync(insightsDirectory).filter((name) => name.endsWith(".json")));
+
+    assert.deepEqual([...expected].filter((name) => !files.has(name)), [], "missing stored answers");
+    assert.deepEqual([...files].filter((name) => !expected.has(name)), [], "stored answers for unknown paper sets");
+
+    files.forEach((name) => {
+        const insight = JSON.parse(fs.readFileSync(path.join(insightsDirectory, name), "utf8"));
+        assert.equal(insightFileName(insight.paperIds), name);
+        const selected = insight.paperIds.map((id) => papers.get(id));
+        assert.equal(selected.every(Boolean), true, name);
+        assert.equal(selected.every((paper) => paper.subject_code === insight.subjectCode && paper.exam_type === insight.examType), true, name);
+        assert.equal(new Set(selected.map((paper) => paper.year)).size, selected.length, name);
+        assert.equal(insight.importantTopics.length > 0 && insight.importantTopics.every((item) => typeof item === "string"), true, name);
+        assert.equal(insight.likelyQuestions.length > 0 && insight.likelyQuestions.every((item) => typeof item === "string"), true, name);
+        assert.equal(insight.sourceCount, selected.length, name);
+    });
+});
+
+test("AI Studio looks up stored answers with the same file naming as the generator", () => {
+    const page = fs.readFileSync(path.join(__dirname, "../client/prediction.js"), "utf8");
+    assert.match(page, /\[\.\.\.paperIds\]\.sort\(\)\.join\("__"\)/);
+    assert.match(page, /data\/insights\/\$\{encodeURIComponent\(name\)\}\.json/);
+});

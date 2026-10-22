@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2025"
+  ],
+  "importantTopics": [
+    "ARP Spoofing and Reflection Attacks",
+    "Tor Anonymity and Dark Web Operations",
+    "Phishing Attack Chains and Credential Harvesting",
+    "Socio-Economic Impacts and Threat Matrices",
+    "Smartphone and Smart Device Security",
+    "Cryptographic Hash Functions and XOR Constructions",
+    "Secure Communication Protocols: SSL/TLS, IPsec, and SSH",
+    "Access Control, NAC, and Cybersecurity Frameworks"
+  ],
+  "likelyQuestions": [
+    "Discuss the mechanism of ARP spoofing and explain how it compromises data integrity and confidentiality.",
+    "Explain how IP spoofing enables reflection-based Distributed Denial of Service (DDoS) attacks.",
+    "Describe the technical architecture of Tor-based anonymity, onion routing, and the role of exit nodes.",
+    "Analyze a phishing attack chain leading to credential theft, detailing harvester mechanisms and browser vulnerabilities.",
+    "Discuss the socio-technical consequences and threat matrix associated with security breaches on social networking platforms.",
+    "Evaluate the personal and organizational impacts of security breaches in smart devices, outlining major attacks and countermeasures.",
+    "Compute the hash values $H_1$ and $H_2$ using a given toy hash function rule and analyze limitations of XOR-based hash constructions.",
+    "Compare SSL/TLS, IPsec, and SSH in terms of design goals, layer of operation, and deployment contexts.",
+    "Evaluate the role of Network Admission Control (NAC) in enforcing endpoint compliance and organizational defense.",
+    "Contrast ISO/IEC 27001 and the NIST Cybersecurity Framework regarding scope, implementation approach, and organizational applicability."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

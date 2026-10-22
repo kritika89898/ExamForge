@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2022"
+  ],
+  "importantTopics": [
+    "Active and Passive Attacks",
+    "ARP Spoofing and Network Spoofing",
+    "Rainbow Table and Password Attacks",
+    "Crypto-jacking",
+    "Man-in-the-Middle Attack",
+    "Proxy Server Principles",
+    "DoS and DDoS Attacks",
+    "Identity Theft and Prevention"
+  ],
+  "likelyQuestions": [
+    "Conceptually analyze the differences between active and passive cyber attacks with suitable examples.",
+    "Explain the mechanism of ARP Spoofing and discuss its impact on local area network security.",
+    "Critically examine how rainbow table attacks work and suggest robust cryptographic countermeasures to mitigate them.",
+    "Discuss the emergence of crypto-jacking as a cyber threat, outlining its impact and detection methods.",
+    "Categorically state the significance of man-in-the-middle attacks, illustrate with an example, and analyze prevention techniques.",
+    "State the underlying principle behind proxy servers and critically examine their advantages and disadvantages in enterprise environments.",
+    "Elucidate the conceptual difference between DoS and DDoS attacks, examine their indicators, and suggest strategic countermeasures.",
+    "Critically analyze the 2-step verification process in social networking safety from a CSIRT perspective.",
+    "Formulate countermeasures against password attacks, and critically examine the difference between password guessing and password cracking.",
+    "Discuss the consequences of identity theft in today's cyber world, analyze its types and impact, and formulate prevention techniques."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

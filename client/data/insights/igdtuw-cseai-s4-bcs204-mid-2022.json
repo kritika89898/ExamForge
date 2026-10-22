@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-mid-2022"
+  ],
+  "importantTopics": [
+    "QuickSort Partition and Comparisons",
+    "Recurrence Relation Solving",
+    "Fibonacci Series Algorithms and Complexity",
+    "Divide and Conquer",
+    "Binary Search Variant",
+    "Algorithm Complexity Analysis",
+    "Greedy Algorithms",
+    "Disk Storage Optimization"
+  ],
+  "likelyQuestions": [
+    "Calculate the number of comparisons made by a QuickSort partition algorithm using the first element as pivot for a strictly increasing array versus a strictly decreasing array of size n.",
+    "Solve the recurrence relation T(n) = T(n/3) + T(2n/3) + n using appropriate methods.",
+    "Write both recursive and non-recursive algorithms for calculating the nth Fibonacci number, analyze their time and space complexities, and compare their efficiencies.",
+    "Given a sorted array of distinct integers, design an algorithm to find if there exists an index i such that T[i] equals i in O(log n) time, and prove its worst-case complexity.",
+    "Formulate a greedy algorithm to maximize the number of programs stored on a disk of fixed capacity given varying program sizes, and analyze its time complexity.",
+    "Explain the partition mechanism of QuickSort with a suitable example and determine its best-case and worst-case time complexities.",
+    "Solve the recurrence relation T(n) = 2T(n/2) + n log n using the Master Theorem or substitution method.",
+    "Write an iterative algorithm to generate the Fibonacci series up to n terms, ensuring optimal space complexity O(1).",
+    "Design a modified binary search algorithm to find a fixed point in a sorted array where elements can be negative, and provide a formal complexity analysis.",
+    "Consider the optimal storage on tape or disk problem. Prove that sorting the program sizes in ascending order yields the maximum number of programs that can be stored within a capacity limit D, and state the greedy choice property."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

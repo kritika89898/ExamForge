@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2023"
+  ],
+  "importantTopics": [
+    "MP-Neuron and Perceptron",
+    "Chain Rule and Partial Derivatives",
+    "Gradient Descent Algorithm",
+    "Perceptron Convergence",
+    "Sigmoid Activation Function",
+    "Multi-Layer Neural Networks",
+    "Under-fitting and Over-fitting",
+    "Regularization and Dropout"
+  ],
+  "likelyQuestions": [
+    "Explain the role of thresholding logic in McCulloch-Pitts neurons.",
+    "Differentiate between the McCulloch-Pitts neuron model and the standard Perceptron model.",
+    "Explain how the chain rule is used in conjunction with partial derivatives during backpropagation.",
+    "Given a loss curve with points of positive and negative slopes, explain the required modifications in the weight update equation for gradient descent.",
+    "State and prove the convergence of the Perceptron learning algorithm under linearly separable data.",
+    "Perform two iterations of gradient descent using the squared error loss function on a three-input neuron with a sigmoid activation function.",
+    "Discuss whether a single-hidden-layer neural network is sufficient to solve all Boolean functions and justify the need for multi-layer neural networks.",
+    "Explain the concepts of under-fitting and over-fitting using diagrams and discuss why over-fitting is a major concern in deep learning.",
+    "Perform a forward pass and a single backpropagation step to compute updated weights for a given artificial neural network with a single hidden layer.",
+    "Explain the following techniques in detail: L1 and L2 regularization, Dropout, and Data Augmentation."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

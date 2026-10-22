@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2022",
+    "igdtuw-cseai-s5-bai303-end-2025"
+  ],
+  "importantTopics": [
+    "Symmetric and Asymmetric Encryption",
+    "Phishing and Email Security Threats",
+    "Network Spoofing and ARP/IP Attacks",
+    "Dark Web and Onion Routing",
+    "Cloud and Wi-Fi Security",
+    "Rootkits and Backdoor Attacks",
+    "Hash Functions and MAC",
+    "Cybersecurity Frameworks and Access Control"
+  ],
+  "likelyQuestions": [
+    "Categorically differentiate between Symmetric and Asymmetric Key Encryption algorithms with suitable mathematical examples.",
+    "Discuss the process of ARP spoofing and explain how ARP cache poisoning occurs and impacts data confidentiality and integrity.",
+    "Explain the technical architecture and operational workflow of Tor-based anonymity and onion routing process.",
+    "Analyze a phishing attack chain, detailing how attackers craft baits and exploit browser-level vulnerabilities.",
+    "Discuss the functioning of Rootkits and their different types, and suggest suitable defensive mechanisms.",
+    "Compare SSL/TLS, IPsec, and SSH as secure communication protocols focusing on design goals and layer of operation.",
+    "Elucidate the significance of Reconnaissance in the Cyber Attack Process and explain related techniques like port scanning and vulnerability scanning.",
+    "Contrast ISO/IEC 27001 and the NIST Cybersecurity Framework in terms of scope, implementation approach, and organizational applicability.",
+    "Explain the concepts of tokenization, obfuscation, and penetration testing in the context of Cloud Security.",
+    "Evaluate the role of Network Admission Control in enforcing endpoint compliance within enterprise networks."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

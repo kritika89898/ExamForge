@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-mid-2023"
+  ],
+  "importantTopics": [
+    "Time Value of Money",
+    "Equity vs Debentures",
+    "Business Risk vs Financial Risk",
+    "Time Preference for Money",
+    "Annuity and Future Value Calculations",
+    "Traditional vs Modern Financial Management",
+    "Capital Structure Determinants",
+    "Cost of Capital"
+  ],
+  "likelyQuestions": [
+    "Find the present value of a sum of Rs 15,000 receivable after 4 years at the rate of interest 12% p.a.",
+    "Define preference shares and explain how they differ from equity shares.",
+    "Differentiate between business risk and financial risk with suitable examples.",
+    "Explain the reasons why individuals show a time preference for money.",
+    "Calculate the initial deposit required today that will produce future cash inflows of Rs 2,00,000 for a son after 6 years and Rs 2,50,000 for a daughter after 8 years, invested at 10% p.a.",
+    "Discuss whether the modern approach to financial management is an improvement over the traditional approach.",
+    "Determine the annual savings required to accumulate a sum of Rs 10,00,000 after 12 years at an interest rate of 10% p.a. and 12% p.a. respectively.",
+    "Discuss the various relevant factors that must be considered while determining the optimal capital structure of a firm.",
+    "Define cost of capital and explain its importance in financial decision making.",
+    "What do you mean by explicit cost and implicit cost? How do they differ from each other?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Financial Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

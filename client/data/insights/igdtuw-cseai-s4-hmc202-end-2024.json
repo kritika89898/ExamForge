@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2024"
+  ],
+  "importantTopics": [
+    "Hazard and Disaster Differences",
+    "Risk and Vulnerability Assessment",
+    "Natural Disasters and Management",
+    "Post-Disaster Recovery",
+    "Remote Sensing and GIS",
+    "Modern Technologies in Disaster Management",
+    "Institutional Framework and NDMA",
+    "Disaster Management Act 2005"
+  ],
+  "likelyQuestions": [
+    "Differentiate between hazard and disaster with suitable examples.",
+    "Define risk and vulnerability, and explain the various factors that influence vulnerability.",
+    "Discuss the concepts of rehabilitation and reconstruction during the post-disaster management stage.",
+    "Explain the causes of earthquakes and outline the pre- and post-disaster management measures.",
+    "What are the primary causes of landslides? Describe the complete disaster management cycle for landslides.",
+    "Discuss the role and applications of Geographic Information Systems (GIS) and Remote Sensing in disaster management.",
+    "Explain the functionality and significance of the Indian Tsunami Early Warning System.",
+    "Describe how modern technologies like drones and Information and Communication Technology (ICT) assist in disaster management.",
+    "Analyze the role of the State Government in disaster mitigation and management.",
+    "Discuss the key provisions of the Disaster Management Act 2005 and explain the importance of search and rescue operations."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2022",
+    "igdtuw-cseai-s5-bai305-end-2023"
+  ],
+  "importantTopics": [
+    "Perceptron and MP-Neuron Models",
+    "Activation Functions and Loss Functions",
+    "Backpropagation and Weight Updates",
+    "Logistic Regression and Neural Networks",
+    "Convolutional Neural Networks (CNNs) and Pooling",
+    "Recurrent Neural Networks (RNNs)",
+    "LSTM and GRU Architectures",
+    "Advanced CNN Architectures and Transfer Learning"
+  ],
+  "likelyQuestions": [
+    "Differentiate between sigmoid and softmax activation functions using their mathematical formulae.",
+    "Explain the Perceptron learning algorithm in detail, including the reason behind separate weight updation equations for positive and negative samples.",
+    "Discuss the architecture of Long Short-Term Memory (LSTM) networks and explain how they differ from standard RNNs.",
+    "Explain the architecture of Gated Recurrent Units (GRUs) and compare them with LSTM units.",
+    "Perform convolution operations on a given image matrix using specified kernel size, padding, and stride configurations.",
+    "Discuss the architecture of InceptionNet and explain how the Inception module contributes to improving performance.",
+    "Explain the concept of transfer learning with a suitable example and differentiate between AlexNet and VGG architectures.",
+    "Explain Recurrent Neural Networks (RNNs) using all relevant equations for an input of a given length.",
+    "Discuss the MP-Neuron unit along with the thresholding function and explain its application for implementing basic Boolean functions.",
+    "Explain different regularization techniques such as L1 and L2 regularization, and discuss whether dropout is active during testing."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

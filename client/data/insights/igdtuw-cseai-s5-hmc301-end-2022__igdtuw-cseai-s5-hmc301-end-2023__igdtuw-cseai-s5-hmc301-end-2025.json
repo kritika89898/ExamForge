@@ -1,0 +1,47 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2022",
+    "igdtuw-cseai-s5-hmc301-end-2023",
+    "igdtuw-cseai-s5-hmc301-end-2025"
+  ],
+  "importantTopics": [
+    "Moral Development and Ethical Theories",
+    "Professionalism and Professional Ethics",
+    "Engineering as Experimentation",
+    "Case Studies of Disasters and Safety",
+    "Intellectual Property Rights (IPR)",
+    "Corporate Social Responsibility (CSR)",
+    "Environmental Ethics",
+    "Computer and Research Ethics"
+  ],
+  "likelyQuestions": [
+    "Define morals, values, and ethics, and explain their interconnections with suitable examples.",
+    "Explain Kohlberg's theory of moral development along with its limitations.",
+    "Discuss why feminist ethics are important in the 21st century.",
+    "Compare and contrast right-based and duty-based ethical theories with examples.",
+    "Discuss the role of organizations and ethical issues considering cases like the Bhopal gas tragedy, Challenger disaster, or Fukushima nuclear disaster.",
+    "Illustrate with examples how Intellectual Property Rights (IPR) provide security to the manufacturing and selling of a product.",
+    "Explain the concept of 'Engineering as Experimentation' and discuss an engineer's responsibilities toward safety and risk.",
+    "Describe the concept of Computer Ethics, its significance, and its related issues in detail.",
+    "Evaluate Corporate Social Responsibility (CSR) and its models or parameters essential for integrated social growth.",
+    "Explain the concepts of environmental ethics, human rights, and employee rights in a professional environment."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

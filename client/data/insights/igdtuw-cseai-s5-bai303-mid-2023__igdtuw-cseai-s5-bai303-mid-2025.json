@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2023",
+    "igdtuw-cseai-s5-bai303-mid-2025"
+  ],
+  "importantTopics": [
+    "Security Issues and Challenges",
+    "Malware Classification and Types",
+    "Denial of Service Attacks",
+    "Cryptographic Ciphers and Transposition",
+    "Digital Signatures",
+    "Virtual Private Networks (VPN)",
+    "Active and Passive Attacks",
+    "Advanced Persistent Threats (APT)"
+  ],
+  "likelyQuestions": [
+    "Write a short note on security issues and M-Commerce security.",
+    "Differentiate between DOS and DDOS attacks.",
+    "Differentiate between virus and worms, and explain different types of malwares.",
+    "What is transposition cipher? Encrypt plaintext using a transposition cipher and key.",
+    "Explain the Digital Signature algorithm.",
+    "What is VPN? Explain its types.",
+    "Differentiate between Active and Passive attacks.",
+    "What is the CIA Triad? Explain each component briefly.",
+    "What is an Advanced Persistent Threat (APT)? Explain its characteristics, working cycle, and defense mechanisms.",
+    "Explain the Cyber Attack Lifecycle with suitable examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

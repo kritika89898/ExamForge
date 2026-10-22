@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2023",
+    "igdtuw-cseai-s4-bai202-end-2024"
+  ],
+  "importantTopics": [
+    "Transmission Media and Network Topologies",
+    "OSI and TCP/IP Models",
+    "ALOHA Protocols and Throughput",
+    "Go-Back-N ARQ Protocol",
+    "Dijkstra's Shortest Path Algorithm",
+    "IP Addressing and Subnetting",
+    "UDP Header and Transport Layer",
+    "Application Layer Protocols (HTTP and SMTP)"
+  ],
+  "likelyQuestions": [
+    "List the characteristics of broadband coaxial cable and explain the differences between STP and UTP.",
+    "Compare and contrast the OSI and TCP/IP reference models with detailed layer functionalities.",
+    "Calculate the number of terminals that can be supported using Pure ALOHA and Slotted ALOHA for a given channel bandwidth and frame length.",
+    "Explain the working principles of the Go-Back-N ARQ sliding window protocol.",
+    "Apply Dijkstra's algorithm to find the shortest path tree from a source node in a given network graph.",
+    "Perform subnetting on a given IP address block to find the number of subnets, subnet mask, hosts per subnet, and specific host IP addresses.",
+    "Draw and explain the different fields present in the UDP header.",
+    "Extract parameters such as source port, destination port, total length, and data length from a given hexadecimal UDP header.",
+    "Discuss the core features and working mechanism of the Hypertext Transfer Protocol (HTTP).",
+    "Explain the end-to-end working of electronic mail and the role of SMTP in email applications."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

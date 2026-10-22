@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2022",
+    "igdtuw-cseai-s4-bit202-end-2023",
+    "igdtuw-cseai-s4-bit202-end-2024"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Deadlock Avoidance and Banker's Algorithm",
+    "Page Replacement Algorithms",
+    "Process Synchronization and Semaphores",
+    "Disk Scheduling Algorithms",
+    "Memory Management and Paging",
+    "File System and Directory Implementation",
+    "Free Space Management"
+  ],
+  "likelyQuestions": [
+    "Consider a set of processes with given arrival times and burst times. Draw the Gantt chart and calculate the average waiting time and average turnaround time using FCFS, SJF, and Round Robin scheduling algorithms.",
+    "Explain the concept of deadlock and discuss the four necessary conditions that must hold simultaneously for a deadlock to occur.",
+    "Using the Banker's algorithm, calculate the Need matrix, determine if the system is in a safe state, and find the safe sequence for a given resource allocation state.",
+    "Given a page reference string and a fixed number of frames, calculate the total number of page faults using FIFO, LRU, and Optimal page replacement algorithms.",
+    "What are the two atomic operations used by semaphores to solve the critical section problem? Explain classical problems of process synchronization with code snippets.",
+    "Given a disk queue with pending requests and an initial head position, calculate the total head movement using FCFS, SCAN, C-SCAN, LOOK, and C-LOOK disk scheduling algorithms.",
+    "How is a thread different from a process? Explain multi-threaded processes and compare them with single-threaded processes using diagrams.",
+    "Given logical address space, physical address space, and page size, calculate the number of bits for logical/physical addresses, number of pages, number of frames, and page table size.",
+    "Discuss various file access methods and explain how free space is managed in an operating system.",
+    "What is a directory? Explain different ways of implementing a directory and describe allocation schemes used for secondary storage."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

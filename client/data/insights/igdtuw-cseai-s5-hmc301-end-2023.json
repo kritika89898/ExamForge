@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2023"
+  ],
+  "importantTopics": [
+    "Definitions of Morals, Values, and Ethics",
+    "Time Management and Engineering Skills",
+    "Intellectual Property Rights (IPR) and Research Ethics",
+    "Work-Life Balance and Workplace Harassment",
+    "Theories of Moral Development",
+    "Feminist Ethics",
+    "Engineering as Experimentation",
+    "Corporate Social Responsibility and Case Studies"
+  ],
+  "likelyQuestions": [
+    "Define morals, values, and ethics with appropriate examples.",
+    "Explain the concept of time management and discuss the training skill sets of engineers.",
+    "Define the terms profession and professionalism, and explain the concept of IPR with examples.",
+    "Discuss the relationship between human rights and human responsibilities, and briefly explain environmental ethics.",
+    "Explain the relevance of research ethics and its importance in modern scientific endeavors.",
+    "Discuss the importance of maintaining a work-life balance in today's corporate environment, citing a company example.",
+    "How would you handle a workplace situation involving gender bias and discrimination against a dedicated employee while maintaining professional integrity?",
+    "Compare and contrast the theories of moral development and discuss how teachers can apply them to improve classroom relationships.",
+    "Discuss the statement 'Engineering as experimentation plays a vital role in the design process' with suitable examples.",
+    "Analyze the ethical issues and faults in major historical disasters such as the Bhopal gas tragedy or the Challenger disaster, and explain two models of Corporate Social Responsibility."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

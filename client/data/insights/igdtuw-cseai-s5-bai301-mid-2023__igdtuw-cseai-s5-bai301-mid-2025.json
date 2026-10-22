@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2023",
+    "igdtuw-cseai-s5-bai301-mid-2025"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Exploratory Data Analysis",
+    "Classification Evaluation Metrics",
+    "Support Vector Machines and Kernels",
+    "Decision Trees and Impurity Measures",
+    "K-Nearest Neighbors (KNN) Algorithm",
+    "Linear and Logistic Regression",
+    "Regularization Techniques (Ridge and LASSO)",
+    "Cross-Validation Techniques"
+  ],
+  "likelyQuestions": [
+    "Explain the role of data pre-processing and data splitting into training and testing sets before model training.",
+    "Describe the role of Exploratory Data Analysis (EDA) and data visualization techniques in machine learning.",
+    "Calculate Accuracy, Precision, Recall, Specificity, and F1 Score given a set of predicted probabilities or a confusion matrix.",
+    "Explain the working principle of Support Vector Machines (SVM) including the difference between hard and soft margins and the use of kernels.",
+    "Build a decision tree of height 1 using the Gini impurity index for a given dataset and calculate its accuracy.",
+    "Explain Decision Tree Learning with a neat diagram, discussing its advantages and limitations.",
+    "Differentiate between Ridge Regression and LASSO Regression and explain their objective functions.",
+    "Classify a new data point using the K-Nearest Neighbors (KNN) algorithm with a specified value of K and distance metric.",
+    "Explain the concept of K-Fold Cross Validation and calculate the number of samples in training and testing sets for each fold.",
+    "Explain the different causes of data issues in machine learning and techniques used for handling missing or inconsistent data."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

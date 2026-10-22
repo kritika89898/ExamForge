@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 302",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai302-end-2024"
+  ],
+  "importantTopics": [
+    "NLP Pipeline and Preprocessing",
+    "Tokenization and Stop Words",
+    "Word Embeddings and One-Hot Encoding",
+    "TF-IDF Vectorization",
+    "Machine Translation Models",
+    "Sequence-to-Sequence and Attention Mechanisms",
+    "RNN, CNN, LSTM, and GRU Architectures",
+    "Transformers and Chatbots"
+  ],
+  "likelyQuestions": [
+    "Explain the complete Natural Language Processing pipeline with a neat diagram and relevant examples for each stage.",
+    "Perform word-level tokenization, sentence-level tokenization, and stop words removal on a given sample paragraph.",
+    "Generate Word2vec vectors using the CBOW model and one-hot encoded vector representations for a given set of sentences.",
+    "Construct TF-IDF vectors using a term-document matrix for a provided set of three documents.",
+    "Compare and contrast Rule-based Machine Translation and Neural Machine Translation, discussing their working principles and challenges.",
+    "Explain the Sequence-to-Sequence model and the Attention mechanism with appropriate diagrams and examples.",
+    "Differentiate between Recurrent Neural Networks (RNN) and Convolutional Neural Networks (CNN) in the context of text processing.",
+    "Describe the architecture of Gated Recurrent Units (GRU), highlighting their merits, challenges, and applications.",
+    "Discuss the advantages and disadvantages of Long Short-Term Memory (LSTM) networks compared to traditional vanilla RNNs.",
+    "Explain the Transformer model architecture and its significance in modern Natural Language Processing tasks."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Natural Language Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

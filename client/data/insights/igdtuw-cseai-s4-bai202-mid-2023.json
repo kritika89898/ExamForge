@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-mid-2023"
+  ],
+  "importantTopics": [
+    "Intranet, internet, and Internet",
+    "Network Layer responsibilities",
+    "CSMA and persistence methods",
+    "CRC and codeword generation",
+    "OSI and TCP/IP networking models",
+    "Port, logical, and physical addresses",
+    "Fiber optic cable and light propagation",
+    "IEEE 802 standards, ALOHA, and ARQ sliding window"
+  ],
+  "likelyQuestions": [
+    "Differentiate between Intranet, internet, and Internet with suitable examples.",
+    "List out the main responsibilities of the Network Layer.",
+    "What is CSMA? Explain the different persistence methods of CSMA.",
+    "Given the data word 1010011010 and the divisor 10111, find the CRC and the codeword generated. Explain why the CRC is added at the end in the frame format?",
+    "Contrast and compare ISO-OSI and TCP/IP networking models.",
+    "What is the difference between Port address, Logical address and Physical address? Explain with an example.",
+    "Define fiber optic communication principle and light propagation through fiber optic cable.",
+    "Describe IEEE 802 family of standards and differentiate between the Token Bus and Token Ring LANs.",
+    "How throughput is improved in slotted ALOHA over pure ALOHA?",
+    "Explain in detail about the ARQ-Sliding window algorithm, with its merits and demerits."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Networks - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

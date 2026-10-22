@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2022",
+    "igdtuw-cseai-s5-bai305-mid-2023",
+    "igdtuw-cseai-s5-bai305-mid-2025"
+  ],
+  "importantTopics": [
+    "McCulloch-Pitts Neuron and Threshold Logic",
+    "Perceptron Learning Algorithm and Convergence",
+    "Multi-Layer Perceptron (MLP) Architecture and Forward Pass",
+    "Backpropagation and Computational Graphs",
+    "Activation Functions (ReLU, Sigmoid, Softmax)",
+    "Loss Functions (MSE, MAE, Cross-Entropy)",
+    "Overfitting, Underfitting, and Regularization (L1/L2)",
+    "Data Augmentation and Feature Scaling"
+  ],
+  "likelyQuestions": [
+    "Using McCulloch-Pitts units, implement AND and OR gates and draw their neat diagrams.",
+    "Differentiate between McCulloch-Pitts neuron and Perceptron model.",
+    "State and explain the Perceptron Learning Algorithm and discuss its convergence proof.",
+    "Why does the perceptron fail for non-linearly separable problems? Explain with a suitable example.",
+    "Consider a neural network with given initial weights and biases; calculate the output for specific inputs and perform single-step backpropagation.",
+    "Explain the relationship between partial derivatives and the chain rule using a computational graph.",
+    "Explain underfitting and overfitting with the help of learning curves and discuss methods to recover from them including L1/L2 regularization and dropout.",
+    "Suppose that the predicted output for a multi-class classifier is given; compute the softmax operation, cross-entropy loss, MAE, and MSE.",
+    "Explain the architecture and working of a Multi-Layer Perceptron (MLP) along with its design parameters.",
+    "What are the different types of feature scaling techniques? Explain with formulas and perform them on a given 1-D dataset."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

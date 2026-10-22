@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2023",
+    "igdtuw-cseai-s5-bcs303-end-2025"
+  ],
+  "importantTopics": [
+    "Finite Automata and NFA to DFA Conversion",
+    "Pumping Lemma for Regular and Context-Free Languages",
+    "Chomsky Normal Form (CNF) and Greibach Normal Form (GNF)",
+    "Pushdown Automata (PDA)",
+    "Turing Machines and Halting Problem",
+    "Context-Free Grammars and Ambiguity",
+    "Mealy and Moore Machine Conversions",
+    "Complexity Classes P, NP, and NP-Complete"
+  ],
+  "likelyQuestions": [
+    "Design a DFA which accepts all strings starting with 00 and ending with 101?",
+    "Convert the given NFA to DFA and explain the minimization of Finite Automata steps.",
+    "Define Chomsky Normal Form (CNF) and convert a given Context Free Grammar to CNF.",
+    "State and prove using Pumping Lemma whether a given language is regular or context-free.",
+    "Design a Pushdown Automata (PDA) for specific languages such as L = {a^n b^(2n) : n>0} or similar variations.",
+    "Find a Greibach Normal Form grammar equivalent to a given CFG.",
+    "Design a Turing Machine which accepts languages like L = {a^n b^n c^n | n>1}.",
+    "Explain the Halting Problem and discuss Turing Machines for 1's complement.",
+    "Convert a given Mealy machine to a Moore machine and vice versa.",
+    "Briefly describe complexity classes P, NP, NP-complete, and NP-hard problems with examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}
