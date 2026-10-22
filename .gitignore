@@ -18,6 +18,6 @@ server/extracted/
 .DS_Store
 Thumbs.db
 
-# Local proof-of-concept artifacts. Final PDFs belong in Supabase Storage.
+# Local working copies. Published PDFs live in client/papers/.
 output/pdf/*.pdf
 tmp/pdfs/
