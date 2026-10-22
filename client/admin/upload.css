@@ -127,3 +127,14 @@
     .success-actions .button { width: 100%; }
     #pdf-preview { height: 300px; }
 }
+
+/* Google Form hand-off */
+.ready-list { display: grid; gap: .65rem; margin: 0; padding: 0; list-style: none; }
+.ready-list li { display: grid; gap: .15rem; padding: .8rem .95rem; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.02); }
+.ready-list strong { font-size: .78rem; }
+.ready-list span { color: var(--muted); font-size: .68rem; }
+.form-note { display: flex; gap: .8rem; align-items: flex-start; padding: .9rem 1rem; border: 1px solid var(--line); border-radius: 12px; background: rgba(96,165,250,.06); }
+.form-note > span { flex: 0 0 28px; height: 28px; display: grid; place-items: center; border-radius: 8px; background: rgba(96,165,250,.15); color: #bfdbfe; font-weight: 800; font-size: .75rem; }
+.form-note p { margin: 0; color: var(--muted); font-size: .7rem; line-height: 1.55; }
+.form-note strong { color: var(--text, #fff); }
+a.submit-button { text-decoration: none; display: inline-flex; align-items: center; gap: .5rem; }
