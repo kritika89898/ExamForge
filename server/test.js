@@ -4,15 +4,7 @@ const path = require("node:path");
 const vm = require("node:vm");
 const { after, before, test } = require("node:test");
 
-process.env.EXAMFORGE_STORAGE_MODE = "local";
-
 const app = require("./server");
-const { findCurriculumSubject } = require("./services/curriculumService");
-const {
-    checksum,
-    localQueueDirectory,
-    queueSubmission,
-} = require("./services/submissionService");
 const {
     HttpError,
     configuredModels,
@@ -22,6 +14,12 @@ const {
     validateComparison,
     validatePrediction,
 } = require("../client/api/predict")._internal;
+
+const crypto = require("node:crypto");
+
+function checksum(buffer) {
+    return crypto.createHash("sha256").update(buffer).digest("hex");
+}
 
 let baseUrl;
 let server;
@@ -99,19 +97,6 @@ test("official curriculum map covers all seven branches and eight semesters", ()
         });
         assert.match(branch.sourceUrl, /^https:\/\/www\.igdtuw\.ac\.in\/IGDTUW\/uploads\/\d+\.pdf$/);
     });
-});
-
-test("contributions resolve subjects from the official curriculum", () => {
-    assert.deepEqual(findCurriculumSubject("cse-ai", "5", "BAI 301"), {
-        branchId: "cse-ai",
-        branchName: "Computer Science & Engineering (Artificial Intelligence)",
-        branchShortName: "CSE-AI",
-        semester: 5,
-        subjectCode: "BAI 301",
-        subjectName: "Machine Learning",
-        category: "DCC",
-    });
-    assert.equal(findCurriculumSubject("cse-ai", "5", "FAKE 999"), null);
 });
 
 const mlEndSemester = [
@@ -389,138 +374,8 @@ test("AI prediction output contains topics and questions but no study plan", () 
     assert.throws(() => validatePrediction({ importantTopics: [], likelyQuestions: [] }), HttpError);
 });
 
-test("PDF upload rejects non-PDF files", async () => {
-    const form = new FormData();
-    form.append("department", "CSE");
-    form.append("semester", "4");
-    form.append("subject", "DBMS");
-    form.append("pdf", new Blob(["not a PDF"], { type: "text/plain" }), "paper.txt");
-
-    const response = await fetch(`${baseUrl}/api/pdf/upload`, {
-        method: "POST",
-        body: form,
-    });
-
-    assert.equal(response.status, 400);
-    assert.equal((await response.json()).message, "Only PDF files are accepted");
-});
-
-test("PDF upload rejects a file with spoofed PDF metadata", async () => {
-    const form = new FormData();
-    form.append("department", "CSE");
-    form.append("semester", "4");
-    form.append("subject", "DBMS");
-    form.append("pdf", new Blob(["not a PDF"], { type: "application/pdf" }), "paper.pdf");
-
-    const response = await fetch(`${baseUrl}/api/pdf/upload`, {
-        method: "POST",
-        body: form,
-    });
-
-    assert.equal(response.status, 400);
-    assert.equal((await response.json()).message, "File content is not a valid PDF");
-});
-
-function appendContributionFields(form, overrides = {}) {
-    const values = {
-        branch: "cse-ai",
-        semester: "5",
-        subjectCode: "BAI 301",
-        examType: "Mid Semester",
-        year: "2024",
-        month: "October",
-        contributorName: "",
-        authentic: "true",
-        publicConsent: "true",
-        ...overrides,
-    };
-    Object.entries(values).forEach(([key, value]) => form.append(key, value));
-}
-
-test("contribution upload requires authenticity and public-sharing consent", async () => {
-    const pdf = Buffer.from("%PDF-1.4\n% consent-test\n%%EOF");
-    const form = new FormData();
-    appendContributionFields(form, { publicConsent: "false" });
-    form.append("pdf", new Blob([pdf], { type: "application/pdf" }), "consent-test.pdf");
-
-    const response = await fetch(`${baseUrl}/api/pdf/upload`, { method: "POST", body: form });
-    assert.equal(response.status, 400);
-    assert.match((await response.json()).message, /authenticity and public-sharing/);
-});
-
-test("contribution upload enters the private local review queue", async () => {
-    const pdf = Buffer.from("%PDF-1.4\n% valid-contribution\n%%EOF");
-    const form = new FormData();
-    appendContributionFields(form);
-    form.append("pdf", new Blob([pdf], { type: "application/pdf" }), "machine-learning-mid-2024.pdf");
-
-    const response = await fetch(`${baseUrl}/api/pdf/upload`, {
-        method: "POST",
-        body: form,
-    });
-    const body = await response.json();
-
-    assert.equal(response.status, 202);
-    assert.equal(body.success, true);
-    assert.equal(body.data.status, "pending_review");
-    assert.equal(body.data.storage, "local-review-queue");
-    assert.match(body.data.reference, /^EF-\d{8}-[A-F0-9]{8}$/);
-
-    const submissionDirectory = path.join(localQueueDirectory, checksum(pdf));
-    const metadata = JSON.parse(fs.readFileSync(path.join(submissionDirectory, "metadata.json"), "utf8"));
-    assert.equal(fs.existsSync(path.join(submissionDirectory, "paper.pdf")), true);
-    assert.equal(metadata.subjectCode, "BAI 301");
-    assert.equal(metadata.examType, "Mid Semester");
-    assert.equal(metadata.status, "pending_review");
-    fs.rmSync(submissionDirectory, { recursive: true, force: true });
-});
-
-test("contribution upload blocks duplicate PDFs", async () => {
-    const pdf = Buffer.from("%PDF-1.4\n% duplicate-contribution\n%%EOF");
-
-    async function submit() {
-        const form = new FormData();
-        appendContributionFields(form, { year: "2023" });
-        form.append("pdf", new Blob([pdf], { type: "application/pdf" }), "duplicate.pdf");
-        return fetch(`${baseUrl}/api/pdf/upload`, { method: "POST", body: form });
-    }
-
-    const first = await submit();
-    const second = await submit();
-    assert.equal(first.status, 202);
-    assert.equal(second.status, 409);
-    assert.match((await second.json()).message, /already been submitted or published/);
-
-    const submissionDirectory = path.join(localQueueDirectory, checksum(pdf));
-    fs.rmSync(submissionDirectory, { recursive: true, force: true });
-});
-
-test("production contributions fail closed when the private queue is not configured", async () => {
-    const previous = {
-        mode: process.env.EXAMFORGE_STORAGE_MODE,
-        nodeEnv: process.env.NODE_ENV,
-        url: process.env.SUPABASE_URL,
-        secret: process.env.SUPABASE_SECRET_KEY,
-    };
-    const pdf = Buffer.from("%PDF-1.4\n% production-config-test\n%%EOF");
-
-    process.env.EXAMFORGE_STORAGE_MODE = "";
-    process.env.NODE_ENV = "production";
-    process.env.SUPABASE_URL = "";
-    process.env.SUPABASE_SECRET_KEY = "";
-
-    try {
-        await assert.rejects(
-            queueSubmission({ buffer: pdf, metadata: { checksumSha256: checksum(pdf) } }),
-            (error) => error.status === 503 && /not configured/.test(error.message)
-        );
-    } finally {
-        process.env.EXAMFORGE_STORAGE_MODE = previous.mode;
-        if (previous.nodeEnv === undefined) delete process.env.NODE_ENV;
-        else process.env.NODE_ENV = previous.nodeEnv;
-        if (previous.url === undefined) delete process.env.SUPABASE_URL;
-        else process.env.SUPABASE_URL = previous.url;
-        if (previous.secret === undefined) delete process.env.SUPABASE_SECRET_KEY;
-        else process.env.SUPABASE_SECRET_KEY = previous.secret;
-    }
+test("Contribute page sends contributors to the Google Form", () => {
+    const page = fs.readFileSync(path.join(__dirname, "../client/admin/upload.html"), "utf8");
+    assert.match(page, /href="https:\/\/forms\.gle\/[A-Za-z0-9]+"[^>]*target="_blank"[^>]*rel="noopener noreferrer"/);
+    assert.doesNotMatch(page, /upload\.js|type="file"/);
 });

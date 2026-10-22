@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="upload.css">
 </head>
 <body>
-    <a class="skip-link" href="#contribution-form">Skip to contribution form</a>
+    <a class="skip-link" href="#contribution-form">Skip to contribution steps</a>
 
     <nav class="topbar" aria-label="Primary navigation">
         <div class="shell nav-shell contribute-nav">
@@ -42,131 +42,51 @@
             </div>
             <div class="moderation-card">
                 <span class="moderation-icon" aria-hidden="true">✓</span>
-                <div><strong>Reviewed before publishing</strong><p>Your file enters a private review queue. It never appears automatically.</p></div>
+                <div><strong>Reviewed before publishing</strong><p>Submissions go to a private review folder. Nothing appears on the site automatically.</p></div>
             </div>
         </div>
     </header>
 
     <main class="contribute-main">
         <div class="shell contribute-layout">
-            <form class="contribution-form" id="contribution-form" novalidate>
-                <section class="form-panel">
+            <section class="contribution-form" id="contribution-form" aria-labelledby="contribute-title">
+                <div class="form-panel">
                     <div class="panel-heading">
                         <span class="step-number">1</span>
-                        <div><h2>Paper details</h2><p>Selecting from the curriculum keeps every contribution correctly organised.</p></div>
+                        <div><h2 id="contribute-title">Have these ready</h2><p>The form asks for the same details you see on each paper in the archive.</p></div>
                     </div>
+                    <ul class="ready-list">
+                        <li><strong>The question paper as one PDF</strong><span>Up to 10 MB. A clear scan or photo converted to PDF is fine.</span></li>
+                        <li><strong>Branch and semester</strong><span>For example CSE-AI, Semester 5.</span></li>
+                        <li><strong>Subject code and name</strong><span>As printed on the paper, e.g. BAI 301 Machine Learning.</span></li>
+                        <li><strong>Exam type, year and month</strong><span>Mid or End Semester, and when it was held.</span></li>
+                    </ul>
+                </div>
 
-                    <div class="field-grid">
-                        <label class="form-field">
-                            <span>Branch</span>
-                            <select id="branch" required></select>
-                        </label>
-                        <label class="form-field">
-                            <span>Semester</span>
-                            <select id="semester" required></select>
-                        </label>
-                        <label class="form-field field-wide">
-                            <span>Subject</span>
-                            <select id="subject" required></select>
-                        </label>
-                        <label class="form-field">
-                            <span>Exam type</span>
-                            <select id="exam-type" required>
-                                <option value="Mid Semester">Mid Semester</option>
-                                <option value="End Semester">End Semester</option>
-                            </select>
-                        </label>
-                        <label class="form-field">
-                            <span>Examination year</span>
-                            <select id="year" required></select>
-                        </label>
-                        <label class="form-field field-wide">
-                            <span>Month <small>Optional</small></span>
-                            <select id="month">
-                                <option value="">Not specified</option>
-                                <option>January</option><option>February</option><option>March</option>
-                                <option>April</option><option>May</option><option>June</option>
-                                <option>July</option><option>August</option><option>September</option>
-                                <option>October</option><option>November</option><option>December</option>
-                            </select>
-                        </label>
-                    </div>
-                </section>
-
-                <section class="form-panel">
+                <div class="form-panel">
                     <div class="panel-heading">
                         <span class="step-number">2</span>
-                        <div><h2>Upload and review the PDF</h2><p>Check that the selected file contains only the intended examination paper.</p></div>
+                        <div><h2>Submit through the form</h2><p>It opens in a new tab and takes about two minutes.</p></div>
                     </div>
-
-                    <label class="contribution-dropzone" id="dropzone" for="pdf">
-                        <input type="file" id="pdf" accept="application/pdf,.pdf" required>
-                        <span class="upload-icon" aria-hidden="true">⇧</span>
-                        <strong>Drop the paper here or choose a PDF</strong>
-                        <small>One PDF · maximum 10 MB</small>
-                    </label>
-
-                    <div class="file-review" id="file-review" hidden>
-                        <div class="file-review-bar">
-                            <span class="pdf-badge">PDF</span>
-                            <div><strong id="file-name"></strong><small id="file-details"></small></div>
-                            <button type="button" id="remove-file" aria-label="Remove selected PDF">Remove</button>
-                        </div>
-                        <iframe id="pdf-preview" title="Selected contribution PDF preview"></iframe>
+                    <div class="form-note">
+                        <span aria-hidden="true">G</span>
+                        <p><strong>Google sign-in is required to attach a file.</strong> Google asks every form with a file upload to do this. Your email address is not collected, and your name is optional.</p>
                     </div>
-                    <p class="file-error" id="file-error" role="alert"></p>
-                </section>
-
-                <section class="form-panel">
-                    <div class="panel-heading">
-                        <span class="step-number">3</span>
-                        <div><h2>Review and confirm</h2><p>Your name is optional. Anonymous contributions are welcome.</p></div>
-                    </div>
-
-                    <label class="form-field contributor-field">
-                        <span>Contributor name <small>Optional · not displayed publicly</small></span>
-                        <input id="contributor-name" type="text" maxlength="80" placeholder="Anonymous">
-                    </label>
-
-                    <div class="submission-summary" aria-label="Contribution summary">
-                        <div><span>Paper</span><strong id="summary-subject">Choose a subject</strong></div>
-                        <div><span>Programme</span><strong id="summary-programme">—</strong></div>
-                        <div><span>Examination</span><strong id="summary-exam">—</strong></div>
-                        <div><span>File</span><strong id="summary-file">No PDF selected</strong></div>
-                    </div>
-
-                    <div class="consent-list">
-                        <label class="consent-row">
-                            <input type="checkbox" id="authentic" required>
-                            <span class="custom-check">✓</span>
-                            <span>I confirm this is a genuine university examination paper and I have the right to share it for academic access.</span>
-                        </label>
-                        <label class="consent-row">
-                            <input type="checkbox" id="public-consent" required>
-                            <span class="custom-check">✓</span>
-                            <span>I understand that, after review, this PDF may become public with visible handwriting or enrollment numbers unchanged.</span>
-                        </label>
-                    </div>
-                </section>
+                </div>
 
                 <div class="submit-panel">
-                    <div><strong>Ready for review?</strong><p>The paper will remain private until an administrator approves it.</p></div>
-                    <button class="button button-primary submit-button" id="submit-button" type="submit" disabled>
-                        <span id="submit-label">Submit paper for review</span><span>→</span>
-                    </button>
+                    <div><strong>Ready to share a paper?</strong><p>Your paper stays private until it is reviewed and approved.</p></div>
+                    <a class="button button-primary submit-button" href="https://forms.gle/g3nsTYhQQ3k7Aat38" target="_blank" rel="noopener noreferrer">
+                        <span>Open the contribution form</span><span aria-hidden="true">↗</span>
+                    </a>
                 </div>
-                <div class="upload-progress" id="upload-progress" hidden>
-                    <div><span id="progress-label">Uploading securely...</span><strong id="progress-value">0%</strong></div>
-                    <progress id="progress-bar" max="100" value="0"></progress>
-                </div>
-                <p class="form-status" id="status" role="status" aria-live="polite"></p>
-            </form>
+            </section>
 
             <aside class="contribution-guide">
                 <div class="guide-card">
                     <p class="section-kicker">What happens next?</p>
                     <ol>
-                        <li><span>01</span><div><strong>Private submission</strong><p>The PDF enters a non-public review queue.</p></div></li>
+                        <li><span>01</span><div><strong>Private submission</strong><p>Your PDF and details go to a private folder only the ExamForge team can see.</p></div></li>
                         <li><span>02</span><div><strong>Quality check</strong><p>We verify its subject, year, exam type and readability.</p></div></li>
                         <li><span>03</span><div><strong>Archive publishing</strong><p>Approved papers appear under the correct subject and year.</p></div></li>
                     </ol>
@@ -175,21 +95,10 @@
                     <span aria-hidden="true">◈</span>
                     <div><strong>Before you upload</strong><p>Remove unrelated personal documents. Enrollment numbers already printed on the exam paper may remain.</p></div>
                 </div>
-                <div class="duplicate-card"><strong>Already submitted?</strong><p>ExamForge checks the PDF fingerprint and blocks duplicate contributions automatically.</p></div>
+                <div class="duplicate-card"><strong>Already in the archive?</strong><p>Check the subject page first. Duplicates are fine to send, but they will not be published twice.</p></div>
             </aside>
         </div>
 
-        <section class="success-panel" id="success-panel" hidden>
-            <div class="success-mark">✓</div>
-            <p class="section-kicker">Submission received</p>
-            <h2>Your paper is waiting for review.</h2>
-            <p>Keep this reference if you need to identify the submission later.</p>
-            <strong class="reference-code" id="reference-code"></strong>
-            <div class="success-actions">
-                <a class="button button-primary" href="../index.html#explore">Return to archive</a>
-                <button class="button button-secondary" id="submit-another" type="button">Submit another paper</button>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -200,7 +109,6 @@
         </div>
     </footer>
 
-    <script src="../data/curriculum.js"></script>
-    <script src="upload.js"></script>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
