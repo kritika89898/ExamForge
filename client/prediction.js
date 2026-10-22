@@ -4,7 +4,8 @@
     const curriculum = window.EXAMFORGE_CURRICULUM;
     const branches = curriculum?.branches || {};
     const maxPapers = 3;
-    const maxFileBytes = 10 * 1024 * 1024;
+    // Uploads travel inside one request, which Vercel caps at 4.5 MB (base64 adds a third).
+    const maxUploadBytes = 3 * 1024 * 1024;
     const state = {
         catalog: [],
         selectedIds: new Set(),
@@ -247,8 +248,9 @@
                 message = `${file.name} is not a PDF.`;
                 return;
             }
-            if (file.size > maxFileBytes) {
-                message = `${file.name} is larger than 10 MB.`;
+            const uploadedBytes = state.uploads.reduce((sum, saved) => sum + saved.file.size, 0);
+            if (uploadedBytes + file.size > maxUploadBytes) {
+                message = `${file.name} is too large: your uploads must total 3 MB or less. Try a compressed PDF, or pick papers from the archive.`;
                 return;
             }
             const duplicate = state.uploads.some((saved) =>
@@ -278,6 +280,15 @@
         elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
+    function fileToBase64(file) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(String(reader.result).split(",")[1] || "");
+            reader.onerror = () => reject(new Error(`${file.name} could not be read.`));
+            reader.readAsDataURL(file);
+        });
+    }
+
     async function submitAnalysis(event) {
         event.preventDefault();
         const current = selectedSubject();
@@ -287,13 +298,14 @@
             return;
         }
 
-        const formData = new FormData();
-        formData.append("subject", `${current.code} ${current.name}`);
-        formData.append("subjectCode", current.code);
-        formData.append("examType", elements.examType.value);
-        formData.append("paperIds", JSON.stringify([...state.selectedIds]));
-        formData.append("uploadYears", JSON.stringify(state.uploads.map((upload) => Number(upload.year))));
-        state.uploads.forEach((upload) => formData.append("pdfs", upload.file));
+        const paperIds = [...state.selectedIds];
+        const request = state.uploads.length
+            ? null
+            : `/api/predict?${new URLSearchParams({
+                subjectCode: current.code,
+                examType: elements.examType.value,
+                paperIds: paperIds.sort().join(","),
+            })}`;
 
         elements.button.disabled = true;
         elements.buttonLabel.textContent = "Analysing selected papers...";
@@ -301,8 +313,30 @@
         setStatus(`Comparing three years of ${elements.examType.value} papers...`);
 
         try {
-            const response = await fetch("/api/predict", { method: "POST", body: formData });
-            const data = await response.json();
+            // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
+            const response = request
+                ? await fetch(request)
+                : await fetch("/api/predict", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        subject: `${current.code} ${current.name}`,
+                        subjectCode: current.code,
+                        examType: elements.examType.value,
+                        paperIds,
+                        uploads: await Promise.all(state.uploads.map(async (upload) => ({
+                            name: upload.file.name,
+                            year: Number(upload.year),
+                            data: await fileToBase64(upload.file),
+                        }))),
+                    }),
+                });
+            const data = await response.json().catch(() => ({
+                success: false,
+                message: response.status === 413
+                    ? "Your PDFs are too large to send. Keep uploads under 3 MB in total."
+                    : "AI Studio is unavailable right now. Please try again in a moment.",
+            }));
 
             if (!response.ok || !data.success) {
                 throw new Error(data.message || "Unable to analyse these papers.");
