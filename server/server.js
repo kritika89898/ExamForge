@@ -4,8 +4,7 @@ const path = require("path");
 require("dotenv").config();
 
 const pdfRoutes = require("./routes/pdfRoutes");
-const predictionRoutes = require("./routes/predictionRoutes");
-const subjectRoutes = require("./routes/subjectRoutes");
+const predictHandler = require("../client/api/predict");
 
 const app = express();
 
@@ -15,16 +14,13 @@ app.use(cors({
         ? process.env.CORS_ORIGIN.split(",").map((origin) => origin.trim())
         : true,
 }));
-app.use(express.json({ limit: "100kb" }));
 
-app.get("/api/health", (req, res) => {
-    res.json({ success: true, status: "ok" });
-});
+app.get("/api/health", require("../client/api/health"));
 
 // API
-app.use("/api/pdf", pdfRoutes);
-app.use("/api/predict", predictionRoutes);
-app.use("/api/subjects", subjectRoutes);
+app.use("/api/pdf", express.json({ limit: "100kb" }), pdfRoutes);
+// Same handler that runs as a Vercel Function in production.
+app.all("/api/predict", express.json({ limit: "5mb" }), predictHandler);
 
 // Static frontend
 app.use(express.static(path.join(__dirname, "../client")));
