@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2022",
+    "igdtuw-cseai-s4-bcs204-end-2023",
+    "igdtuw-cseai-s4-bcs204-end-2024"
+  ],
+  "importantTopics": [
+    "Recurrence Relations and Master Method",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Optimal Binary Search Trees",
+    "Graph Algorithms and Shortest Paths",
+    "String Matching Algorithms",
+    "Backtracking and Branch and Bound",
+    "Minimum Spanning Trees",
+    "NP-Completeness and Reductions"
+  ],
+  "likelyQuestions": [
+    "Solve the given recurrence relation using substitution or master theorem methods.",
+    "Explain the greedy algorithm for generating Huffman codes and construct an optimal binary code for given frequencies.",
+    "Run the Floyd-Warshall algorithm on a given weighted directed graph and show the distance matrices after each iteration.",
+    "Explain the Knuth-Morris-Pratt (KMP) string matching algorithm and use it to find a pattern in a given text.",
+    "Explain the Rabin-Karp string matching algorithm and perform it step-by-step with hash values for a given pattern and text.",
+    "Solve the optimal binary search tree problem for a given set of keys and probabilities using dynamic programming.",
+    "Discuss the N-Queen problem and demonstrate its solution using backtracking.",
+    "Compare backtracking and branch and bound techniques using suitable examples.",
+    "Prove that a specific problem is NP-complete using polynomial-time reduction.",
+    "Determine the minimum spanning tree of a weighted graph using Kruskal's or Prim's algorithm."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

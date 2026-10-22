@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2022",
+    "igdtuw-cseai-s5-bai301-mid-2023"
+  ],
+  "importantTopics": [
+    "Classification Evaluation Metrics",
+    "Linear Regression and Least Squares",
+    "Data Preprocessing and Standardization",
+    "K-Nearest Neighbors Lazy Learner",
+    "Decision Trees and Impurity Measures",
+    "Support Vector Machines and Margins",
+    "Lasso and Ridge Regularization",
+    "Exploratory Data Analysis and Data Issues"
+  ],
+  "likelyQuestions": [
+    "Compute F1 score, TPR, TNR, FPR, and FNR from a given confusion matrix.",
+    "Derive or create the least square regression line for a given set of 2D points and calculate the R-squared value.",
+    "Explain the Bias-Variance tradeoff when applied to classification models.",
+    "Apply the K-Nearest Neighbors lazy learner classifier using a train-test split and determine the test accuracy.",
+    "Demonstrate the choice of a root node using ID3 or CART algorithms based on a provided training dataset table.",
+    "Contrast Lasso and Ridge regression techniques.",
+    "Illustrate the maximum margin hyperplane and discuss the applicability analysis of support vector classifiers.",
+    "Explain the difference between a hard margin and a soft margin in Support Vector Machines (SVM).",
+    "Enumerate and elucidate various techniques employed in data preprocessing, highlighting the significance of data splitting and feature standardization.",
+    "Calculate Accuracy, Precision, Recall, Specificity, and F1 Score for a logistic regression model given predicted probabilities and a classification cut-off threshold."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

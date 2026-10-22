@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2022",
+    "igdtuw-cseai-s5-bai303-mid-2025"
+  ],
+  "importantTopics": [
+    "Active and Passive Attacks",
+    "Malware Types and Analysis",
+    "Denial of Service (DoS) and DDoS Attacks",
+    "Network Spoofing and Hijacking",
+    "Password Attacks and Cryptographic Vulnerabilities",
+    "Advanced Persistent Threats (APT)",
+    "Identity Theft and Fraud",
+    "Cyber Warfare, Terrorism, and Hacktivism"
+  ],
+  "likelyQuestions": [
+    "Differentiate between active and passive attacks with suitable examples.",
+    "Explain the CIA Triad and briefly elaborate on each component.",
+    "Categorically state the significance of a man-in-the-middle attack and illustrate prevention techniques.",
+    "Elucidate the conceptual difference between DoS and DDoS attacks, their indicators, and strategic countermeasures.",
+    "Differentiate between password guessing and password cracking, and formulate appropriate countermeasures.",
+    "Discuss the consequences of identity theft, analyze its different types, and propose prevention techniques.",
+    "Explain different types of malwares with suitable examples.",
+    "What is an Advanced Persistent Threat (APT)? Explain its characteristics, working cycle, and defense mechanisms.",
+    "Describe session hijacking along with any two attack techniques.",
+    "Compare cyber warfare, cyber terrorism, and hacktivism in terms of motives, actors, techniques, and real-world examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

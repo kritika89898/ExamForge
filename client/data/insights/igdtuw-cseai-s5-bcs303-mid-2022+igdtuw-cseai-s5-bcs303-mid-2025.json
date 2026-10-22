@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022",
+    "igdtuw-cseai-s5-bcs303-mid-2025"
+  ],
+  "importantTopics": [
+    "Deterministic and Non-Deterministic Finite Automata",
+    "Regular Expressions and Arden's Theorem",
+    "NFA to DFA Conversion and Minimization",
+    "Context-Free Grammars and Derivations",
+    "Chomsky Normal Form and Greibach Normal Form",
+    "Grammar Ambiguity and Parse Trees",
+    "Pumping Lemma for Regular Languages",
+    "Pushdown Automata Fundamentals"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts strings over {0, 1} satisfying specific arithmetic or pattern conditions.",
+    "Obtain a regular expression from a given finite automaton using Arden's theorem.",
+    "Construct an NFA equivalent to a given regular expression and convert it into a reduced DFA.",
+    "Design an optimized DFA for a specified string pattern language.",
+    "Reduce a given Context Free Grammar into Chomsky Normal Form (CNF).",
+    "Construct the Greibach Normal Form (GNF) for a given grammar.",
+    "Explain leftmost and rightmost derivations with examples and check whether a grammar is ambiguous.",
+    "State the Pumping Lemma for regular languages and explain its significance with an example.",
+    "Explain the equivalence of DFA and NDFA with a simple example.",
+    "Define a Pushdown Automaton (PDA) and explain why a stack is used as its memory element."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-mid-2024"
+  ],
+  "importantTopics": [
+    "Learning Rate Effects on Training",
+    "Activation Functions and Vanishing Gradient",
+    "Perceptron Learning Algorithm",
+    "Bias-Variance Trade-off and Regularization",
+    "Early Stopping and Loss Functions",
+    "Gradient Descent Variants (SGD, Batch, Mini-Batch)",
+    "Advanced Optimizers (Adam, Momentum, RMSprop)",
+    "Neural Network Architecture and Weight Initialization"
+  ],
+  "likelyQuestions": [
+    "How does choosing an extremely high or extremely low learning rate impact the convergence and overall training process of a deep neural network?",
+    "Why is the Rectified Linear Unit (ReLU) preferred over traditional activation functions like sigmoid and tanh in deep learning architectures?",
+    "Explain the vanishing gradient problem in deep networks and write down the formulation of the Softmax activation function ensuring predicted probabilities are never zero.",
+    "Is it advisable to initialize all weights in an artificial neural network to the same value when using a dropout layer? Justify your answer.",
+    "Trace the updates of weight vectors using the perceptron learning algorithm for given training data samples over two iterations.",
+    "Discuss the implications of having low bias and high variance in a deep learning model, and outline the techniques used to mitigate this issue.",
+    "Given a table of training and validation losses across epochs, determine the exact point where training should be halted using early stopping and justify your reasoning.",
+    "Differentiate between standard loss functions used for regression tasks and classification tasks.",
+    "Compare and contrast Stochastic Gradient Descent, Batch Gradient Descent, and Mini-Batch Gradient Descent, highlighting the differences in epoch and iteration definitions.",
+    "Explain the step-by-step mechanism of advanced optimization algorithms such as Adam and Gradient Descent with Momentum."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-II - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2023",
+    "igdtuw-cseai-s5-bai305-end-2025"
+  ],
+  "importantTopics": [
+    "Perceptron Learning Algorithm",
+    "MP-Neuron and Boolean Functions",
+    "Backpropagation and Neural Network Training",
+    "Activation Functions",
+    "Regularization and Overfitting",
+    "Recurrent Neural Networks and LSTM",
+    "Convolutional Neural Networks (CNN)",
+    "Advanced CNN Architectures and Transfer Learning"
+  ],
+  "likelyQuestions": [
+    "Explain the Perceptron learning algorithm in detail and discuss its limitations with non-linearly separable functions.",
+    "Discuss the architecture of the McCulloch-Pitts (MP) Neuron and explain its advantages and limitations.",
+    "Perform manual iterations of the perceptron learning algorithm or gradient descent given specific inputs, weights, and targets.",
+    "Explain the differences between L1 and L2 regularization and discuss their impact on deep learning models.",
+    "Derive and explain the backpropagation algorithm for a multi-layer neural network with a given architecture.",
+    "Compare and contrast activation functions such as ReLU, Sigmoid, Tanh, and discuss their suitability for hidden layers in different network types.",
+    "Discuss the architecture of Long Short-Term Memory (LSTM) networks and how they mitigate the vanishing gradient problem in standard RNNs.",
+    "Calculate the output feature map sizes and kernel parameters for given convolutional neural network layer configurations.",
+    "Explain the concept of Transfer Learning and compare popular CNN architectures such as AlexNet, VGG, ResNet, and InceptionNet.",
+    "Discuss weight initialization techniques and batch normalization in deep neural networks."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

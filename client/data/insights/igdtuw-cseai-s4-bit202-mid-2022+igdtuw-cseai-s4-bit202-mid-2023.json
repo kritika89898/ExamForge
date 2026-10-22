@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2022",
+    "igdtuw-cseai-s4-bit202-mid-2023"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Process Management and States",
+    "Page Replacement Algorithms",
+    "Memory Fragmentation and Paging",
+    "Real-Time Operating Systems",
+    "System Calls and Process Control Block",
+    "Deadlock Characteristics and Handling",
+    "Logical and Physical Address Space"
+  ],
+  "likelyQuestions": [
+    "Explain the various states that a process can be in using a process state diagram, and briefly describe the different types of schedulers.",
+    "Differentiate between hard real-time OS and soft real-time OS with examples.",
+    "For a given set of processes with arrival times and burst times, find the average waiting time and average turnaround time using the SJF scheduling algorithm.",
+    "Explain the concept of preemption in CPU scheduling and how it affects waiting time and turnaround time.",
+    "Find the average waiting time and average turnaround time using Priority scheduling for a set of given processes.",
+    "Calculate the average waiting time and average turnaround time for a given set of processes using Round Robin scheduling with a specified time quantum.",
+    "Differentiate between internal and external fragmentation in contiguous memory allocation, and explain what kind of fragmentation paging suffers from.",
+    "Given a page reference string and a fixed number of frames, calculate the number of page faults using the LRU page replacement algorithm.",
+    "Given a page reference string and a fixed number of frames, calculate the number of page faults using the Optimal page replacement algorithm and explain why it is considered better.",
+    "What is Deadlock? What are the necessary conditions for deadlock, and explain the different methods for handling it in detail."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

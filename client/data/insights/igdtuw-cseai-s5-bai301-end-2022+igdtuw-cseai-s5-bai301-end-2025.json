@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2022",
+    "igdtuw-cseai-s5-bai301-end-2025"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Attribute Types",
+    "Cross-Validation Techniques",
+    "Support Vector Machines and Kernels",
+    "Classification Algorithms",
+    "Regularization Techniques",
+    "Clustering and Dimensionality Reduction",
+    "Performance Evaluation Metrics and ROC-AUC",
+    "Ensemble Methods and Boosting"
+  ],
+  "likelyQuestions": [
+    "Identify different data attribute types and discuss the importance of data preprocessing steps like data cleaning, integration, and feature extraction.",
+    "Explain the concept of k-fold cross-validation with an example using a dataset of size 100 and k=5.",
+    "Discuss the working of Support Vector Machines and explain how kernel functions enable SVMs to handle non-linear classification.",
+    "Compare and contrast supervised and unsupervised learning with suitable examples, including the pros and cons of various classifiers such as Naive Bayes, Logistic Regression, and Decision Trees.",
+    "Give a case in point for regularization, explaining what it is, why it is needed, and how techniques like Ridge and LASSO regression work.",
+    "Cluster the given data points using partitional or agglomerative clustering techniques and draw the corresponding dendrogram.",
+    "Perform Principal Component Analysis (PCA) to transform a given multi-dimensional dataset into a new coordinate system.",
+    "For a given classification dataset with predicted probabilities, plot the ROC curve and calculate the AUC at specified thresholds.",
+    "Contrast bagging and boosting techniques, and explain how ensemble methods like Random Forest and AdaBoost achieve higher accuracy through diversity.",
+    "Discuss the role of evaluation metrics in assessing model performance and compare learning algorithms using metrics such as accuracy, precision, recall, and ROC-AUC."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

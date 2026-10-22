@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2024"
+  ],
+  "importantTopics": [
+    "Recurrence Relations and Master Theorem",
+    "Divide and Conquer Algorithms",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Optimal BST",
+    "Graph Algorithms and Shortest Paths",
+    "Backtracking and State Space Trees",
+    "String Matching Algorithms",
+    "NP-Completeness and Reductions"
+  ],
+  "likelyQuestions": [
+    "Solve the recurrence relation T(N) = 3T(N/3) + N^2 using appropriate methods.",
+    "Derive and solve the divide and conquer recurrence for Merge Sort and analyze its worst-case complexity.",
+    "Apply Strassen's matrix multiplication algorithm to a given pair of 2x2 matrices, detailing each step.",
+    "Find an optimal Huffman code for a given set of character frequencies and explain the prefix-free property.",
+    "Determine the cost and structure of an optimal binary search tree for a given set of keys and access probabilities.",
+    "Solve the all-pairs shortest path problem using the Floyd-Warshall algorithm for a given directed weighted graph.",
+    "Explain the N-Queen problem and formulate the state-space tree for solving the 4-Queen problem using backtracking.",
+    "Describe the working principle of the Knuth-Morris-Pratt (KMP) string matching algorithm and compute the prefix function (pi table) for a given pattern.",
+    "Perform the Rabin-Karp string matching algorithm step by step for a given pattern and text using a specified prime modulus.",
+    "State the subset sum problem, prove its NP-completeness using polynomial-time reduction, and outline an approximate solution."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

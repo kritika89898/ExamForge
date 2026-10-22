@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2022",
+    "igdtuw-cseai-s4-hmc202-end-2023"
+  ],
+  "importantTopics": [
+    "Hazard, Vulnerability and Risk Assessment",
+    "Natural and Man-Made Disasters",
+    "Disaster Management Cycle and Phases",
+    "Preparedness, Mitigation, and Rehabilitation",
+    "Tsunami and Earthquake Management",
+    "Role of Technology (Drones, GIS, Remote Sensing, GPS)",
+    "NDMA and Institutional Framework (Disaster Management Act 2005)",
+    "Role of UN Agencies in Disaster Management"
+  ],
+  "likelyQuestions": [
+    "Define hazard, vulnerability, and risk, and explain their interrelationships with examples.",
+    "Discuss the various stages of the disaster management cycle with suitable examples.",
+    "What is a Tsunami? Explain its causes and discuss comprehensive management strategies for Tsunami disasters.",
+    "Discuss the effects and mitigation measures for landslide and earthquake disasters.",
+    "How are modern technologies like Drones, GIS, and Remote Sensing useful in post-disaster management?",
+    "Explain the role of GPS and IRNSS in disaster management with the help of examples.",
+    "Write short notes on reconstruction, rehabilitation, and pre-disaster preparedness.",
+    "Explain the role and responsibilities of the National Disaster Management Authority (NDMA) in India.",
+    "Discuss the institutional framework established under the Disaster Management Act, 2005.",
+    "Discuss the role of UN Agencies and international organizations in disaster management."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2022"
+  ],
+  "importantTopics": [
+    "Activation Functions",
+    "Neural Network Architecture Design",
+    "Linear and Non-linear Data Separability",
+    "Logistic Regression and Loss Functions",
+    "Hyperparameter Tuning",
+    "Recurrent Neural Networks (RNN)",
+    "Advanced Recurrent Units (LSTM and GRU)",
+    "Convolutional Neural Networks and Pooling"
+  ],
+  "likelyQuestions": [
+    "Differentiate between ReLU and tanh activation functions using their respective formulae and graphical representations.",
+    "Design a neural network with two inputs x1 and x2 to implement the logical AND operation, specifying weights, bias, activation function, and network structure.",
+    "Explain the concept of linearly separable data with diagrams, and discuss kernel methods for transforming non-linear data into a linear space.",
+    "Discuss logistic regression as a fundamental neural network building block, detailing the cost function computation with an illustrative numerical example.",
+    "Explain hyperparameter tuning using a support vector machine (SVM) as an example, detailing parameters, possible values, and intuition.",
+    "Describe Mean Squared Error, Cross-Entropy Loss, and Absolute Error loss functions with their respective mathematical equations and application examples.",
+    "Explain the architecture of a Recurrent Neural Network (RNN) using a suitable diagram and write down all forward pass equations for an input sequence of length 3.",
+    "Compare and contrast the gating mechanisms of GRU and LSTM networks with relevant equations for update and reset/forget gates.",
+    "Consider a given 4x4 input image and a 3x3 filter. Perform 2D convolution and max-pooling operations for specified stride and padding values.",
+    "Explain the K-Nearest Neighbors (KNN) classification algorithm and demonstrate its application on a small numerical image dataset using Euclidean distance."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

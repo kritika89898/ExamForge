@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-end-2023",
+    "igdtuw-cseai-s6-hmc306-end-2024"
+  ],
+  "importantTopics": [
+    "Financial Management Decisions",
+    "Time Value of Money",
+    "Cost of Capital",
+    "Capital Structure",
+    "Capital Budgeting Techniques",
+    "Capital Rationing",
+    "Working Capital Management",
+    "Inventory Management and EOQ"
+  ],
+  "likelyQuestions": [
+    "What do you mean by financial management and explain the major types of financial decisions that a business firm must make?",
+    "Explain the different types of cost of capital with examples in brief.",
+    "What is the meaning of optimum capital structure? Also highlight some of the relevant factors in determining the capital structure.",
+    "Calculate the net present value (NPV) and profitability index for the given machine cash flows at a 10% discount rate.",
+    "Explain why it is possible for IRR and NPV methods to result in different rankings of investment proposals.",
+    "Write a short note on capital rationing and its significance in capital budgeting.",
+    "Prepare an estimate of working capital requirements for a company based on cost of goods sold, operating cycle, and holding periods.",
+    "Differentiate between temporary working capital and permanent working capital, and explain different approaches to financing working capital.",
+    "Why do firms hold inventories? Explain the relationship between carrying costs and ordering costs.",
+    "Calculate the Economic Order Quantity (EOQ) and total annual inventory cost using the given ordering cost, carrying cost, and annual demand."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Financial Management - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Financial Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

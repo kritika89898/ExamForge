@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2022"
+  ],
+  "importantTopics": [
+    "Moral Dilemmas and Professional Ethics",
+    "Kohlberg's Theory of Moral Development",
+    "Risk-Benefit Analysis and Engineering Ethics",
+    "Role of Religion in Shaping Moral Values",
+    "Feminist Ethics and Modern Ethical Theories",
+    "Intellectual Property Rights (IPR)",
+    "Industrial Disasters and Organizational Faults",
+    "Corporate Social Responsibility and Computer Ethics"
+  ],
+  "likelyQuestions": [
+    "Define moral dilemma and explain how professionals navigate conflicting obligations in complex workplace situations.",
+    "Compare and contrast cooperation and commitment in the context of professional engineering practice.",
+    "Explain Kohlberg's theory of moral development and discuss its primary limitations.",
+    "Distinguish between professional and professionalism with suitable workplace examples.",
+    "Explain the concept of risk-benefit analysis and its importance in assessing engineering projects.",
+    "Discuss the significance of feminist ethics in addressing contemporary moral and social issues.",
+    "Differentiate between right-based and duty-based ethical theories with appropriate examples.",
+    "Illustrate with an example how Intellectual Property Rights (IPR) protect the manufacturing and sale of a product.",
+    "Analyze the ethical issues and organizational faults that led to the Bhopal gas tragedy or the Challenger disaster.",
+    "Describe the concept of computer ethics, its significance, and the key issues related to data privacy and security."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

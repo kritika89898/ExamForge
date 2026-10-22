@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2024"
+  ],
+  "importantTopics": [
+    "Image Intensity Transformations and Spatial Filtering",
+    "Histogram Processing and Matching",
+    "Discrete Fourier Transform (DFT) Properties and Frequency Domain",
+    "Image Compression (Huffman Coding and Run-Length Coding)",
+    "Image Segmentation and Region Splitting-Merging",
+    "Morphological Image Processing and Structuring Elements",
+    "Edge Detection and Derivative Operators",
+    "Object Recognition and Representation Techniques"
+  ],
+  "likelyQuestions": [
+    "Explain all types of adjacency involved in digital image processing with examples.",
+    "Perform histogram matching for two given input histograms and compute the mapping transformation.",
+    "Check whether a given 2D Discrete Fourier Transform (DFT) matrix is unitary or not.",
+    "Compute the 2D DFT and its inverse for a given small grayscale image matrix.",
+    "Calculate the efficiency and compression ratio using Huffman coding for a given set of symbol probabilities.",
+    "Apply region splitting and merging with a specified threshold value to an image segment and construct its corresponding quadtree.",
+    "Perform morphological operations such as dilation, erosion, opening, and closing on a binary image using a given structuring element.",
+    "Explain the problems associated with the Roberts Cross first-order derivative operator and discuss how they can be mitigated.",
+    "Verify whether a given 2x2 matrix qualifies to be a valid covariance matrix in pattern recognition.",
+    "Given a binary image shape, calculate its 4-chain code representation for boundary tracing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2023",
+    "igdtuw-cseai-s4-bai204-end-2024"
+  ],
+  "importantTopics": [
+    "General structure and classification of optimization problems",
+    "Constraints, feasible regions, and constraint surfaces",
+    "Graphical method and Simplex method in linear programming",
+    "Integer programming and Knapsack problem",
+    "Genetic algorithms and crossover operators",
+    "Ant Colony Optimization (ACO)",
+    "Particle Swarm Optimization (PSO)",
+    "Decision making under uncertainty and decision trees"
+  ],
+  "likelyQuestions": [
+    "Discuss the steps and general structure of optimization algorithms with engineering applications.",
+    "Explain the classification of optimization problems based on the nature of the equations involved, providing engineering examples.",
+    "Define the role of constraints in defining the feasible region and illustrate how constraints are incorporated into problem formulation.",
+    "Solve a maximization or minimization linear programming problem using the Graphical Method and discuss its limitations compared to the Simplex Method.",
+    "Discuss the termination conditions of the Simplex method and how it detects an unbounded solution.",
+    "Explain how integer programming models are formulated, with specific reference to the Knapsack problem or logistics route selection.",
+    "Explain the application of Genetic Algorithms to solve optimization problems, detailing encoding, fitness function, selection, crossover, and mutation.",
+    "Design an Ant Colony Optimization algorithm for the Traveling Salesman Problem, detailing the pheromone update rule and solution construction.",
+    "Write the algorithm for Particle Swarm Optimization, discussing the initialization step, update rules, and parameter settings.",
+    "Formulate a decision-making problem using a decision tree and evaluate strategies using criteria such as Maximin, Maximax, Regret, and Hurwicz."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

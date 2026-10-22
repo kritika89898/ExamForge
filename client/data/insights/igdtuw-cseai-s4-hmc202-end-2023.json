@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2023"
+  ],
+  "importantTopics": [
+    "Hazard and Vulnerability Assessment",
+    "Natural Disasters and Types",
+    "Pre-Disaster Management Stages",
+    "Geospatial Technologies and GIS",
+    "Tsunami Causes and Management",
+    "Role of NDMA in Disaster Management",
+    "Disaster Management Act 2005",
+    "Search and Rescue Operations"
+  ],
+  "likelyQuestions": [
+    "Define hazard and vulnerability and explain their interrelationship with examples.",
+    "List and explain the relief, recovery, and rehabilitation measures for earthquakes.",
+    "What do you mean by Natural Disaster? Mention the different types of natural disasters.",
+    "Describe the role of GPS and GIS in disaster management.",
+    "What is IRNSS? Explain its application with the help of an example.",
+    "What do you understand by risk and hazard? Discuss strategies adopted for risk reduction.",
+    "Discuss in detail preparedness, mitigation, and prevention under the pre-disaster management stage.",
+    "What do you mean by Tsunami? Explain its causes and steps of disaster management for Tsunami.",
+    "Explain the role of NDMA for disaster management in India.",
+    "What do you understand by search and rescue operations? Discuss the institutional framework under the Disaster Management Act 2005."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

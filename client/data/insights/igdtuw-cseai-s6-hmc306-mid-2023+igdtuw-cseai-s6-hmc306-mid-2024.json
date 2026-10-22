@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-mid-2023",
+    "igdtuw-cseai-s6-hmc306-mid-2024"
+  ],
+  "importantTopics": [
+    "Time value of money and compounding",
+    "Present and future value calculations",
+    "Profit maximisation vs wealth maximisation",
+    "Business risk and financial risk",
+    "Capital structure determinants",
+    "Cost of capital significance",
+    "Explicit and implicit costs",
+    "Characteristics of shares and debentures"
+  ],
+  "likelyQuestions": [
+    "Find the present value of a given sum of money or perpetuity at a specified interest rate.",
+    "Calculate the compound value or future value of an investment over a period of years.",
+    "Determine the annual deposit required to build up a specific future sum for machinery replacement or children's education.",
+    "Explain why wealth maximisation is considered a superior criterion compared to profit maximisation.",
+    "Discuss the time preference for money and justify why future value differs from present value.",
+    "Differentiate between business risk and financial risk, and analyze debt financing decisions under high business risk.",
+    "Distinguish between ordinary shares/equity shares, preference shares, and debentures.",
+    "Discuss the various relevant factors that determine the optimum capital structure of a firm.",
+    "Explain the significance of the cost of capital in financial decision-making.",
+    "Define explicit cost and implicit cost and explain how they differ from each other."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Financial Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Financial Management - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

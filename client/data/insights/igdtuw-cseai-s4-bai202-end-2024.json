@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2024"
+  ],
+  "importantTopics": [
+    "Transmission Media and Network Topologies",
+    "OSI Network Architecture and Layering",
+    "Medium Access Control and ALOHA Protocols",
+    "Flow Control and Sliding Window Protocols",
+    "Routing Algorithms and Shortest Path",
+    "IPv4 Addressing and Subnetting",
+    "Transport Layer Protocols and UDP Header Analysis",
+    "Application Layer Protocols like HTTP and SMTP"
+  ],
+  "likelyQuestions": [
+    "List the characteristics of baseband coaxial cable and compare mesh, star, and ring network topologies in terms of reliability and cable cost.",
+    "Draw the OSI network architecture and explain the specific functionalities and protocols operating at each of the seven layers.",
+    "Compare Shielded Twisted Pair (STP) and Unshielded Twisted Pair (UTP) cables and discuss the primary advantages of fiber optic networks.",
+    "Calculate the maximum throughput and number of supported terminals for Pure ALOHA and Slotted ALOHA given a specific channel bandwidth and frame length.",
+    "Describe the working mechanism of the sliding window protocol using Go-Back-N, including acknowledgments and retransmission strategies.",
+    "Apply Dijkstra's algorithm to find the shortest path tree from a given source node to all other nodes in a weighted network graph.",
+    "Perform subnetting on a given Class C IP address to accommodate a required number of subnets, and determine subnet masks, host capacities, and specific host IP addresses.",
+    "Parse a given hexadecimal UDP header to extract the source port number, destination port number, total length, and data length.",
+    "Discuss the features and working mechanism of HTTP, detailing how persistent and non-persistent connections operate.",
+    "Explain the architecture and working of Electronic mail systems, focusing on the role of SMTP in mail transfer and delivery applications."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

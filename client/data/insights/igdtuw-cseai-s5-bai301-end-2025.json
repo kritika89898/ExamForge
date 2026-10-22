@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2025"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Feature Extraction",
+    "Supervised and Unsupervised Learning",
+    "Support Vector Machines and Kernels",
+    "Regularization and Feature Selection",
+    "Linear Discriminant Analysis",
+    "Principal Component Analysis",
+    "Model Evaluation and Validation Techniques",
+    "Ensemble Learning Methods"
+  ],
+  "likelyQuestions": [
+    "Explain the role of evaluation metrics in assessing model performance and discuss the purpose of learning curves.",
+    "Compare and contrast supervised and unsupervised learning paradigms with suitable examples for each.",
+    "Discuss the importance of data preprocessing and describe the steps involved in data cleaning and integration.",
+    "Explain the working mechanism of Support Vector Machines and describe how kernel functions enable non-linear classification.",
+    "Given a dataset with categorical features, apply a classification algorithm to predict the target label for a new data instance.",
+    "Compare Ridge and LASSO regression in terms of regularization penalty and feature selection capabilities.",
+    "Perform Linear Discriminant Analysis on a given set of two-class data points to project them onto a lower-dimensional line.",
+    "Transform a given set of observations with two features into a new coordinate system using Principal Component Analysis.",
+    "Explain the concept of k-fold cross-validation with an example and discuss its importance in model selection.",
+    "Describe the concept of Ensemble Classification and explain how methods like Random Forest and AdaBoost achieve higher accuracy through diversity."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2023",
+    "igdtuw-cseai-s5-hmc301-mid-2025"
+  ],
+  "importantTopics": [
+    "Morals Values Ethics and Integrity",
+    "Moral Dilemma and Ethical Decision Making",
+    "Sympathy Empathy and Care Based Morality",
+    "Religion Spirituality and Human Values",
+    "Vedic Concepts and Niskama Karma",
+    "Kohlbergs Theory of Moral Development",
+    "Gilligans Theory and Feminist Consequentialism",
+    "Professional Obligations and Life Skills for Engineers"
+  ],
+  "likelyQuestions": [
+    "Write short notes on ethical living and harmony in life, and sympathy and empathy with examples.",
+    "Define morals, values, ethics, and integrity, explaining each term with suitable examples.",
+    "Explain the concept of moral dilemma with real-world examples.",
+    "Discuss the relationship between religion and human values with appropriate examples.",
+    "Explain Indian values based on the conceptual framework of Vedas and purusharth.",
+    "Analyze Kohlbergs six stages of moral development.",
+    "Differentiate between justice-based morality and care-based morality with examples.",
+    "Explain different ethical obligations for engineers working in the profession.",
+    "Discuss the definitions and significance of Niskama Karma, spirituality, and universal religion.",
+    "Explain Feminist Consequentialism and the relevance of life skills for engineering professionals."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

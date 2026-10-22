@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2025"
+  ],
+  "importantTopics": [
+    "Core Human Values and Morals",
+    "Work Ethics and Professional Attributes",
+    "Distinction between Profession and Professionalism",
+    "Moral Dilemmas",
+    "Spirituality and Purusharth",
+    "Niskama Karma and Religion in Society",
+    "Moral Development Theories (Kohlberg and Gilligan)",
+    "Professional Skills and Life Skills for Engineers"
+  ],
+  "likelyQuestions": [
+    "Define morals, values, ethics, and integrity, and provide detailed examples for each.",
+    "Discuss work ethics and explain how qualities like caring, sharing, honesty, and empathy contribute to a professional environment.",
+    "Differentiate clearly between a 'profession' and 'professionalism' with suitable explanations.",
+    "What is a moral dilemma? Discuss it with the help of two real-life examples.",
+    "Explain the concept of purusharth and analyze its significance in daily human life.",
+    "Define Niskama Karma and evaluate whether religion is essential for teaching good human values in society.",
+    "Examine how different religions can foster global peace and harmony based on shared human values.",
+    "Compare and contrast Kohlberg's theory of moral development with Gilligan's theory.",
+    "Explain Feminist Consequentialism and its relevance in ethical decision-making.",
+    "Discuss the importance of training, skill set, and life skills specifically for engineering professionals."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

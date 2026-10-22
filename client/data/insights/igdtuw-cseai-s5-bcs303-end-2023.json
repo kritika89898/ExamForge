@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2023"
+  ],
+  "importantTopics": [
+    "Finite Automata and NFA to DFA Conversion",
+    "DFA Minimization",
+    "Pushdown Automata (PDA)",
+    "Context-Free Grammars and Ambiguity",
+    "Chomsky Normal Form (CNF) and Greibach Normal Form (GNF)",
+    "Pumping Lemma for Context-Free Languages",
+    "Turing Machines and Halting Problem",
+    "Chomsky Hierarchy and Complexity Classes P vs NP"
+  ],
+  "likelyQuestions": [
+    "Explain the formal definition of a Finite Automata with an example.",
+    "Design a DFA that accepts all strings starting with 'ab' and ending with 'ba'.",
+    "Explain the steps involved in the minimization of Finite Automata and minimize a given transition table.",
+    "Design a Pushdown Automata (PDA) for the language L = {a^n b^(2n) : n >= 0}.",
+    "Check whether the given grammar is ambiguous and explain the steps.",
+    "Define Chomsky Normal Form (CNF) and convert a given CFG into CNF.",
+    "State and explain the Pumping Lemma for Context-Free Languages to prove whether a given language is context-free.",
+    "Design a Turing Machine that accepts the language L = {a^n b^n : n >= 1}.",
+    "Discuss the Chomsky Hierarchy of Languages in detail.",
+    "Explain the conversion process from a Moore Machine to a Mealy Machine with an example."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

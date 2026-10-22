@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2023"
+  ],
+  "importantTopics": [
+    "Asymptotic Analysis and Recurrence Relations",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Optimal Binary Search Trees",
+    "Graph Algorithms and Shortest Paths",
+    "Minimum Spanning Trees",
+    "String Matching Algorithms",
+    "Backtracking Approach and N-Queens Problem",
+    "NP-Completeness Theory"
+  ],
+  "likelyQuestions": [
+    "Compare the growth rates of two algorithms with running times $T_A(n) = 10n \\log_2 n$ and $T_B(n) = 3n^2$ in Big-Oh notation, and determine the problem size thresholds where each outperforms the other.",
+    "Derive the computational complexity of a given nested loop structure involving dependent and logarithmic increments.",
+    "Design a divide and conquer algorithm to find a missing term in an arithmetic progression sequence and analyse its time complexity.",
+    "Explain the greedy algorithm for generating Huffman codes with an example, provide its pseudo code, and analyse its complexity.",
+    "Explain the dynamic programming approach for constructing an optimal binary search tree, write the pseudo code, and analyse its complexity.",
+    "Find the shortest path from a source vertex to all other vertices in a weighted directed graph using the Bellman-Ford algorithm, including pseudo code and complexity analysis.",
+    "Find the minimum spanning tree of a given weighted graph using Kruskal's algorithm, provide the pseudo code, and analyse its complexity.",
+    "Explain the Rabin-Karp algorithm for string matching with an example, write its pseudo code, and analyse its complexity.",
+    "Explain the backtracking approach of algorithm design with the N-queen problem as an example.",
+    "Define NP-complete problems and provide a formal proof demonstrating that the set cover problem is NP-complete."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

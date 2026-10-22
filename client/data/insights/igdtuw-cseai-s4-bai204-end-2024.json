@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2024"
+  ],
+  "importantTopics": [
+    "Introduction to Optimization and Problem Formulation",
+    "Linear Programming and Graphical Method",
+    "Simplex Method Theory and Termination",
+    "Integer Programming",
+    "Genetic Algorithms",
+    "Ant Colony and Particle Swarm Optimization",
+    "Decision Analysis and Decision Trees",
+    "Decision Making Under Uncertainty"
+  ],
+  "likelyQuestions": [
+    "Explain the general structure of optimization algorithms and discuss two real-world engineering applications.",
+    "Formulate a complete integer programming model for a facility location problem with specific capacity and cost constraints.",
+    "Classify optimization problems based on the nature of governing equations, providing relevant engineering examples for each category.",
+    "Define the feasible region in linear programming and explain the mathematical role of constraints using a formulated example.",
+    "Solve a maximization linear programming problem with two decision variables using the graphical method, and discuss its limitations compared to the simplex method.",
+    "Discuss the termination criteria of the Simplex method and explain how it detects unbounded solutions.",
+    "Describe the step-by-step application of Genetic Algorithms to the Knapsack problem, detailing encoding, fitness evaluation, and genetic operators.",
+    "Design an Ant Colony Optimization algorithm for the Traveling Salesperson Problem, explaining the pheromone update rules and solution construction strategies.",
+    "Formulate a decision tree for a manufacturing expansion problem involving multiple demand states and calculate the expected monetary value for each course of action.",
+    "Determine the optimal decision for a given payoff matrix using Maximin, Maximax, Minimax Regret, Equal Probability, and Hurwicz criteria."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

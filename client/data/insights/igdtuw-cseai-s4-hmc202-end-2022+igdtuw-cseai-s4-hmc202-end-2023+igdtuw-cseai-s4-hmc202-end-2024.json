@@ -1,0 +1,47 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2022",
+    "igdtuw-cseai-s4-hmc202-end-2023",
+    "igdtuw-cseai-s4-hmc202-end-2024"
+  ],
+  "importantTopics": [
+    "Hazard, Risk, and Vulnerability Assessment",
+    "Disaster Management Cycle and Phases",
+    "Geoinformatics, GIS, and Remote Sensing in Disasters",
+    "Drones and ICT Applications in Disaster Management",
+    "Earthquakes and Landslides: Causes and Management",
+    "Cyclones and Tsunami: Early Warning and Mitigation",
+    "NDMA, State Authorities, and Disaster Management Act 2005",
+    "Post-Disaster Recovery, Rehabilitation, and Reconstruction"
+  ],
+  "likelyQuestions": [
+    "What do you mean by hazard and vulnerability? How are they related to risk?",
+    "Discuss the disaster management cycle, detailing pre-disaster, during-disaster, and post-disaster phases.",
+    "What is remote sensing and GIS? Discuss their applications in disaster management.",
+    "Explain how drone technology and ICT can be effectively used for disaster management.",
+    "What are the causes of earthquakes? Discuss the pre-disaster and post-disaster management steps for earthquakes.",
+    "What do you mean by landslide? Explain its causes and the steps involved in landslide disaster management.",
+    "What is a Tsunami? Discuss its causes, management, and the Indian Tsunami Early Warning System.",
+    "Discuss the role and functions of the National Disaster Management Authority (NDMA) in disaster management.",
+    "Explain the key provisions of the Disaster Management Act, 2005, and the institutional framework it establishes.",
+    "What do you understand by rehabilitation, reconstruction, and search and rescue operations during post-disaster management?"
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

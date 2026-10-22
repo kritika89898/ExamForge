@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2022"
+  ],
+  "importantTopics": [
+    "National and International Disaster Management Institutions",
+    "Classification and Characteristics of Natural and Man-made Disasters",
+    "Vulnerability and Hazard Mapping in India",
+    "Disaster Management Cycle and Phases",
+    "Tsunamis, Earthquakes, and Geological Disasters",
+    "Cyclones, Floods, and Meteorological Disasters",
+    "Technological Tools in Disaster Management (Drones and Geoinformatics)",
+    "Policy, Governance, and Legislative Frameworks"
+  ],
+  "likelyQuestions": [
+    "Where is the head office of the National Disaster Management Authority located and what ministry oversees its operations?",
+    "Explain the classification of hazards and discuss the key differences between natural and man-made disasters with examples.",
+    "Write short notes on Reconstruction, Rehabilitation, and pre-disaster Preparedness activities.",
+    "What is a Tsunami, and what comprehensive strategies can be implemented to manage and mitigate Tsunami disasters?",
+    "Discuss the causes, major effects, and mitigation strategies for landslide disasters in hilly regions.",
+    "Elucidate the applications of Drones and Geoinformatics in post-disaster damage assessment and relief operations.",
+    "Describe the complete Disaster Management Cycle and explain the significance of each phase.",
+    "Discuss the role and contributions of various United Nations agencies in global disaster management and risk reduction.",
+    "Analyze the geographical vulnerability of different regions in India to specific types of natural disasters such as floods and cyclones.",
+    "Explain the key provisions and the year of enactment of the Disaster Management Act in India."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}
