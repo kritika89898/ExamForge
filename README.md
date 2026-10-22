@@ -9,7 +9,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini_API-4285F4?logo=googlegemini&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase_Storage-3ECF8E?logo=supabase&logoColor=white)
+![Google Forms](https://img.shields.io/badge/Contributions-Google_Forms-7248B9?logo=googleforms&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)
 
 <!-- STEP 1 (after adding the file): uncomment this hero image.
@@ -56,135 +56,104 @@ If the video is too large for GitHub, upload it to YouTube and use a clickable t
 | Browse by department, semester, subject | AI predictions and study strategy |
 |:---:|:---:|
 | ![Subject browser](docs/images/browse.png) | ![Predictions](docs/images/predictions.png) |
-| **Subject PDF viewer** | **Admin PDF upload** |
-| ![PDF viewer](docs/images/pdf-viewer.png) | ![Admin upload](docs/images/admin-upload.png) |
+| **Subject PDF viewer** | **Contribute page** |
+| ![PDF viewer](docs/images/pdf-viewer.png) | ![Contribute page](docs/images/contribute.png) |
 
 -->
 
 ## Features
 
-- Department, semester, and subject browsing
-- Previous-year paper links and solution placeholders
-- Gemini-powered predictions from curated JSON datasets
-- Admin PDF upload with PDF-only validation and a 10 MB size limit
-- Subject-specific PDF viewer backed by Supabase Storage
-- Health-check and subject-discovery APIs
+- Browse 76 verified previous-year papers by branch, semester and subject (CSE-AI, Semesters 4–6), including electives
+- In-browser PDF viewer with open and download links
+- **AI Studio:** pick 1–3 papers of one exam type (archive papers or your own PDFs) and get important topics and likely questions from Google Gemini
+- Community contributions through a Google Form, reviewed before anything is published
+- Runs entirely on free tiers: no database or paid storage
 
 ## Architecture
 
-ExamForge is a single Express.js server that serves both the REST API and the static frontend. The backend is layered (routes, controllers, services) so HTTP handling stays separate from the dataset, Gemini, and storage integrations.
+The site is static HTML, CSS and JavaScript in `client/`, deployed on Vercel. Question papers are ordinary files in `client/papers/`, served from Vercel's CDN, so they are always available. AI Studio is one Vercel Function, `client/api/predict.js`, with no npm dependencies.
 
 ### System overview
 
 ```mermaid
 flowchart TB
     Student(["Student"])
+    Contributor(["Contributor"])
     Admin(["Admin"])
 
-    subgraph Browser["Browser: client/"]
-        UI["Browse by department, semester, subject"]
-        Viewer["PDF viewer"]
-        UploadPage["Admin upload page"]
+    subgraph Vercel["Vercel (client/)"]
+        Pages["Static pages: browse, viewer, AI Studio"]
+        Catalog[("data/papers.json")]
+        Papers[("papers/: question-paper PDFs")]
+        Predict["api/predict.js (Vercel Function)"]
+        CDN{{"CDN cache"}}
     end
 
-    subgraph Server["Express server: server/"]
-        Routes["routes/"]
-        Controllers["controllers/"]
-        DatasetSvc["services: dataset"]
-        GeminiSvc["services: Gemini"]
-        PdfSvc["services: PDF"]
-    end
-
-    Data[("data/: subject JSON datasets")]
     Gemini{{"Google Gemini API"}}
-    Storage[("Supabase Storage: academic-files bucket")]
+    Form["Google Form"]
+    Drive[("Google Drive: submissions")]
+    GitHub[("GitHub repo")]
 
-    Student --> UI
-    Student --> Viewer
-    Admin --> UploadPage
-    UI -->|"GET /api/subjects, POST /api/predict"| Routes
-    UploadPage -->|"POST /api/pdf/upload"| Routes
-    Routes --> Controllers
-    Controllers --> DatasetSvc
-    Controllers --> GeminiSvc
-    Controllers --> PdfSvc
-    DatasetSvc --> Data
-    GeminiSvc --> Gemini
-    PdfSvc --> Storage
-    Viewer -->|"public PDF URL"| Storage
+    Student --> Pages
+    Pages --> Catalog
+    Pages -->|"open / download"| Papers
+    Pages -->|"GET or POST /api/predict"| CDN
+    CDN --> Predict
+    Predict --> Papers
+    Predict --> Gemini
+    Contributor --> Form --> Drive
+    Admin -->|"review, then commit PDF + catalogue entry"| GitHub
+    GitHub -->|"auto deploy"| Vercel
 ```
 
-### Prediction flow
-
-<!-- VERIFY this flow against server/controllers and server/services before pushing. -->
+### AI Studio flow
 
 ```mermaid
 sequenceDiagram
     actor S as Student
-    participant UI as Browser UI
-    participant API as Express API
-    participant DS as Dataset service
-    participant GS as Gemini service
+    participant UI as AI Studio page
+    participant CDN as Vercel CDN
+    participant F as api/predict.js
     participant AI as Gemini API
 
-    S->>UI: Select a subject and request a prediction
-    UI->>API: POST /api/predict with the subject
-    API->>DS: Load the curated subject dataset
-    DS-->>API: Dataset (JSON)
-    API->>GS: Build the request from the dataset
-    GS->>AI: Generate predictions
-    AI-->>GS: Model response
-    GS-->>API: Predicted questions, important topics, study strategy
-    API-->>UI: JSON response
-    UI-->>S: Render the results
-```
-
-### Admin upload flow
-
-<!-- VERIFY this flow against server/services (PDF service) before pushing. -->
-
-```mermaid
-sequenceDiagram
-    actor A as Admin
-    participant UI as Upload page
-    participant API as Express API
-    participant PS as PDF service
-    participant SB as Supabase Storage
-
-    A->>UI: Choose a PDF, department, semester, subject
-    UI->>API: POST /api/pdf/upload
-    API->>PS: Validate the file (PDF only, max 10 MB)
-    alt File is valid
-        PS->>SB: Store the PDF
-        SB-->>PS: Stored file reference
-        PS-->>API: Success
-        API-->>UI: Success response
-    else File is invalid
-        API-->>UI: Validation error
+    S->>UI: Choose subject, exam type and 1–3 papers
+    alt Archive papers only
+        UI->>CDN: GET /api/predict?subjectCode&examType&paperIds
+        CDN-->>UI: Cached result (if another student asked already)
+        CDN->>F: Cache miss
+    else Includes the student's own PDFs
+        UI->>F: POST /api/predict (JSON, PDFs base64, max 3 MB)
     end
+    F->>F: Validate subject, exam type, distinct years, PDF signatures
+    F->>AI: Prompt + PDFs (gemini-3.5-flash-lite, falls back to gemini-3.8-flash)
+    AI-->>F: JSON topics and questions
+    F-->>UI: Results (GET responses cached for 7 days)
+    UI-->>S: Important topics and likely questions
 ```
 
 ### Key design decisions
 
-- **Same-origin serving:** Express serves the API and the frontend together, so the browser uses the same relative API URLs locally and in production, with no cross-origin setup.
-- **Layered backend:** Routes map to controllers, and controllers call services, which keeps request handling separate from Gemini, dataset, and storage logic.
-- **Curated datasets:** Predictions are generated from per-subject JSON datasets in `server/data/`.
-- **Storage safety:** Papers live in a public, PDF-only Supabase bucket with a 10 MB limit. The secret key is needed only when uploading and is never added to browser code or committed to Git.
+- **Static files over a storage service:** about 60 MB of PDFs fit comfortably in the repo. Vercel serves them from its CDN, so there is no free-tier database that can pause or expire.
+- **Zero-dependency function:** `api/predict.js` calls the Gemini REST API with `fetch`, so the function needs no `npm install`.
+- **Quota-friendly AI:** archive-only analyses use `GET` and are cached on the CDN for a week; a model that is out of quota falls back to the next one.
+- **Fits Vercel's 4.5 MB request limit:** archive PDFs are read inside the function, and student uploads are capped at 3 MB in total.
+- **Moderated contributions:** submissions go to a private Google Drive folder through a Google Form and are published only after review.
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | Node.js 20+, Express.js, REST APIs |
-| AI | Google Gemini API |
-| Storage | Supabase Storage (public, PDF-only bucket) |
+| Frontend | HTML, CSS, JavaScript, PDF.js |
+| API | Vercel Functions (Node.js), Express.js for local development |
+| AI | Google Gemini API (REST) |
+| Paper storage | Static files in the repo, served by Vercel's CDN |
+| Contributions | Google Forms + Google Drive |
 | Deployment | Vercel |
-| Tooling | Git/GitHub, npm scripts, automated API and upload tests |
+| Tooling | Git/GitHub, Node's built-in test runner |
 
 ## Getting Started
 
-**Requirements:** Node.js 20 or newer and a Gemini API key.
+**Requirements:** Node.js 20 or newer and a free Gemini API key from <https://aistudio.google.com/apikey>.
 
 ```bash
 git clone https://github.com/kritika89898/ExamForge.git
@@ -194,17 +163,25 @@ cp .env.example .env        # Windows (cmd): copy .env.example .env
 npm run dev
 ```
 
-Set `GEMINI_API_KEY` in `server/.env`, then open <http://localhost:5000>.
+Set `GEMINI_API_KEY` in `server/.env`, then open <http://localhost:5000>. The local Express server runs the same `client/api/` handlers that Vercel runs in production.
 
 ### Configuration
 
 | Variable | Required | Purpose |
 |---|---|---|
-| `GEMINI_API_KEY` | Yes | Generates predictions |
-| `SUPABASE_URL` | For hosted papers | Locates the public `academic-files` bucket |
-| Supabase secret key (see `.env.example`) | Only when uploading | Used by the upload tooling. Never commit it or expose it to the browser. |
+| `GEMINI_API_KEY` | Yes, for AI Studio | Google Gemini key. On Vercel, add it under Project Settings → Environment Variables. |
+| `GEMINI_MODEL` | No | Comma-separated models to try in order. Default: `gemini-3.5-flash-lite,gemini-3.8-flash` |
 
-For the bucket, upload, and deployment procedure, see [`docs/supabase-storage.md`](docs/supabase-storage.md).
+### Deploying on Vercel
+
+Set the project's **Root Directory** to `client`. `client/vercel.json` bundles the papers and catalogue with the AI function.
+
+## Adding a contributed paper
+
+1. Open the submission in the Google Form's linked Drive folder and check the subject, year and exam type.
+2. Rename the PDF like the others, e.g. `BAI301_ML_END_2026.pdf`, and put it in `client/papers/semester-N/`.
+3. Add an entry to `client/data/papers.json` with its `file_path`, `file_size` and `checksum_sha256`.
+4. Commit and push. Vercel redeploys automatically.
 
 ## Scripts
 
@@ -212,32 +189,31 @@ Run these from the `server` directory:
 
 | Command | What it does |
 |---|---|
-| `npm start` | Starts the production server |
-| `npm run dev` | Starts the server with automatic reloads |
-| `npm test` | Runs the API and upload regression tests |
-| `npm run storage:setup` | Creates or updates the public PDF-only bucket |
-| `npm run storage:upload -- <local-pdf> <storage-path>` | Uploads one prepared PDF to the configured bucket |
+| `npm run dev` | Local server with automatic reloads |
+| `npm start` | Local server without reloads |
+| `npm test` | Catalogue, AI Studio and page tests |
 
 ## API Reference
 
 | Method | Endpoint | Purpose |
 |---|---|---|
-| `GET` | `/api/health` | Deployment health check |
-| `GET` | `/api/subjects` | List subjects with local datasets |
-| `POST` | `/api/predict` | Generate a prediction from `{ "subject": "DBMS" }` |
-| `POST` | `/api/pdf/upload` | Upload a PDF with department, semester, and subject fields |
+| `GET` | `/api/health` | Health check; reports whether the Gemini key is configured |
+| `GET` | `/api/predict?subjectCode=&examType=&paperIds=a,b,c` | Analyse 1–3 archive papers (CDN-cached) |
+| `POST` | `/api/predict` | Analyse papers including the student's own PDFs: `{ subjectCode, examType, paperIds, uploads: [{ name, year, data }] }` |
 
 ## Project Structure
 
 ```
-client/            Browser UI and admin upload page
-docs/              Storage setup and operating instructions
+client/
+  api/             Vercel Functions: predict.js, health.js
+  admin/           Contribute page (links to the Google Form)
+  data/            papers.json catalogue and curriculum map
+  papers/          Question-paper PDFs by semester
+  vercel.json      Function settings
 server/
-  controllers/     HTTP request handlers
-  data/            Subject datasets used for predictions
-  routes/          Express API routes
-  services/        Dataset, PDF, and Gemini integrations
-  scripts/         Controlled Supabase bucket and upload tooling
+  server.js        Local Express server mounting client/api handlers
+  test.js          Test suite
+  scripts/         PDF splitting helper
 ```
 
 ## Testing
@@ -247,14 +223,13 @@ cd server
 npm test
 ```
 
-The suite covers the API endpoints and the PDF upload rules.
+The suite checks that every catalogue entry has a matching PDF (size and SHA-256), the curriculum map, AI Studio validation, model fallback, CDN caching headers and the Contribute page link. Gemini is stubbed, so no API key is needed.
 
 ## Roadmap
 
-- [ ] Expand the verified paper catalog semester by semester
-- [ ] Add admin authentication before accepting uploads
-- [ ] Replace placeholder paper links with stored, searchable documents
-- [ ] Add rate limiting and caching around AI prediction requests
+- [ ] Expand the verified paper catalogue to more branches and semesters
+- [ ] A small script to add a reviewed paper to the catalogue automatically
+- [ ] Rate limiting for uploaded-PDF analyses
 
 ## Author
 
