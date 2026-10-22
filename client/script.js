@@ -74,6 +74,28 @@
         return branch && branch.semesters[semester] ? branch.semesters[semester] : [];
     }
 
+    // Curriculum lists electives as placeholders ("Departmental Elective I"), so an
+    // elective with papers in the catalogue (e.g. BAI 322) is added as its own entry.
+    function subjectEntriesWithPapers(branchId, semester) {
+        const entries = subjectEntries(branchId, semester);
+        const listed = new Set(entries.map(([code]) => normalizeCode(code)));
+        const electives = new Map();
+
+        state.papers
+            .filter((paper) => paper.is_published !== false)
+            .filter((paper) => Number(paper.semester) === Number(semester))
+            .filter((paper) => branchMatchesPaper(branchId, paper))
+            .forEach((paper) => {
+                const key = normalizeCode(paper.subject_code);
+                if (!listed.has(key) && !electives.has(key)) {
+                    const category = key.startsWith("HMC") ? "HMC" : "DEC";
+                    electives.set(key, [paper.subject_code, paper.subject_name, category]);
+                }
+            });
+
+        return [...entries, ...electives.values()];
+    }
+
     function totalSubjects(branch) {
         return Object.values(branch.semesters).reduce((total, semester) => total + semester.length, 0);
     }
@@ -235,7 +257,7 @@
     }
 
     function renderSubjects() {
-        const entries = subjectEntries(state.branch, state.semester).filter(subjectMatchesFilter);
+        const entries = subjectEntriesWithPapers(state.branch, state.semester).filter(subjectMatchesFilter);
         elements.subjectResultCount.textContent = `${entries.length} ${entries.length === 1 ? "subject" : "subjects"}`;
         document.querySelectorAll(".filter-pill").forEach((button) => {
             button.classList.toggle("active", button.dataset.filter === state.filter);
@@ -303,8 +325,8 @@
 
     function allSearchEntries() {
         return Object.entries(branches).flatMap(([branchId, branch]) =>
-            Object.entries(branch.semesters).flatMap(([semester, entries]) =>
-                entries.map(([code, name, category]) => ({ branchId, branch, semester: Number(semester), code, name, category }))
+            Object.keys(branch.semesters).flatMap((semester) =>
+                subjectEntriesWithPapers(branchId, semester).map(([code, name, category]) => ({ branchId, branch, semester: Number(semester), code, name, category }))
             )
         );
     }
