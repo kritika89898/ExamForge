@@ -12,14 +12,11 @@
     "page_count": 1,
     "file_size": 386199,
     "checksum_sha256": "9702ea26a4f105c71735220bc65686da015cd03d21730e5a78ccbaf06d193752",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/end/BAI202_CN_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI202_CN_END_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/BAI202_CN_END_2022.pdf",
     "is_published": true
   },
   {
@@ -35,14 +32,11 @@
     "page_count": 1,
     "file_size": 397395,
     "checksum_sha256": "9595c11d17c2456f348cafa53d5c8dde782906417572ace6c0f4c2e5e3a0776c",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/mid/BAI202_CN_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI202_CN_MID_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       14
     ],
+    "file_path": "papers/semester-4/BAI202_CN_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -58,15 +52,12 @@
     "page_count": 2,
     "file_size": 2401709,
     "checksum_sha256": "153a25036651429ba98831b482045ae46c7468a2d5b261b4cbfa8abb471787a7",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/end/BAI202_CN_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI202_CN_END_2023.pdf",
     "source_file": "sem4_2023_cn_end_1.jpg / sem4_2023_cn_end_2.jpg",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BAI202_CN_END_2023.pdf",
     "is_published": true
   },
   {
@@ -82,14 +73,11 @@
     "page_count": 1,
     "file_size": 1403354,
     "checksum_sha256": "614bf0e05743b55021cba07986ad8b9e159ea81ac62ab518e76cb5632c6c1f38",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/mid/BAI202_CN_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI202_CN_MID_2023.pdf",
     "source_file": "sem4_2023_cn_mid.jpg",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/BAI202_CN_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -105,15 +93,12 @@
     "page_count": 2,
     "file_size": 147607,
     "checksum_sha256": "535c807215ddfbdf8812a87f3bff3143e29d98c311b68cdc4881c1ad70264ebe",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/end/BAI202_CN_END_2024.pdf",
-    "local_demo_url": "/demo-papers/BAI202_CN_END_2024.pdf",
     "source_file": "sem4_2024_cn.pdf",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BAI202_CN_END_2024.pdf",
     "is_published": true
   },
   {
@@ -129,15 +114,12 @@
     "page_count": 2,
     "file_size": 996866,
     "checksum_sha256": "714a0e79c53b65c378aff5376cce162701a57182ae5a881694055b3bb8b11309",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/end/BAI204_OTDM_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI204_OTDM_END_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       7,
       8
     ],
+    "file_path": "papers/semester-4/BAI204_OTDM_END_2022.pdf",
     "is_published": true
   },
   {
@@ -153,15 +135,12 @@
     "page_count": 2,
     "file_size": 795790,
     "checksum_sha256": "a97be15b5b4c5b8721dede40c7aa1e150f60e58d7489f73f558542d6b1a0774d",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/mid/BAI204_OTDM_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI204_OTDM_MID_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       12,
       13
     ],
+    "file_path": "papers/semester-4/BAI204_OTDM_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -177,15 +156,12 @@
     "page_count": 2,
     "file_size": 2586814,
     "checksum_sha256": "eb0bac95a2794c73cdb16ed8184d91c33ad48186abcb7262cd1156fed5a9b709",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/end/BAI204_OTDM_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI204_OTDM_END_2023.pdf",
     "source_file": "sem4_2023_otdm_end_1.jpg / sem4_2023_otdm_end_2.jpg",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BAI204_OTDM_END_2023.pdf",
     "is_published": true
   },
   {
@@ -201,14 +177,11 @@
     "page_count": 1,
     "file_size": 1477134,
     "checksum_sha256": "5fc913b091277cf283a2f4e854beb81045bc83180832760392dc9832666d4871",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/mid/BAI204_OTDM_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI204_OTDM_MID_2023.pdf",
     "source_file": "sem4_2023_otdm_mid.jpg",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/BAI204_OTDM_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -224,15 +197,12 @@
     "page_count": 2,
     "file_size": 243994,
     "checksum_sha256": "b703f63417e85708d39c995f6b0da4e638fb7ed229ec3bfea0c184dbce49088f",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/end/BAI204_OTDM_END_2024.pdf",
-    "local_demo_url": "/demo-papers/BAI204_OTDM_END_2024.pdf",
     "source_file": "sem4_2024_otdm.pdf",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BAI204_OTDM_END_2024.pdf",
     "is_published": true
   },
   {
@@ -248,15 +218,12 @@
     "page_count": 2,
     "file_size": 1117454,
     "checksum_sha256": "84c11283736655c7180c665b039af2a9b0943ff389746fa75f093229b16a9585",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/end/BCS204_DAA_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BCS204_DAA_END_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       2,
       3
     ],
+    "file_path": "papers/semester-4/BCS204_DAA_END_2022.pdf",
     "is_published": true
   },
   {
@@ -272,14 +239,11 @@
     "page_count": 1,
     "file_size": 397055,
     "checksum_sha256": "6fe2795403381ed62d62fde32d328c3276a6d5b928a35a5fd3078a3709844a75",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/mid/BCS204_DAA_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BCS204_DAA_MID_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       19
     ],
+    "file_path": "papers/semester-4/BCS204_DAA_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -295,15 +259,12 @@
     "page_count": 2,
     "file_size": 2786847,
     "checksum_sha256": "d4a13bb3a647ddfac73a3acdc7c81f25d90d637076586df361f6f1dacc92dff8",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/end/BCS204_DAA_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BCS204_DAA_END_2023.pdf",
     "source_file": "sem4_2023_daa_end_1.jpg / sem4_2023_daa_end_2.jpg",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BCS204_DAA_END_2023.pdf",
     "is_published": true
   },
   {
@@ -319,15 +280,12 @@
     "page_count": 2,
     "file_size": 3181672,
     "checksum_sha256": "7558d525b0f0f90df3cb4bc2e3c088ae03166bb4d8033ee7d2ba848b2d4925e0",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/mid/BCS204_DAA_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BCS204_DAA_MID_2023.pdf",
     "source_file": "sem4_2023_daa_mid_1.jpg / sem4_2023_daa_mid_2.jpg",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BCS204_DAA_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -343,15 +301,12 @@
     "page_count": 2,
     "file_size": 238782,
     "checksum_sha256": "ce12f0f1868b00bfaa7602460da859d8cdcf21eff6e7910f54d86e704e3e1202",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/end/BCS204_DAA_END_2024.pdf",
-    "local_demo_url": "/demo-papers/BCS204_DAA_END_2024.pdf",
     "source_file": "b1c8bb11ecbb3034aef4a87fa01aa1aeb6a8c6a2End-Term%20%28May%202024%29.pdf",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BCS204_DAA_END_2024.pdf",
     "is_published": true
   },
   {
@@ -367,16 +322,13 @@
     "page_count": 3,
     "file_size": 864610,
     "checksum_sha256": "fdd0a172c1cae8b0f59aeb790a6aeed0ee569aea195ac1ed45d6d79c594de924",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/end/BIT202_OS_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_END_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       4,
       5,
       6
     ],
+    "file_path": "papers/semester-4/BIT202_OS_END_2022.pdf",
     "is_published": true
   },
   {
@@ -392,15 +344,12 @@
     "page_count": 2,
     "file_size": 629358,
     "checksum_sha256": "0e782086acd0749c35b6ea47d8813174740aaa704a6fbe125d54a9814c091a2d",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/mid/BIT202_OS_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_MID_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       17,
       18
     ],
+    "file_path": "papers/semester-4/BIT202_OS_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -416,15 +365,12 @@
     "page_count": 2,
     "file_size": 3223885,
     "checksum_sha256": "3485bb7de46ceda28d9585afc3239d39b769f8825453884dbd52d2347fce27e0",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/end/BIT202_OS_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_END_2023.pdf",
     "source_file": "sem4_2023_os_end_1.jpg / sem4_2023_os_end_2.jpg",
     "source_pages": [
       1,
       2
     ],
+    "file_path": "papers/semester-4/BIT202_OS_END_2023.pdf",
     "is_published": true
   },
   {
@@ -440,14 +386,11 @@
     "page_count": 1,
     "file_size": 1305508,
     "checksum_sha256": "d4f52ef68ad69da063cf3872bc0390f22c1aeba936528cbbfb941244ba85786c",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/mid/BIT202_OS_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_MID_2023.pdf",
     "source_file": "sem4_2023_os_mid.jpg",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/BIT202_OS_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -463,16 +406,13 @@
     "page_count": 3,
     "file_size": 276521,
     "checksum_sha256": "3c155184fac42b846128e1ac182c50e98f1ad136d192b0e4448c392ddb62401a",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/end/BIT202_OS_END_2024.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_END_2024.pdf",
     "source_file": "sem4_2024_os.pdf",
     "source_pages": [
       1,
       2,
       3
     ],
+    "file_path": "papers/semester-4/BIT202_OS_END_2024.pdf",
     "is_published": true
   },
   {
@@ -488,14 +428,11 @@
     "page_count": 1,
     "file_size": 118077,
     "checksum_sha256": "71921a7698c10a8941f2adeacdbf0f9f1bce66d02992dbfc037b156c8697c43e",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/mid/BIT202_OS_MID_2024.pdf",
-    "local_demo_url": "/demo-papers/BIT202_OS_MID_2024.pdf",
     "source_file": "e2ca3d459e110690052a30f2f6073542648050a2Mid-Term%20%28March%202024%29.pdf",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/BIT202_OS_MID_2024.pdf",
     "is_published": true
   },
   {
@@ -511,15 +448,12 @@
     "page_count": 2,
     "file_size": 999624,
     "checksum_sha256": "9d09b24e575b25401e7f6b9face27aabfdd014c82af51c64aa8510af2a1a4758",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/end/HMC202_DM_END_2022.pdf",
-    "local_demo_url": "/demo-papers/HMC202_DM_END_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       9,
       10
     ],
+    "file_path": "papers/semester-4/HMC202_DM_END_2022.pdf",
     "is_published": true
   },
   {
@@ -535,14 +469,11 @@
     "page_count": 1,
     "file_size": 376360,
     "checksum_sha256": "b4dbcd66bdafb712dfdee0ce69658af411d3aa9b3eb865f4450ad1062bd2015c",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2022/mid/HMC202_DM_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/HMC202_DM_MID_2022.pdf",
     "source_file": "sem4_2022_combined.pdf",
     "source_pages": [
       15
     ],
+    "file_path": "papers/semester-4/HMC202_DM_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -558,14 +489,11 @@
     "page_count": 1,
     "file_size": 1367016,
     "checksum_sha256": "07b35b63045d70ffbd9287a5a387fc865d355ee53e0a5ce2cabf052979ca53df",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/end/HMC202_DM_END_2023.pdf",
-    "local_demo_url": "/demo-papers/HMC202_DM_END_2023.pdf",
     "source_file": "sem4_2023_dm_2.jpg",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/HMC202_DM_END_2023.pdf",
     "is_published": true
   },
   {
@@ -581,14 +509,11 @@
     "page_count": 1,
     "file_size": 1184448,
     "checksum_sha256": "f6348bfcf1aba3a00c4e744c6a6b187a2f69b1862815b4f2862f596b55ee30a8",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2023/mid/HMC202_DM_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/HMC202_DM_MID_2023.pdf",
     "source_file": "sem4_2023_dm_1.jpg",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/HMC202_DM_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -604,14 +529,11 @@
     "page_count": 1,
     "file_size": 125329,
     "checksum_sha256": "dd6a402544386550ef4180af1df17058a9bc8843564656327b8cfc27ca81846a",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-4/2024/end/HMC202_DM_END_2024.pdf",
-    "local_demo_url": "/demo-papers/HMC202_DM_END_2024.pdf",
     "source_file": "sem4_2024_dm.pdf",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-4/HMC202_DM_END_2024.pdf",
     "is_published": true
   },
   {
@@ -627,15 +549,12 @@
     "page_count": 2,
     "file_size": 489183,
     "checksum_sha256": "c803aef94dba7ef3befe925e0088b71083ba029abe9edb4c24970bffaf4f4211",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/end/BAI301_ML_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_END_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       10,
       11
     ],
+    "file_path": "papers/semester-5/BAI301_ML_END_2022.pdf",
     "is_published": true
   },
   {
@@ -651,14 +570,11 @@
     "page_count": 1,
     "file_size": 360920,
     "checksum_sha256": "6fa8dbcc8586bee946037f95a9b591f1b3b2e6442719c8301650ce94af844369",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/mid/BAI301_ML_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_MID_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       5
     ],
+    "file_path": "papers/semester-5/BAI301_ML_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -674,16 +590,13 @@
     "page_count": 3,
     "file_size": 249691,
     "checksum_sha256": "113a852fc36335f6b96c884aba312b054f5d7d70e4ab01e60eaac1468a4eeacf",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/end/BAI301_ML_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_END_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       10,
       11,
       12
     ],
+    "file_path": "papers/semester-5/BAI301_ML_END_2023.pdf",
     "is_published": true
   },
   {
@@ -699,15 +612,12 @@
     "page_count": 2,
     "file_size": 152594,
     "checksum_sha256": "26f7d764a4c6cf57726d71f5857acd13112d8b3041665670439adcebcaeff166",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/mid/BAI301_ML_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_MID_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       3,
       4
     ],
+    "file_path": "papers/semester-5/BAI301_ML_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -723,15 +633,12 @@
     "page_count": 2,
     "file_size": 1102964,
     "checksum_sha256": "de7b45a8de29da5d3e0fca6a2374db8d30ccc0a29aa3ebf03fa9fbe45dd35208",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/end/BAI301_ML_END_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_END_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       13,
       14
     ],
+    "file_path": "papers/semester-5/BAI301_ML_END_2025.pdf",
     "is_published": true
   },
   {
@@ -747,15 +654,12 @@
     "page_count": 2,
     "file_size": 1615644,
     "checksum_sha256": "3233ad1ef0f8a0d0f2b7830908341fa7718367dd7e7a681f1debd7d4a5fb4633",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/mid/BAI301_ML_MID_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI301_ML_MID_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       5,
       6
     ],
+    "file_path": "papers/semester-5/BAI301_ML_MID_2025.pdf",
     "is_published": true
   },
   {
@@ -771,14 +675,11 @@
     "page_count": 1,
     "file_size": 334357,
     "checksum_sha256": "a13aaf1e99070678b4167b91b48d9b9682db76202babeafc2e30656a175f0811",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/end/BAI303_CS_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_END_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       15
     ],
+    "file_path": "papers/semester-5/BAI303_CS_END_2022.pdf",
     "is_published": true
   },
   {
@@ -794,14 +695,11 @@
     "page_count": 1,
     "file_size": 295792,
     "checksum_sha256": "78ce0edc5f586750c1656cb92d7eda8f85f34ad98c25e4680b05839580b7b05c",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/mid/BAI303_CS_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_MID_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       8
     ],
+    "file_path": "papers/semester-5/BAI303_CS_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -817,14 +715,11 @@
     "page_count": 1,
     "file_size": 72386,
     "checksum_sha256": "54759a63bc79314452c3e3ed8dffdfebcb5ec8d2c71ee4946477f8158b61b7ad",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/end/BAI303_CS_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_END_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       7
     ],
+    "file_path": "papers/semester-5/BAI303_CS_END_2023.pdf",
     "is_published": true
   },
   {
@@ -840,14 +735,11 @@
     "page_count": 1,
     "file_size": 124920,
     "checksum_sha256": "4d0e7d74c0b3a3eeedf9ac5bc9653c839760655e0d76d751d3710d338b733832",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/mid/BAI303_CS_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_MID_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-5/BAI303_CS_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -863,15 +755,12 @@
     "page_count": 2,
     "file_size": 1394393,
     "checksum_sha256": "27b9adc736c67da1107f6ac99782bf753fd085a14e483fb7a7b30d51ed51463e",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/end/BAI303_CS_END_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_END_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       11,
       12
     ],
+    "file_path": "papers/semester-5/BAI303_CS_END_2025.pdf",
     "is_published": true
   },
   {
@@ -887,14 +776,11 @@
     "page_count": 1,
     "file_size": 702379,
     "checksum_sha256": "c31dac7f0c7d0a26e09399341e4124906c0da2b77d1c9702272cf7681dea6777",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/mid/BAI303_CS_MID_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI303_CS_MID_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       3
     ],
+    "file_path": "papers/semester-5/BAI303_CS_MID_2025.pdf",
     "is_published": true
   },
   {
@@ -910,14 +796,11 @@
     "page_count": 1,
     "file_size": 348516,
     "checksum_sha256": "fb5141e7f16bded3161a891fdbf6af141bbb785bf01372a0863a058cb863bcfd",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/end/BAI305_DL1_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_END_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       14
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_END_2022.pdf",
     "is_published": true
   },
   {
@@ -933,14 +816,11 @@
     "page_count": 1,
     "file_size": 333203,
     "checksum_sha256": "65da05004641cf4b484171b6b84bc5e89138b592125ff74d01354579dd7ae812",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/mid/BAI305_DL1_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_MID_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       3
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -956,15 +836,12 @@
     "page_count": 2,
     "file_size": 169679,
     "checksum_sha256": "b5c7af476794da3ccb2a41b7b6c599674dbdbb4316d657384fe941ec37fd5a2d",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/end/BAI305_DL1_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_END_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       8,
       9
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_END_2023.pdf",
     "is_published": true
   },
   {
@@ -980,14 +857,11 @@
     "page_count": 1,
     "file_size": 92865,
     "checksum_sha256": "280b30cc0d676a311e34aaead505bf9a431fc1fa69773867102a97307bdf00b1",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/mid/BAI305_DL1_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_MID_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       2
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -1003,15 +877,12 @@
     "page_count": 2,
     "file_size": 969002,
     "checksum_sha256": "579b7d113a01a054184dfa0c185dc8fd19209ab186f48bffb42d0b6ca21c1a07",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/end/BAI305_DL1_END_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_END_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       9,
       10
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_END_2025.pdf",
     "is_published": true
   },
   {
@@ -1027,14 +898,11 @@
     "page_count": 1,
     "file_size": 778706,
     "checksum_sha256": "5840b8e85337d3c1bea5b85ec7edd106521e25dfa44b60389f720a55505d7e3e",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/mid/BAI305_DL1_MID_2025.pdf",
-    "local_demo_url": "/demo-papers/BAI305_DL1_MID_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       2
     ],
+    "file_path": "papers/semester-5/BAI305_DL1_MID_2025.pdf",
     "is_published": true
   },
   {
@@ -1050,15 +918,12 @@
     "page_count": 2,
     "file_size": 485181,
     "checksum_sha256": "a2f1ce4f2d7b042b1dd7581890e81464607fffbb8f6a4d8b05dd1b4f9203e1eb",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/end/BCS303_TOC_END_2022.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_END_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       12,
       13
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_END_2022.pdf",
     "is_published": true
   },
   {
@@ -1074,14 +939,11 @@
     "page_count": 1,
     "file_size": 321543,
     "checksum_sha256": "1f1f9ee027295f2ae0c7485f7b55734a46a107a466d5f6068868c575f138738f",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/mid/BCS303_TOC_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_MID_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       2
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -1097,15 +959,12 @@
     "page_count": 2,
     "file_size": 135100,
     "checksum_sha256": "22fbe54971f614f81b99b476463a3d87fa7698e4d7ffbb44994be46a7f1ebece",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/end/BCS303_TOC_END_2023.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_END_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       15,
       16
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_END_2023.pdf",
     "is_published": true
   },
   {
@@ -1121,14 +980,11 @@
     "page_count": 1,
     "file_size": 70953,
     "checksum_sha256": "e3842806d6371f8f580c94f9db18ca7a834b1e43adc61cdd26380bde3f7680fe",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/mid/BCS303_TOC_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_MID_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       6
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -1144,15 +1000,12 @@
     "page_count": 2,
     "file_size": 1093752,
     "checksum_sha256": "8e81e314783ddcfcbb826941ba5b992685ca5e0378361a9ee5ad2b9ecf1c3c7b",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/end/BCS303_TOC_END_2025.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_END_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       7,
       8
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_END_2025.pdf",
     "is_published": true
   },
   {
@@ -1168,14 +1021,11 @@
     "page_count": 1,
     "file_size": 811213,
     "checksum_sha256": "19b534ecfbfea772852b597479857e97a7df80bc4da5c8467d6b485f2ae8278d",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/mid/BCS303_TOC_MID_2025.pdf",
-    "local_demo_url": "/demo-papers/BCS303_TOC_MID_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       1
     ],
+    "file_path": "papers/semester-5/BCS303_TOC_MID_2025.pdf",
     "is_published": true
   },
   {
@@ -1191,14 +1041,11 @@
     "page_count": 1,
     "file_size": 336739,
     "checksum_sha256": "fa24b01f0f6386f1897f08ccb813e560a9eb083a520aef753da2057117fd40b3",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/end/HMC301_PEHV_END_2022.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_END_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       16
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_END_2022.pdf",
     "is_published": true
   },
   {
@@ -1214,14 +1061,11 @@
     "page_count": 1,
     "file_size": 224901,
     "checksum_sha256": "ed71b833d3d8b8e57b9271d188b79adf3fc85d2c492165b8b27d8c30abb36f8a",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2022/mid/HMC301_PEHV_MID_2022.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_MID_2022.pdf",
     "source_file": "sem5_2022_combined.pdf",
     "source_pages": [
       7
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_MID_2022.pdf",
     "is_published": true
   },
   {
@@ -1237,15 +1081,12 @@
     "page_count": 2,
     "file_size": 177639,
     "checksum_sha256": "b4cf333dad4fe61842cf3350986297d184fa80f85eeb83e1634365091f54e6fc",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/end/HMC301_PEHV_END_2023.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_END_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       13,
       14
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_END_2023.pdf",
     "is_published": true
   },
   {
@@ -1261,14 +1102,11 @@
     "page_count": 1,
     "file_size": 60871,
     "checksum_sha256": "10c08f48360c77c277afa030d1d2d9cfe417d877b1d49ff72fdae9cc20456e5c",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2023/mid/HMC301_PEHV_MID_2023.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_MID_2023.pdf",
     "source_file": "sem5_2023_combined.pdf",
     "source_pages": [
       5
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_MID_2023.pdf",
     "is_published": true
   },
   {
@@ -1284,14 +1122,11 @@
     "page_count": 1,
     "file_size": 847452,
     "checksum_sha256": "0f8f453a55b7cf7c252b58061fa760cb3cfbeb6bf4a97ef37b3ec35a58b37c41",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/end/HMC301_PEHV_END_2025.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_END_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       15
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_END_2025.pdf",
     "is_published": true
   },
   {
@@ -1307,14 +1142,419 @@
     "page_count": 1,
     "file_size": 818360,
     "checksum_sha256": "6e50ed9081d51b4b3746c298f8a3102209411ed4e10594eea4aa23a450bda8bf",
-    "storage_provider": "supabase",
-    "storage_bucket": "academic-files",
-    "storage_path": "papers/igdtuw/btech-cseai/semester-5/2025/mid/HMC301_PEHV_MID_2025.pdf",
-    "local_demo_url": "/demo-papers/HMC301_PEHV_MID_2025.pdf",
     "source_file": "CSEAI Sem 5 PYQs 2025.pdf",
     "source_pages": [
       4
     ],
+    "file_path": "papers/semester-5/HMC301_PEHV_MID_2025.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai302-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 302",
+    "subject_name": "Natural Language Processing",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 1,
+    "file_size": 449199,
+    "checksum_sha256": "ae74dac193bcef5c5c28b557b870060d0bcd00f578b048bb0e2a0dc8c8e082ca",
+    "source_file": "BAI302_NLP_END_2023.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI302_NLP_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai302-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 302",
+    "subject_name": "Natural Language Processing",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 1,
+    "file_size": 873690,
+    "checksum_sha256": "d628795e929449e36193ae714847e543f2ec109fa2c6bd6c491bde539aeb0a18",
+    "source_file": "BAI302_NLP_END_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI302_NLP_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai302-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 302",
+    "subject_name": "Natural Language Processing",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 883629,
+    "checksum_sha256": "259e5327ee4485bdae64e4374a2c18772e980dae8e658473d206b2dc51784be8",
+    "source_file": "BAI302_NLP_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI302_NLP_MID_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai304-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 304",
+    "subject_name": "Deep Learning-II",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 2,
+    "file_size": 793805,
+    "checksum_sha256": "ec515f4954920308669dcd7491d05e68aa3484390b90d092b900121d7e32cc6d",
+    "source_file": "BAI304_DL2_END_2023.pdf",
+    "source_pages": [
+      1,
+      2
+    ],
+    "file_path": "papers/semester-6/BAI304_DL2_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai304-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 304",
+    "subject_name": "Deep Learning-II",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 1,
+    "file_size": 1096550,
+    "checksum_sha256": "99e025f5606de1101fec6fb691fbe3c618e788fa3af93b4a0169e4e500fb2627",
+    "source_file": "BAI304_DL2_END_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI304_DL2_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai304-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 304",
+    "subject_name": "Deep Learning-II",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 1118109,
+    "checksum_sha256": "5ceddf599dd056fb28509ab934756207720e137769428fbde3f7496576a70359",
+    "source_file": "BAI304_DL2_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI304_DL2_MID_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai306-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 306",
+    "subject_name": "Digital Image Processing",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 2,
+    "file_size": 691860,
+    "checksum_sha256": "a504d8fda16cb260f485fe06d273d02a31817c73ddb122d5848ddc71f92ea957",
+    "source_file": "BAI306_DIP_END_2023.pdf",
+    "source_pages": [
+      1,
+      2
+    ],
+    "file_path": "papers/semester-6/BAI306_DIP_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai306-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 306",
+    "subject_name": "Digital Image Processing",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 3,
+    "file_size": 1597902,
+    "checksum_sha256": "9fbeb375289c14de25e3f158f1d0eb713d39f2b3701d6d5a9e4fd8e3c4baf9e1",
+    "source_file": "BAI306_DIP_END_2024.pdf",
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "file_path": "papers/semester-6/BAI306_DIP_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai306-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 306",
+    "subject_name": "Digital Image Processing",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 756419,
+    "checksum_sha256": "12b92f943a6a15bdd0e7675bff9d9ec9adaf44ed0219231424a0bee83d2ee1f0",
+    "source_file": "BAI306_DIP_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI306_DIP_MID_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai322-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 322",
+    "subject_name": "Data Warehousing and Business Intelligence",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 1,
+    "file_size": 431038,
+    "checksum_sha256": "4fa4cd3519d22dd14716e18b792f217e64e45eaec43a29fb35235375093bfaac",
+    "source_file": "BAI322_DWBI_END_2023.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI322_DWBI_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai322-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 322",
+    "subject_name": "Data Warehousing and Business Intelligence",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 1,
+    "file_size": 733964,
+    "checksum_sha256": "ee570e57fb9c4d7c9831dcb39aa8838964b3d7044c20d3b6972b348cf12d398c",
+    "source_file": "BAI322_DWBI_END_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI322_DWBI_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bai322-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BAI 322",
+    "subject_name": "Data Warehousing and Business Intelligence",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 769230,
+    "checksum_sha256": "5e1ec727fe73149bc3c987663fc98bb56c96d0ddb8cd1b78999cf1ae14f87ba2",
+    "source_file": "BAI322_DWBI_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BAI322_DWBI_MID_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bcs306-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BCS 306",
+    "subject_name": "Compiler Design",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 1,
+    "file_size": 339383,
+    "checksum_sha256": "a889f0b5b38c11da34ad34a0a777068b4576e6f2adb0114f163433713ff2e682",
+    "source_file": "BCS306_CD_END_2023.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BCS306_CD_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bcs306-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BCS 306",
+    "subject_name": "Compiler Design",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 1,
+    "file_size": 955476,
+    "checksum_sha256": "f7bb8b430ec1088957ae074884b712b96bba9b1b49ffa1cf8b4e0e7af953c1b1",
+    "source_file": "BCS306_CD_END_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BCS306_CD_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bcs306-mid-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BCS 306",
+    "subject_name": "Compiler Design",
+    "year": 2023,
+    "exam_type": "Mid Semester",
+    "exam_month": "February",
+    "page_count": 1,
+    "file_size": 317637,
+    "checksum_sha256": "1dfd8eaddbaf6246d57ddcd0267ab5054390bd4c21ccf32d4baf4ec07392b993",
+    "source_file": "BCS306_CD_MID_2023.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BCS306_CD_MID_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-bcs306-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "BCS 306",
+    "subject_name": "Compiler Design",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 775244,
+    "checksum_sha256": "03840170145f573e40eb43d1b724873d2479ad77dc39d2f3061043e9eebb8751",
+    "source_file": "BCS306_CD_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/BCS306_CD_MID_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-hmc306-end-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "HMC 306",
+    "subject_name": "Financial Management",
+    "year": 2023,
+    "exam_type": "End Semester",
+    "exam_month": "April",
+    "page_count": 4,
+    "file_size": 1079997,
+    "checksum_sha256": "d041c6b10c3ecae52271d94c87d96c21eb6dbd96ca4183227ea0ae3f28e24dbe",
+    "source_file": "HMC306_FM_END_2023.pdf",
+    "source_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "file_path": "papers/semester-6/HMC306_FM_END_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-hmc306-end-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "HMC 306",
+    "subject_name": "Financial Management",
+    "year": 2024,
+    "exam_type": "End Semester",
+    "exam_month": "May",
+    "page_count": 2,
+    "file_size": 1547219,
+    "checksum_sha256": "a529cfd85e53ec51295e2a1e42348044ed9ecafcd8abcd3eae5af30e56599036",
+    "source_file": "HMC306_FM_END_2024.pdf",
+    "source_pages": [
+      1,
+      2
+    ],
+    "file_path": "papers/semester-6/HMC306_FM_END_2024.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-hmc306-mid-2023",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "HMC 306",
+    "subject_name": "Financial Management",
+    "year": 2023,
+    "exam_type": "Mid Semester",
+    "exam_month": "February",
+    "page_count": 1,
+    "file_size": 318043,
+    "checksum_sha256": "6c065991cd6f1e65e7095b59a81fb16dde69a848504e94d5256e60cb39a35a86",
+    "source_file": "HMC306_FM_MID_2023.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/HMC306_FM_MID_2023.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-cseai-s6-hmc306-mid-2024",
+    "college": "IGDTUW",
+    "programme": "B.Tech CSE-AI",
+    "semester": 6,
+    "subject_code": "HMC 306",
+    "subject_name": "Financial Management",
+    "year": 2024,
+    "exam_type": "Mid Semester",
+    "exam_month": "March",
+    "page_count": 1,
+    "file_size": 949477,
+    "checksum_sha256": "90208deef84862019bd28c2d6a1f8fd8dfdc69f4d630af86b0d44e6c115a4385",
+    "source_file": "HMC306_FM_MID_2024.pdf",
+    "source_pages": [
+      1
+    ],
+    "file_path": "papers/semester-6/HMC306_FM_MID_2024.pdf",
     "is_published": true
   }
 ]

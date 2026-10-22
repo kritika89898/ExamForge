@@ -45,36 +45,11 @@ test("health endpoint reports that the API is ready", async () => {
     assert.deepEqual(await response.json(), { success: true, status: "ok" });
 });
 
-test("runtime configuration exposes only the public Supabase storage URL", async () => {
-    const previousUrl = process.env.SUPABASE_URL;
-    const previousBucket = process.env.SUPABASE_STORAGE_BUCKET;
-
-    process.env.SUPABASE_URL = "https://example-project.supabase.co/";
-    process.env.SUPABASE_STORAGE_BUCKET = "academic-files";
-
-    try {
-        const response = await fetch(`${baseUrl}/runtime-config.js`);
-        const body = await response.text();
-
-        assert.equal(response.status, 200);
-        assert.match(response.headers.get("content-type"), /^application\/javascript/);
-        assert.match(body, /https:\/\/example-project\.supabase\.co\/storage\/v1\/object\/public\/academic-files/);
-        assert.doesNotMatch(body, /SERVICE_ROLE/);
-    } finally {
-        if (previousUrl === undefined) delete process.env.SUPABASE_URL;
-        else process.env.SUPABASE_URL = previousUrl;
-
-        if (previousBucket === undefined) delete process.env.SUPABASE_STORAGE_BUCKET;
-        else process.env.SUPABASE_STORAGE_BUCKET = previousBucket;
-    }
-});
-
-test("CSE-AI Semester 4 and 5 demo catalog contains unique subject-specific papers", () => {
-    const catalogPath = path.join(__dirname, "../client/data/papers.json");
-    const papers = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
+test("CSE-AI Semester 4, 5 and 6 catalog contains unique papers that exist in the repo", () => {
+    const clientDirectory = path.join(__dirname, "../client");
+    const papers = JSON.parse(fs.readFileSync(path.join(clientDirectory, "data/papers.json"), "utf8"));
     const ids = new Set(papers.map((paper) => paper.id));
-    const storagePaths = new Set(papers.map((paper) => paper.storage_path));
-    const semester5_2025 = papers.filter((paper) => paper.year === 2025 && paper.semester === 5);
+    const filePaths = new Set(papers.map((paper) => paper.file_path));
     const completeSets = [
         [4, 2022],
         [4, 2023],
@@ -83,17 +58,22 @@ test("CSE-AI Semester 4 and 5 demo catalog contains unique subject-specific pape
         [5, 2025],
     ];
 
-    assert.equal(papers.length, 56);
+    assert.equal(papers.length, 76);
     assert.equal(ids.size, papers.length);
-    assert.equal(storagePaths.size, papers.length);
-    assert.equal(semester5_2025.length, 10);
+    assert.equal(filePaths.size, papers.length);
+    assert.equal(papers.filter((paper) => paper.semester === 6).length, 20);
     completeSets.forEach(([semester, year]) => {
         const set = papers.filter((paper) => paper.semester === semester && paper.year === year);
         assert.equal(set.filter((paper) => paper.exam_type === "Mid Semester").length, 5);
         assert.equal(set.filter((paper) => paper.exam_type === "End Semester").length, 5);
     });
-    assert.equal(papers.every((paper) => [4, 5].includes(paper.semester)), true);
-    assert.equal(papers.every((paper) => paper.local_demo_url?.endsWith(".pdf")), true);
+    assert.equal(papers.every((paper) => [4, 5, 6].includes(paper.semester)), true);
+    papers.forEach((paper) => {
+        assert.match(paper.file_path, /^papers\/semester-[4-6]\/[A-Z0-9_]+\.pdf$/);
+        const pdf = fs.readFileSync(path.join(clientDirectory, paper.file_path));
+        assert.equal(pdf.length, paper.file_size, paper.file_path);
+        assert.equal(checksum(pdf), paper.checksum_sha256, paper.file_path);
+    });
     assert.equal(papers.some((paper) => /consumer psychology|nptel/i.test(paper.subject_name)), false);
 });
 
