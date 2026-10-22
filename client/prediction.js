@@ -141,6 +141,12 @@
         }
 
         elements.button.disabled = !comparisonReady();
+        if (!elements.button.classList.contains("is-loading")) {
+            let label = "Find topics & likely questions";
+            if (!hasUniqueYears()) label = "Pick papers from different years";
+            else if (remaining > 0) label = `Add ${remaining} more paper${remaining === 1 ? "" : "s"} to analyse`;
+            elements.buttonLabel.textContent = label;
+        }
         renderYearCoverage();
     }
 
@@ -308,7 +314,8 @@
             })}`;
 
         elements.button.disabled = true;
-        elements.buttonLabel.textContent = "Analysing selected papers...";
+        elements.button.classList.add("is-loading");
+        elements.buttonLabel.textContent = "Analysing... (usually under a minute)";
         elements.results.hidden = true;
         setStatus(`Comparing three years of ${elements.examType.value} papers...`);
 
@@ -347,8 +354,8 @@
         } catch (error) {
             setStatus(error.message || "Unable to connect to ExamForge AI.", "error");
         } finally {
-            elements.button.disabled = !comparisonReady();
-            elements.buttonLabel.textContent = "Find topics & likely questions";
+            elements.button.classList.remove("is-loading");
+            refreshSelectionSummary();
         }
     }
 
