@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-end-2024"
+  ],
+  "importantTopics": [
+    "Activation Functions and Perceptron Computation",
+    "Regularization, Early Stopping, and Vanishing Gradients",
+    "Dimensionality Reduction and Autoencoders",
+    "Optimization Algorithms and Memory Constraints",
+    "Hyperparameter Tuning Methods",
+    "Performance Metrics and Confusion Matrix Evaluation",
+    "Generative Adversarial Networks (GANs) and Loss Functions",
+    "Convolutional Neural Networks and Architectural Constraints"
+  ],
+  "likelyQuestions": [
+    "Why is the sigmoid activation function often less preferred in deep convolutional networks compared to ReLU, and what methods are used to mitigate its limitations?",
+    "Explain the mathematical relationship between network regularization techniques and the problem of vanishing gradients, providing proper justification.",
+    "Discuss the conceptual and mathematical relationship between linear autoencoders and Principal Component Analysis (PCA).",
+    "How are the number of neurons in the input and output layers determined during model design, and are they typically treated as hyperparameters to be tuned?",
+    "Consider a perceptron with a given weight vector and bias. Calculate the outputs using sigmoid, tanh, and ReLU activation functions for a specific input vector, and justify the most suitable choice.",
+    "Discuss the relationship between early stopping and dropout regularization during deep learning model training. Is it beneficial to use both simultaneously?",
+    "Explain the working mechanisms of Adagrad and Momentum-based gradient descent optimizers, and explain how they help overcome local minima compared to standard batch gradient descent.",
+    "Given specific values for a confusion matrix (True Positives, False Positives, False Negatives, True Negatives), calculate Accuracy, Precision, Recall, Sensitivity, Specificity, and F1-score.",
+    "Explain the architecture and training dynamics of Generative Adversarial Networks (GANs), detailing the interplay and behavior between the generator and discriminator models.",
+    "Explain the architecture of an undercomplete autoencoder with a diagram, and discuss the primary benefits of using a regularized autoencoder over an undercomplete one."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-II - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022"
+  ],
+  "importantTopics": [
+    "Deterministic Finite Automata (DFA)",
+    "Regular Expressions and Arden's Theorem",
+    "NFA to DFA Conversion and Minimization",
+    "Context Free Grammar (CFG) Construction",
+    "Simplification and Reduced Grammars",
+    "Chomsky Normal Form (CNF)",
+    "Greibach Normal Form (GNF)",
+    "Derivations and Grammar Ambiguity"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts strings over {0, 1} whose decimal representation is divisible by 3.",
+    "Write the regular expression for the complement of the language L = {a^n b^m | n >= 2, m <= 3}.",
+    "Construct a Context Free Grammar for the language L = {a^n b^m | n + m is odd}.",
+    "Find the reduced grammar equivalent to the given grammar with productions for S, A, and B.",
+    "Obtain the regular expression for a given finite automaton using Arden's theorem.",
+    "Construct an NFA equivalent to the regular expression (a + b)* ab (a + b)* and convert it into a minimized DFA.",
+    "Reduce a given CFG into Chomsky Normal Form (CNF).",
+    "Construct the Greibach Normal Form (GNF) for a given context-free grammar.",
+    "Design an optimized DFA for the language L = {w1 b w2 | |w1| >= 2, |w2| <= 3} over the alphabet {a, b}.",
+    "Explain leftmost and rightmost derivations with a suitable example, and check whether a given grammar is ambiguous for a specific string."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

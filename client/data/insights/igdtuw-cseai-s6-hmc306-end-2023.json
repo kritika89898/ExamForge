@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-end-2023"
+  ],
+  "importantTopics": [
+    "Three Major Financial Decisions",
+    "Time Value of Money & Valuation",
+    "Cost of Capital",
+    "Capital Structure Decisions",
+    "Capital Budgeting & Investment Evaluation",
+    "Working Capital Management",
+    "Inventory Management & EOQ",
+    "Operating Cycle"
+  ],
+  "likelyQuestions": [
+    "Explain the inter-relationship among the three major financial decisions of a firm with suitable examples.",
+    "A company issues a perpetual bond with an annual interest payout of Rs 1,500. Should the bond be purchased if it is currently quoted in the market at Rs 11,000 and the required rate of return is 14%?",
+    "Critically evaluate profit maximisation as a primary objective of a firm compared to wealth maximisation.",
+    "Explain the different types of cost of capital, highlighting the distinction between explicit and implicit costs.",
+    "What is meant by an optimum capital structure? Discuss the key factors determining the capital structure of a company.",
+    "Two mutually exclusive machine projects are being considered by a firm. Calculate their Net Present Value (NPV) and Profitability Index at a 10% discount rate and recommend the better option.",
+    "An investment proposal requires an initial cash outlay of Rs 1,20,000 and generates known annual cash flows for 5 years. Calculate the payback period and average rate of return (ARR).",
+    "Write a detailed note on the trade-off between liquidity and profitability considerations in working capital management.",
+    "Explain the relationship between carrying costs and ordering costs, and derive or describe the Economic Order Quantity (EOQ) model.",
+    "Prepare an estimate of working capital requirements for a manufacturing company given specific cost per unit, production volume, and working capital component holding periods."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Financial Management - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

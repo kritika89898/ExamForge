@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bcs306-end-2023"
+  ],
+  "importantTopics": [
+    "Phases of Compiler",
+    "Lexical Analysis and Finite Automata",
+    "Grammar Transformations (Left Factoring and Left Recursion)",
+    "Parsing Techniques (LR, SLR, LALR)",
+    "Syntax-Directed Definitions",
+    "Storage Allocation Strategies",
+    "Intermediate Code Generation",
+    "Code Optimization"
+  ],
+  "likelyQuestions": [
+    "What is the first phase of a compiler? Explain how tokens are recognized with a suitable example.",
+    "Explain what left factoring is and remove left factoring from a given context-free grammar.",
+    "Define Context-Free Grammar and explain derivation trees along with parse trees.",
+    "Define FIRST and FOLLOW functions. Explain them with an example grammar.",
+    "Explain in detail the various phases of a compiler with the help of a neat diagram and a running example.",
+    "Construct the LR(0) items and the SLR parsing table for a given grammar.",
+    "Construct the LALR parse table for a given context-free grammar.",
+    "Define syntax-directed definitions and explain bottom-up evaluation of S-attributed and L-attributed definitions.",
+    "Discuss different source language issues and explain storage allocation strategies.",
+    "Describe intermediate code representations including abstract syntax trees, polish notation, three-address code, quadruples, and triples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Compiler Design - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022",
+    "igdtuw-cseai-s5-bcs303-mid-2023",
+    "igdtuw-cseai-s5-bcs303-mid-2025"
+  ],
+  "importantTopics": [
+    "Deterministic and Non-Deterministic Finite Automata",
+    "NFA to DFA Conversion",
+    "Regular Expressions and Arden's Theorem",
+    "Pumping Lemma for Regular Languages",
+    "Context-Free Grammars and Derivations",
+    "Simplification of Context-Free Grammars",
+    "Chomsky Normal Form (CNF)",
+    "Greibach Normal Form (GNF) and Grammar Ambiguity"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts strings over {0,1} satisfying specific arithmetic or pattern conditions.",
+    "Convert a given Non-Deterministic Finite Automaton (NFA) to its equivalent Deterministic Finite Automaton (DFA).",
+    "Obtain a regular expression from a finite automaton using Arden's theorem.",
+    "State and explain the Pumping Lemma for regular languages with a suitable example.",
+    "Define Finite Automata and discuss the difference between DFA and NDFA.",
+    "Find the language accepted by a given Finite Automata state diagram.",
+    "Explain leftmost and rightmost derivations and check whether a given grammar is ambiguous.",
+    "Reduce a given Context-Free Grammar (CFG) by removing null productions, useless symbols, and unit productions.",
+    "Convert a given Context-Free Grammar into Chomsky Normal Form (CNF).",
+    "Construct the Greibach Normal Form (GNF) for a given context-free grammar."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

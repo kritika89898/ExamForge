@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2023",
+    "igdtuw-cseai-s5-bai301-end-2025"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Outlier Handling",
+    "Dimensionality Reduction and PCA",
+    "Naive Bayes Classifier and Probability",
+    "K-Nearest Neighbors and Distance Metrics",
+    "Support Vector Machines and Kernels",
+    "Ensemble Methods (Random Forest and AdaBoost)",
+    "Regularization (Ridge and Lasso)",
+    "Model Evaluation and Validation Metrics"
+  ],
+  "likelyQuestions": [
+    "Discuss the importance of data preprocessing and explain the steps involved in data cleaning, integration, and feature extraction.",
+    "Explain how PCA helps in dimensionality reduction and whether it can be used to reduce the dimensionality of a highly nonlinear dataset.",
+    "Given a dataset of categorical features and a target class, build a Naive Bayes model and compute specific conditional probabilities.",
+    "Apply the k-Nearest Neighbors (KNN) algorithm to classify a new unlabeled data point using Euclidean distance.",
+    "Discuss the working of Support Vector Machines and explain how kernel functions enable SVMs to handle non-linear classification.",
+    "Compare Ridge and LASSO regression in terms of regularization and feature selection.",
+    "Explain the concept of ensemble classification and describe how ensemble methods like Random Forest and AdaBoost achieve higher accuracy through diversity.",
+    "Given a set of data points, compute full iterations of k-means clustering for a given k with initial cluster centroids.",
+    "Explain the concept of k-fold cross-validation with an example and discuss the purpose of learning curves in machine learning.",
+    "Discuss the potential consequences of not handling outliers during data preprocessing and how quantiles can be used to detect outliers."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

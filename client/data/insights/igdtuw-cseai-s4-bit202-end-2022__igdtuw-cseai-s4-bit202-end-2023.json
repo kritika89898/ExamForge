@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2022",
+    "igdtuw-cseai-s4-bit202-end-2023"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Process Synchronization and Semaphores",
+    "Deadlock Avoidance and Bankers Algorithm",
+    "Memory Management and Page Replacement",
+    "Virtual Memory Paging and Segmentation",
+    "Disk Scheduling and Management",
+    "File System Allocation and Directories",
+    "Threads and Context Switching"
+  ],
+  "likelyQuestions": [
+    "How is a thread different from a process, and what is the difference between single-threaded and multi-threaded processes?",
+    "Explain the necessary conditions for a deadlock to occur and discuss how deadlocks can be prevented.",
+    "Given a set of processes with arrival times and burst times, find the average waiting time and turnaround time using Shortest Job First (SJF) and Shortest Remaining Time First (SRTF).",
+    "Calculate the total number of page faults for a given reference string using LRU, FIFO, and Optimal page replacement algorithms.",
+    "Explain the Banker's algorithm for deadlock avoidance and determine if a system state is safe given allocation, max, and available resource matrices.",
+    "What are semaphores? Explain the atomic operations used by semaphores and discuss classical problems of process synchronization.",
+    "Explain the different disk scheduling algorithms such as FCFS, SCAN, C-SCAN, LOOK, and C-LOOK with numerical examples.",
+    "Describe various file access methods and explain how free space is managed in secondary storage.",
+    "When does a context switch occur, and what actions are taken by the operating system during a context switch?",
+    "What is a race condition, how can it arise, and how can a system guard against it using synchronization mechanisms?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

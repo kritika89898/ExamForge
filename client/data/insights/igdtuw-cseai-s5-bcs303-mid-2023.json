@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2023"
+  ],
+  "importantTopics": [
+    "Finite Automata and DFA vs NFA",
+    "Formal Grammars and Tuples",
+    "Null, Useless, and Unit Productions",
+    "Language Acceptance by Finite Automata",
+    "NFA to DFA Conversion",
+    "Regular Language Design and Pumping Lemma",
+    "Grammar Ambiguity",
+    "Chomsky Normal Form and CFG Simplification"
+  ],
+  "likelyQuestions": [
+    "Define Finite Automata and discuss the differences between DFA and NDFA.",
+    "Explain the formal definition of a grammar with the help of its tuples using an example.",
+    "Define Null Productions, Useless Symbols, and Unit Productions in a context-free grammar with examples.",
+    "Find the language accepted by the given finite automaton.",
+    "Convert a given NFA with epsilon-transitions to its equivalent DFA.",
+    "Design a DFA that accepts all strings having at least two 'a's over the alphabet Sigma = {a, b}.",
+    "State the Pumping Lemma for Regular Languages and explain it with a suitable example.",
+    "Define ambiguity in context-free grammars and find an unambiguous grammar for a given ambiguous grammar.",
+    "Define Chomsky Normal Form (CNF) and convert a given CFG to CNF.",
+    "Explain the procedure to simplify a CFG and apply it to remove useless symbols, null productions, and unit productions."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

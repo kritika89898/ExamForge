@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-end-2024"
+  ],
+  "importantTopics": [
+    "Financial Management Fundamentals",
+    "Time Value of Money",
+    "Capital Budgeting Decisions",
+    "Cost of Capital",
+    "Capital Structure",
+    "Working Capital Management",
+    "Inventory Management",
+    "Dividend Policy and Financing"
+  ],
+  "likelyQuestions": [
+    "Explain the primary scope and objectives of financial management in a modern corporate setting.",
+    "Discuss the fundamental differences between traditional and modern approaches to financial management.",
+    "Calculate the present value of an annuity of Rs 5,000 receivable annually for 4 years at a 10% discount rate.",
+    "Describe the three major financial management decisions and how they interrelate to maximize shareholder wealth.",
+    "Explain the concept of cost of capital and discuss the explicit and implicit components used in its computation.",
+    "Evaluate the significance of capital structure planning and explain the factors influencing an optimal capital structure.",
+    "A project requires an initial investment of Rs 1,00,000 and generates constant annual cash inflows of Rs 30,000 for 5 years. Calculate the payback period and net present value at a 10% cost of capital.",
+    "Explain why conflicts in investment proposal rankings arise between the Net Present Value (NPV) and Internal Rate of Return (IRR) methods.",
+    "Calculate the Economic Order Quantity (EOQ) given an annual demand of 5,000 units, ordering cost of Rs 50 per order, and carrying cost of 20% on a unit purchase price of Rs 10.",
+    "Discuss the motives for holding working capital and differentiate between permanent and temporary working capital requirements."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Financial Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

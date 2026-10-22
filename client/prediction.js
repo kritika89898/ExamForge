@@ -47,9 +47,30 @@
             .replace(/'/g, "&#039;");
     }
 
-    function selectedSubject() {
+    // The curriculum lists electives as placeholders ("Departmental Elective I"),
+    // so electives that have archive papers (e.g. BAI 322) are added by code.
+    function semesterSubjects() {
         const branch = branches[elements.branch.value];
         const entries = branch?.semesters?.[elements.semester.value] || [];
+        if (!branch) return entries;
+
+        const listed = new Set(entries.map(([code]) => code));
+        const electives = new Map();
+        state.catalog
+            .filter((paper) => paper.is_published !== false)
+            .filter((paper) => Number(paper.semester) === Number(elements.semester.value))
+            .filter((paper) => paperProgrammeMatches(paper, branch))
+            .forEach((paper) => {
+                if (!listed.has(paper.subject_code) && !electives.has(paper.subject_code)) {
+                    electives.set(paper.subject_code, [paper.subject_code, paper.subject_name, "Elective"]);
+                }
+            });
+        return [...entries, ...electives.values()];
+    }
+
+    function selectedSubject() {
+        const branch = branches[elements.branch.value];
+        const entries = semesterSubjects();
         const entry = entries.find(([code]) => code === elements.subject.value);
         return entry ? { code: entry[0], name: entry[1], branch } : null;
     }
@@ -206,8 +227,7 @@
     }
 
     function populateSubjects() {
-        const branch = branches[elements.branch.value];
-        const entries = branch?.semesters?.[elements.semester.value] || [];
+        const entries = semesterSubjects();
         const previous = elements.subject.value;
 
         elements.subject.innerHTML = entries.map(([code, name]) =>
@@ -288,6 +308,22 @@
         elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
+    // File name matches scripts/generate-insights.js: sorted paper IDs joined by "__".
+    async function loadStoredInsights(paperIds, signal) {
+        const name = [...paperIds].sort().join("__");
+        try {
+            const response = await fetch(`data/insights/${encodeURIComponent(name)}.json`, { signal });
+            if (!response.ok) return null;
+            const stored = await response.json();
+            return Array.isArray(stored?.importantTopics) && Array.isArray(stored?.likelyQuestions)
+                ? { success: true, data: stored }
+                : null;
+        } catch (error) {
+            if (error.name === "AbortError") throw error;
+            return null;
+        }
+    }
+
     function fileToBase64(file) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
@@ -334,34 +370,40 @@
             : `Comparing ${paperCount} years of ${elements.examType.value} papers...`);
 
         try {
-            // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
-            const response = request
-                ? await fetch(request, { signal: controller.signal })
-                : await fetch("/api/predict", {
-                    signal: controller.signal,
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        subject: `${current.code} ${current.name}`,
-                        subjectCode: current.code,
-                        examType: elements.examType.value,
-                        paperIds,
-                        uploads: await Promise.all(state.uploads.map(async (upload) => ({
-                            name: upload.file.name,
-                            year: Number(upload.year),
-                            data: await fileToBase64(upload.file),
-                        }))),
-                    }),
-                });
-            const data = await response.json().catch(() => ({
-                success: false,
-                message: response.status === 413
-                    ? "Your PDFs are too large to send. Keep uploads under 3 MB in total."
-                    : "AI Studio is unavailable right now. Please try again in a moment.",
-            }));
+            // Every combination of archive papers has a pre-generated answer in
+            // data/insights/, which loads instantly and uses no AI quota.
+            let data = state.uploads.length ? null : await loadStoredInsights(paperIds, controller.signal);
 
-            if (!response.ok || !data.success) {
-                throw new Error(data.message || "Unable to analyse these papers.");
+            if (!data) {
+                // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
+                const response = request
+                    ? await fetch(request, { signal: controller.signal })
+                    : await fetch("/api/predict", {
+                        signal: controller.signal,
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            subject: `${current.code} ${current.name}`,
+                            subjectCode: current.code,
+                            examType: elements.examType.value,
+                            paperIds,
+                            uploads: await Promise.all(state.uploads.map(async (upload) => ({
+                                name: upload.file.name,
+                                year: Number(upload.year),
+                                data: await fileToBase64(upload.file),
+                            }))),
+                        }),
+                    });
+                data = await response.json().catch(() => ({
+                    success: false,
+                    message: response.status === 413
+                        ? "Your PDFs are too large to send. Keep uploads under 3 MB in total."
+                        : "AI Studio is unavailable right now. Please try again in a moment.",
+                }));
+
+                if (!response.ok || !data.success) {
+                    throw new Error(data.message || "Unable to analyse these papers.");
+                }
             }
 
             renderResults(data.data);
@@ -462,7 +504,7 @@
             const response = await fetch("data/papers.json", { cache: "no-store" });
             if (!response.ok) throw new Error("Paper catalogue could not be loaded.");
             state.catalog = await response.json();
-            renderArchivePapers();
+            populateSubjects();
         } catch (error) {
             setStatus("Archive papers could not be loaded. You can still upload your own PDFs.", "error");
         }

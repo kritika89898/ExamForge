@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2022",
+    "igdtuw-cseai-s5-bai303-end-2023"
+  ],
+  "importantTopics": [
+    "Advanced Persistent Threats",
+    "Phishing and Email Security",
+    "Rootkits and Backdoors",
+    "Cloud and Wi-Fi Security",
+    "Symmetric and Asymmetric Encryption",
+    "Message Authentication Codes",
+    "Denial of Service Attacks",
+    "Cyber Security Principles"
+  ],
+  "likelyQuestions": [
+    "Conceptually analyze session hijacking and advanced persistent threats with suitable examples.",
+    "Discuss the functioning of rootkits and their different types, and suggest suitable defensive mechanisms.",
+    "Elucidate the significance of reconnaissance in the cyber attack process and explain related techniques.",
+    "Discuss the significance of secure virtual storage space and explain tokenization and penetration testing in cloud security.",
+    "Conceptualize and highlight the significance of SSID in Wi-Fi security with preventive measures.",
+    "Categorically differentiate between symmetric and asymmetric key encryption algorithms with mathematical examples.",
+    "Explain the levels of denial of service attacks and countermeasures to prevent them.",
+    "Elaborate the complete cycle of an advanced persistent threat.",
+    "Discuss different ways of password cracking and methods to secure them.",
+    "Explain DES construction and RSA with suitable examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

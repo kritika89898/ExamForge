@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2023"
+  ],
+  "importantTopics": [
+    "Threats and Attacks",
+    "Cryptography and Encryption",
+    "Security Design Principles",
+    "Cyber Crime and Laws",
+    "Defense Models",
+    "Password Security",
+    "Advanced Persistent Threat",
+    "Compliance and IP"
+  ],
+  "likelyQuestions": [
+    "Discuss the concept of social engineering and explain common prevention strategies.",
+    "What is a zero-day vulnerability? Explain its significance in modern cybersecurity.",
+    "Explain hash cryptography and its role in ensuring data integrity.",
+    "Elaborate on the mechanics of a birthday attack against cryptographic hash functions.",
+    "Explain the levels of denial of service attack and the different counter measures to prevent the attack.",
+    "Elaborate the complete cycle of Advanced Persistent Threat (APT).",
+    "What is cyber crime? How to classify cyber crimes? Briefly explain each.",
+    "Explain DES construction with a neat diagram.",
+    "Explain RSA encryption and decryption with a suitable example.",
+    "Differentiate between lollipop defense model and onion defense model."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

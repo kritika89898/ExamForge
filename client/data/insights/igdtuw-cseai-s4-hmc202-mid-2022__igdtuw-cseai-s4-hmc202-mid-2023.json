@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2022",
+    "igdtuw-cseai-s4-hmc202-mid-2023"
+  ],
+  "importantTopics": [
+    "Natural and Man-Made Disasters",
+    "Hazard and Vulnerability Concepts",
+    "Disaster Management Framework",
+    "Rehabilitation and Resilience",
+    "Earthquakes and Landslides",
+    "Cyclones and Floods",
+    "Industrial and Technological Disasters",
+    "Disaster Management Act and Policy"
+  ],
+  "likelyQuestions": [
+    "Define resilience and vulnerability with examples.",
+    "Explain the different types of natural and man-made disasters.",
+    "What is Disaster Management? Explain its key phases and details.",
+    "Explain the various approaches and significance of rehabilitation in disaster management.",
+    "What is an earthquake? Discuss steps for earthquake disaster management.",
+    "What are the causes of floods and explain different methods of flood control measures.",
+    "Discuss the causes, effects, and management of the Bhopal gas tragedy.",
+    "What is a cyclone? Discuss the steps of disaster management for cyclones.",
+    "How can a hazard be prevented from changing into a disaster?",
+    "Explain briefly the Disaster Management Act, 2005."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

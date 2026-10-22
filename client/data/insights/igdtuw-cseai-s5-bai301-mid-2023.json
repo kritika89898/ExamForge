@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2023"
+  ],
+  "importantTopics": [
+    "Support Vector Machines",
+    "Classification Algorithms",
+    "Data Preprocessing",
+    "Data Splitting",
+    "Exploratory Data Analysis",
+    "Model Evaluation Metrics",
+    "Decision Trees",
+    "Linear Regression"
+  ],
+  "likelyQuestions": [
+    "Explain the difference between a hard margin and a soft margin in Support Vector Machines.",
+    "Compare the prediction time complexity of K-Nearest Neighbors and Logistic Regression when the size of the training data is extremely large.",
+    "Explain the role of data preprocessing and discuss why it is essential to divide data into training and testing sets before model training.",
+    "What role does standardization play in data preprocessing, and how does it impact the training of machine learning models?",
+    "What are the different causes of data issues in Machine Learning and what are their fallouts?",
+    "Enumerate and elucidate various techniques employed in data preprocessing, highlighting the significance of each.",
+    "Describe the role of Exploratory Data Analysis (EDA) in the context of Machine Learning and explain why it is considered a crucial step.",
+    "Given predicted probabilities for a classification model, calculate Accuracy, Precision, Recall, Specificity, and F1 Score based on a specified cut-off value.",
+    "Using the Gini impurity index, build a decision tree of height 1 from a given dataset and calculate its classification accuracy.",
+    "Using the least square method, find the equation of the regression model fitted on a given dataset and calculate the R-squared value."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

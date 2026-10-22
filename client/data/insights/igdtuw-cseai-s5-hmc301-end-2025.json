@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2025"
+  ],
+  "importantTopics": [
+    "Moral values and ethics",
+    "Moral development theories",
+    "Engineering as experimentation",
+    "Global and environmental ethics",
+    "Human values and spirituality",
+    "Professionalism and moral dilemmas",
+    "Safety, risks, and IPR",
+    "Corporate social responsibility and research ethics"
+  ],
+  "likelyQuestions": [
+    "Define moral values and ethics, and explain whether they are connected with examples.",
+    "Discuss Kohlberg's Theory of moral development in detail.",
+    "Explain Gilligan's Theory of moral development and whether it is based on a care-based or justice-based perspective.",
+    "How does engineering function as experimentation? Explain with relevant examples.",
+    "What were the causes and consequences of the Three Mile Island accident?",
+    "Explain environmental ethics along with its parameters and global scenarios.",
+    "Define empathy, self-confidence, character, and spirituality, and explain how they are connected.",
+    "Define Professionalism and explain responsibilities and expectations with respect to professionalism.",
+    "Explain the term 'engineers as professional experimenters' and discuss engineer's responsibility on safety and risks.",
+    "Explain Corporate Social Responsibility (CSR) and Research ethics along with their parameters."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

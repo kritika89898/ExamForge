@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2022",
+    "igdtuw-cseai-s5-bai301-end-2023"
+  ],
+  "importantTopics": [
+    "Data preprocessing and feature engineering",
+    "Supervised classification algorithms and evaluation metrics",
+    "k-Nearest Neighbors and distance metrics",
+    "Decision Trees and ensemble learning techniques",
+    "Clustering algorithms (k-means and agglomerative)",
+    "Dimensionality reduction and Principal Component Analysis",
+    "Model evaluation and ROC-AUC analysis",
+    "Regularization and bias-variance tradeoff"
+  ],
+  "likelyQuestions": [
+    "Illustrate k-fold cross validation with a given dataset size and value of k.",
+    "Explain different data attribute types, similarity measures, and the importance of data preprocessing.",
+    "Discuss the merits and demerits of logistic classifier, support vector classifier, naive Bayes classifier, k-nearest neighbor, and decision tree classifier.",
+    "Build a Naive Bayes model from a given dataset and compute specific conditional probabilities.",
+    "Perform k-means clustering or agglomerative clustering on a given set of 2D points and show the resulting clusters.",
+    "Plot the ROC curve for a classification dataset and calculate the Area Under the Curve (AUC) at specified thresholds.",
+    "Contrast bagging and boosting techniques, and explain how AdaBoost works with weak learners.",
+    "Describe Random Forest in the context of ensemble learning and explain its distinction from a single decision tree.",
+    "Explain the curse of dimensionality and discuss the motivations and drawbacks of dimensionality reduction.",
+    "Discuss the concepts of regularization in linear regression and how to address high bias or high variance using hyperparameter tuning."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

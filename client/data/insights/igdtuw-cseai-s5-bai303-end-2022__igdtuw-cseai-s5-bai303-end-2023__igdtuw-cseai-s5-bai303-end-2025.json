@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2022",
+    "igdtuw-cseai-s5-bai303-end-2023",
+    "igdtuw-cseai-s5-bai303-end-2025"
+  ],
+  "importantTopics": [
+    "Advanced Persistent Threats (APTs) and Attack Lifecycles",
+    "Symmetric and Asymmetric Cryptography",
+    "Phishing and Email Security Threats",
+    "Defense Models (Lollipop vs Onion Model)",
+    "Denial of Service and Distributed Denial of Service Attacks",
+    "Hash Cryptography and Hash Functions",
+    "Network Security Protocols (SSL/TLS, IPSec, SSH)",
+    "Access Control and Intrusion Detection Systems"
+  ],
+  "likelyQuestions": [
+    "Elaborate the complete cycle of an Advanced Persistent Threat (APT) and how cybercriminals use these components for attacks.",
+    "Categorically differentiate between Symmetric and Asymmetric Key Encryption algorithms with suitable examples.",
+    "Compare the Lollipop Model and the Onion Model of defense in terms of structure, assumptions, and practical security implications.",
+    "Explain the levels of denial-of-service attacks and discuss the different counter measures to prevent the attack.",
+    "Analytically discuss the email security threats viz. Deceptive Phishing, Whaling, and Pharming, along with best practices.",
+    "Compare SSL/TLS, IPSec, and SSH as secure communication protocols, focusing on their design goals and layer of operation.",
+    "Explain DES construction or hash function mechanics with a neat diagram or mathematical steps.",
+    "Define intrusion detection and contrast ISO/IEC 27001 and the NIST Cybersecurity Framework.",
+    "Discuss the technical architecture and operational workflow of Tor-based anonymity and onion routing processes.",
+    "Explain the process of ARP spoofing and how ARP cache poisoning occurs and its impact on data confidentiality and integrity."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

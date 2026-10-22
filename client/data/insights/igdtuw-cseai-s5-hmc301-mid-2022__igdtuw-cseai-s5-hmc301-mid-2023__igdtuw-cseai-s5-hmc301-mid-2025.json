@@ -1,0 +1,47 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2022",
+    "igdtuw-cseai-s5-hmc301-mid-2023",
+    "igdtuw-cseai-s5-hmc301-mid-2025"
+  ],
+  "importantTopics": [
+    "Morals, Values, Ethics, and Integrity",
+    "Engineering Ethics and Professionalism",
+    "Moral Dilemmas and Steps to Resolve Them",
+    "Kohlberg's Theory of Moral Development",
+    "Indian Values and Spiritual Concepts in Ethics",
+    "Sympathy, Empathy, Caring, and Sharing",
+    "Normative Enquiry and Ethical Obligations",
+    "Religion and Human Values"
+  ],
+  "likelyQuestions": [
+    "Write short notes on Sharing and Caring, Normative enquiry, Ethics and Engineering Ethics, and Sympathy and Empathy.",
+    "Explain in detail about Kohlberg's Theory of moral development.",
+    "What is Indian values? Explain its significance on the conceptual framework of Vedas and daily life.",
+    "What is an ethical code of conduct for engineers? Cite examples.",
+    "What is a Moral Dilemma? Enumerate a few steps in confronting and resolving moral dilemmas with examples.",
+    "What do you understand by morals, values, ethics, and integrity? Explain each with examples.",
+    "Define Niskama Karma. Can religion teach us values to be a good human being in society? Justify your answer.",
+    "Differentiate between justice-based morality and care-based morality with examples, including Gilligan's Theory.",
+    "Explain different ethical obligations and unethical practices for engineers with examples.",
+    "What is spirituality? Define purusharth, religion, and their importance in our daily life."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

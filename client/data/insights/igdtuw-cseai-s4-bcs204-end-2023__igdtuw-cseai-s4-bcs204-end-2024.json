@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2023",
+    "igdtuw-cseai-s4-bcs204-end-2024"
+  ],
+  "importantTopics": [
+    "Recurrence Relations and Master Theorem",
+    "Greedy Algorithms and Huffman Coding",
+    "Dynamic Programming and Optimal Binary Search Trees",
+    "Graph Algorithms and Shortest Paths",
+    "Minimum Spanning Trees",
+    "String Matching Algorithms",
+    "Backtracking and State Space Trees",
+    "NP-Completeness and Reductions"
+  ],
+  "likelyQuestions": [
+    "Solve the recurrence relation T(N) = 25T(N/5) + W^2 using appropriate methods.",
+    "Explain the Greedy algorithm for generating Huffman code with an example and analyse its complexity.",
+    "Explain the Dynamic Programming algorithm for constructing an optimal binary search tree and write its pseudo code.",
+    "Find the shortest path from vertex a to all other vertices in the given graph using Bellman-Ford algorithm.",
+    "Find the minimum spanning tree of the given graph using Kruskal's algorithm and write its pseudo code and complexity analysis.",
+    "Explain the Knuth-Morris-Pratt (KMP) string matching algorithm and use it to find the occurrence of a pattern in a given text.",
+    "Consider the Rabin-Karp string matching algorithm with a prime number q=13 and perform the algorithm step by step showing hash values.",
+    "Explain the N-Queen problem and solve the 5-queen problem using backtracking.",
+    "Solve the all-pairs shortest-path problem using Floyd-Warshall algorithm for a given directed graph.",
+    "Prove that a selected problem such as the set cover problem is NP-complete and briefly explain its solution."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

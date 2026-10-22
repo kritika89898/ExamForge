@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2022",
+    "igdtuw-cseai-s5-hmc301-mid-2025"
+  ],
+  "importantTopics": [
+    "Morals, Values, Ethics, and Integrity",
+    "Engineering Ethics and Professionalism",
+    "Sharing, Caring, Sympathy, and Empathy",
+    "Moral Dilemmas and Resolution Steps",
+    "Kohlberg's and Gilligan's Theories of Moral Development",
+    "Indian Values, Spirituality, and Purushartha",
+    "Unethical Practices in Engineering",
+    "Code of Conduct for Engineers"
+  ],
+  "likelyQuestions": [
+    "Write short notes on Sharing and Caring along with examples.",
+    "Explain the concepts of Morals, Values, Ethics, and Integrity with suitable examples.",
+    "What is normative enquiry? Explain with an appropriate example.",
+    "Define Engineering Ethics and differentiate between a 'profession' and 'professionalism'.",
+    "Explain Kohlberg's theory of moral development in detail.",
+    "Explain Indian values, spirituality, and the importance of purushartha in daily life.",
+    "Cite five examples of unethical practices in engineering.",
+    "What is an ethical code of conduct for engineers? Give an example.",
+    "What is a Moral Dilemma? Enumerate the steps to confront a moral dilemma with examples.",
+    "Explain Feminist Consequentialism and its relevance in professional ethics."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

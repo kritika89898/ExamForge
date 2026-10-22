@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2023",
+    "igdtuw-cseai-s6-bai306-end-2024"
+  ],
+  "importantTopics": [
+    "Digital Image Fundamentals and Adjacency",
+    "Intensity Transformations and Spatial Filtering",
+    "Histogram Processing and Matching",
+    "Discrete Fourier Transform and Frequency Domain Filtering",
+    "Image Compression and Huffman Coding",
+    "Image Segmentation and Region Growing",
+    "Morphological Image Processing",
+    "Object Recognition and Representation"
+  ],
+  "likelyQuestions": [
+    "Explain all types of adjacency involved in digital image processing with examples.",
+    "Perform histogram matching using two given histograms.",
+    "Perform spatial domain operations such as digital negative, contrast stretching, and intensity level slicing on a given image segment.",
+    "Compute the 2D Discrete Fourier Transform (DFT) and its inverse, and verify whether the DFT matrix is unitary.",
+    "Convert a given image using the Fourier transform and perform ideal high-pass filtering (IHPF) for image smoothing.",
+    "Construct Huffman coding for a set of gray level frequencies or symbols, and compute the compression ratio and coding efficiency.",
+    "Apply region growing or region splitting and merging with a specified threshold value, and construct the corresponding quadtree structure.",
+    "Perform morphological operations including dilation, erosion, opening, and closing using a given binary image and structuring element.",
+    "Explain the steps and key issues involved in object recognition systems.",
+    "Calculate the chain code (such as 4-chain code) for a given binary image segment."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2022"
+  ],
+  "importantTopics": [
+    "Confusion Matrix Evaluation Metrics",
+    "Linear Least Squares Regression",
+    "Naive Bayes Class Conditional Independence",
+    "Bias-Variance Tradeoff",
+    "Lazy Learning Classifiers",
+    "Decision Tree Root Node Selection",
+    "Regularized Regression Lasso and Ridge",
+    "Support Vector Classifier Maximum Margin"
+  ],
+  "likelyQuestions": [
+    "Compute the F1 score, TPR, TNR, FPR, and FNR given a 2x2 confusion matrix.",
+    "Derive and create the least square regression line for a given set of 2D points.",
+    "Explain the concept of class conditional independence with respect to probabilistic classifiers.",
+    "Explain the Bias-Variance tradeoff when applied to classification problems.",
+    "Apply a lazy learner classifier using a 2/3 train and 1/3 test split on a given dataset.",
+    "Calculate the test accuracy of a lazy learner classifier on a multi-attribute dataset.",
+    "Demonstrate the choice of root node using either ID3 or CART algorithm on a provided dataset table.",
+    "Draw and discuss the similarities and dissimilarities in decision trees constructed using different impurity measures.",
+    "Contrast Lasso (L1) and Ridge (L2) regression in terms of penalty and feature selection.",
+    "Illustrate the maximum margin hyperplane and perform an applicability analysis of the support vector classifier with a suitable example."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

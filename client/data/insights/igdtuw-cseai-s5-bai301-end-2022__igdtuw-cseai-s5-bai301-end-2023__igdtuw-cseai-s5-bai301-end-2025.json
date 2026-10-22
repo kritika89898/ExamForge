@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2022",
+    "igdtuw-cseai-s5-bai301-end-2023",
+    "igdtuw-cseai-s5-bai301-end-2025"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Feature Engineering",
+    "Supervised Classification Algorithms",
+    "Evaluation Metrics and ROC-AUC Analysis",
+    "Dimensionality Reduction and PCA",
+    "Clustering Techniques (K-Means and Agglomerative)",
+    "Regularization (Ridge and Lasso)",
+    "Ensemble Learning (Bagging, Boosting, and Random Forest)",
+    "Cross-Validation and Hyperparameter Tuning"
+  ],
+  "likelyQuestions": [
+    "Discuss the importance of data preprocessing in machine learning and describe the steps involved in data cleaning, integration, and feature extraction.",
+    "Explain the working of Support Vector Machines and how kernel functions enable SVMs to handle non-linear classification.",
+    "Illustrate k-fold cross validation with a dataset of a given size and explain its motivation over a simple train-test split.",
+    "Compare Ridge and Lasso regression in terms of regularization mechanisms and feature selection.",
+    "Perform k-means clustering or agglomerative clustering on a given set of spatial points and show the resulting clusters or dendrogram.",
+    "Explain Principal Component Analysis (PCA) and apply it to transform a given 2D dataset into a new coordinate system.",
+    "Contrast bagging and boosting ensemble methods with figures and explain how they achieve higher accuracy through diversity.",
+    "Build a Naive Bayes classifier using a provided categorical dataset and compute specific conditional probabilities for a new instance.",
+    "Apply the k-Nearest Neighbors (KNN) algorithm to classify a new unlabeled point in a 2D space using Euclidean distance for a given value of k.",
+    "For a given binary classification dataset with predicted probabilities, plot the ROC curve and find the Area Under the Curve (AUC) at specified thresholds."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

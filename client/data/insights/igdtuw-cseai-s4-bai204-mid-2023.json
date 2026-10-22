@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-mid-2023"
+  ],
+  "importantTopics": [
+    "Introduction to Optimization",
+    "Objective Functions and Constraints",
+    "Linear vs Quadratic Programming",
+    "General Structure of Optimization Problems",
+    "Classification of Optimization Problems",
+    "Engineering Applications of Optimization",
+    "Integer Programming",
+    "Simplex Method"
+  ],
+  "likelyQuestions": [
+    "Discuss the fundamental statement of an optimization problem with a suitable illustration.",
+    "Describe objective functions and constraints with the help of a detailed example.",
+    "Differentiate between linear programming problems and quadratic programming problems.",
+    "Define optimization and explain the concept with a real-world example.",
+    "Discuss the general structure of an optimization problem using a flowchart.",
+    "What are the various ways to classify optimization problems? Explain briefly.",
+    "Discuss five key applications of optimization in engineering domains.",
+    "Explain integer programming with the help of an example.",
+    "Formulate a linear programming problem for a manufacturing plant producing multiple products with resource constraints on molding, grinding, and polishing, and determine if an optimal solution exists.",
+    "Solve the following linear programming problem using the Simplex method: Maximize Z = 5X1 + 3X2 subject to X1 + X2 <= 2, 5X1 + 2X2 <= 10, 3X1 + 8X2 <= 12, and X1, X2 >= 0."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

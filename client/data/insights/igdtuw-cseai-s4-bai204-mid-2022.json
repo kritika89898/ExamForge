@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-mid-2022"
+  ],
+  "importantTopics": [
+    "Basics of Optimization and Feasible Regions",
+    "Linear Programming Formulation",
+    "Nonlinear Optimization",
+    "Convex Optimization and Differentiability",
+    "Semidefinite Programming (SDP)",
+    "Optimality Conditions (Necessary and Sufficient)",
+    "Decision Making Under Uncertainty",
+    "Expected Value Maximization"
+  ],
+  "likelyQuestions": [
+    "Explain the fundamental components of an optimization problem, giving examples of decision variables and constraints.",
+    "Define feasible regions and explain how boundedness affects the existence of an optimal solution with an illustrative example.",
+    "Give at least four real-world applications where optimization techniques are critical for operational efficiency.",
+    "Consider a set of n points in a 2D plane. Formulate a nonlinear optimization problem to find a point minimizing the sum of absolute distances (L1 norm) to all other points.",
+    "Discuss the differentiability and convexity of the objective function when minimizing the sum of Euclidean distances to a set of given points.",
+    "State the necessary and sufficient optimality conditions for unconstrained convex optimization problems, clearly stating any required assumptions.",
+    "Provide a semidefinite programming formulation for minimizing the maximum Euclidean distance from a point to a given set of points.",
+    "A manufacturing firm produces multiple products under regular and overtime constraints with varying profit margins. Formulate this resource allocation problem as a linear programming model.",
+    "Formulate an optimization problem for decision making under uncertainty where demand can take one of two discrete values with known probabilities, subject to a strict budget constraint.",
+    "Analyze the qualitative outcomes of a decision-making model under budget constraints when the maximum versus minimum expected demand scenarios occur."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

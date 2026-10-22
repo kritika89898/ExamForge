@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-end-2022",
+    "igdtuw-cseai-s4-bit202-end-2024"
+  ],
+  "importantTopics": [
+    "CPU Scheduling Algorithms",
+    "Deadlock Avoidance and Banker's Algorithm",
+    "Page Replacement Algorithms",
+    "Process Synchronization and Semaphores",
+    "Disk Scheduling Algorithms",
+    "Memory Management and Address Translation",
+    "File System and Free Space Management",
+    "Threads and Multithreading"
+  ],
+  "likelyQuestions": [
+    "Consider a set of processes with given arrival times and burst times. Calculate the average waiting time and average turnaround time using FCFS, SJF, and Round Robin scheduling algorithms.",
+    "Explain the concept of deadlock along with the four necessary conditions. How does the Banker's algorithm help in deadlock avoidance?",
+    "Given a system state with allocation, max, and available resources, calculate the need matrix, determine if the system is in a safe state, and find the safe sequence.",
+    "Given a page reference string and a fixed number of frames, calculate the total number of page faults using LRU, FIFO, and Optimal page replacement algorithms.",
+    "What are the two atomic operations used by semaphores to solve the critical section problem? Explain any two classical problems of process synchronization with code snippets.",
+    "Given a disk queue with pending requests and an initial head position, calculate the total head movement using FCFS, SCAN, C-SCAN, and SSTF disk scheduling algorithms.",
+    "Describe the various file access methods and explain how free space is managed in an operating system with suitable diagrams.",
+    "How is a thread different from a process? Explain multi-threaded processes and show their structure with a diagram.",
+    "Given a logical address space, physical address space, and page size, calculate the number of bits for logical and physical addresses, number of pages, number of frames, and page table size.",
+    "Explain the different types of operating systems with examples and diagrams, and differentiate between dedicated, shared, and virtual devices."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

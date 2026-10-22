@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-mid-2022",
+    "igdtuw-cseai-s4-bcs204-mid-2023"
+  ],
+  "importantTopics": [
+    "QuickSort complexity and partitions",
+    "Recurrence relation solving techniques",
+    "Greedy algorithms and applications",
+    "Divide and Conquer algorithms",
+    "Binary search variations and tree searching",
+    "Complexity analysis of recursive and iterative code",
+    "Minimum Spanning Tree algorithms",
+    "Fibonacci series generation algorithms"
+  ],
+  "likelyQuestions": [
+    "Analyze the time complexity of the given recursive function and solve its recurrence relation.",
+    "Explain the best, average, and worst-case time complexities of QuickSort along with its recurrences.",
+    "Solve the recurrence relation using the recursion tree method or substitution method.",
+    "Write a greedy algorithm to maximize the number of programs stored on a disk of given capacity and analyze its complexity.",
+    "Find the minimum spanning tree of a given weighted graph using Kruskal's algorithm.",
+    "Explain the greedy algorithm for the knapsack problem or optimal storage on tapes/CDs and analyze its complexity.",
+    "Write recursive and non-recursive algorithms for generating the Fibonacci series and compare their efficiencies.",
+    "Given a sorted array of distinct integers, design an O(log n) algorithm to find an index i such that T[i] = i.",
+    "Explain Strassen's Matrix multiplication algorithm and analyze its time complexity.",
+    "Explain the greedy algorithm for generating Huffman codes and analyze its complexity."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

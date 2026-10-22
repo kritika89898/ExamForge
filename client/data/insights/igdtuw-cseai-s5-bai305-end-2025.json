@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2025"
+  ],
+  "importantTopics": [
+    "MP Neuron and Perceptron Models",
+    "Regularization and Optimization Techniques",
+    "Bias-Variance Trade-off and Overfitting",
+    "Activation Functions in Neural Networks",
+    "Convolutional Neural Networks and Architectures",
+    "Recurrent Neural Networks and LSTM",
+    "Backpropagation Through Time",
+    "Transfer Learning and Weight Initialization"
+  ],
+  "likelyQuestions": [
+    "Justify the validity of applying the Perceptron Learning Algorithm to multi-class classification problems with suitable reasoning.",
+    "Explain the MP-neuron (McCulloch-Pitts neuron) model in detail, identifying its key advantages and limitations.",
+    "Determine the output values produced by a two-input MP-neuron with excitatory inputs and a threshold of 1 for the input vectors [-4, -5] and [2, 0.6], and draw its architecture.",
+    "Discuss why both the Perceptron and the MP-neuron fail to correctly model or classify non-linearly separable Boolean functions.",
+    "Determine the updated weight values after three iterations of the batch gradient descent algorithm with a learning rate of 0.1 for a three-input perceptron using a sigmoid activation function, initial weight vector [2.2, 0.1, 4.0], bias 0.5, and given input samples with target outputs.",
+    "Explain the concept of the bias-variance trade-off in the context of Artificial Neural Networks and discuss why overfitting tends to be a prominent concern.",
+    "Discuss five activation functions commonly used in deep learning models, explaining their characteristics and typical applications.",
+    "Examine the correctness of the statement that the ReLU activation function is more appropriate for hidden layers of a CNN model than others.",
+    "Explain the LSTM unit along with its advantages and disadvantages.",
+    "Differentiate among ResNet and InceptionNet architectures in detail, and explain the 1x1 convolution along with its advantages."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-I - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2022",
+    "igdtuw-cseai-s4-bai204-end-2023",
+    "igdtuw-cseai-s4-bai204-end-2024"
+  ],
+  "importantTopics": [
+    "Classification and Mathematical Formulation of Optimization Problems",
+    "Constraints, Feasible Region, and Constraint Surface Analysis",
+    "Linear Programming: Graphical Method and Simplex Method",
+    "Integer Programming and Transshipment/Network Flow Models",
+    "Genetic Algorithms (Crossover, Selection, and Knapsack Application)",
+    "Ant Colony Optimization (ACO) and Traveling Salesman Problem",
+    "Particle Swarm Optimization (PSO) and Parameter Updates",
+    "Decision Making Under Uncertainty, Decision Trees, and Payoff Criteria"
+  ],
+  "likelyQuestions": [
+    "Explain the classification of optimization problems based on the nature of the equations involved, and give an example for each type in engineering.",
+    "Define the role of constraints in defining the feasible region and illustrate how constraints are incorporated into optimization formulations using an example.",
+    "Solve a given linear programming manufacturing problem using the Graphical Method and discuss its limitations compared to the Simplex Method.",
+    "Discuss the conditions under which the Simplex method terminates and explain how it detects an unbounded solution in linear programming.",
+    "Develop an integer programming model to minimize transportation costs for a logistics network while ensuring demand is satisfied and routes are used effectively.",
+    "Explain how Genetic Algorithms are applied to solve the Knapsack Problem, highlighting encoding, fitness function, selection, crossover, and mutation operators.",
+    "Design an Ant Colony Optimization algorithm for the Traveling Salesman Problem, outlining the pheromone update rule, ant movement strategy, and solution construction.",
+    "Implement a simple Particle Swarm Optimization (PSO) algorithm to optimize a basic mathematical function, specifying initialization, update rules, and termination conditions.",
+    "Formulate a business decision-making situation involving multiple courses of action under probabilistic future demand states into a decision tree and calculate the expected values.",
+    "Analyze a payoff matrix under uncertainty using Maximin, Maximax, Equal Probability, Regret (Minimax Regret), and Hurwicz criteria."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

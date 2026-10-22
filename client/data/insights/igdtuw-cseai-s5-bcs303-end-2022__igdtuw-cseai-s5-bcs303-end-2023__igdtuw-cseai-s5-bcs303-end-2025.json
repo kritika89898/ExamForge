@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2022",
+    "igdtuw-cseai-s5-bcs303-end-2023",
+    "igdtuw-cseai-s5-bcs303-end-2025"
+  ],
+  "importantTopics": [
+    "Finite Automata and NFA to DFA Conversion",
+    "Regular Expressions and Arden's Theorem",
+    "Chomsky Hierarchy and Grammars",
+    "Context-Free Grammars and Normal Forms (CNF and GNF)",
+    "Pushdown Automata (PDA)",
+    "Pumping Lemma for Regular and Context-Free Languages",
+    "Turing Machines and Computability",
+    "Moore and Mealy State Machines"
+  ],
+  "likelyQuestions": [
+    "Construct a DFA that accepts a specific binary or regular language pattern.",
+    "Convert a given NFA with or without epsilon transitions into an optimized DFA.",
+    "Explain the Chomsky hierarchy of grammars with examples for each type.",
+    "Convert a given Context-Free Grammar into Chomsky Normal Form (CNF) or Greibach Normal Form (GNF).",
+    "Design a Pushdown Automata (PDA) for a given context-free language and show its instantaneous description.",
+    "Show that a given language is not regular using the Pumping Lemma.",
+    "Design a Turing Machine for languages such as L = {a^n b^n c^n | n >= 1}.",
+    "Design a Moore machine or Mealy machine for detecting specific bit patterns in an input stream and convert between them.",
+    "Explain the Halting problem and discuss its significance in theory of computation.",
+    "Describe complexity classes P, NP, NP-complete, and NP-hard problems with suitable examples."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

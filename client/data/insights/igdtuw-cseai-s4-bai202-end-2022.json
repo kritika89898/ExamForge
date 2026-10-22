@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-end-2022"
+  ],
+  "importantTopics": [
+    "OSI and TCP/IP Reference Models",
+    "Error Detection and Correction Codes",
+    "Medium Access Control Protocols",
+    "IPv4 and IPv6 Headers",
+    "Routing Protocols and Algorithms",
+    "Transport Layer Handshaking",
+    "Network Traffic Shaping",
+    "Subnetting and IP Addressing"
+  ],
+  "likelyQuestions": [
+    "Define Shannon capacity and explain its significance in data communications.",
+    "Classify computer networks based on their geographical coverage with examples.",
+    "Explain the concept of subnetting and write the default subnet mask for a Class C IP address.",
+    "What is Network Address Translation (NAT)? Explain its types and working mechanism.",
+    "Compare and contrast the layers and functions of the OSI reference model and the TCP/IP model.",
+    "Explain Cyclic Redundancy Check (CRC), Longitudinal Redundancy Check (LRC), and Vertical Redundancy Check (VRC) with examples.",
+    "Describe the working of the CSMA/CD protocol used in traditional Ethernet networks.",
+    "Compare and contrast Link State routing and Distance Vector routing algorithms.",
+    "Explain the connection establishment process in TCP using the three-way handshaking protocol with a diagram.",
+    "Describe the leaky bucket algorithm for congestion control and traffic shaping."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Networks - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

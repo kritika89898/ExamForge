@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-end-2023"
+  ],
+  "importantTopics": [
+    "Basics of Optimization Algorithms",
+    "Constraint Surface and Design Space",
+    "Classification of Optimization Problems",
+    "Graphical and Simplex Methods",
+    "Integer Programming and Knapsack Problem",
+    "Particle Swarm Optimization",
+    "Genetic Algorithms and Crossover Operators",
+    "Decision Making and Analysis"
+  ],
+  "likelyQuestions": [
+    "What is the most important step in an optimization algorithm and why?",
+    "Explain the concept of constraint surface in a two-dimensional design space with the help of a diagram.",
+    "Classify optimization problems based on the nature of the equations involved with suitable examples.",
+    "Formulate and solve a linear programming problem using the graphical method to maximize profit.",
+    "Solve a given linear programming maximization problem using the Simplex method.",
+    "What is an integer programming problem? Explain the Knapsack problem in detail.",
+    "Write the algorithm for Particle Swarm Optimization and discuss its initialization step, advantages, and applications.",
+    "Perform single point, two point, and uniform crossover on two given binary strings.",
+    "Discuss the steps involved in decision making with a diagram and analyze whether decision making and decision analysis are the same.",
+    "Compare and contrast various group decision making methods."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2022",
+    "igdtuw-cseai-s5-bai305-end-2023",
+    "igdtuw-cseai-s5-bai305-end-2025"
+  ],
+  "importantTopics": [
+    "Perceptron and McCulloch-Pitts Neuron",
+    "Neural Network Forward and Backpropagation Calculations",
+    "Activation Functions and Regularization Techniques",
+    "Recurrent Neural Networks (RNN)",
+    "LSTM and GRU Architectures",
+    "Convolutional Neural Networks (CNN) and Feature Maps",
+    "Advanced CNN Architectures (ResNet, InceptionNet)",
+    "Transfer Learning"
+  ],
+  "likelyQuestions": [
+    "Explain the MP-neuron (McCulloch-Pitts neuron) model in detail along with its thresholding function and limitations.",
+    "Discuss the perceptron learning algorithm in detail and explain the reason behind the separate weight updation equations.",
+    "Consider a neural network with given weights and inputs; perform forward pass calculations and find the updated weights using backpropagation.",
+    "Differentiate between L1 and L2 regularization techniques and discuss why L2 regularization is generally considered more applicable than L1 in many deep learning models.",
+    "Explain the architecture of Long Short-Term Memory (LSTM) networks and how they differ from standard RNNs.",
+    "Explain the architecture of Gated Recurrent Units (GRUs) and how they differ from LSTM units.",
+    "Discuss the architecture and roles of hidden states and recurrent connections in an RNN, including Backpropagation Through Time (BPTT).",
+    "Consider a Convolutional Neural Network with specified kernel size, stride, and padding configurations; calculate the output size of feature maps.",
+    "Differentiate among AlexNet, VGG, ResNet, and InceptionNet architectures, and discuss the contribution of the Inception module or 1x1 convolution.",
+    "Explain the concept of transfer learning with an example along with different techniques for transfer learning."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

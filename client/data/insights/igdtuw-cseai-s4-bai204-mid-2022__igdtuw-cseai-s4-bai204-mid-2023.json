@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-mid-2022",
+    "igdtuw-cseai-s4-bai204-mid-2023"
+  ],
+  "importantTopics": [
+    "Basics of Mathematical Optimization and Real-World Applications",
+    "Constraints, Objective Functions, and Feasible Regions",
+    "Linear Programming Problem Formulation",
+    "Simplex Method for Linear Programming",
+    "Convex Optimization and Optimality Conditions",
+    "Nonlinear Optimization and Euclidean Distance Minimization",
+    "Semidefinite Programming Formulation",
+    "Decision Making Under Uncertainty and Resource Allocation"
+  ],
+  "likelyQuestions": [
+    "What do you mean by optimization of a mathematical or logical problem? Give real-world applications.",
+    "Define objective functions and constraints with the help of an example.",
+    "Differentiate between linear programming problems and quadratic programming problems.",
+    "Discuss the general structure of an optimization problem with the help of a flowchart and classify various optimization problems.",
+    "Consider a set of n points in the plane. Formulate the problem of finding a point that minimizes the sum of Euclidean distances as a nonlinear optimization problem.",
+    "Discuss the differentiability, convexity, and optimality conditions for minimizing the sum of Euclidean distances to a set of points.",
+    "Provide a semidefinite programming formulation for the Euclidean distance minimization problem among a set of points.",
+    "Formulate a production scheduling or resource allocation scenario as a linear programming problem.",
+    "Formulate an optimization problem under uncertainty involving budgeting, costs, and probabilistic demand.",
+    "Solve a given linear programming problem to maximize an objective function subject to multiple constraints using the Simplex method."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Optimization Techniques and Decision Making - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2023",
+    "igdtuw-cseai-s4-bit202-mid-2024"
+  ],
+  "importantTopics": [
+    "System Calls",
+    "Process Management and Control Block",
+    "CPU Scheduling Algorithms",
+    "Deadlock and Necessary Conditions",
+    "Logical and Physical Address Space",
+    "Memory Allocation and Segmentation",
+    "Page Faults and Demand Paging",
+    "Page Replacement Algorithms"
+  ],
+  "likelyQuestions": [
+    "Define system calls and explain the various types of system calls provided by operating systems with examples.",
+    "Explain the concept of 'process' and describe the contents of a process control block (PCB) along with process states.",
+    "Differentiate between physical and logical memory address space with examples.",
+    "Define page fault and explain page replacement using demand paging with a block diagram.",
+    "Calculate the average waiting time and turnaround time for a given set of processes using the Round Robin scheduling algorithm.",
+    "Find the average waiting time and average turnaround time for processes using preemptive Shortest Job First (SJF) scheduling.",
+    "Calculate the average waiting time and turnaround time using preemptive priority scheduling for a given process set.",
+    "Calculate the number of page faults for a given reference string using Optimal and Least Recently Used (LRU) page replacement algorithms.",
+    "What is a deadlock? Explain the four necessary conditions for deadlock and methods for handling it.",
+    "Define segmentation and explain contiguous memory allocation along with its characteristics."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2022"
+  ],
+  "importantTopics": [
+    "Sharing and Caring",
+    "Normative enquiry",
+    "Engineering Ethics",
+    "Sympathy and Empathy",
+    "Knowledge Sharing",
+    "Kohlberg's Theory",
+    "Indian Values",
+    "Moral Dilemma"
+  ],
+  "likelyQuestions": [
+    "Write a short note on sharing and caring in professional and personal life.",
+    "Explain normative enquiry with a suitable example.",
+    "Discuss the relationship between general ethics and engineering ethics.",
+    "Differentiate between sympathy and empathy with examples.",
+    "What is knowledge sharing, and how would you foster a knowledge-sharing environment in an organization?",
+    "Explain Kohlberg's theory of moral development in detail.",
+    "Discuss the core concepts of Indian values and their relevance today.",
+    "List and explain five examples of unethical practices in engineering.",
+    "What is the ethical code of conduct for engineers? Provide an example.",
+    "Define a moral dilemma and enumerate the steps involved in confronting a moral dilemma."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

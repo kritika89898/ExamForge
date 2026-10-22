@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2022",
+    "igdtuw-cseai-s5-bai305-mid-2023"
+  ],
+  "importantTopics": [
+    "McCulloch-Pitts Neuron and Perceptron",
+    "Forward Propagation and Loss Functions",
+    "Gradient Descent and Chain Rule",
+    "Overfitting, Underfitting and Regularization",
+    "Activation Functions and Output Computations",
+    "Feature Scaling and Data Augmentation",
+    "Computational Graphs and Partial Derivatives",
+    "Neural Network Architecture and Training Process"
+  ],
+  "likelyQuestions": [
+    "Using McCulloch-Pitts units, implement logic gates and explain thresholding logic.",
+    "Differentiate between MP-Neuron and Perceptron, and explain the perceptron learning algorithm.",
+    "Explain the relationship between partial derivative and chain-rule with an example using a computational graph.",
+    "Consider a neural network with given weights and biases; calculate the output and perform a forward pass and single backpropagation step using gradient descent.",
+    "Calculate cross-entropy loss, Mean Absolute Error (MAE), and Mean Squared Error (MSE) given predicted and actual outputs.",
+    "Compute the softmax operation for a given multi-class classifier output vector.",
+    "Explain underfitting and overfitting using learning curves and diagrams, and discuss how to recover from them.",
+    "Explain the purpose of L1 and L2 regularization and Dropout techniques to prevent overfitting.",
+    "What are the types of feature scaling techniques? Explain with formulas and perform them on given numeric data.",
+    "How do you perform data augmentation for numeric, image, and text datasets?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}

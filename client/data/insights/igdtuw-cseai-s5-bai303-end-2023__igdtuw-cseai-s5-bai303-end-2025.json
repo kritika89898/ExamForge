@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2023",
+    "igdtuw-cseai-s5-bai303-end-2025"
+  ],
+  "importantTopics": [
+    "Denial of Service and Network Attacks",
+    "Advanced Persistent Threat and Cyber Crime",
+    "Cryptography and Hash Functions",
+    "Defense Models and Security Principles",
+    "Network Security and Protocols",
+    "Access Control and Intrusion Detection",
+    "Vulnerabilities and Social Engineering",
+    "Compliance and Security Frameworks"
+  ],
+  "likelyQuestions": [
+    "Explain the levels of denial-of-service attacks and discuss different countermeasures to prevent them.",
+    "Elaborate on the complete cycle of an Advanced Persistent Threat (APT).",
+    "What is cyber crime? How do you classify cyber crimes and explain each classification briefly.",
+    "Compare and contrast symmetric and asymmetric cryptographic systems with suitable examples.",
+    "Differentiate between the Lollipop defense model and the Onion defense model.",
+    "Explain the technical architecture and operational workflow of Tor-based anonymity and onion routing.",
+    "Compare SSL/TLS, IPsec, and SSH as secure communication protocols focusing on their design goals.",
+    "Evaluate the role of Network Admission Control in enforcing endpoint compliance within enterprise networks.",
+    "Define intrusion detection and contrast ISO/IEC 27001 with the NIST Cybersecurity Framework.",
+    "Discuss various security design principles in organizational security."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-22T09:44:05Z"
+}
