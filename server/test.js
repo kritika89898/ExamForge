@@ -200,7 +200,7 @@ test("AI Studio accepts only published catalog paper IDs", () => {
     assert.deepEqual(listParam("paper-one,paper-two"), ["paper-one", "paper-two"]);
 });
 
-test("AI Studio compares one subject and exam type across three different years", () => {
+test("AI Studio accepts one to three papers of one subject and exam type from different years", () => {
     const mid2025 = resolveCatalogSelection(["igdtuw-cseai-s5-bai301-mid-2025"]);
     const uploads = [{ year: 2024 }, { year: 2023 }];
 
@@ -216,7 +216,23 @@ test("AI Studio compares one subject and exam type across three different years"
     );
     assert.throws(
         () => validateComparison({ selectedPapers: mid2025, uploads: [{ year: 2025 }, { year: 2024 }], examType: "Mid Semester", subjectCode: "BAI 301" }),
-        /different years/
+        /different year/
+    );
+    assert.deepEqual(
+        validateComparison({ selectedPapers: mid2025, uploads: [], examType: "Mid Semester", subjectCode: "BAI 301" }),
+        [2025]
+    );
+    assert.deepEqual(
+        validateComparison({ selectedPapers: mid2025, uploads: [{ year: 2023 }], examType: "Mid Semester", subjectCode: "BAI 301" }),
+        [2025, 2023]
+    );
+    assert.throws(
+        () => validateComparison({ selectedPapers: [], uploads: [], examType: "Mid Semester", subjectCode: "BAI 301" }),
+        /between 1 and 3/
+    );
+    assert.throws(
+        () => validateComparison({ selectedPapers: mid2025, uploads: [{ year: 2024 }, { year: 2023 }, { year: 2022 }], examType: "Mid Semester", subjectCode: "BAI 301" }),
+        /between 1 and 3/
     );
     assert.throws(
         () => validateComparison({ selectedPapers: mid2025, uploads, examType: "Mid Semester", subjectCode: "BAI 303" }),
@@ -312,6 +328,39 @@ test("AI Studio falls back to the next model when the first is out of quota", as
         assert.equal(response.status, 429);
         assert.match(body.message, /try again/i);
         assert.equal(response.headers.get("cache-control"), "no-store");
+    });
+});
+
+test("AI Studio analyses a single paper and tells Gemini there is no cross-year comparison", async () => {
+    const prediction = { importantTopics: ["Topic"], likelyQuestions: ["Question?"] };
+
+    await withFakeGemini(() => geminiReply(prediction), async (calls) => {
+        const response = await fetch(predictUrl({
+            subjectCode: "BAI 301",
+            examType: "End Semester",
+            paperIds: "igdtuw-cseai-s5-bai301-end-2025",
+        }));
+        const body = await response.json();
+
+        assert.equal(response.status, 200);
+        assert.equal(body.data.sourceCount, 1);
+        const parts = calls[0].body.contents[0].parts;
+        assert.equal(parts.filter((part) => part.inlineData).length, 1);
+        assert.match(parts[0].text, /Only one paper is supplied/);
+    });
+});
+
+test("AI Studio tells Gemini how many years it is comparing", async () => {
+    const prediction = { importantTopics: ["Topic"], likelyQuestions: ["Question?"] };
+
+    await withFakeGemini(() => geminiReply(prediction), async (calls) => {
+        const response = await fetch(predictUrl({
+            subjectCode: "BAI 301",
+            examType: "End Semester",
+            paperIds: "igdtuw-cseai-s5-bai301-end-2022,igdtuw-cseai-s5-bai301-end-2025",
+        }));
+        assert.equal(response.status, 200);
+        assert.match(calls[0].body.contents[0].parts[0].text, /The 2 supplied papers/);
     });
 });
 
