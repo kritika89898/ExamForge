@@ -28,7 +28,7 @@ const PAUSE_MS = 1500;
 
 // Must match loadStoredInsights() in client/prediction.js.
 function insightFileName(paperIds) {
-    return `${[...paperIds].sort().join("+")}.json`;
+    return `${[...paperIds].sort().join("__")}.json`;
 }
 
 function allCombinations() {

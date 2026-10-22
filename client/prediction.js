@@ -47,9 +47,30 @@
             .replace(/'/g, "&#039;");
     }
 
-    function selectedSubject() {
+    // The curriculum lists electives as placeholders ("Departmental Elective I"),
+    // so electives that have archive papers (e.g. BAI 322) are added by code.
+    function semesterSubjects() {
         const branch = branches[elements.branch.value];
         const entries = branch?.semesters?.[elements.semester.value] || [];
+        if (!branch) return entries;
+
+        const listed = new Set(entries.map(([code]) => code));
+        const electives = new Map();
+        state.catalog
+            .filter((paper) => paper.is_published !== false)
+            .filter((paper) => Number(paper.semester) === Number(elements.semester.value))
+            .filter((paper) => paperProgrammeMatches(paper, branch))
+            .forEach((paper) => {
+                if (!listed.has(paper.subject_code) && !electives.has(paper.subject_code)) {
+                    electives.set(paper.subject_code, [paper.subject_code, paper.subject_name, "Elective"]);
+                }
+            });
+        return [...entries, ...electives.values()];
+    }
+
+    function selectedSubject() {
+        const branch = branches[elements.branch.value];
+        const entries = semesterSubjects();
         const entry = entries.find(([code]) => code === elements.subject.value);
         return entry ? { code: entry[0], name: entry[1], branch } : null;
     }
@@ -206,8 +227,7 @@
     }
 
     function populateSubjects() {
-        const branch = branches[elements.branch.value];
-        const entries = branch?.semesters?.[elements.semester.value] || [];
+        const entries = semesterSubjects();
         const previous = elements.subject.value;
 
         elements.subject.innerHTML = entries.map(([code, name]) =>
@@ -288,9 +308,9 @@
         elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
-    // File name matches scripts/generate-insights.js: sorted paper IDs joined by "+".
+    // File name matches scripts/generate-insights.js: sorted paper IDs joined by "__".
     async function loadStoredInsights(paperIds, signal) {
-        const name = [...paperIds].sort().join("+");
+        const name = [...paperIds].sort().join("__");
         try {
             const response = await fetch(`data/insights/${encodeURIComponent(name)}.json`, { signal });
             if (!response.ok) return null;
@@ -484,7 +504,7 @@
             const response = await fetch("data/papers.json", { cache: "no-store" });
             if (!response.ok) throw new Error("Paper catalogue could not be loaded.");
             state.catalog = await response.json();
-            renderArchivePapers();
+            populateSubjects();
         } catch (error) {
             setStatus("Archive papers could not be loaded. You can still upload your own PDFs.", "error");
         }

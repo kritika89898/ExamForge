@@ -463,6 +463,6 @@ test("every archive paper combination has a valid stored AI Studio answer", () =
 
 test("AI Studio looks up stored answers with the same file naming as the generator", () => {
     const page = fs.readFileSync(path.join(__dirname, "../client/prediction.js"), "utf8");
-    assert.match(page, /\[\.\.\.paperIds\]\.sort\(\)\.join\("\+"\)/);
+    assert.match(page, /\[\.\.\.paperIds\]\.sort\(\)\.join\("__"\)/);
     assert.match(page, /data\/insights\/\$\{encodeURIComponent\(name\)\}\.json/);
 });
