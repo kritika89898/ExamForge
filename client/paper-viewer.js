@@ -22,36 +22,23 @@
         return new URLSearchParams(window.location.search).get("id");
     }
 
-    function encodeStoragePath(storagePath) {
-        return String(storagePath || "")
+    // PDFs are served as static files from the site itself (client/papers/...),
+    // so they are always available and never depend on an external service.
+    function resolvePdfUrl(paper) {
+        const filePath = String(paper.file_path || "")
             .split("/")
-            .filter(Boolean)
+            .filter((segment) => segment && segment !== "..")
             .map((segment) => encodeURIComponent(segment))
             .join("/");
-    }
 
-    function resolvePdfUrl(paper) {
-        const storageConfig = window.EXAMFORGE_STORAGE_CONFIG || {};
-        const publicBase = String(storageConfig.publicBaseUrl || "")
-            .trim()
-            .replace(/\/$/, "");
-        const storagePath = encodeStoragePath(paper.storage_path);
-
-        if (paper.storage_provider === "supabase" && publicBase && storagePath) {
-            return {
-                url: `${publicBase}/${storagePath}`,
-                source: "Supabase Storage",
-            };
+        if (!filePath) {
+            throw new Error("This paper's PDF is not available yet.");
         }
 
-        if (paper.local_demo_url) {
-            return {
-                url: paper.local_demo_url,
-                source: "Local demo source",
-            };
-        }
-
-        throw new Error("Supabase Storage is not configured for this paper yet.");
+        return {
+            url: filePath,
+            source: "ExamForge archive",
+        };
     }
 
     function populateMetadata(paper, source) {
@@ -82,11 +69,12 @@
         elements.errorMessage.textContent = message;
     }
 
-    function showNativeViewer(url) {
+    function showNativeViewer(url, paper) {
         elements.loading.classList.add("hidden");
+        elements.pages.replaceChildren();
         const iframe = document.createElement("iframe");
         iframe.className = "native-viewer";
-        iframe.title = "Cyber Security question paper";
+        iframe.title = `${paper.subject_name} question paper`;
         iframe.src = url;
         elements.pages.appendChild(iframe);
     }
@@ -142,11 +130,17 @@
             configureLinks(resolved.url, paper);
 
             if (!window.pdfjsLib) {
-                showNativeViewer(resolved.url);
+                showNativeViewer(resolved.url, paper);
                 return;
             }
 
-            await renderWithPdfJs(resolved.url);
+            try {
+                await renderWithPdfJs(resolved.url);
+            } catch (renderError) {
+                // The file is fine but PDF.js could not draw it: use the browser's own viewer.
+                console.warn("PDF.js rendering failed, using the browser viewer", renderError);
+                showNativeViewer(resolved.url, paper);
+            }
         } catch (error) {
             showError(error.message || "The paper could not be loaded.");
         }

@@ -2,7 +2,6 @@ const fs = require("fs");
 const path = require("path");
 
 const catalogPath = path.join(__dirname, "../../client/data/papers.json");
-const localPaperDirectory = path.join(__dirname, "../../output/pdf");
 const maxPaperCount = 3;
 const maxCombinedBytes = 18 * 1024 * 1024;
 
@@ -51,51 +50,35 @@ function resolveCatalogSelection(ids) {
     return selected;
 }
 
-function publicPaperUrl(paper) {
-    const projectUrl = String(process.env.SUPABASE_URL || "").trim().replace(/\/$/, "");
-    const bucket = String(process.env.SUPABASE_STORAGE_BUCKET || "academic-files").trim();
-
-    if (!projectUrl || !bucket || !paper.storage_path) return "";
-
-    const storagePath = String(paper.storage_path)
-        .split("/")
-        .filter(Boolean)
-        .map((segment) => encodeURIComponent(segment))
-        .join("/");
-
-    return `${projectUrl}/storage/v1/object/public/${encodeURIComponent(bucket)}/${storagePath}`;
-}
+// Archive PDFs live in the repo under client/papers/, next to the catalogue.
+const clientDirectory = path.join(__dirname, "../../client");
 
 async function fetchPublishedPaper(paper) {
-    const localName = paper.local_demo_url ? path.basename(paper.local_demo_url) : "";
-    const localPath = localName ? path.join(localPaperDirectory, localName) : "";
+    const relativePath = String(paper.file_path || "");
+    const absolutePath = path.resolve(clientDirectory, relativePath);
 
-    if (localPath && fs.existsSync(localPath)) {
-        return fs.readFileSync(localPath);
-    }
-
-    const url = publicPaperUrl(paper);
-    if (!url) {
-        const error = new Error("Archive storage is not configured for the selected paper");
+    if (!relativePath || !absolutePath.startsWith(path.join(clientDirectory, "papers") + path.sep)) {
+        const error = new Error("The selected paper has no archive file");
         error.status = 503;
         throw error;
     }
 
-    const response = await fetch(url, { signal: AbortSignal.timeout(15000) });
-    if (!response.ok) {
-        const error = new Error(`Selected paper could not be loaded from archive storage (${response.status})`);
+    let buffer;
+    try {
+        buffer = await fs.promises.readFile(absolutePath);
+    } catch {
+        const error = new Error("The selected paper could not be found in the archive");
         error.status = 502;
         throw error;
     }
 
-    const declaredSize = Number(response.headers.get("content-length") || 0);
-    if (declaredSize > 10 * 1024 * 1024) {
+    if (buffer.length > 10 * 1024 * 1024) {
         const error = new Error("A selected paper is larger than the 10 MB analysis limit");
         error.status = 400;
         throw error;
     }
 
-    return Buffer.from(await response.arrayBuffer());
+    return buffer;
 }
 
 function validateComparison({ selectedPapers, uploads, uploadYears, examType, subjectCode }) {
