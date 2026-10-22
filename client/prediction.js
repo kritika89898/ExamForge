@@ -317,7 +317,16 @@
 
         elements.button.disabled = true;
         elements.button.classList.add("is-loading");
-        elements.buttonLabel.textContent = "Analysing... (usually under a minute)";
+        const startedAt = Date.now();
+        const showElapsed = () => {
+            const seconds = Math.round((Date.now() - startedAt) / 1000);
+            elements.buttonLabel.textContent = seconds < 3 ? "Analysing..." : `Analysing... ${seconds}s`;
+        };
+        showElapsed();
+        const ticker = setInterval(showElapsed, 1000);
+        // The server gives up after about 100 s; never leave the student waiting longer than this.
+        const controller = new AbortController();
+        const giveUp = setTimeout(() => controller.abort(), 125 * 1000);
         elements.results.hidden = true;
         const paperCount = totalSelected();
         setStatus(paperCount === 1
@@ -327,8 +336,9 @@
         try {
             // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
             const response = request
-                ? await fetch(request)
+                ? await fetch(request, { signal: controller.signal })
                 : await fetch("/api/predict", {
+                    signal: controller.signal,
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
@@ -357,8 +367,13 @@
             renderResults(data.data);
             setStatus("Analysis completed.", "success");
         } catch (error) {
-            setStatus(error.message || "Unable to connect to ExamForge AI.", "error");
+            const message = error.name === "AbortError"
+                ? "This is taking longer than usual. Please try again in a minute."
+                : error.message || "Unable to connect to ExamForge AI.";
+            setStatus(message, "error");
         } finally {
+            clearInterval(ticker);
+            clearTimeout(giveUp);
             elements.button.classList.remove("is-loading");
             refreshSelectionSummary();
         }
