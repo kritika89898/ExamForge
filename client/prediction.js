@@ -288,6 +288,22 @@
         elements.results.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
+    // File name matches scripts/generate-insights.js: sorted paper IDs joined by "+".
+    async function loadStoredInsights(paperIds, signal) {
+        const name = [...paperIds].sort().join("+");
+        try {
+            const response = await fetch(`data/insights/${encodeURIComponent(name)}.json`, { signal });
+            if (!response.ok) return null;
+            const stored = await response.json();
+            return Array.isArray(stored?.importantTopics) && Array.isArray(stored?.likelyQuestions)
+                ? { success: true, data: stored }
+                : null;
+        } catch (error) {
+            if (error.name === "AbortError") throw error;
+            return null;
+        }
+    }
+
     function fileToBase64(file) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
@@ -334,34 +350,40 @@
             : `Comparing ${paperCount} years of ${elements.examType.value} papers...`);
 
         try {
-            // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
-            const response = request
-                ? await fetch(request, { signal: controller.signal })
-                : await fetch("/api/predict", {
-                    signal: controller.signal,
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        subject: `${current.code} ${current.name}`,
-                        subjectCode: current.code,
-                        examType: elements.examType.value,
-                        paperIds,
-                        uploads: await Promise.all(state.uploads.map(async (upload) => ({
-                            name: upload.file.name,
-                            year: Number(upload.year),
-                            data: await fileToBase64(upload.file),
-                        }))),
-                    }),
-                });
-            const data = await response.json().catch(() => ({
-                success: false,
-                message: response.status === 413
-                    ? "Your PDFs are too large to send. Keep uploads under 3 MB in total."
-                    : "AI Studio is unavailable right now. Please try again in a moment.",
-            }));
+            // Every combination of archive papers has a pre-generated answer in
+            // data/insights/, which loads instantly and uses no AI quota.
+            let data = state.uploads.length ? null : await loadStoredInsights(paperIds, controller.signal);
 
-            if (!response.ok || !data.success) {
-                throw new Error(data.message || "Unable to analyse these papers.");
+            if (!data) {
+                // Archive-only analyses use GET so Vercel's CDN can cache them for every student.
+                const response = request
+                    ? await fetch(request, { signal: controller.signal })
+                    : await fetch("/api/predict", {
+                        signal: controller.signal,
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({
+                            subject: `${current.code} ${current.name}`,
+                            subjectCode: current.code,
+                            examType: elements.examType.value,
+                            paperIds,
+                            uploads: await Promise.all(state.uploads.map(async (upload) => ({
+                                name: upload.file.name,
+                                year: Number(upload.year),
+                                data: await fileToBase64(upload.file),
+                            }))),
+                        }),
+                    });
+                data = await response.json().catch(() => ({
+                    success: false,
+                    message: response.status === 413
+                        ? "Your PDFs are too large to send. Keep uploads under 3 MB in total."
+                        : "AI Studio is unavailable right now. Please try again in a moment.",
+                }));
+
+                if (!response.ok || !data.success) {
+                    throw new Error(data.message || "Unable to analyse these papers.");
+                }
             }
 
             renderResults(data.data);
