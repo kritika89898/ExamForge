@@ -22,6 +22,14 @@
 
 ▶ **[Watch the walkthrough on YouTube](https://youtu.be/0jvvX_hamBg)**  ·  🌐 **[Try it live](https://exam-forge-coral.vercel.app/)**
 
+### Screenshots
+
+| Browse by branch | Read and download papers |
+|:---:|:---:|
+| ![Branch overview with papers live](docs/images/branches.png) | ![Paper viewer showing Deep Learning-II End Semester 2024](docs/images/paper-viewer.png) |
+| **AI Studio** | **Important topics and likely questions** |
+| ![AI Studio start page](docs/images/ai-studio.png) | ![Machine Learning Mid Semester insights from 3 papers](docs/images/ai-results.png) |
+
 ## Table of Contents
 
 - [About](#about)
