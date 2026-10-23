@@ -54,15 +54,16 @@
         const entries = branch?.semesters?.[elements.semester.value] || [];
         if (!branch) return entries;
 
-        const listed = new Set(entries.map(([code]) => code));
+        const listed = new Set(entries.flatMap(([code]) => codeKeys(code)));
         const electives = new Map();
         state.catalog
             .filter((paper) => paper.is_published !== false)
             .filter((paper) => Number(paper.semester) === Number(elements.semester.value))
             .filter((paper) => paperProgrammeMatches(paper, branch))
             .forEach((paper) => {
-                if (!listed.has(paper.subject_code) && !electives.has(paper.subject_code)) {
-                    electives.set(paper.subject_code, [paper.subject_code, paper.subject_name, "Elective"]);
+                const key = normalizeCode(paper.subject_code);
+                if (!listed.has(key) && !electives.has(key)) {
+                    electives.set(key, [paper.subject_code, paper.subject_name, "Elective"]);
                 }
             });
         return [...entries, ...electives.values()];
@@ -105,7 +106,21 @@
         elements.status.className = `form-status${type ? ` ${type}` : ""}`;
     }
 
+    function normalizeCode(value) {
+        return String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    }
+
+    // Curriculum entries can combine alternatives ("BMA 110 / BEC 110").
+    function codeKeys(code) {
+        const parts = String(code || "").split("/").map(normalizeCode).filter(Boolean);
+        return [normalizeCode(code), ...parts];
+    }
+
     function paperProgrammeMatches(paper, branch) {
+        // Papers shared by several programmes list them in "branches".
+        if (Array.isArray(paper.branches)) {
+            return paper.branches.includes(elements.branch.value);
+        }
         const programme = String(paper.programme || "").replace(/^B\.Tech\s*/i, "").trim();
         return programme === branch.shortName;
     }
@@ -118,7 +133,7 @@
             .filter((paper) => paper.is_published !== false)
             .filter((paper) => paperProgrammeMatches(paper, current.branch))
             .filter((paper) => Number(paper.semester) === Number(elements.semester.value))
-            .filter((paper) => paper.subject_code === current.code)
+            .filter((paper) => codeKeys(current.code).includes(normalizeCode(paper.subject_code)))
             .filter((paper) => paper.exam_type === elements.examType.value)
             .sort((a, b) => Number(b.year) - Number(a.year));
     }

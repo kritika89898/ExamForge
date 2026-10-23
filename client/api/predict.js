@@ -2,7 +2,9 @@
 //
 // Runs as a Vercel Function (this file lives in client/api/) and is also
 // mounted by the local Express server. It has no npm dependencies: Gemini is
-// called over HTTPS with fetch, and archive PDFs are read from client/papers/.
+// called over HTTPS with fetch, and archive PDFs are fetched from the
+// examforge-papers GitHub Pages site (a local client/papers/ copy is used
+// first when one exists, e.g. during development).
 //
 // GET  /api/predict?subjectCode=..&examType=..&paperIds=a,b,c
 //      Archive papers only. Successful results are cached on Vercel's CDN, so
@@ -17,6 +19,9 @@ const path = require("path");
 const clientDirectory = path.join(__dirname, "..");
 const papersDirectory = path.join(clientDirectory, "papers");
 const catalogPath = path.join(clientDirectory, "data", "papers.json");
+// Must match PAPERS_BASE_URL in client/paper-viewer.js.
+const PAPERS_BASE_URL = (process.env.PAPERS_BASE_URL || "https://kritika89898.github.io/examforge-papers/").replace(/\/?$/, "/");
+const ARCHIVE_FETCH_TIMEOUT_MS = 20 * 1000;
 
 const MAX_PAPERS = 3;
 const MAX_ARCHIVE_PAPER_BYTES = 10 * 1024 * 1024;
@@ -100,7 +105,9 @@ function validateComparison({ selectedPapers, uploads, examType, subjectCode }) 
     }
 
     const normalize = (code) => String(code).toUpperCase().replace(/[^A-Z0-9]/g, "");
-    if (selectedPapers.some((paper) => normalize(paper.subject_code) !== normalize(subjectCode))) {
+    // Curriculum codes can combine alternatives, e.g. "BMA 110 / BEC 110".
+    const allowedCodes = [normalize(subjectCode), ...String(subjectCode).split("/").map(normalize)];
+    if (selectedPapers.some((paper) => !allowedCodes.includes(normalize(paper.subject_code)))) {
         throw new HttpError(400, "All archive papers must belong to the selected subject");
     }
     if (selectedPapers.some((paper) => paper.exam_type !== examType)) {
@@ -121,20 +128,32 @@ function validateComparison({ selectedPapers, uploads, examType, subjectCode }) 
     return years;
 }
 
-function readArchivePaper(paper) {
-    const absolutePath = path.resolve(clientDirectory, String(paper.file_path || ""));
-    if (!absolutePath.startsWith(papersDirectory + path.sep)) {
+async function readArchivePaper(paper) {
+    const relativePath = String(paper.file_path || "");
+    const absolutePath = path.resolve(clientDirectory, relativePath);
+    if (!relativePath.startsWith("papers/") || !absolutePath.startsWith(papersDirectory + path.sep)) {
         throw new HttpError(503, "The selected paper has no archive file");
     }
 
     let buffer;
-    try {
+    if (fs.existsSync(absolutePath)) {
         buffer = fs.readFileSync(absolutePath);
-    } catch {
-        throw new HttpError(502, "The selected paper could not be found in the archive");
+    } else {
+        const url = PAPERS_BASE_URL + relativePath.split("/").map(encodeURIComponent).join("/");
+        try {
+            const response = await fetch(url, { signal: AbortSignal.timeout(ARCHIVE_FETCH_TIMEOUT_MS) });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            buffer = Buffer.from(await response.arrayBuffer());
+        } catch (error) {
+            console.error("Archive paper fetch failed:", url, error.message);
+            throw new HttpError(502, "The selected paper could not be loaded from the archive");
+        }
     }
     if (buffer.length > MAX_ARCHIVE_PAPER_BYTES) {
         throw new HttpError(400, "A selected paper is larger than the 10 MB analysis limit");
+    }
+    if (!hasPdfSignature(buffer)) {
+        throw new HttpError(502, "The selected paper could not be loaded from the archive");
     }
     return buffer;
 }
@@ -306,11 +325,12 @@ async function analyse(input) {
     const subjectName = selectedPapers[0]?.subject_name || "";
     const subject = String(input.subject || `${subjectCode} ${subjectName}`).trim().slice(0, 120);
 
+    const archiveBuffers = await Promise.all(selectedPapers.map(readArchivePaper));
     const sources = [
-        ...selectedPapers.map((paper) => ({
+        ...selectedPapers.map((paper, index) => ({
             label: `${paper.subject_name} - ${paper.exam_type} ${paper.year}`,
             origin: "ExamForge archive",
-            buffer: readArchivePaper(paper),
+            buffer: archiveBuffers[index],
         })),
         ...uploads.map((upload) => ({
             label: `${subjectCode} - ${examType} ${upload.year} (${upload.name})`,

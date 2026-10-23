@@ -3,7 +3,7 @@
   "functions": {
     "api/predict.js": {
       "maxDuration": 120,
-      "includeFiles": "{data/papers.json,papers/**}"
+      "includeFiles": "data/papers.json"
     }
   }
 }

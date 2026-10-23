@@ -54,7 +54,8 @@ The whole site runs on free tiers: no database, no paid storage, and nothing tha
 ## Features
 
 **Paper archive**
-- **76 verified papers** across **16 subjects** (B.Tech CSE-AI, Semesters 4–6), including electives, with Mid and End Semester papers from 2022–2025
+- **388 verified papers** across **86 subjects** in all 7 B.Tech branches (Semesters 1–8), including electives, with Mid and End Semester papers from 2022–2026
+- Papers shared by several branches (e.g. first-year subjects) appear under every branch listed on the paper's header
 - Curriculum map for all **7 IGDTUW B.Tech branches** and 8 semesters, taken from the official syllabus documents
 - Search by subject name or code, and filters for subjects with papers or core courses
 - In-browser PDF viewer (PDF.js, with the browser's own viewer as a fallback), plus open and download links
@@ -72,7 +73,7 @@ The whole site runs on free tiers: no database, no paid storage, and nothing tha
 
 | Problem | How ExamForge handles it |
 |---|---|
-| Free databases pause after inactivity, so papers stopped opening | PDFs are static files in the repo, served by Vercel's CDN; nothing can sleep |
+| Free databases pause after inactivity, so papers stopped opening | PDFs are static files in a separate repo, [examforge-papers](https://github.com/kritika89898/examforge-papers), served by GitHub Pages' CDN; nothing can sleep |
 | The Gemini free tier has a small daily quota | Stored answers for all 152 archive combinations, plus a 7-day CDN cache, so quota is only used for student uploads |
 | Gemini is occasionally slow or out of quota | Each model gets 40 s, then the function falls back from `gemini-3.5-flash-lite` to `gemini-3.8-flash`; students see a live timer and a clear message instead of a frozen page |
 | Vercel rejects request bodies over 4.5 MB | Archive PDFs are read inside the function, and student uploads are capped at 3 MB in total |
@@ -81,7 +82,7 @@ The whole site runs on free tiers: no database, no paid storage, and nothing tha
 
 ## Architecture
 
-The frontend is static HTML, CSS and JavaScript in `client/`, deployed on Vercel. Papers are ordinary files in `client/papers/`, and AI Studio is a single Vercel Function, `client/api/predict.js`, with **no npm dependencies**: it calls the Gemini REST API with `fetch`.
+The frontend is static HTML, CSS and JavaScript in `client/`, deployed on Vercel. Paper PDFs live in the [examforge-papers](https://github.com/kritika89898/examforge-papers) repo and are served by GitHub Pages, which keeps the Vercel deployment small; AI Studio is a single Vercel Function, `client/api/predict.js`, with **no npm dependencies**: it calls the Gemini REST API with `fetch`.
 
 ### System overview
 
@@ -94,7 +95,6 @@ flowchart TB
     subgraph Vercel["Vercel (client/)"]
         Pages["Static pages: browse, viewer, AI Studio"]
         Catalog[("data/papers.json")]
-        Papers[("papers/: question-paper PDFs")]
         Insights[("data/insights/: 152 stored answers")]
         Predict["api/predict.js (Vercel Function)"]
         CDN{{"CDN cache"}}
@@ -104,6 +104,7 @@ flowchart TB
     Form["Google Form"]
     Drive[("Google Drive: submissions")]
     GitHub[("GitHub repo")]
+    Papers[("GitHub Pages: examforge-papers PDFs")]
 
     Student --> Pages
     Pages --> Catalog
@@ -188,13 +189,13 @@ Set `GEMINI_API_KEY` in `server/.env`, then open <http://localhost:5000>.
 
 ### Deploying on Vercel
 
-Import the repo into Vercel, set the project's **Root Directory** to `client`, and add `GEMINI_API_KEY`. `client/vercel.json` bundles the papers and catalogue with the AI function. After deploying, `/api/health` should return `"aiConfigured": true`.
+Import the repo into Vercel, set the project's **Root Directory** to `client`, and add `GEMINI_API_KEY`. `client/vercel.json` bundles the catalogue with the AI function; the function downloads paper PDFs from GitHub Pages (override with `PAPERS_BASE_URL`). After deploying, `/api/health` should return `"aiConfigured": true`.
 
 ## Adding a contributed paper
 
 1. Open the submission in the Google Form's Drive folder and check the subject, year and exam type.
-2. Rename the PDF like the others, e.g. `BAI301_ML_END_2026.pdf`, and put it in `client/papers/semester-N/`.
-3. Add an entry to `client/data/papers.json` with its `file_path`, `file_size` and `checksum_sha256`.
+2. Rename the PDF like the others, e.g. `BAI301_ML_END_2026.pdf`, and commit it to `papers/semester-N/` in the [examforge-papers](https://github.com/kritika89898/examforge-papers) repo.
+3. Add an entry to `client/data/papers.json` with its `file_path`, `file_size`, `checksum_sha256` and the `branches` it belongs to (e.g. `["cse-ai", "ece-ai"]`).
 4. Commit and push; Vercel redeploys automatically.
 5. Create stored AI answers for the new paper combinations, then commit the new files in `client/data/insights/`:
    ```bash
@@ -222,8 +223,7 @@ client/
     papers.json    Paper catalogue
     curriculum.js  Official curriculum map for 7 branches
     insights/      152 stored AI Studio answers
-  papers/          Question-paper PDFs by semester
-  vercel.json      Function settings (timeout, bundled files)
+  vercel.json      Function settings (timeout, bundled catalogue)
 server/
   server.js        Local Express server mounting client/api handlers
   test.js          Test suite

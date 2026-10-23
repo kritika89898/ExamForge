@@ -60,6 +60,13 @@
         return String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
     }
 
+    // Curriculum entries can combine alternatives ("BMA 110 / BEC 110"); a paper
+    // filed under either code belongs to that entry.
+    function codeKeys(code) {
+        const parts = String(code || "").split("/").map(normalizeCode).filter(Boolean);
+        return [normalizeCode(code), ...parts];
+    }
+
     function ordinal(value) {
         const labels = ["", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"];
         return labels[value] || `${value}th`;
@@ -78,7 +85,7 @@
     // elective with papers in the catalogue (e.g. BAI 322) is added as its own entry.
     function subjectEntriesWithPapers(branchId, semester) {
         const entries = subjectEntries(branchId, semester);
-        const listed = new Set(entries.map(([code]) => normalizeCode(code)));
+        const listed = new Set(entries.flatMap(([code]) => codeKeys(code)));
         const electives = new Map();
 
         state.papers
@@ -101,6 +108,10 @@
     }
 
     function branchMatchesPaper(branchId, paper) {
+        // Papers shared by several programmes list them in "branches".
+        if (Array.isArray(paper.branches)) {
+            return paper.branches.includes(branchId);
+        }
         const programme = String(paper.programme || "").toLowerCase().replace(/[^a-z0-9]/g, "");
         const expected = {
             cse: ["btechcse"],
@@ -115,12 +126,12 @@
     }
 
     function papersForSubject(branchId, semester, code) {
-        const normalized = normalizeCode(code);
+        const keys = codeKeys(code);
         return state.papers
             .filter((paper) => paper.is_published !== false)
             .filter((paper) => Number(paper.semester) === Number(semester))
             .filter((paper) => branchMatchesPaper(branchId, paper))
-            .filter((paper) => normalizeCode(paper.subject_code) === normalized)
+            .filter((paper) => keys.includes(normalizeCode(paper.subject_code)))
             .sort((a, b) => b.year - a.year || a.exam_type.localeCompare(b.exam_type));
     }
 

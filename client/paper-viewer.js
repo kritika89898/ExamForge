@@ -22,8 +22,11 @@
         return new URLSearchParams(window.location.search).get("id");
     }
 
-    // PDFs are served as static files from the site itself (client/papers/...),
-    // so they are always available and never depend on an external service.
+    // PDFs live in the examforge-papers repo and are served by GitHub Pages,
+    // which keeps the Vercel deployment small. Must match PAPERS_BASE_URL in
+    // client/api/predict.js.
+    const PAPERS_BASE_URL = "https://kritika89898.github.io/examforge-papers/";
+
     function resolvePdfUrl(paper) {
         const filePath = String(paper.file_path || "")
             .split("/")
@@ -36,7 +39,7 @@
         }
 
         return {
-            url: filePath,
+            url: PAPERS_BASE_URL + filePath,
             source: "ExamForge archive",
         };
     }
