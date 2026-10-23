@@ -15,6 +15,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const vm = require("node:vm");
 
 const args = process.argv.slice(2);
 const force = args.includes("--force");
@@ -31,31 +32,61 @@ function insightFileName(paperIds) {
     return `${[...paperIds].sort().join("__")}.json`;
 }
 
+const normalizeCode = (value) => String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+// Must match codeKeys() in client/prediction.js ("BMA 110 / BEC 110" matches either code).
+const codeKeys = (code) => [normalizeCode(code), ...String(code || "").split("/").map(normalizeCode).filter(Boolean)];
+
+function loadBranches() {
+    const sandbox = { window: {} };
+    vm.runInNewContext(fs.readFileSync(path.join(clientDirectory, "data/curriculum.js"), "utf8"), sandbox);
+    return sandbox.window.EXAMFORGE_CURRICULUM.branches;
+}
+
+function paperInBranch(paper, branchId, branch) {
+    if (Array.isArray(paper.branches)) return paper.branches.includes(branchId);
+    return String(paper.programme || "").replace(/^B\.Tech\s*/i, "").trim() === branch.shortName;
+}
+
+// Every 1-3 paper selection AI Studio can offer: per branch, semester, subject
+// card and exam type, papers from different years (mirrors client/prediction.js).
 function allCombinations() {
     const papers = JSON.parse(fs.readFileSync(catalogPath, "utf8"))
         .filter((paper) => paper.is_published !== false);
-    const groups = new Map();
-    papers.forEach((paper) => {
-        const key = `${paper.subject_code}|${paper.exam_type}`;
-        if (!groups.has(key)) groups.set(key, []);
-        groups.get(key).push(paper);
-    });
+    const combinations = new Map();
 
-    const combinations = [];
-    for (const group of groups.values()) {
-        const sorted = [...group].sort((a, b) => a.year - b.year);
-        for (let mask = 1; mask < (1 << sorted.length); mask += 1) {
-            const pick = sorted.filter((_, index) => mask & (1 << index));
-            const years = new Set(pick.map((paper) => paper.year));
-            if (pick.length > MAX_PAPERS || years.size !== pick.length) continue;
-            combinations.push({
-                subjectCode: pick[0].subject_code,
-                examType: pick[0].exam_type,
-                paperIds: pick.map((paper) => paper.id).sort(),
+    Object.entries(loadBranches()).forEach(([branchId, branch]) => {
+        Object.entries(branch.semesters).forEach(([semester, entries]) => {
+            const inSemester = papers.filter((paper) => Number(paper.semester) === Number(semester)
+                && paperInBranch(paper, branchId, branch));
+            const listed = new Set(entries.flatMap(([code]) => codeKeys(code)));
+            const subjects = [...entries.map(([code]) => code)];
+            inSemester.forEach((paper) => {
+                const key = normalizeCode(paper.subject_code);
+                if (!listed.has(key)) {
+                    listed.add(key);
+                    subjects.push(paper.subject_code);
+                }
             });
-        }
-    }
-    return combinations;
+
+            subjects.forEach((subjectCode) => {
+                const keys = codeKeys(subjectCode);
+                ["Mid Semester", "End Semester"].forEach((examType) => {
+                    const group = inSemester
+                        .filter((paper) => keys.includes(normalizeCode(paper.subject_code)) && paper.exam_type === examType)
+                        .sort((a, b) => a.year - b.year);
+                    for (let mask = 1; mask < (1 << group.length); mask += 1) {
+                        const pick = group.filter((_, index) => mask & (1 << index));
+                        const years = new Set(pick.map((paper) => paper.year));
+                        if (pick.length > MAX_PAPERS || years.size !== pick.length) continue;
+                        const paperIds = pick.map((paper) => paper.id).sort();
+                        const id = paperIds.join("__");
+                        if (!combinations.has(id)) combinations.set(id, { subjectCode, examType, paperIds });
+                    }
+                });
+            });
+        });
+    });
+    return [...combinations.values()];
 }
 
 function toStoredInsight(combination, data) {
