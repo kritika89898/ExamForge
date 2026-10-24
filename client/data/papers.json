@@ -7752,15 +7752,38 @@
     "year": 2022,
     "exam_type": "Mid Semester",
     "exam_month": "June",
-    "page_count": 2,
-    "file_size": 684457,
-    "checksum_sha256": "348f567349a93dcd7ad42a4ea2bae26db223ce60d1135ed0f2c24a31ea5762ae",
+    "page_count": 1,
+    "file_size": 307354,
+    "checksum_sha256": "4e4a2a0f222b981cc67506e9454f4c14b027630aa6dc0cbf73b2196de0de1134",
     "source_file": "fresources.tech: SEM_2 (Mid term exam 2022).pdf",
     "source_pages": [
-      1,
-      2
+      1
     ],
     "file_path": "papers/all/bcs110_mid_2022_jun_fr2140.pdf",
+    "is_published": true
+  },
+  {
+    "id": "igdtuw-s2-bcs110-end-2022-aug-it-mae",
+    "college": "IGDTUW",
+    "programme": "B.Tech IT / MAE",
+    "branches": [
+      "it",
+      "mae"
+    ],
+    "semester": 2,
+    "subject_code": "BCS 110",
+    "subject_name": "Programming in C / Humanities and Social Science",
+    "year": 2022,
+    "exam_type": "End Semester",
+    "exam_month": "August",
+    "page_count": 1,
+    "file_size": 380372,
+    "checksum_sha256": "644dffb206fbceff97052413c879ec9c22826f0ffd75fe0c3bf34096d80a8198",
+    "source_file": "fresources.tech: SEM_2 (Mid term exam 2022).pdf",
+    "source_pages": [
+      2
+    ],
+    "file_path": "papers/all/bcs110_end_2022_aug_fr2140.pdf",
     "is_published": true
   },
   {
