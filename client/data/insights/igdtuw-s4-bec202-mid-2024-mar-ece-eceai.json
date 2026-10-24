@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bec202-mid-2024-mar-ece-eceai"
+  ],
+  "importantTopics": [
+    "Op-Amp Parameters: Offset, CMRR, Slew Rate, Drift",
+    "Linear Applications: Integrator, Differentiator, Log Amplifier, Precision Rectifier",
+    "Comparators, Multivibrators and Waveform Generators",
+    "Op-Amp Internal Structure and Basic Concepts",
+    "Frequency Compensation"
+  ],
+  "likelyQuestions": [
+    "Explain input offset voltage/current, bias current, total output offset, CMRR, SVRR, output swing and slew rate.",
+    "Draw an integrator/differentiator and give its output for sine, step and square inputs; design a differentiator for the given fmax.",
+    "List comparator types with waveforms and define hysteresis width.",
+    "Draw the internal block diagram of an op-amp and explain each stage; why is an emitter follower used there?",
+    "Explain pole–zero compensation and compare it with dominant-pole compensation using gain–frequency plots.",
+    "Find the slew rate for the given output change; explain thermal drift and methods to improve CMRR.",
+    "Explain the logarithmic amplifier and the precision full-wave rectifier with circuits and waveforms.",
+    "Explain the op-amp astable/monostable multivibrator and triangular-wave generator and derive their frequency / pulse width; explain the RC phase-shift oscillator and Barkhausen criterion.",
+    "Explain open-loop and closed-loop operation and the virtual-ground concept.",
+    "Compare frequency compensation techniques with their merits and demerits."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Linear Integrated Circuits - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

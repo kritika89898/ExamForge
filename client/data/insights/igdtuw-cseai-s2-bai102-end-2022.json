@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai102-end-2022"
+  ],
+  "importantTopics": [
+    "Classes, Objects and Variables",
+    "Inheritance and the super/final Keywords",
+    "Polymorphism: Overloading, Overriding, Binding",
+    "Exception Handling",
+    "I/O Streams, Files and Serialization",
+    "Multithreading",
+    "Applets, AWT and Event Handling",
+    "Java Basics: JVM, JRE, JDK and Features"
+  ],
+  "likelyQuestions": [
+    "Differentiate between class, instance and local variables. Write a program where a class variable auto-assigns unique roll numbers to Student objects.",
+    "What are the forms of inheritance in Java? Why is multiple inheritance not allowed and how is it achieved using interfaces?",
+    "Differentiate between ad-hoc and pure polymorphism, and between early and late binding.",
+    "Explain try, catch, throw, throws and finally with examples.",
+    "What is serialization and deserialization? Write a program to store Employee objects in a file and read them back.",
+    "Explain the life cycle of a thread. Why do we use the Runnable interface? Write a program using multiple threads.",
+    "Explain the life cycle of an applet and create an applet with labels, text fields and a submit button.",
+    "Explain JVM, JRE and JDK with a diagram. Why is Java robust and architecture-neutral?",
+    "Differentiate between constructor overloading and constructor chaining with a Box class example.",
+    "What is an abstract class? Create an abstract class Animal and inherit it in Cat, Dog and Duck."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Object Oriented Programming using Java - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

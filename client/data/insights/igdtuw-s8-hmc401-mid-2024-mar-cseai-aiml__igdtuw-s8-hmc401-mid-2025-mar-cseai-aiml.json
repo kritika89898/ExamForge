@@ -1,0 +1,38 @@
+{
+  "subjectCode": "HMC 401",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s8-hmc401-mid-2024-mar-cseai-aiml",
+    "igdtuw-s8-hmc401-mid-2025-mar-cseai-aiml"
+  ],
+  "importantTopics": [
+    "Problem Solving: Algorithms and AI Methods",
+    "Creativity and Creative Thinking Techniques in AI",
+    "Innovation: Types, Process and Disruptive AI",
+    "Creativity vs Innovation and Entrepreneurship",
+    "Ethical AI, Bias and Responsible AI"
+  ],
+  "likelyQuestions": [
+    "How do algorithms help in problem solving? Name AI-based problem-solving methods and compare graph and tree methods.",
+    "Define creativity in AI and explain three techniques for fostering creativity in AI projects with real-world examples.",
+    "Define innovation and its types; explain how the AI innovation process differs from traditional innovation.",
+    "Differentiate between creativity and innovation and explain their impact on entrepreneurship.",
+    "Define ethical AI development principles and how they reduce bias and ensure fairness and transparency, with examples.",
+    "Explain the constraints in solving AI-based problems and the role of creativity in solving software issues (e.g., Tower of Hanoi).",
+    "What is innovation through creative thinking and concept grouping? Compare creative and innovative thinking in problem solving.",
+    "Explain disruptive AI technologies and their impact on business functions and industries, with examples.",
+    "What is AI bias? Discuss two approaches to address it; explain responsible AI and AI for social good."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Creativity, Innovation and Entrepreneurship - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Creativity, Innovation and Entrepreneurship - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

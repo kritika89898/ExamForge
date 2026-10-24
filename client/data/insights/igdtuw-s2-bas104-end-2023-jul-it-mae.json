@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 104",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bas104-end-2023-jul-it-mae"
+  ],
+  "importantTopics": [
+    "Special Theory of Relativity",
+    "X-rays and Bragg's Law",
+    "Maxwell's Equations, Displacement Current and Continuity",
+    "EM Waves in Dielectrics and Free Space",
+    "Semiconductors and Fermi Level",
+    "Sensors: Characteristics and Transfer Function",
+    "Crystal Structure: Miller Indices, Reciprocal Lattice",
+    "Band Theory: Kronig–Penney Model and Bloch Theorem"
+  ],
+  "likelyQuestions": [
+    "Derive the Lorentz transformation equations and show they reduce to Galilean transformations for v ≪ c; derive time dilation and length contraction.",
+    "Derive Bragg's law and find the wavelength / diffraction angle for the given crystal.",
+    "Write Maxwell's equations in differential and integral form and discuss their physical significance; state and derive Gauss's law in differential form.",
+    "Using Maxwell's equations, derive the EM wave equations in a dielectric medium and show the speed is less than in vacuum; show EM waves are transverse.",
+    "Derive the expression for the Fermi level in a p-type (or n-type) semiconductor and show its position with a diagram.",
+    "What is a sensor's transfer function? Explain sensitivity, resolution, dead band, saturation and non-linearity; find the sensitivity for the given transfer function.",
+    "Draw the crystal planes with the given Miller indices and find the Miller indices of a plane with given intercepts.",
+    "Discuss the Kronig–Penney model and explain the formation of allowed and forbidden bands using the E–k diagram.",
+    "For the given Zener regulator circuit, find the output voltage, drop across the series resistor and the maximum/minimum Zener current.",
+    "Derive the relativistic velocity-addition formula and solve the given spaceship/rod problems."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics II - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-mid-2023-jan",
+    "igdtuw-cseai-s1-bai110-mid-2024",
+    "igdtuw-cseai-s1-bai110-mid-2025"
+  ],
+  "importantTopics": [
+    "Conditional Statements and Loops",
+    "Lists, Tuples and Sets",
+    "Output Prediction (Code Tracing)",
+    "Data Types, Variables and Operators",
+    "Pattern and Series Programs",
+    "Dictionaries",
+    "Functions, Arguments and Scope",
+    "NumPy Arrays"
+  ],
+  "likelyQuestions": [
+    "Explain if, if-else and if-elif-else statements with a flow diagram and an example where if-elif-else is necessary.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write the output of the given code snippet with an explanation of each step.",
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Explain the different types of indexing of NumPy arrays with examples.",
+    "Define an algorithm and compare it with a program. Write an algorithm to find the sum of two numbers.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Programming with Python - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Programming with Python - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Programming with Python - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

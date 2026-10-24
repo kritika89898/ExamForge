@@ -1,0 +1,47 @@
+{
+  "subjectCode": "HMC 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-hmc110-mid-2023-jan",
+    "igdtuw-cseai-s1-hmc110-mid-2024",
+    "igdtuw-cseai-s1-hmc110-mid-2025"
+  ],
+  "importantTopics": [
+    "Presentations",
+    "Barriers to Communication",
+    "Group Discussions and Interviews",
+    "7 Cs of Effective Communication",
+    "Communication Process and Feedback",
+    "Ethics, Plagiarism, Netiquette and Gender-Sensitive Language",
+    "Resume and Cover Letter Writing",
+    "Writing Skills: Paragraphs and Formal vs Informal Writing"
+  ],
+  "likelyQuestions": [
+    "What should a presenter keep in mind while delivering a presentation? Suggest ten tips and audience-engagement strategies.",
+    "Barriers can be minimised but not completely removed. Discuss intrapersonal barriers and suggest remedies to overcome them.",
+    "Are group discussions merely a showcase of communication skills? Discuss the parameters on which participants are evaluated.",
+    "Comment on the importance of the 7 Cs of effective communication with relevant examples.",
+    "Describe the process of communication. Why is the communication cycle incomplete without feedback?",
+    "Discuss ethics in communication and plagiarism. What are the do's and don'ts of ethical communication?",
+    "Draft a resume for an internship at your dream company, highlighting achievements, academics and skills. Invent the necessary details.",
+    "Discuss formal and informal writing styles and the characteristic features of informal writing.",
+    "'Kinesics is more powerful than words.' Justify with its sub-types and examples.",
+    "Suggest ten actionable steps to improve the quality of telephonic communication."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Communication Skills - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Communication Skills - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Communication Skills - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

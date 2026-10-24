@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2024"
+  ],
+  "importantTopics": [
+    "Defence Models, Access Control, Risk Management and Cyber Law",
+    "Security Fundamentals: CIA Triad, Threats and Attack Types",
+    "Malware: Viruses, Worms, Rootkits, Backdoors, Ransomware",
+    "Phishing and Social Engineering",
+    "Password Attacks, Identity Theft and Financial Fraud",
+    "Cyber Crime, Cyber Terrorism and the Dark Web",
+    "Hash Functions, MAC and Digital Signatures",
+    "Secure Protocols: SSL/TLS, IPSec, SSH and VPN"
+  ],
+  "likelyQuestions": [
+    "Compare the lollipop and onion models of defence; explain access control, NAC and intrusion detection.",
+    "What is the CIA triad? Explain the goals of cyber security and the classification of security threats.",
+    "Explain the different types of malware (worms, ransomware, backdoors) with their attack methods, impact and defences.",
+    "Discuss the types of phishing (spear phishing, whaling, pharming, smishing, vishing) and prevention techniques.",
+    "Explain the types of password attacks (including rainbow tables) and countermeasures; differentiate password guessing and cracking.",
+    "What is cyber crime? Classify cyber crimes and compare cyber warfare, cyber terrorism and hacktivism.",
+    "What are hash functions? Explain their properties and the role of SHA (vs MD5) in integrity and digital signatures.",
+    "Explain SSL/TLS, its handshake and how it secures e-commerce; compare SSL/TLS, IPSec and SSH.",
+    "Explain risk management, ISO 27001 vs NIST CSF, and the key provisions of the Indian IT Act.",
+    "Differentiate between active and passive attacks; explain vulnerabilities and insider threats with an example."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 205",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec205-end-2022-feb-ece"
+  ],
+  "importantTopics": [
+    "Two-Port Networks: Z, Y, h and ABCD Parameters",
+    "Network Theorems",
+    "Mesh and Nodal Analysis",
+    "Transient Response of RL, RC and RLC Circuits"
+  ],
+  "likelyQuestions": [
+    "Find the h/T parameters of the given network; derive h-parameters in terms of Z-parameters.",
+    "Find the current through the 10 Ω resistor using superposition, Thevenin's and Norton's theorems; give Millman's Vth and Rth.",
+    "Using nodal analysis, find all branch currents / the power in the 4 Ω resistor of the given network.",
+    "Find i(0⁺), di/dt(0⁺) and i(t) for the given RLC circuit after the switch operates.",
+    "Derive the symmetry and reciprocity conditions; show that H = H₁ + H₂ for series–parallel connection and give the cascade parameters.",
+    "Prove that maximum power is delivered when ZL = Zs*; find RL for maximum power and the power transferred.",
+    "Find the current through the 10 Ω resistor using mesh analysis.",
+    "For the given RC/RL circuit with DC source, find the time constant, current growth/decay and charge; why can't inductor current change instantly?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bec106-mid-2023-may-eceai"
+  ],
+  "importantTopics": [
+    "Continuous-Time Fourier Transform",
+    "Signal Classification and Basic Operations",
+    "System Properties: Linearity, Time-Invariance, Stability",
+    "Convolution and LTI Response"
+  ],
+  "likelyQuestions": [
+    "Find the Fourier transform of the given signals; state the Dirichlet conditions and two FT properties with proof; explain Parseval's theorem.",
+    "Classify continuous-time signals; distinguish deterministic and random signals and check periodicity of the given signals.",
+    "Check whether the given system is linear / time-invariant and comment on its stability.",
+    "Perform the linear convolution of the given sequences graphically; state three properties of convolution.",
+    "Find the response / convolution of the given signals using the Fourier transform; find the given inverse Fourier transform.",
+    "Explain the basic operations on signals; sketch the given step/ramp waveforms and find the even and odd components of the given signal.",
+    "Explain BIBO stability; find the range of a and b for which the given LTI system is stable.",
+    "Find the response of the relaxed system for the given impulse response and input; relate step and impulse responses; solve the given differential equation for the complete response."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Signals and Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

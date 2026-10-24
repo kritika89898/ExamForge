@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 308",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai308-end-2024"
+  ],
+  "importantTopics": [
+    "Virtualization, Hypervisors and VM Provisioning",
+    "Cloud Security, Monitoring and Incident Response",
+    "Service Models: SaaS, PaaS, IaaS",
+    "Deployment Models: Public, Private, Hybrid, Community",
+    "Scalability, Migration, Serverless, Fog and Utility Computing",
+    "Cloud Architecture and Cloud Service Providers",
+    "Evolution, Trends, Benefits and Challenges of Cloud"
+  ],
+  "likelyQuestions": [
+    "Explain virtualization, virtual machines and hardware support for virtualization; differentiate full virtualization and paravirtualization.",
+    "What are the security challenges in cloud computing at different levels? Discuss them from an organisational view.",
+    "Explain SaaS, PaaS and IaaS in detail with features, control and business applications; identify the model for Gmail, Google App Engine and Amazon EC2.",
+    "Explain the cloud deployment models and compare them on cost, security, scalability and control.",
+    "What is dynamic scalability? Discuss its types; explain the need for and steps of cloud migration.",
+    "Explain the layers of cloud architecture and front-end vs back-end components with a diagram.",
+    "Explain the trends in computing that led to cloud computing and the key milestones in its evolution.",
+    "Discuss the properties of Type 2 hypervisors, the steps of VM provisioning and the features of a virtual infrastructure manager.",
+    "Explain security monitoring and incident response in the cloud.",
+    "An organisation needs full control over VMs, storage and OS. Identify the most suitable service model and explain its features."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

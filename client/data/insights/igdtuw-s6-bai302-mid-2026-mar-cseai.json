@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 302",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s6-bai302-mid-2026-mar-cseai"
+  ],
+  "importantTopics": [
+    "Ambiguity in NLP",
+    "NLP Overview, Phases and Pipeline",
+    "Text Pre-processing: Tokenization, Stop Words, Stemming, Lemmatization",
+    "Semantic Analysis and Named Entity Recognition",
+    "Bag of Words and TF-IDF",
+    "Word Embeddings: Word2Vec (CBOW, Skip-gram), GloVe, Doc2Vec",
+    "Text Corpus and Data Formats"
+  ],
+  "likelyQuestions": [
+    "What is ambiguity? Explain the types of ambiguity in NLP with examples.",
+    "Define NLP and explain its phases/pipeline (phonology, morphology, syntax, semantics, pragmatics) with examples of each.",
+    "Perform sentence tokenization, word tokenization and stop-word removal on the given paragraph.",
+    "What is semantic analysis in NLP? Explain with an example.",
+    "Create bag-of-words and TF-IDF vectors for the given sentences using a term–document matrix, before and after cleaning.",
+    "Create Word2Vec vectors using CBOW and one-hot encoding for the given sentences; explain the skip-gram model.",
+    "Define a text corpus and list three types of corpora; explain the importance of corpus size and quality.",
+    "Identify the syntactic ambiguity in 'He saw the girl with the telescope' / 'The bank will not be open today' and how it can be resolved.",
+    "Explain two applications and challenges of NLP and how NLP components work together.",
+    "Differentiate between stemming and lemmatization; explain derivational vs inflectional morphology."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Natural Language Processing - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 103",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai103-mid-2023-oct"
+  ],
+  "importantTopics": [
+    "Adders and Number Representation",
+    "Registers, Instruction Cycle and Micro-operations",
+    "Boolean Algebra and De Morgan's Theorem",
+    "Decoders and Multiplexers",
+    "Instruction Formats and Address Instructions",
+    "K-Map Minimisation and Combinational Design",
+    "Control Unit and CISC vs RISC"
+  ],
+  "likelyQuestions": [
+    "Explain how a full adder is obtained from half adders with a block diagram.",
+    "List the registers of the basic computer and explain the phases of the instruction cycle with a flowchart.",
+    "Simplify the given Boolean expression using Boolean algebra and verify De Morgan's theorem for three variables with a truth table.",
+    "Draw the logic diagram and truth table of a 2-to-4 decoder and build a 3×8 decoder from 2×4 decoders.",
+    "Describe the types of instructions based on the address field. Evaluate X = (A+B)*(C+D) using three-, two-, one- and zero-address instructions.",
+    "Simplify F(A,B,C,D) = Σm(0,2,3,5,6,7,10,11,14,15) using a K-map and draw the logic circuit.",
+    "What are the two types of control unit? Explain one in detail with a diagram.",
+    "Perform the given additions and subtractions using 2's complement representation, and define floating-point representation.",
+    "Write the formats of memory-reference, register-reference and I/O-reference instructions, and explain micro-operations.",
+    "Explain any five laws of Boolean algebra with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

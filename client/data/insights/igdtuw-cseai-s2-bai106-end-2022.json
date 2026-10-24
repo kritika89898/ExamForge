@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai106-end-2022"
+  ],
+  "importantTopics": [
+    "ER Model: Entities, Attributes, Relationships",
+    "SQL Queries, DDL/DML and Views",
+    "Functional Dependencies and Normalization",
+    "Serializability, Concurrency Control and Deadlocks",
+    "DBMS vs File System, Architecture and Data Independence",
+    "Relational Algebra",
+    "Keys and Integrity Constraints",
+    "Transactions and ACID Properties"
+  ],
+  "likelyQuestions": [
+    "Draw an E-R diagram for the given application (bank / supplier–parts), stating any assumptions.",
+    "Write SQL queries for the given schema using joins, GROUP BY and HAVING.",
+    "What is normalization? Explain 1NF, 2NF and 3NF with examples.",
+    "What is a serializable schedule and how does it differ from a serial schedule? Explain conflict serializability.",
+    "What are the advantages of a DBMS over file processing systems? When would it make sense not to use one?",
+    "Write the given queries on the Supplier–Parts–Catalog schema in relational algebra.",
+    "Define primary, super, candidate, alternate and foreign keys with examples.",
+    "What is a transaction? Explain the ACID properties.",
+    "Explain the steps of query processing with a diagram, and the measures of query cost.",
+    "Distinguish strong and weak entity sets, generalisation and specialisation; find the minimum number of tables for a given ER diagram."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

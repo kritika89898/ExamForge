@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAM 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bam201-end-2024-dec-aiml"
+  ],
+  "importantTopics": [
+    "Normalisation and Functional Dependencies",
+    "Transactions, ACID and Concurrency Control",
+    "DBMS Basics: Data Independence, Data Models, DBA",
+    "Three-Schema Architecture",
+    "ER Modelling",
+    "SQL Queries",
+    "Integrity Constraints"
+  ],
+  "likelyQuestions": [
+    "Decompose the given relation into 1NF, 2NF and 3NF using the given functional dependencies.",
+    "Explain concurrency control using timestamp-based protocols.",
+    "Differentiate logical and physical data independence.",
+    "Describe the three-schema architecture with a diagram.",
+    "Draw an ER diagram for a hospital management system showing entities, attributes, relationships and keys.",
+    "Write SQL queries on the given library schema (borrowers, suppliers, books issued).",
+    "Explain the different integrity constraints in a database model with examples.",
+    "Explain dependency-preserving decomposition and the lossless-join property with examples.",
+    "Explain the ACID properties of transactions and how issues from concurrent execution are handled.",
+    "Differentiate hierarchical and network data models; explain the roles of a database administrator."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

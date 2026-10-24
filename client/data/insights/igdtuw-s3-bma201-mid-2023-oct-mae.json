@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BMA 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bma201-mid-2023-oct-mae"
+  ],
+  "importantTopics": [
+    "Sand Casting: Patterns, Allowances, Moulding Sand",
+    "Arc and Resistance Welding: SMAW, SAW, GMAW, TIG, Spot",
+    "Special Casting Processes",
+    "Gas Welding",
+    "Advanced Welding: Electron Beam, Laser, Induction",
+    "Cores, Chaplets, Gating and Risers"
+  ],
+  "likelyQuestions": [
+    "Explain the five pattern allowances and calculate the pattern dimensions for the given cast-iron casting with shrinkage allowance.",
+    "Explain GMAW with a sketch, MIG vs MAG and modes of metal transfer; explain TIG welding and why it is preferred over MIG.",
+    "Explain centrifugal (true vs semi-centrifugal) and investment casting with sketches, advantages and disadvantages.",
+    "Explain oxy-acetylene welding, its tools and the three flames with sketches.",
+    "Explain electron beam welding with a diagram and applications.",
+    "What is the use of cores and chaplets in casting? Show with a sketch.",
+    "Explain types of patterns (including sweep patterns) with sketches; describe the sand-mould features and desirable properties of moulding sand.",
+    "Explain submerged arc welding and resistance spot welding; discuss common SMAW defects and the role of electrode coating.",
+    "Explain cold-chamber die casting with a sketch; justify why casting is still a dominant process.",
+    "How are the flames identified and what are the mixing ratios? Discuss welding positions."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Production Technology I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-mid-2024",
+    "igdtuw-s6-bai304-mid-2026-mar-cseai"
+  ],
+  "importantTopics": [
+    "Gradient Descent Variants and Learning Rate",
+    "Neurons, Perceptron, MLP and Activation Functions",
+    "Dropout, Batch Normalization and Early Stopping",
+    "Optimizers: Momentum, NAG, Adagrad, RMSprop, Adam",
+    "Bias–Variance, Overfitting and Regularization",
+    "Weight Initialization",
+    "Saddle Points and Learning vs Optimization"
+  ],
+  "likelyQuestions": [
+    "Differentiate between batch, stochastic and mini-batch gradient descent with their formulations; what are epochs and iterations?",
+    "Explain the MP-neuron and perceptron and how thresholding affects the output; describe the structure and advantages of an MLP.",
+    "Explain dropout, DropConnect and batch normalization with their advantages; is dropout active during testing?",
+    "Explain the Adam optimizer and how it differs from RMSprop and gradient descent with momentum.",
+    "Explain the bias–variance trade-off; what does low bias and high variance indicate and how do you tackle it?",
+    "Explain the different weight initialization strategies; does zero initialization with dropout lead to symmetry?",
+    "What is the saddle point problem and how do you identify a saddle point?",
+    "Explain the effect of high and low learning rates; for the given memory constraints, choose the batch size and iterations per epoch.",
+    "Why is ReLU the most commonly used activation? Discuss the problems of sigmoid (vanishing gradient) and how to mitigate them; compute outputs with sigmoid, tanh and ReLU.",
+    "Explain early stopping and its relationship with dropout; is it beneficial to use both?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning-II - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-II - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

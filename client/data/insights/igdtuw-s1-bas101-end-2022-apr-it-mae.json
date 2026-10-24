@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAS 101",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bas101-end-2022-apr-it-mae"
+  ],
+  "importantTopics": [
+    "Infinite Series and Convergence Tests",
+    "Multiple Integrals: Area, Volume and Change of Order",
+    "Matrices: Rank, Eigenvalues and Diagonalisation",
+    "Successive Differentiation and Partial Derivatives",
+    "Linear Systems and Cayley–Hamilton Theorem",
+    "Maxima and Minima"
+  ],
+  "likelyQuestions": [
+    "Test the convergence of the given series using appropriate tests (ratio, root, comparison).",
+    "Find the area of the ellipse x²/a² + y²/b² = 1 using double integration and the volume of the given solid.",
+    "Find the eigenvalues and eigenvectors of the given matrix and check whether it is diagonalisable.",
+    "If y = (x² − 1)ⁿ, prove the given relation using Leibnitz's theorem.",
+    "Test the given system of equations for consistency and solve it.",
+    "Find the maximum and minimum values of the given function of two variables.",
+    "Test the given alternating series for absolute and conditional convergence.",
+    "Change the order of integration and evaluate the given integral; evaluate the given triple integral.",
+    "Find the rank of the given matrix by reducing it to normal form; determine a, b, c so that the given matrix is orthogonal.",
+    "If u = f(x − y, y − z, z − x), show that uₓ + u_y + u_z = 0; test the given function for continuity at the origin; expand eˣ cos y in a Taylor series."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics I - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-end-2022",
+    "igdtuw-cseai-s1-bas109-end-2023",
+    "igdtuw-cseai-s1-bas109-end-2025"
+  ],
+  "importantTopics": [
+    "Vector Calculus: Line Integrals, Green's and Gauss Theorems",
+    "Multiple Integrals and Change of Order",
+    "Eigenvalues, Eigenvectors and Special Matrices",
+    "Limits, Continuity and Taylor Series in Two Variables",
+    "Maxima, Minima and Lagrange Multipliers",
+    "Cayley–Hamilton Theorem and Matrix Inverse",
+    "Successive Differentiation and Leibnitz Theorem",
+    "Partial Differentiation, Euler's Theorem and Jacobians"
+  ],
+  "likelyQuestions": [
+    "State Green's theorem and use it to evaluate the given line integral.",
+    "Change the order of integration in the given double integral and evaluate it.",
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "Test the given function f(x, y) for continuity at the origin; check whether fxy(0,0) = fyx(0,0).",
+    "Test the given function f(x, y) for maxima and minima and find the extreme values.",
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix.",
+    "Find the nth derivative of the given function.",
+    "If u is homogeneous, use Euler's theorem to prove the given relation.",
+    "Use the convolution theorem to find the inverse Laplace transform of the given function.",
+    "Determine whether the given map T is a linear transformation and find T(a,b) from given images."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Applied Mathematics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

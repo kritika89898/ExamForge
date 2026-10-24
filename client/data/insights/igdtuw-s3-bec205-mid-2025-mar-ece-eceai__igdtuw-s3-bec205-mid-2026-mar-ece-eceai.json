@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BEC 205",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec205-mid-2025-mar-ece-eceai",
+    "igdtuw-s3-bec205-mid-2026-mar-ece-eceai"
+  ],
+  "importantTopics": [
+    "Transient Response of RL, RC and RLC Circuits",
+    "Network Theorems",
+    "Circuit Basics: KCL/KVL, Source Transformation, Star–Delta",
+    "Laplace Transform in Circuit Analysis"
+  ],
+  "likelyQuestions": [
+    "Find i(0⁺), di/dt(0⁺) and i(t) for the given RLC circuit after the switch operates.",
+    "Find the current through the 10 Ω resistor using superposition, Thevenin's and Norton's theorems; give Millman's Vth and Rth.",
+    "State KCL and KVL; derive the current division rule and explain source transformation with an example.",
+    "Using Laplace transforms, find i(t) for the given RLC circuit with sinusoidal input / RL circuit with a pulse.",
+    "For the given RC/RL circuit with DC source, find the time constant, current growth/decay and charge; why can't inductor current change instantly?",
+    "Prove that maximum power is delivered when ZL = Zs*; find RL for maximum power and the power transferred.",
+    "Derive the delta-to-star conversion; find the equivalent resistance / the two resistances from the given series and parallel values.",
+    "State the initial and final value theorems; define step, ramp and impulse signals."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Network Analysis and Synthesis - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Network Analysis and Synthesis - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

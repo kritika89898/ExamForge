@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BEC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec202-end-2024-may-ece-eceai",
+    "igdtuw-s4-bec202-end-2025-may-ece"
+  ],
+  "importantTopics": [
+    "Power Amplifiers and OTA",
+    "Comparators, Multivibrators and Waveform Generators",
+    "Op-Amp Parameters: Offset, CMRR, Slew Rate, Drift",
+    "Active Filters",
+    "555 Timer and Phase-Locked Loop",
+    "Linear Applications: Integrator, Differentiator, Log Amplifier, Precision Rectifier",
+    "Op-Amp Internal Structure and Basic Concepts",
+    "Frequency Compensation"
+  ],
+  "likelyQuestions": [
+    "Explain the Class A push-pull amplifier, crossover distortion and Class A efficiency.",
+    "List comparator types with waveforms and define hysteresis width.",
+    "Explain input offset voltage/current, bias current, total output offset, CMRR, SVRR, output swing and slew rate.",
+    "Design a first-order wide band-pass filter / fifth-order Butterworth low-pass filter for the given specifications.",
+    "Explain the 555 timer in monostable mode with its functional diagram and waveforms.",
+    "Draw an integrator/differentiator and give its output for sine, step and square inputs; design a differentiator for the given fmax.",
+    "Draw the internal block diagram of an op-amp and explain each stage; why is an emitter follower used there?",
+    "Explain pole–zero compensation and compare it with dominant-pole compensation using gain–frequency plots.",
+    "Identify the given OTA circuits and give OTA limitations; find the transfer function of the given circuit.",
+    "Explain the op-amp astable/monostable multivibrator and triangular-wave generator and derive their frequency / pulse width; explain the RC phase-shift oscillator and Barkhausen criterion."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Linear Integrated Circuits - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Linear Integrated Circuits - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

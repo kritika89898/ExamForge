@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 105 (FES)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bec105fes-mid-2025-oct-ece-eceai"
+  ],
+  "importantTopics": [
+    "Network Theorems",
+    "AC Fundamentals and Transients",
+    "Kirchhoff's Laws, Mesh and Nodal Analysis",
+    "Resonance in RLC Circuits"
+  ],
+  "likelyQuestions": [
+    "Using Thevenin's theorem, find the current through the 10 Ω resistor; state and prove maximum power transfer.",
+    "Derive the average value of a sinusoidal wave; draw the phasor diagram of series RL and derive its impedance.",
+    "Explain KCL and KVL with examples; differentiate mesh and nodal analysis.",
+    "Derive the resonant frequency, Q-factor and bandwidth of a series RLC circuit and plot the response.",
+    "State and explain superposition and Millman's theorems.",
+    "Define the time constant of RL and RC circuits; find i(t) for the given RLC circuit.",
+    "Find the current through the 10 Ω resistor in the given circuit using mesh and nodal analysis.",
+    "Compare series and parallel RLC resonance."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Fundamentals of Electrical Sciences - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

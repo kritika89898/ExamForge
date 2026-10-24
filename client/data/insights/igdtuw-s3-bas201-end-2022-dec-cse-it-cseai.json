@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bas201-end-2022-dec-cse-it-cseai"
+  ],
+  "importantTopics": [
+    "Classes of Materials: Metals, Ceramics, Polymers, Composites",
+    "Characterisation: XRD and Raman Spectroscopy",
+    "Smart and Photonic Materials",
+    "Dielectric and Piezoelectric Materials",
+    "Biomaterials and Conductivity of Materials",
+    "Magnetic Materials, Spintronics and GMR",
+    "Semiconductors and Hall Effect",
+    "Superconductivity"
+  ],
+  "likelyQuestions": [
+    "What are composite materials? Explain the different composite matrices and their applications.",
+    "Explain X-ray diffraction and Bragg's law, and the construction and working of an X-ray diffractometer.",
+    "What are shape memory alloys? Explain the shape memory effect. Explain thermo-, photo- and electro-chromic materials.",
+    "What are the types of polarisation in a dielectric and how do they vary with frequency? Calculate the polarisation vector and flux density for the given dielectric slab.",
+    "What are the characteristics of implant materials? Give examples of polymer implants and their applications.",
+    "Classify dia-, para-, ferro- and anti-ferromagnetic materials based on spin; differentiate hard and soft magnetic materials.",
+    "Calculate the Hall voltage developed across the given semiconductor plate in a magnetic field.",
+    "The critical field of a superconductor at two temperatures is given; find its transition temperature (or the critical field at a given temperature).",
+    "What are ceramic materials? Tabulate their properties and give differences between metals, ceramics and polymers.",
+    "What is Raman spectroscopy? Explain Rayleigh, Stokes and anti-Stokes lines and the Raman set-up."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Material Science and Engineering - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

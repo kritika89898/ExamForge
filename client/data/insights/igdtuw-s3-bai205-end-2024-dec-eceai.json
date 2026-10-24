@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 205",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bai205-end-2024-dec-eceai"
+  ],
+  "importantTopics": [
+    "Knowledge Representation: Logic, Semantic Nets, Conceptual Dependency",
+    "Uninformed and Informed Search, Heuristics and A*",
+    "Neural Networks: Perceptrons, Activation Functions, RBF, Backpropagation",
+    "Constraint Satisfaction Problems",
+    "Learning Paradigms",
+    "AI Foundations and Intelligent Agents",
+    "Problem Solving: State Space and Means–End Analysis",
+    "Game Playing: Minimax and Alpha–Beta Pruning"
+  ],
+  "likelyQuestions": [
+    "How does predicate logic extend propositional logic for knowledge representation?",
+    "Compare informed and uninformed search strategies with examples.",
+    "Compare single-layer and multi-layer perceptrons and explain backpropagation.",
+    "Explain constraint satisfaction problems.",
+    "Describe supervised, unsupervised and reinforcement learning with real-world examples.",
+    "What are intelligent agents? Describe simple reflex and goal-based agents and their role in AI architecture.",
+    "Explain the state-space representation of an AI problem with an example.",
+    "Analyse how alpha–beta pruning improves minimax.",
+    "Explain conceptual dependency graphs and reasoning with semantic networks; compare forward and backward chaining.",
+    "Define heuristics and explain the A* algorithm in detail on the given graph."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Neural Networks and Artificial Intelligence - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

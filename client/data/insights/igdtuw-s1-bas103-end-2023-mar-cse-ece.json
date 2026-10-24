@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAS 103",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bas103-end-2023-mar-cse-ece"
+  ],
+  "importantTopics": [
+    "Oscillations: SHM, Damped and Forced",
+    "Quantum Mechanics: de Broglie Waves and Particle in a Box",
+    "Lasers and Optical Fibres",
+    "Interference in Thin Films",
+    "Diffraction: N-Slit and Grating",
+    "Central Forces and Two-Body Problem",
+    "Polarisation"
+  ],
+  "likelyQuestions": [
+    "Solve the differential equation of a damped harmonic oscillator driven by a sinusoidal force and discuss resonance.",
+    "Explain group and phase velocity of a wave packet and show that de Broglie waves travel with the particle velocity; compute the de Broglie wavelength of a 10 eV electron.",
+    "Differentiate spontaneous and stimulated emission and derive Einstein's A and B coefficients.",
+    "Derive the conditions for intensity maxima and minima for interference of light reflected from a thin film.",
+    "Derive the intensity distribution for diffraction through N slits and the conditions for maxima and minima.",
+    "For a central force, show that angular momentum and areal velocity are constant.",
+    "Unpolarised light passes through two polarising sheets. Find the angle between their axes for the given transmitted intensities.",
+    "A particle in SHM has the given velocities at two positions; find its amplitude and period.",
+    "Solve the time-independent Schrödinger equation for a particle in a 1-D box and draw ψₙ and |ψₙ|² for n = 1, 2, 3.",
+    "Calculate the numerical aperture and acceptance angle of the given step-index fibre; explain an optical-fibre communication channel."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics I - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

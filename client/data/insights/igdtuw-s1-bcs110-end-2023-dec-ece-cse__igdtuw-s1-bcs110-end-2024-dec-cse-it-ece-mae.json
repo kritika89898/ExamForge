@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs110-end-2023-dec-ece-cse",
+    "igdtuw-s1-bcs110-end-2024-dec-cse-it-ece-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Strings and String Functions",
+    "Functions, Recursion and Parameter Passing",
+    "Structures, Unions and Storage Classes",
+    "Arrays and Matrices",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Output Prediction (Code Tracing)",
+    "Compilers, Interpreters, Algorithms and Flowcharts"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Differentiate call by value and call by reference with examples.",
+    "Differentiate structures and unions; write a program to store and print records of students/patients using an array of structures.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "Differentiate compiler, interpreter and assembler with examples.",
+    "Explain the ALU and registers; differentiate main, secondary and cache memory and volatile vs non-volatile memory.",
+    "Write a program to swap two numbers using pointers; explain array of pointers and pointer to array."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Humanities and Social Science / Programming in C - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Humanities and Social Science / Programming in C - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAI 108",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai108-mid-2024"
+  ],
+  "importantTopics": [
+    "Control Statements and Basic Programs",
+    "Data Structures: Lists, Matrices, Arrays, Data Frames",
+    "Vectors and Vector Operations",
+    "Introduction to R: Features, Installation and Packages"
+  ],
+  "likelyQuestions": [
+    "What are control statements in R? Explain any three with examples.",
+    "Explain the data structures in R (list, matrix, array, data frame) with examples.",
+    "What is a vector in R? Explain the types of vectors and vector operations with examples.",
+    "What is R? Explain its features, applications and advantages over other languages, and the steps to install it.",
+    "Write R programs to check an Armstrong number, print squares and cubes up to n, count vowels in a string, and print the Fibonacci series.",
+    "Differentiate between matrices and data frames in R and explain matrix operations.",
+    "Write an R program to calculate the mode of the elements in a vector.",
+    "What are R packages? How do you install and load a package such as ggplot2?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "IT Workshop - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs203-end-2022",
+    "igdtuw-cseai-s3-bcs203-end-2024"
+  ],
+  "importantTopics": [
+    "Planar Graphs, Colouring and Spanning Trees",
+    "Groups, Subgroups and Lagrange's Theorem",
+    "Propositional Logic, Tautologies and Equivalence",
+    "Relations: Equivalence and Partial Orders",
+    "Rings and Fields",
+    "Functions, Countability and Recurrence Relations",
+    "Predicate Logic and Quantifiers",
+    "Posets, Hasse Diagrams and Lattices"
+  ],
+  "likelyQuestions": [
+    "State and prove Euler's formula V − E + R = 2 for connected planar graphs.",
+    "State and prove Lagrange's theorem; prove that every group of prime order is cyclic.",
+    "Identify whether the given proposition is a tautology, contingency or contradiction; which of the given Boolean expressions are not tautologies?",
+    "Show that 'x R y iff x − y is divisible by 3' (congruence modulo m) is an equivalence relation.",
+    "Define ring, field and cyclic group. Prove that (Z₅, +₅, ×₅) is a field.",
+    "Is the function f(x) = (x − 2)/(x − 3) from R − {3} to R − {1} one-one and onto? Find compositions f∘g and g∘f.",
+    "Translate 'Not all that glitters is gold' and 'Some boys are taller than all the girls' into predicate logic.",
+    "Construct the Hasse diagram of the poset ({1,2,3,4,6,8,12,24}, |) and find its maximal, minimal, greatest and least elements and bounds of {1,2,3}.",
+    "Using rules of inference, show that the given premises lead to the given conclusion.",
+    "Examine whether the given graph has an Euler path/circuit and a Hamiltonian path/circuit."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Discrete Structures - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Discrete Structures - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

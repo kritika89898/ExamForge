@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BEC 207",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec207-end-2023-dec-ece"
+  ],
+  "importantTopics": [
+    "Counters and Shift Registers",
+    "Boolean Algebra and K-Map Minimisation",
+    "Decoders, Multiplexers and Combinational Design",
+    "Memories and PLDs",
+    "Flip-Flops",
+    "DAC and ADC",
+    "Codes and Number Systems",
+    "Logic Families"
+  ],
+  "likelyQuestions": [
+    "Construct a 3-bit ring counter with JK flip-flops; explain a MOD-8 down ripple counter with waveforms.",
+    "Prove the given Boolean identities and convert expressions to canonical SOP/POS.",
+    "Realise the given functions using the 74154 4-to-16 decoder; draw a 2-to-4 decoder using NOR gates.",
+    "Differentiate ROM, PAL and PLA with internal circuits.",
+    "Realise an SR flip-flop using NOR and NAND gates; design a master–slave JK flip-flop with NAND gates.",
+    "For the given 5-bit DAC, find the resolution, step size, output and full-scale voltage.",
+    "Differentiate weighted and non-weighted codes, and reflective and self-complementing codes; justify that Excess-3 is self-complementing.",
+    "Compare CMOS and TTL logic families.",
+    "Design a self-correcting synchronous counter for the given sequence; find the SIPO register state after 3 clocks.",
+    "Minimise the given function with don't-cares using K-maps in SOP and POS and implement with NAND/NOR gates only."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Electronics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

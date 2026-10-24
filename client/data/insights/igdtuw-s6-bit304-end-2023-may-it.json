@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BIT 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bit304-end-2023-may-it"
+  ],
+  "importantTopics": [
+    "Load Balancing and Cloud Optimization",
+    "Cloud in Government and Education (Case Studies)",
+    "Virtualization, Hypervisors and Containers",
+    "Cloud Security, IAM and SLAs",
+    "Cloud Services and Concepts (XaaS, Fog, Testing)",
+    "Cloud Models: SPI vs Traditional IT, Cloud vs Grid, Web 3.0"
+  ],
+  "likelyQuestions": [
+    "Differentiate static and dynamic load balancing in cloud computing.",
+    "Discuss MeghRaj, the Government of India's cloud initiative, and the architecture for an e-healthcare system.",
+    "Differentiate Type-1 and Type-2 hypervisors and explain the virtualization reference model.",
+    "What is the role of IAM in cloud security? Explain 'role-per-group' and 'least privilege'.",
+    "Explain BPaaS, IDaaS, fog computing, cloud analytics and network virtualization.",
+    "Differentiate the SPI model of cloud computing from the traditional IT model with schematic illustrations.",
+    "Explain cloud optimization and how it improves performance and cost savings; explain green cloud computing.",
+    "Examine the impact of cloud computing on education with a case study of Moodle or BYJU's.",
+    "Differentiate virtualization and containerization in terms of isolation, deployment, OS and storage; compare server, network, desktop and application virtualization.",
+    "Explain cloud information security objectives and design principles, and the significance and characteristics of SLAs."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

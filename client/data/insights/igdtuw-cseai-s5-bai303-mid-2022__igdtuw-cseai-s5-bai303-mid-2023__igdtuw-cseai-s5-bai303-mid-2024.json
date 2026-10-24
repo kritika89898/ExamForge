@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2022",
+    "igdtuw-cseai-s5-bai303-mid-2023",
+    "igdtuw-cseai-s5-bai303-mid-2024"
+  ],
+  "importantTopics": [
+    "DoS/DDoS, Session Hijacking, MITM and Spoofing",
+    "Security Fundamentals: CIA Triad, Threats and Attack Types",
+    "Cryptography: Symmetric and Asymmetric Encryption",
+    "Hash Functions, MAC and Digital Signatures",
+    "Secure Protocols: SSL/TLS, IPSec, SSH and VPN",
+    "Wireless, Mobile, Cloud and Social Network Security",
+    "Password Attacks, Identity Theft and Financial Fraud",
+    "Malware: Viruses, Worms, Rootkits, Backdoors, Ransomware"
+  ],
+  "likelyQuestions": [
+    "Explain the levels of denial-of-service attacks, the difference between DoS and DDoS, and their countermeasures.",
+    "What is the CIA triad? Explain the goals of cyber security and the classification of security threats.",
+    "Differentiate between symmetric and asymmetric key encryption with examples; explain DES and RSA.",
+    "What are hash functions? Explain their properties and the role of SHA (vs MD5) in integrity and digital signatures.",
+    "Explain SSL/TLS, its handshake and how it secures e-commerce; compare SSL/TLS, IPSec and SSH.",
+    "Explain Wi-Fi security, the significance of SSID and measures for secure Wi-Fi; discuss security in laptops and smartphones.",
+    "Explain the types of password attacks (including rainbow tables) and countermeasures; differentiate password guessing and cracking.",
+    "Explain the different types of malware (worms, ransomware, backdoors) with their attack methods, impact and defences.",
+    "What is an Advanced Persistent Threat? Explain its characteristics, working cycle and defence mechanisms.",
+    "Discuss the types of phishing (spear phishing, whaling, pharming, smishing, vishing) and prevention techniques."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

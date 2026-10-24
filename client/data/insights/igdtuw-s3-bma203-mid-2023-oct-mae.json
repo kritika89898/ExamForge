@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BMA 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bma203-mid-2023-oct-mae"
+  ],
+  "importantTopics": [
+    "Simple Stress and Strain, Elastic Constants",
+    "Principal Stresses and Mohr's Circle",
+    "Shear Force and Bending Moment Diagrams",
+    "Bending Stresses",
+    "Deflection of Beams: Macaulay, Castigliano"
+  ],
+  "likelyQuestions": [
+    "Find the stresses and total elongation of the given stepped/composite bar under load; find the elongation of a uniformly tapered bar.",
+    "For the given principal stresses, find the normal, shear and resultant stress on the given inclined plane and the maximum shear stress.",
+    "Draw the SFD and BMD for the given beam and locate the maximum bending moment and point of contraflexure.",
+    "Derive the simple bending formula and list its assumptions.",
+    "Using Macaulay's method, find the maximum deflection of the beam with an eccentric point load.",
+    "Explain the stress–strain curve for mild steel, Hooke's law, Poisson's ratio and factor of safety; prove E = 3K(1−2ν).",
+    "Find the maximum shear stress for the given stress tensor; define principal planes.",
+    "Establish the SF–BM–load relationships and draw SF/BM for a varying distributed load.",
+    "Explain the types of beams.",
+    "State Castigliano's theorem and find the deflection under the load for the given beam."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Strength of Materials - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

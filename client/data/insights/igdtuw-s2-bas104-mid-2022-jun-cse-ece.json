@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAS 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas104-mid-2022-jun-cse-ece"
+  ],
+  "importantTopics": [
+    "Semiconductors and Fermi Level",
+    "EM Waves in Conductors, Skin Depth and Poynting Theorem",
+    "Maxwell's Equations, Displacement Current and Continuity",
+    "Diodes and Zener Regulators"
+  ],
+  "likelyQuestions": [
+    "Derive the expression for the Fermi level in a p-type (or n-type) semiconductor and show its position with a diagram.",
+    "Discuss EM wave propagation in a conducting medium; why is the mobile signal weak inside a lift? Calculate the skin depth of silver at the given frequency.",
+    "Write Maxwell's equations in differential and integral form and discuss their physical significance; state and derive Gauss's law in differential form.",
+    "For the given Zener regulator circuit, find the output voltage, drop across the series resistor and the maximum/minimum Zener current.",
+    "Calculate the Fermi energy of the given metal / position of the Fermi level for the given doping; explain Fermi–Dirac statistics.",
+    "Explain Poynting's theorem and the physical significance of the Poynting vector.",
+    "What is displacement current? Explain how Maxwell modified Ampère's law; find the displacement current for the given capacitor/dielectric.",
+    "Draw the I–V curve of a p-n junction diode and explain voltage stabilisation using a Zener diode."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics II - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

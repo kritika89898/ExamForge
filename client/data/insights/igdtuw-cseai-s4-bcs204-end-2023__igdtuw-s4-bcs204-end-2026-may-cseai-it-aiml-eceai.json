@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2023",
+    "igdtuw-s4-bcs204-end-2026-may-cseai-it-aiml-eceai"
+  ],
+  "importantTopics": [
+    "Dynamic Programming: Matrix Chain, LCS, OBST, 0/1 Knapsack",
+    "String Matching: Naive, Rabin–Karp, KMP, Finite Automata",
+    "Divide and Conquer: Sorting, Searching, Strassen",
+    "Shortest Paths: Dijkstra, Bellman–Ford, Floyd–Warshall",
+    "NP-Completeness and Reductions",
+    "Recurrence Relations: Master Theorem and Recursion Tree",
+    "Huffman Coding",
+    "Backtracking and Branch and Bound"
+  ],
+  "likelyQuestions": [
+    "Find an optimal parenthesisation of the matrix-chain product with the given dimensions.",
+    "Explain the Rabin–Karp algorithm and find the spurious hits for the given text and pattern modulo q.",
+    "Apply Strassen's algorithm to the given matrices and analyse its complexity.",
+    "Run the Bellman–Ford algorithm on the given graph from the source and show how it detects negative-weight cycles.",
+    "Discuss the classes P, NP, NP-hard and NP-complete with a diagram, and the steps to prove a problem NP-complete.",
+    "Solve the recurrences T(n) = 2T(√n) + log n and T(n) = 4T(n/2) + n²√n.",
+    "Construct the Huffman tree for the given characters and frequencies and calculate the total bits needed.",
+    "Explain the N-Queen problem and solve the 4/5-queen problem using backtracking with the state-space tree.",
+    "Discuss Big-O and Big-Omega notations and prove that ½n(n−1) = O(n²) by finding c and n₀.",
+    "Find the minimum spanning tree of the given graph using Kruskal's algorithm and analyse its complexity."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

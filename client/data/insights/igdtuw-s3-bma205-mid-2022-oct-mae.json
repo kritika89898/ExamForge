@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BMA 205",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bma205-mid-2022-oct-mae"
+  ],
+  "importantTopics": [
+    "Entropy and Clausius Inequality",
+    "First Law: Steady Flow Energy Equation",
+    "First Law: Closed Systems and Processes",
+    "Second Law, Heat Engines and Carnot Cycle",
+    "Thermodynamic Relations: Maxwell Equations",
+    "Basic Concepts and Zeroth Law"
+  ],
+  "likelyQuestions": [
+    "Prove the Clausius inequality and justify that entropy is a point function.",
+    "Apply the SFEE to a throttle, nozzle and turbine.",
+    "For the given quasi-static process p = (8−4V) bar, find the final pressure and volume; find the work and internal energy for the given three-process cycle.",
+    "State Kelvin–Planck and Clausius statements and show their equivalence; explain PMM1 and PMM2.",
+    "Write the four Maxwell relations.",
+    "Explain the microscopic and macroscopic viewpoints with examples.",
+    "Find the heat from the hot reservoir for the given entropy change; derive the entropy change for a polytropic process and find it for the given nitrogen heating.",
+    "Find the heat transfer in the given condenser / compressor using the SFEE.",
+    "Derive the heat transfer in a polytropic process in terms of work, γ and n; find the work for the given adiabatic compression of a monoatomic gas.",
+    "Check the given engine claim using the first and second laws; solve the given multi-reservoir Carnot engine; relate COP of refrigerator and heat pump."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Thermal Engineering I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

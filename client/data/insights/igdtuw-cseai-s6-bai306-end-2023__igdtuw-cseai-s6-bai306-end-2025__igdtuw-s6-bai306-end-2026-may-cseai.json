@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2023",
+    "igdtuw-cseai-s6-bai306-end-2025",
+    "igdtuw-s6-bai306-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Representation, Description and Object Recognition",
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering",
+    "Image Compression: Redundancy, Huffman and Run-Length",
+    "Morphological Image Processing",
+    "Histogram Equalization and Matching",
+    "Image Segmentation: Thresholding, Edges, Region Growing",
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "Point Operations and Intensity Transformations"
+  ],
+  "likelyQuestions": [
+    "Explain boundary and regional descriptors with examples; compute the 4-chain code of the given boundary; explain PCA for image description.",
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Construct Huffman codes for the given gray levels/probabilities and find the coding efficiency and compression ratio.",
+    "For the given binary image X and structuring element B, compute dilation, erosion, opening and closing.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Apply region growing (or region splitting and merging with a quad tree) to the given image with the given seed and threshold.",
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Perform contrast stretching, thresholding, intensity-level slicing, negative and bit-plane slicing on the given image.",
+    "Explain the fundamental steps of a digital image processing system with a block diagram.",
+    "Explain the RGB, CMY and HSI colour models and pseudo-colour processing."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - End Semester 2025",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

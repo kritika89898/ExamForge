@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAM 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bam202-end-2024-may-aiml"
+  ],
+  "importantTopics": [
+    "k-NN, SVM and Naive Bayes Classifiers",
+    "Dimensionality Reduction and PCA",
+    "Decision Trees and Ensemble Learning",
+    "Clustering: k-Means and Unsupervised Learning",
+    "Model Evaluation: Misclassification Cost and Cross-Validation",
+    "ML Fundamentals and Data Exploration",
+    "Linear and Logistic Regression"
+  ],
+  "likelyQuestions": [
+    "Classify the given point using k-NN with k=3 and Euclidean distance; how would k=5 change the result?",
+    "Differentiate feature extraction and feature selection with examples; discuss their trade-offs.",
+    "Build a decision tree for the given data and find its accuracy; evaluate the goodness of the given split using accuracy.",
+    "Perform k-means clustering with k=2 on the given points and initial centroids, showing each iteration.",
+    "Compute the misclassification cost of the given cancer-detection model.",
+    "What are the primary goals of machine learning and how does it differ from traditional programming?",
+    "Fit a linear regression line to the given study-hours data, predict the score for 6 hours and compute R².",
+    "Build a naive Bayes model from the given symptom table and compute the required probabilities; compare SVM and logistic regression.",
+    "Explain explained-variance ratio in PCA and how it is used to choose the number of components.",
+    "Find the boosted learner's prediction from the given weak learners and weights; differentiate hard and soft voting."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

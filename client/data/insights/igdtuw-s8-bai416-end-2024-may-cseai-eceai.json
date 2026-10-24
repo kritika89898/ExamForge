@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 416",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s8-bai416-end-2024-may-cseai-eceai"
+  ],
+  "importantTopics": [
+    "AI in Healthcare: Evolution, Types, Benefits and Trends",
+    "NLP and Electronic Health Records",
+    "Patient Data Privacy: HIPAA and Data Protection",
+    "Clinical Decision Support Systems",
+    "Medical Imaging and Disease Detection",
+    "Ethics, Bias and Geographic/Demographic Variation"
+  ],
+  "likelyQuestions": [
+    "Define AI in healthcare and discuss its historical evolution and key milestones.",
+    "What is an EHR? How does NLP extract value from EHRs and what specific NLP tasks are involved?",
+    "What is HIPAA compliance and why is it needed? How does it ensure privacy and security of patient data?",
+    "What is a CDSS? Describe its types and how AI enhances it; are CDSS life-critical systems?",
+    "How can AI be used in medical imaging to advance precision medicine? Explain segmentation vs classification for early disease detection.",
+    "Discuss the ethical guidelines and dilemmas in AI-driven diagnosis and CDSS, including bias and patient safety.",
+    "Explain the types of AI in healthcare and the jobs/benefits of AI; identify emerging trends such as AI-driven telemedicine and genomics.",
+    "State the uses of NLP in healthcare and the NLP techniques used.",
+    "How can healthcare organisations protect patient data? Compare data-protection regimes in India, the UK and the US.",
+    "What factors affect CDSS implementation and what are its known weaknesses and real-world challenges?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "AI in Healthcare - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

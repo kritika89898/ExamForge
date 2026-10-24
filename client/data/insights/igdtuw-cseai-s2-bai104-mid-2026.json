@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-mid-2026"
+  ],
+  "importantTopics": [
+    "Data Science Process, Life Cycle and Applications",
+    "Data Wrangling: Combining, Merging and Filtering",
+    "NumPy Arrays, Indexing and Operations",
+    "Data Ethics, Privacy and the C's of Data",
+    "Data Cleaning, Missing Values and Outliers"
+  ],
+  "likelyQuestions": [
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "Explain different ways of combining data from different sources, and the process of filtering and merging data.",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Give examples of applications of data science in healthcare, finance, education and other industries.",
+    "What are dummy variables? Explain data wrangling steps with an example.",
+    "Write NumPy programs to create, reshape, split and stack arrays and perform row/column-wise operations on them.",
+    "Explain the C's to be followed while handling data and the aspects of privacy with sensitive data.",
+    "Find the outliers in the given dataset using the interquartile range (IQR), showing the steps."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

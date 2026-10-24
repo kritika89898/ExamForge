@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2022",
+    "igdtuw-cseai-s1-bas107-end-2023-mar"
+  ],
+  "importantTopics": [
+    "Maxwell's Equations and Displacement Current",
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Heisenberg Uncertainty Principle",
+    "Particle in a 1-D Infinite Potential Box",
+    "Wave–Particle Duality and de Broglie Waves",
+    "Sensors and Measurement",
+    "Polarisation, Double Refraction and Nicol Prism"
+  ],
+  "likelyQuestions": [
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "State Heisenberg's uncertainty principle and show that an electron cannot exist inside the nucleus.",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "State de Broglie's hypothesis and calculate the de Broglie wavelength of an electron accelerated through 100 V (or a proton/neutron of given energy).",
+    "Define accuracy, dead band, resolution, nonlinearity and repeatability of a sensor.",
+    "What is double refraction? Describe the construction and working of a Nicol prism and explain the production of plane, circularly and elliptically polarised light.",
+    "Derive the EM wave equations in an isotropic dielectric medium and show that the wave speed is less than in vacuum; show that EM waves are transverse.",
+    "Explain total internal reflection in an optical fibre and derive the numerical aperture and acceptance angle; calculate them for given core and cladding indices."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

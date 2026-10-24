@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai102-mid-2024"
+  ],
+  "importantTopics": [
+    "Classes, Objects and Variables",
+    "Polymorphism: Overloading, Overriding, Binding",
+    "Inheritance and the super/final Keywords",
+    "Packages and Access Modifiers",
+    "Constructors, Overloading and Chaining",
+    "Abstract Classes and Interfaces"
+  ],
+  "likelyQuestions": [
+    "Differentiate between class, instance and local variables. Write a program where a class variable auto-assigns unique roll numbers to Student objects.",
+    "Differentiate between ad-hoc and pure polymorphism, and between early and late binding.",
+    "What are the forms of inheritance in Java? Why is multiple inheritance not allowed and how is it achieved using interfaces?",
+    "Explain the access modifiers in Java. What is a package and how is it used?",
+    "Differentiate between constructor overloading and constructor chaining with a Box class example.",
+    "What is an abstract class? Create an abstract class Animal and inherit it in Cat, Dog and Duck.",
+    "Create a class with getters and setters (e.g., IgdtuwBooks) and create an array of objects.",
+    "Create a superclass Vehicle and derived classes Car and Bike that override print(), and demonstrate method overloading and overriding.",
+    "Explain the use of this, super and final keywords with examples.",
+    "Define a class Tour in package pack1 and use it from a class in package pack2."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

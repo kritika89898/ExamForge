@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bai304-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Optimizers: Momentum, NAG, Adagrad, RMSprop, Adam",
+    "Saddle Points and Learning vs Optimization",
+    "Performance Metrics and Confusion Matrix",
+    "Hyperparameter Tuning",
+    "Dropout, Batch Normalization and Early Stopping",
+    "Autoencoders and Representation Learning",
+    "Transfer Learning and Explainability",
+    "Bias–Variance, Overfitting and Regularization"
+  ],
+  "likelyQuestions": [
+    "Explain the Adam optimizer and how it differs from RMSprop and gradient descent with momentum.",
+    "What is the saddle point problem and how do you identify a saddle point?",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1-score.",
+    "Differentiate parameter tuning and hyperparameter tuning; explain grid search vs random search.",
+    "Explain dropout, DropConnect and batch normalization with their advantages; is dropout active during testing?",
+    "Explain the architecture of autoencoders, their types (undercomplete, regularized, convolutional) and applications.",
+    "Explain transfer learning with a diagram and its advantages.",
+    "Explain the bias–variance trade-off; what does low bias and high variance indicate and how do you tackle it?",
+    "Explain the GAN architecture, its generator and discriminator, and its loss functions.",
+    "Differentiate between batch, stochastic and mini-batch gradient descent with their formulations; what are epochs and iterations?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-II - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

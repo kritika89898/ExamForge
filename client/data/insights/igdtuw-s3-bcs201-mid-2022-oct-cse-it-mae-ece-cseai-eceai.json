@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BCS 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bcs201-mid-2022-oct-cse-it-mae-ece-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Singly, Doubly and Circular Linked Lists",
+    "Arrays: Memory Representation and Algorithms",
+    "Stacks and Expression Conversion",
+    "Queues and Circular Queues"
+  ],
+  "likelyQuestions": [
+    "Write an algorithm to delete the kth element from the end of a singly linked list / print a linked list in reverse order.",
+    "For a 2-D array stored from the given base address, find the address of A[i][j] in row-major and column-major order.",
+    "Convert the given infix expression to postfix and prefix using a stack, showing each step, and evaluate the postfix expression.",
+    "Implement a queue using an array; what is the drawback of a linear queue and how does a circular queue solve it?",
+    "Write an algorithm to insert an element at the first, last and Nth position of a doubly linked list; reverse a circular linked list.",
+    "Write an algorithm to insert/delete an element in an array, count inversions, or find the second largest element, and analyse its complexity.",
+    "Implement a stack using a linked list, or two stacks in a single array growing in opposite directions.",
+    "Implement a queue using two stacks / a singly linked list, and check whether a string is a palindrome using a stack and a queue."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Data Structures - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BEC 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec201-end-2023-dec-ece"
+  ],
+  "importantTopics": [
+    "FETs and MOSFETs",
+    "Diodes, Rectifiers and Wave-Shaping Circuits",
+    "Transistor Biasing and Thermal Stability",
+    "Small-Signal Analysis of Amplifiers",
+    "Negative Feedback Topologies",
+    "SCR",
+    "Multistage Amplifiers: Darlington, Cascade, Cascode, RC Coupled",
+    "BJT Configurations and Characteristics"
+  ],
+  "likelyQuestions": [
+    "Explain the working of an n-channel JFET and compare its drain characteristics with BJT collector characteristics; why does a JFET have high input impedance?",
+    "Differentiate transition and diffusion capacitance of a diode; explain the Zener diode as a voltage regulator and the effect of temperature on its V–I curve.",
+    "What is biasing and why is it needed? Name common BJT biasing techniques.",
+    "Analyse the given amplifier using small-signal modelling and find its voltage gain.",
+    "Explain the four negative feedback topologies with block diagrams.",
+    "Explain the voltage and current operation of an SCR.",
+    "Explain the Darlington pair and why it is called a 'super-β' configuration.",
+    "Analyse the input and output characteristics of a CB configuration and its regions of operation.",
+    "Sketch a p-channel enhancement MOSFET and explain its characteristics; how is gm found graphically and how does it vary with VGS in a depletion MOSFET?",
+    "Sketch the output of the given clipper/clamper networks for the given input; why must the PIV of a full-wave rectifier diode be 2Vm?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Analog Electronics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

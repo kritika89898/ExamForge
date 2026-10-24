@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAM 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bam202-mid-2024-mar-aiml"
+  ],
+  "importantTopics": [
+    "Data Preprocessing and Normalisation",
+    "Linear and Logistic Regression",
+    "k-NN, SVM and Naive Bayes Classifiers",
+    "ML Fundamentals and Data Exploration"
+  ],
+  "likelyQuestions": [
+    "Normalise the given data using min–max and Z-score normalisation.",
+    "Fit a linear regression line to the given study-hours data, predict the score for 6 hours and compute R².",
+    "Classify the given point using k-NN with k=3 and Euclidean distance; how would k=5 change the result?",
+    "What are the primary goals of machine learning and how does it differ from traditional programming?",
+    "Explain the importance of data preprocessing and of normalisation in feature scaling.",
+    "Using the given logistic regression coefficients, find the predicted probability for the given person; how does the cutoff change along the ROC curve?",
+    "Build a naive Bayes model from the given symptom table and compute the required probabilities; compare SVM and logistic regression.",
+    "Discuss mean, median, standard deviation and correlation in data exploration; explain the role of data visualisation techniques."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

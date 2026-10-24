@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BEC 110 / BMA 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bma110-end-2023-jul-cse-ece",
+    "igdtuw-s2-bma110-end-2024-may-cse-ece"
+  ],
+  "importantTopics": [
+    "Kinematics of Particles: Rectilinear and Curvilinear Motion",
+    "Rigid Body Kinematics: Rotation and Instantaneous Centre",
+    "Force Systems, Resultants and Equilibrium",
+    "Friction: Blocks, Inclines, Ladders and Wedges",
+    "Centroid and Centre of Gravity",
+    "Work–Energy, Impulse and Impact",
+    "Kinetics: Newton's Laws, D'Alembert, Pulleys",
+    "Plane Trusses"
+  ],
+  "likelyQuestions": [
+    "For the given acceleration–velocity relation, find the time and distance to reach the given speed.",
+    "Find the angular velocity/displacement of the given rotating wheel or disk and the velocity/acceleration of a point on it.",
+    "Find the magnitude and direction of the resultant of the given concurrent forces; reduce the given parallel force system to a single force / force–couple system.",
+    "Determine whether the given block slips and the friction force; find the inclination and cord tension for the two bodies on an incline about to slide.",
+    "Locate the centroid of the given composite lamina (Z/C/T section, plate with hole); derive the centroid of a triangle and semicircle.",
+    "State the work–energy principle; find the bullet's exit velocity and resistance for the given wood block.",
+    "Find the acceleration and tension for the given connected blocks over pulleys / on a rough plane.",
+    "Find the forces in the given truss members using the method of joints or sections.",
+    "Find the moment of inertia of the given section about its centroidal axes; derive I of a triangle/semicircle.",
+    "Find the tangential and normal accelerations / radius of curvature for the given car on a curve, dip or hump."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Basic Electrical Engineering / Engineering Mechanics - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Basic Electrical Engineering / Engineering Mechanics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

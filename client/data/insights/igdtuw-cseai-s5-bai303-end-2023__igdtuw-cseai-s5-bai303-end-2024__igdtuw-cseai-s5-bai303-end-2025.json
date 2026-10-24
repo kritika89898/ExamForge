@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-end-2023",
+    "igdtuw-cseai-s5-bai303-end-2024",
+    "igdtuw-cseai-s5-bai303-end-2025"
+  ],
+  "importantTopics": [
+    "Defence Models, Access Control, Risk Management and Cyber Law",
+    "Cyber Crime, Cyber Terrorism and the Dark Web",
+    "Phishing and Social Engineering",
+    "Hash Functions, MAC and Digital Signatures",
+    "Password Attacks, Identity Theft and Financial Fraud",
+    "Secure Protocols: SSL/TLS, IPSec, SSH and VPN",
+    "DoS/DDoS, Session Hijacking, MITM and Spoofing",
+    "Wireless, Mobile, Cloud and Social Network Security"
+  ],
+  "likelyQuestions": [
+    "Compare the lollipop and onion models of defence; explain access control, NAC and intrusion detection.",
+    "What is cyber crime? Classify cyber crimes and compare cyber warfare, cyber terrorism and hacktivism.",
+    "Discuss the types of phishing (spear phishing, whaling, pharming, smishing, vishing) and prevention techniques.",
+    "What are hash functions? Explain their properties and the role of SHA (vs MD5) in integrity and digital signatures.",
+    "Explain the types of password attacks (including rainbow tables) and countermeasures; differentiate password guessing and cracking.",
+    "Explain SSL/TLS, its handshake and how it secures e-commerce; compare SSL/TLS, IPSec and SSH.",
+    "Explain the levels of denial-of-service attacks, the difference between DoS and DDoS, and their countermeasures.",
+    "Explain Wi-Fi security, the significance of SSID and measures for secure Wi-Fi; discuss security in laptops and smartphones.",
+    "What is the CIA triad? Explain the goals of cyber security and the classification of security threats.",
+    "Explain the different types of malware (worms, ransomware, backdoors) with their attack methods, impact and defences."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Cyber Security - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

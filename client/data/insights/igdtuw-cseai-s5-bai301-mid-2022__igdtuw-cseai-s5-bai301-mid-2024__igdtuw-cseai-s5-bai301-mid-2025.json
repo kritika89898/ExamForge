@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-mid-2022",
+    "igdtuw-cseai-s5-bai301-mid-2024",
+    "igdtuw-cseai-s5-bai301-mid-2025"
+  ],
+  "importantTopics": [
+    "Linear Regression and Regularization (Ridge, LASSO)",
+    "Evaluation Metrics: Confusion Matrix, ROC and AUC",
+    "Support Vector Machines and Kernels",
+    "k-Nearest Neighbours",
+    "Data Pre-processing, EDA and Feature Engineering",
+    "Validation: Train-Test Split and K-Fold Cross-Validation",
+    "Decision Trees (ID3, CART, Gini)",
+    "Naive Bayes Classifier"
+  ],
+  "likelyQuestions": [
+    "Fit a least-squares regression line to the given points and calculate R².",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1 score.",
+    "Explain the working of SVM, the maximum-margin hyperplane and the significance of the margin.",
+    "Classify the new point using KNN with k = 3 and Euclidean distance for the given dataset.",
+    "Discuss data exploration and pre-processing: data cleaning, integration, handling missing values and outliers, and feature extraction.",
+    "Explain k-fold cross-validation; for the given dataset size, find the training and test samples per fold for 5-fold and stratified k-fold CV.",
+    "Using the Gini index (or information gain), choose the root node and build a decision tree for the given dataset.",
+    "Using the given COVID-19 symptom dataset, build a naive Bayes model and compute the required probabilities.",
+    "Explain logistic regression and how it is used for binary classification; how does the cut-off change along the ROC curve?",
+    "Compare Ridge and LASSO regression; explain regularization and the bias–variance trade-off."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Machine Learning - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

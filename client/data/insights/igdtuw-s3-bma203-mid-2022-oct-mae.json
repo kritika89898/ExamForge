@@ -1,0 +1,28 @@
+{
+  "subjectCode": "BMA 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bma203-mid-2022-oct-mae"
+  ],
+  "importantTopics": [
+    "Simple Stress and Strain, Elastic Constants",
+    "Shear Force and Bending Moment Diagrams",
+    "Principal Stresses and Mohr's Circle"
+  ],
+  "likelyQuestions": [
+    "Find the stresses and total elongation of the given stepped/composite bar under load; find the elongation of a uniformly tapered bar.",
+    "Draw the SFD and BMD for the given beam and locate the maximum bending moment and point of contraflexure.",
+    "For the given principal stresses, find the normal, shear and resultant stress on the given inclined plane and the maximum shear stress.",
+    "Explain the stress–strain curve for mild steel, Hooke's law, Poisson's ratio and factor of safety; prove E = 3K(1−2ν).",
+    "Establish the SF–BM–load relationships and draw SF/BM for a varying distributed load.",
+    "Find the maximum shear stress for the given stress tensor; define principal planes."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Strength of Materials - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 103 (EW)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bec103ew-mid-2025-oct-ece-eceai"
+  ],
+  "importantTopics": [
+    "Rectifiers and Zener Circuits",
+    "Semiconductors and Diodes",
+    "Measuring Instruments and Errors",
+    "BJT Construction, Configurations and Characteristics",
+    "Transistor Biasing and Stabilisation"
+  ],
+  "likelyQuestions": [
+    "Explain the working of a full-wave bridge rectifier with a diagram.",
+    "Find the forward current of the given silicon diode using the diode equation.",
+    "Explain the characteristics of measuring instruments, absolute vs secondary instruments, and types of measurement errors.",
+    "Explain the construction, operation and characteristics of a BJT in CE configuration.",
+    "For the given voltage-divider bias circuit, find VB, VE, IC and VCE; find the Q-point and draw the DC load line.",
+    "For the given Zener circuit, find the output voltage, drop across the series resistor and Zener current.",
+    "Draw and explain the V–I characteristics of a PN diode; find the conductance of the given n-type semiconductor.",
+    "Write notes on the electrodynamometer wattmeter and vector voltmeter; what sets the accuracy of frequency measurement?",
+    "Derive the relation between α and β; define cut-off and saturation and the transistor operating modes.",
+    "Explain the need for bias stabilisation and derive the stability factors with respect to ICO, VBE and β."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Electronics Workshop - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

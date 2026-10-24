@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-mid-2022",
+    "igdtuw-cseai-s4-bcs204-mid-2024"
+  ],
+  "importantTopics": [
+    "Divide and Conquer: Sorting, Searching, Strassen",
+    "Greedy: Activity Selection, Fractional Knapsack, Scheduling",
+    "Recurrence Relations: Master Theorem and Recursion Tree",
+    "Asymptotic Analysis and Loop Complexity",
+    "Dynamic Programming: Matrix Chain, LCS, OBST, 0/1 Knapsack",
+    "Huffman Coding"
+  ],
+  "likelyQuestions": [
+    "Apply Strassen's algorithm to the given matrices and analyse its complexity.",
+    "Compute a schedule with the maximum number of activities for the given start and finish times.",
+    "Solve the recurrences T(n) = 2T(√n) + log n and T(n) = 4T(n/2) + n²√n.",
+    "Discuss Big-O and Big-Omega notations and prove that ½n(n−1) = O(n²) by finding c and n₀.",
+    "Find an optimal parenthesisation of the matrix-chain product with the given dimensions.",
+    "Construct the Huffman tree for the given characters and frequencies and calculate the total bits needed.",
+    "Design an O(log n) divide-and-conquer algorithm for the given search problem (index with T[i] = i / minimum of a decreasing-then-increasing array / missing term); analyse quick sort best and worst cases.",
+    "Solve the given knapsack instance with the greedy method; design a greedy algorithm to place songs on CDs or programs on a disk.",
+    "Solve T(n) = T(n/5) + T(4n/5) + n using the recursion tree method; compare algorithms A, B and C given by their recurrences.",
+    "Work out the time complexity of the given nested loops; which of the two given algorithms is better in the Big-O sense?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BEC 101 (BEEE)",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bec101beee-end-2024-dec-cse-it-mae"
+  ],
+  "importantTopics": [
+    "BJT, MOSFET and Thyristors",
+    "Network Theorems: Superposition, Thevenin, Maximum Power Transfer",
+    "Resonance in RLC Circuits",
+    "Semiconductors and PN Junction Diodes",
+    "Zener Regulator",
+    "AC Fundamentals and Power",
+    "DC Circuits: Kirchhoff's Laws and Sources"
+  ],
+  "likelyQuestions": [
+    "Explain the current components of a PNP transistor and solve the given CB/CE current problem.",
+    "Find the voltage across the given resistor using superposition; why can't power be found by superposition directly?",
+    "Derive the resonant frequency, impedance, current and Q-factor of a series RLC circuit with a phasor diagram.",
+    "Draw the energy bands of intrinsic and extrinsic silicon; explain depletion layer formation.",
+    "For the given Zener regulator, find the range of RL that keeps VL at 10 V.",
+    "Prove that the RMS value of Vm sin ωt is Vm/√2 and that power in a purely inductive/capacitive circuit is zero.",
+    "Explain Kirchhoff's current and voltage laws.",
+    "Explain the operation and characteristics of an n-channel enhancement MOSFET; distinguish holding and latching current.",
+    "Find the Thevenin equivalent across AB, the load for maximum power transfer and the maximum power.",
+    "For the given coil and capacitor, find the resonant frequency, current and Q-factor; derive the resonance condition for parallel R-L and R-C branches."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Basics of Electrical and Electronics Engineering - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

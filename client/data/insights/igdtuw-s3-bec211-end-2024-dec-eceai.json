@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BEC 211",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec211-end-2024-dec-eceai"
+  ],
+  "importantTopics": [
+    "FM Generation and Detection",
+    "Random Processes",
+    "AM Generation and Detection: Square-Law, Balanced, Ring Modulators, Envelope Detector",
+    "Noise: Figure, Temperature and Figure of Merit",
+    "Random Variables and Probability",
+    "SSB, VSB and Superheterodyne Receiver",
+    "Amplitude Modulation and Power"
+  ],
+  "likelyQuestions": [
+    "For the given Armstrong transmitter, find the second multiplier, LO frequency and Carson bandwidths.",
+    "Differentiate SSS and WSS processes; prove Y(t) = X(t)cos(ω₀t + θ) is WSS.",
+    "Explain AM generation using a square-law modulator; explain DSB-SC generation with balanced/ring modulators.",
+    "Find the effective noise temperature and operating noise figure for the given amplifier; find the thermal noise of the given resistors.",
+    "Find the second moment of X and the mean of Y = −6X + 22; find the pdf of Z = X + Y for the given independent variables.",
+    "Describe SSB generation by the phase discrimination method; compare SSB-SC, DSB-SC and VSB.",
+    "Find the modulation index and sideband amplitudes for the given AM wave; find the power saving when carrier and one sideband are suppressed.",
+    "Explain direct FM generation, the balanced slope discriminator and the ratio detector vs Foster–Seeley; explain capture and threshold effects.",
+    "Find the mean output of the given LTI system for a stationary input; prove |Rxy(τ)| ≤ √(Rxx(0)Ryy(0)).",
+    "Derive the envelope-detector condition to avoid diagonal clipping; analyse the given square-law demodulator."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Communication Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

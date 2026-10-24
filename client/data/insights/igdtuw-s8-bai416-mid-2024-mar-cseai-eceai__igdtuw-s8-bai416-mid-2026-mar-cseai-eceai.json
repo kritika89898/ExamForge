@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BAI 416",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s8-bai416-mid-2024-mar-cseai-eceai",
+    "igdtuw-s8-bai416-mid-2026-mar-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Medical Imaging and Disease Detection",
+    "Clinical Decision Support Systems",
+    "Healthcare Data: Types, Sourcing, Enrichment and Pre-processing",
+    "AI in Healthcare: Evolution, Types, Benefits and Trends",
+    "Healthcare Data Analysis Workflow",
+    "Predictive Modelling and Model Evaluation",
+    "Ethics, Bias and Geographic/Demographic Variation"
+  ],
+  "likelyQuestions": [
+    "How can AI be used in medical imaging to advance precision medicine? Explain segmentation vs classification for early disease detection.",
+    "What is a CDSS? Describe its types and how AI enhances it; are CDSS life-critical systems?",
+    "Differentiate structured and unstructured healthcare data and time-series vs non-time-series data, with examples.",
+    "Define AI in healthcare and discuss its historical evolution and key milestones.",
+    "Describe the workflow of a healthcare data analysis project from data collection to deployment.",
+    "Describe the process of developing a predictive model for patient risk assessment and common techniques.",
+    "Discuss the ethical guidelines and dilemmas in AI-driven diagnosis and CDSS, including bias and patient safety.",
+    "Explain disease detection with tabular medical data using ML techniques, and the challenges of using deep networks in healthcare.",
+    "What factors affect CDSS implementation and what are its known weaknesses and real-world challenges?",
+    "Why is data pre-processing the most critical step in healthcare AI? Explain data cleaning, enrichment and the challenges of data sourcing."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "AI in Healthcare - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "AI in Healthcare - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

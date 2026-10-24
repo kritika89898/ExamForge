@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec204-end-2024-may-ece"
+  ],
+  "importantTopics": [
+    "VHDL Modelling and Synthesis",
+    "Finite State Machines: Mealy and Moore",
+    "State Reduction and Asynchronous Sequential Circuits",
+    "Latches, Flip-Flops and Excitation Tables",
+    "Programmable Logic: ROM, PLA, PAL"
+  ],
+  "likelyQuestions": [
+    "Write VHDL code for a full subtractor and a 4×1 MUX in dataflow and behavioural styles.",
+    "Differentiate Mealy and Moore machines; draw the state diagram and tables for the 1010 sequence detector.",
+    "Explain the steps to reduce flow tables of completely and incompletely specified machines.",
+    "Draw the NOR-gate RS latch and the edge-triggered RS flip-flop with truth tables; differentiate level and edge triggering.",
+    "Differentiate ROM, PLA and PAL.",
+    "Explain delay mechanisms, library and entity, data types/objects, test benches, design for testability and RTL vs behavioural synthesis.",
+    "List the capabilities and limitations of FSMs; explain the transition matrix and secondary state assignment.",
+    "Explain races and hazards in asynchronous machines and how to avoid them; compare pulse mode and fundamental mode.",
+    "Give the excitation tables and state diagrams of D, T, SR and JK flip-flops.",
+    "Implement the given functions using a PLA."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital System Design - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

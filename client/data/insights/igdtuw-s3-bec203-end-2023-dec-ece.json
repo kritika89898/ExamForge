@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec203-end-2023-dec-ece"
+  ],
+  "importantTopics": [
+    "Signal Classification and Waveform Sketching",
+    "Sampling, Aliasing and Laplace Transform",
+    "Fourier Transform and its Properties",
+    "Phase, Group Delay and All-Pass Systems",
+    "System Properties"
+  ],
+  "likelyQuestions": [
+    "Differentiate even/odd and continuous/discrete signals; check whether the given signals are periodic.",
+    "Explain sampling, interpolation and aliasing.",
+    "Find the Fourier transform of t e^{−at}u(t) / cos(ω₀t)u(t).",
+    "Explain group delay and phase delay; differentiate linear and non-linear phase.",
+    "Check whether the given systems are static/dynamic, causal/non-causal, linear and time-invariant.",
+    "Sketch the given step/ramp signals such as u(t−2), u(−2t+1) and u(t)−2u(t−1)+u(t−3); describe the properties of periodic signals.",
+    "Find the Laplace transform and ROC of the given signal; state the ROC properties.",
+    "Prove the linearity, time-shifting, frequency-shifting and time-reversal properties; explain Parseval's theorem.",
+    "What is an all-pass system? Explain with diagrams; draw ideal LPF, HPF and BPF characteristics.",
+    "Explain homogeneity, superposition and BIBO stability; describe the properties of LTI systems."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Signals and Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

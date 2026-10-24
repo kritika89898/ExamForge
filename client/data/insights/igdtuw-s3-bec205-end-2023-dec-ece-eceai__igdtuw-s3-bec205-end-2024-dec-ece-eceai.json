@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BEC 205",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec205-end-2023-dec-ece-eceai",
+    "igdtuw-s3-bec205-end-2024-dec-ece-eceai"
+  ],
+  "importantTopics": [
+    "Two-Port Networks: Z, Y, h and ABCD Parameters",
+    "Network Synthesis: Positive Real Functions, Foster and Cauer Forms",
+    "Mesh and Nodal Analysis",
+    "Network Theorems",
+    "Transient Response of RL, RC and RLC Circuits",
+    "Circuit Basics: KCL/KVL, Source Transformation, Star–Delta",
+    "Laplace Transform in Circuit Analysis",
+    "Network Graph Theory"
+  ],
+  "likelyQuestions": [
+    "Find the h/T parameters of the given network; derive h-parameters in terms of Z-parameters.",
+    "What is a positive real function? State the conditions for driving-point functions and the restrictions on poles and zeros.",
+    "Using nodal analysis, find all branch currents / the power in the 4 Ω resistor of the given network.",
+    "Find the current through the 10 Ω resistor using superposition, Thevenin's and Norton's theorems; give Millman's Vth and Rth.",
+    "Find i(0⁺), di/dt(0⁺) and i(t) for the given RLC circuit after the switch operates.",
+    "State KCL and KVL; derive the current division rule and explain source transformation with an example.",
+    "Using Laplace transforms, find i(t) for the given RLC circuit with sinusoidal input / RL circuit with a pulse.",
+    "What is graph theory? Draw the graph of the given network and write its incidence matrix.",
+    "Derive the symmetry and reciprocity conditions; show that H = H₁ + H₂ for series–parallel connection and give the cascade parameters.",
+    "Synthesise the given LC impedance in Foster I/II and Cauer I/II forms."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,34 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2025"
+  ],
+  "importantTopics": [
+    "Hazard, Disaster, Risk, Vulnerability and Resilience",
+    "Disaster Management Cycle: Pre-Disaster Stage",
+    "Earthquakes and Tsunamis",
+    "Cyclones, Floods, Landslides and Other Hazards",
+    "Types of Disasters: Natural and Man-Made"
+  ],
+  "likelyQuestions": [
+    "Define hazard, risk, vulnerability and resilience. How is a hazard different from a disaster?",
+    "Explain preparedness, mitigation and prevention in the pre-disaster stage with examples.",
+    "What is an earthquake? Explain its causes and the pre- and post-disaster management steps (relief and recovery).",
+    "What are tropical cyclones? Explain their causes and preparedness steps.",
+    "Differentiate between natural and man-made disasters and categorise disasters by causative factors with examples.",
+    "What is risk and how is it related to hazard and vulnerability? Discuss the factors affecting vulnerability and strategies for risk reduction.",
+    "Discuss the disaster management cycle and a disaster preparedness plan.",
+    "What is a tsunami? Explain its causes, management steps, the 2004 Indian Ocean tsunami and the Indian Tsunami Early Warning System.",
+    "Explain the causes, effects and management of landslides and floods; discuss hazards from volcanic eruptions and soil erosion.",
+    "Name the natural and man-made disasters and the parts of India vulnerable to each."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

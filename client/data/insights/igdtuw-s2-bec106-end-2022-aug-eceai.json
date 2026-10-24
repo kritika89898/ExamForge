@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BEC 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bec106-end-2022-aug-eceai"
+  ],
+  "importantTopics": [
+    "DTFT and Frequency Response",
+    "Signal Classification and Basic Operations",
+    "Convolution and LTI Response",
+    "Fourier Series",
+    "Continuous-Time Fourier Transform",
+    "Sampling Theorem and Aliasing",
+    "Z-Transform and ROC",
+    "System Properties: Linearity, Time-Invariance, Stability"
+  ],
+  "likelyQuestions": [
+    "Using the DTFT convolution property, find y(n) for the given x(n) and h(n); find the DTFT of the given sequence.",
+    "Classify continuous-time signals; distinguish deterministic and random signals and check periodicity of the given signals.",
+    "Perform the linear convolution of the given sequences graphically; state three properties of convolution.",
+    "Find the exponential and trigonometric Fourier series of the unit impulse train / half-wave rectified sine wave.",
+    "Find the Fourier transform of the given signals; state the Dirichlet conditions and two FT properties with proof; explain Parseval's theorem.",
+    "State and prove the sampling theorem; when does aliasing occur and how is it avoided?",
+    "Find the Z-transform and ROC of the given sequence; state four properties of the ROC.",
+    "Check whether the given system is linear / time-invariant and comment on its stability.",
+    "Find the frequency, magnitude and phase response of the given system; differentiate phase delay and group delay; state the DTFT modulation theorem.",
+    "Explain the basic operations on signals; sketch the given step/ramp waveforms and find the even and odd components of the given signal."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Signals and Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

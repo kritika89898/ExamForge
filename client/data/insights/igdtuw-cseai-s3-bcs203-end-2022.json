@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs203-end-2022"
+  ],
+  "importantTopics": [
+    "Rules of Inference and Proof Techniques",
+    "Groups, Subgroups and Lagrange's Theorem",
+    "Rings and Fields",
+    "Graphs: Euler and Hamiltonian Paths, Isomorphism",
+    "Planar Graphs, Colouring and Spanning Trees",
+    "Posets, Hasse Diagrams and Lattices",
+    "Functions, Countability and Recurrence Relations",
+    "Propositional Logic, Tautologies and Equivalence"
+  ],
+  "likelyQuestions": [
+    "Using rules of inference, show that the given premises lead to the given conclusion.",
+    "State and prove Lagrange's theorem; prove that every group of prime order is cyclic.",
+    "Define ring, field and cyclic group. Prove that (Z₅, +₅, ×₅) is a field.",
+    "Examine whether the given graph has an Euler path/circuit and a Hamiltonian path/circuit.",
+    "State and prove Euler's formula V − E + R = 2 for connected planar graphs.",
+    "Construct the Hasse diagram of the poset ({1,2,3,4,6,8,12,24}, |) and find its maximal, minimal, greatest and least elements and bounds of {1,2,3}.",
+    "Is the function f(x) = (x − 2)/(x − 3) from R − {3} to R − {1} one-one and onto? Find compositions f∘g and g∘f.",
+    "Identify whether the given proposition is a tautology, contingency or contradiction; which of the given Boolean expressions are not tautologies?",
+    "Translate 'Not all that glitters is gold' and 'Some boys are taller than all the girls' into predicate logic.",
+    "Show that 'x R y iff x − y is divisible by 3' (congruence modulo m) is an equivalence relation."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Discrete Structures - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

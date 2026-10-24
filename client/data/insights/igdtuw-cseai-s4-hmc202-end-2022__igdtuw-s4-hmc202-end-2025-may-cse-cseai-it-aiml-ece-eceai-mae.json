@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2022",
+    "igdtuw-s4-hmc202-end-2025-may-cse-cseai-it-aiml-ece-eceai-mae"
+  ],
+  "importantTopics": [
+    "Institutional Framework: DM Act 2005, NDMA and UN Agencies",
+    "Technology: GIS, Remote Sensing, GPS and NavIC",
+    "ICT, Mobile Technology and Drones",
+    "Types of Disasters: Natural and Man-Made",
+    "Earthquakes and Tsunamis",
+    "Disaster Management Cycle: Pre-Disaster Stage",
+    "Hazard, Disaster, Risk, Vulnerability and Resilience",
+    "Post-Disaster Stage: Relief, Rehabilitation, Reconstruction"
+  ],
+  "likelyQuestions": [
+    "Discuss the Disaster Management Act 2005 and its main provisions.",
+    "What is remote sensing? Discuss the use of GIS and remote sensing in disaster management.",
+    "Discuss the use of ICT and mobile technology in disaster risk reduction and preparedness.",
+    "Differentiate between natural and man-made disasters and categorise disasters by causative factors with examples.",
+    "What is an earthquake? Explain its causes and the pre- and post-disaster management steps (relief and recovery).",
+    "Explain preparedness, mitigation and prevention in the pre-disaster stage with examples.",
+    "Define hazard, risk, vulnerability and resilience. How is a hazard different from a disaster?",
+    "Explain the post-disaster stage with its components: relief, rehabilitation and reconstruction.",
+    "What are tropical cyclones? Explain their causes and preparedness steps.",
+    "What is a search and rescue operation? Explain one-person and two-person rescue methods."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

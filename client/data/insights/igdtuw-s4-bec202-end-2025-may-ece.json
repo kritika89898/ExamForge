@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BEC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec202-end-2025-may-ece"
+  ],
+  "importantTopics": [
+    "Comparators, Multivibrators and Waveform Generators",
+    "Op-Amp Parameters: Offset, CMRR, Slew Rate, Drift",
+    "Linear Applications: Integrator, Differentiator, Log Amplifier, Precision Rectifier",
+    "Active Filters",
+    "Power Amplifiers and OTA",
+    "555 Timer and Phase-Locked Loop",
+    "Op-Amp Internal Structure and Basic Concepts"
+  ],
+  "likelyQuestions": [
+    "List comparator types with waveforms and define hysteresis width.",
+    "Explain input offset voltage/current, bias current, total output offset, CMRR, SVRR, output swing and slew rate.",
+    "Draw an integrator/differentiator and give its output for sine, step and square inputs; design a differentiator for the given fmax.",
+    "Design a first-order wide band-pass filter / fifth-order Butterworth low-pass filter for the given specifications.",
+    "Explain the Class A push-pull amplifier, crossover distortion and Class A efficiency.",
+    "Explain the 555 timer in monostable mode with its functional diagram and waveforms.",
+    "Draw the internal block diagram of an op-amp and explain each stage; why is an emitter follower used there?",
+    "Explain the op-amp astable/monostable multivibrator and triangular-wave generator and derive their frequency / pulse width; explain the RC phase-shift oscillator and Barkhausen criterion.",
+    "Find the slew rate for the given output change; explain thermal drift and methods to improve CMRR.",
+    "Explain the logarithmic amplifier and the precision full-wave rectifier with circuits and waveforms."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Linear Integrated Circuits - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

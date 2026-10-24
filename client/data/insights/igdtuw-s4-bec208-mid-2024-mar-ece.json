@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 208",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bec208-mid-2024-mar-ece"
+  ],
+  "importantTopics": [
+    "Amplitude Modulation: DSB, SSB, VSB",
+    "Random Processes: Stationarity, Ergodicity, ACF and PSD",
+    "Probability, CDF and PDF",
+    "Digital Communication System Block Diagram"
+  ],
+  "likelyQuestions": [
+    "Derive the total AM power in terms of carrier power and draw the single-tone AM spectrum.",
+    "Check whether X(t) = A cos(ω₀t + θ) is wide-sense stationary.",
+    "Plot the CDF and PDF for the number of heads when a coin is tossed twice; state the properties of the CDF.",
+    "Draw and explain the block diagram of a digital communication system.",
+    "Compare DSB-FC, DSB-SC, SSB-SC and VSB in bandwidth and power; explain under-, critical and over-modulation and the square-law modulator.",
+    "Explain ergodic processes and ensemble vs time averages; find ACF, PSD and power of the given signal.",
+    "Find all statistical averages of the given uniform density; find the relation between a and b for the given PDF.",
+    "Why are source and channel encoders needed? Name the two primary communication resources."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Communication Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bai201-end-2022",
+    "igdtuw-cseai-s3-bai201-end-2023"
+  ],
+  "importantTopics": [
+    "Uncertainty: Probability, Bayesian Networks and Fuzzy Logic",
+    "First-Order Logic, Clause Form and Resolution",
+    "Learning: Decision Trees, Entropy and Perceptrons",
+    "NLP: Bag of Words, TF-IDF and Word Embeddings",
+    "Expert Systems",
+    "Game Playing: Minimax",
+    "Heuristic Search: Best-First and A*",
+    "Intelligent Agents, PEAS and AI Applications"
+  ],
+  "likelyQuestions": [
+    "How do AI systems deal with uncertainty? Explain Bayesian belief networks and their applications.",
+    "Translate the given sentences (John likes all kinds of food...) into predicate logic, convert to clause form and prove 'John likes peanuts' using resolution.",
+    "Define entropy and information gain. Use the ID3 algorithm on the given dataset to find the best attribute for the first split.",
+    "What is NLP? Explain its components and any five applications.",
+    "What is an expert system? Explain its components and characteristics, and describe the MYCIN expert system.",
+    "Apply the minimax algorithm to the given game tree and find the backed-up values and the best move for MAX.",
+    "Explain A* search and prove its optimality. Find the most cost-effective path in the given graph using A*.",
+    "Explain the architecture and characteristics of an intelligent agent; define simple reflex and goal-based agents with PEAS descriptions.",
+    "For the given state space, list the order in which nodes are visited by BFS, depth-limited search (limit 3) and iterative deepening search.",
+    "Explain the water jug problem using state-space search and write its production rules."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Artificial Intelligence - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Artificial Intelligence - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

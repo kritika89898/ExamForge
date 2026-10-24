@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BIT 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bit304-end-2024-may-it"
+  ],
+  "importantTopics": [
+    "Virtualization, Hypervisors and Containers",
+    "Cloud Security, IAM and SLAs",
+    "Cloud Models: SPI vs Traditional IT, Cloud vs Grid, Web 3.0",
+    "Cloud Cube and Linthicum Models, Vendor Lock-in and Multi-tenancy",
+    "Cloud Services and Concepts (XaaS, Fog, Testing)",
+    "Cloud in Government and Education (Case Studies)"
+  ],
+  "likelyQuestions": [
+    "Differentiate Type-1 and Type-2 hypervisors and explain the virtualization reference model.",
+    "What is the role of IAM in cloud security? Explain 'role-per-group' and 'least privilege'.",
+    "Differentiate the SPI model of cloud computing from the traditional IT model with schematic illustrations.",
+    "Discuss the four dimensions of the Jericho Forum Cloud Cube model and the Linthicum deployment model.",
+    "Explain BPaaS, IDaaS, fog computing, cloud analytics and network virtualization.",
+    "Discuss MeghRaj, the Government of India's cloud initiative, and the architecture for an e-healthcare system.",
+    "Differentiate virtualization and containerization in terms of isolation, deployment, OS and storage; compare server, network, desktop and application virtualization.",
+    "Explain cloud information security objectives and design principles, and the significance and characteristics of SLAs.",
+    "Differentiate cloud and grid computing; analyse the benefits and limitations of distributed and decentralised computing in Web 3.0.",
+    "Discuss the vendor lock-in problem, data lock-in, data segregation and multi-tenant security in cloud computing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

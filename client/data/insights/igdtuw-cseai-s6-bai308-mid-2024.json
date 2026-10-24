@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 308",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai308-mid-2024"
+  ],
+  "importantTopics": [
+    "Virtualization, Hypervisors and VM Provisioning",
+    "Scalability, Migration, Serverless, Fog and Utility Computing",
+    "Cloud Security, Monitoring and Incident Response",
+    "Evolution, Trends, Benefits and Challenges of Cloud",
+    "Service Models: SaaS, PaaS, IaaS",
+    "Deployment Models: Public, Private, Hybrid, Community"
+  ],
+  "likelyQuestions": [
+    "Explain virtualization, virtual machines and hardware support for virtualization; differentiate full virtualization and paravirtualization.",
+    "What is dynamic scalability? Discuss its types; explain the need for and steps of cloud migration.",
+    "What are the security challenges in cloud computing at different levels? Discuss them from an organisational view.",
+    "Explain the trends in computing that led to cloud computing and the key milestones in its evolution.",
+    "Explain SaaS, PaaS and IaaS in detail with features, control and business applications; identify the model for Gmail, Google App Engine and Amazon EC2.",
+    "Explain the cloud deployment models and compare them on cost, security, scalability and control.",
+    "Discuss the properties of Type 2 hypervisors, the steps of VM provisioning and the features of a virtual infrastructure manager.",
+    "Write notes on serverless computing, fog computing, utility computing and web services.",
+    "Explain security monitoring and incident response in the cloud.",
+    "Discuss the benefits and challenges of cloud computing and its impact on modern IT infrastructure; compare cloud, grid and distributed computing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

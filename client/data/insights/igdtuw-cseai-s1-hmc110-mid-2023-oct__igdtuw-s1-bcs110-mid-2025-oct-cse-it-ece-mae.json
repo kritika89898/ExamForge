@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-hmc110-mid-2023-oct",
+    "igdtuw-s1-bcs110-mid-2025-oct-cse-it-ece-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Ethics, Plagiarism, Netiquette and Gender-Sensitive Language",
+    "7 Cs of Effective Communication",
+    "Barriers to Communication",
+    "Output Prediction (Code Tracing)",
+    "Listening Skills",
+    "Arrays and Matrices"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Discuss ethics in communication and plagiarism. What are the do's and don'ts of ethical communication?",
+    "Comment on the importance of the 7 Cs of effective communication with relevant examples.",
+    "Barriers can be minimised but not completely removed. Discuss intrapersonal barriers and suggest remedies to overcome them.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "What are the different types of listening? How is listening different from hearing? Discuss barriers to listening and their remedies.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Describe the process of communication. Why is the communication cycle incomplete without feedback?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Communication Skills - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Humanities and Social Science / Programming in C - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

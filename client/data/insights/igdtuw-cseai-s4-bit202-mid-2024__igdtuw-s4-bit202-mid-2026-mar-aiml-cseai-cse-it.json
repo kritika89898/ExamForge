@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2024",
+    "igdtuw-s4-bit202-mid-2026-mar-aiml-cseai-cse-it"
+  ],
+  "importantTopics": [
+    "Memory Management: Allocation, Paging, Segmentation",
+    "Processes, PCB, States and Context Switching",
+    "CPU Scheduling: FCFS, SJF, SRTF, Priority, Round Robin",
+    "Deadlocks and Banker's Algorithm",
+    "Virtual Memory and Page Replacement",
+    "Threads",
+    "Process Synchronization, Semaphores and Classical Problems"
+  ],
+  "likelyQuestions": [
+    "Explain contiguous allocation and fragmentation; allocate the given processes using first fit, best fit, worst fit and next fit.",
+    "Explain the process life cycle and process states with a diagram, and the contents of a PCB.",
+    "For the given processes, draw Gantt charts and calculate the average waiting and turnaround times under SJF, SRTF, round robin (q = 3) and priority scheduling.",
+    "Define deadlock and its four necessary conditions, and the methods of prevention, avoidance and detection.",
+    "For the given reference string and number of frames, find the page faults under FIFO, LRU and optimal page replacement.",
+    "How is a thread different from a process? Compare single-threaded and multithreaded processes with a diagram.",
+    "Define the critical section and its three requirements; when does a race condition arise?",
+    "For the given logical/physical address spaces and page size, compute address bits, pages, frames and page table size; explain segmentation with paging.",
+    "When does a context switch occur and what does the OS do? Explain long-, medium- and short-term schedulers.",
+    "Explain preemption in CPU scheduling and how it changes the average waiting time for the given process set."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

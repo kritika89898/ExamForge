@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022",
+    "igdtuw-cseai-s5-bcs303-mid-2024",
+    "igdtuw-cseai-s5-bcs303-mid-2025"
+  ],
+  "importantTopics": [
+    "DFA Design and Finite Automata Basics",
+    "Pumping Lemma and Properties of Regular Languages",
+    "NFA to DFA Conversion and DFA Minimization",
+    "Context-Free Grammars, Ambiguity and Simplification",
+    "Grammars, Chomsky Hierarchy and Derivations",
+    "Normal Forms: CNF and GNF",
+    "Pushdown Automata",
+    "Regular Expressions and Arden's Theorem"
+  ],
+  "likelyQuestions": [
+    "Design a DFA that accepts strings starting with 'aba' and ending with 'bb' (or the given language) and check the given strings.",
+    "State the pumping lemma for regular languages and prove that {aⁿbⁿ | n ≥ 1} is not regular.",
+    "Convert the given NFA (or ε-NFA) to an equivalent optimised DFA.",
+    "Construct a CFG for the given language (e.g., aⁿbⁿcᵐdᵐ or wwᴿ).",
+    "Explain the Chomsky hierarchy of grammars and languages with examples.",
+    "Convert the given context-free grammar into Chomsky normal form.",
+    "Design a PDA that accepts {aⁿb²ⁿ | n > 0} (or 0ⁿ1ⁿ) and show the instantaneous descriptions for the given string.",
+    "Obtain the regular expression for the given finite automaton using Arden's theorem.",
+    "How many tuples define a finite automaton? Differentiate DFA, NFA and ε-NFA and explain ε-closure.",
+    "Why is a*b* regular but aⁿbⁿ not? State the properties of regular languages and regular grammar."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

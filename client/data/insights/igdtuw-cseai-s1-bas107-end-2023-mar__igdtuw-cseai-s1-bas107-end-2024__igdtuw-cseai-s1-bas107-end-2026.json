@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2023-mar",
+    "igdtuw-cseai-s1-bas107-end-2024",
+    "igdtuw-cseai-s1-bas107-end-2026"
+  ],
+  "importantTopics": [
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Optical Fibres: NA, Acceptance Angle, Types",
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "EM Wave Propagation in Free Space and Dielectrics",
+    "Particle in a 1-D Infinite Potential Box",
+    "Maxwell's Equations and Displacement Current",
+    "Wave Function and Schrödinger Equation",
+    "Conducting Media and Skin Depth"
+  ],
+  "likelyQuestions": [
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Explain total internal reflection in an optical fibre and derive the numerical aperture and acceptance angle; calculate them for given core and cladding indices.",
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "Derive the EM wave equations in an isotropic dielectric medium and show that the wave speed is less than in vacuum; show that EM waves are transverse.",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "Derive the time-independent Schrödinger wave equation and state the properties of an acceptable wave function.",
+    "Discuss the propagation of EM waves in a conducting medium and derive the skin depth and impedance of a good conductor.",
+    "State Heisenberg's uncertainty principle and show that an electron cannot exist inside the nucleus.",
+    "State de Broglie's hypothesis and calculate the de Broglie wavelength of an electron accelerated through 100 V (or a proton/neutron of given energy)."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

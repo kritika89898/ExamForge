@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2022",
+    "igdtuw-cseai-s5-bai301-end-2024"
+  ],
+  "importantTopics": [
+    "Clustering: k-Means, Hierarchical and EM",
+    "Ensemble Learning: Bagging, Boosting, Random Forest",
+    "Validation: Train-Test Split and K-Fold Cross-Validation",
+    "Evaluation Metrics: Confusion Matrix, ROC and AUC",
+    "Linear Regression and Regularization (Ridge, LASSO)",
+    "Logistic Regression",
+    "ML Basics, ML Cycle and Supervised vs Unsupervised",
+    "Naive Bayes Classifier"
+  ],
+  "likelyQuestions": [
+    "Cluster the given points into k clusters using k-means with the given initial centroids, showing each iteration.",
+    "Contrast bagging and boosting; explain how Random Forest improves accuracy over a single decision tree.",
+    "Explain k-fold cross-validation; for the given dataset size, find the training and test samples per fold for 5-fold and stratified k-fold CV.",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1 score.",
+    "Fit a least-squares regression line to the given points and calculate R².",
+    "Explain logistic regression and how it is used for binary classification; how does the cut-off change along the ROC curve?",
+    "Explain the machine learning cycle with an example; compare supervised and unsupervised learning.",
+    "Using the given COVID-19 symptom dataset, build a naive Bayes model and compute the required probabilities.",
+    "Explain the working of SVM, the maximum-margin hyperplane and the significance of the margin.",
+    "Discuss data exploration and pre-processing: data cleaning, integration, handling missing values and outliers, and feature extraction."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

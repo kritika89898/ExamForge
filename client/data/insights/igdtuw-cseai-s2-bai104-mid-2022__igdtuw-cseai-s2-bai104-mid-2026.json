@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-mid-2022",
+    "igdtuw-cseai-s2-bai104-mid-2026"
+  ],
+  "importantTopics": [
+    "Data Cleaning, Missing Values and Outliers",
+    "Pandas Series and DataFrames",
+    "Data Science Process, Life Cycle and Applications",
+    "Data Wrangling: Combining, Merging and Filtering",
+    "NumPy Arrays, Indexing and Operations",
+    "Pandas Analysis: GroupBy, Filtering and Pivot",
+    "Data Ethics, Privacy and the C's of Data",
+    "Tableau: Calculated Fields, Filters and Pareto Charts"
+  ],
+  "likelyQuestions": [
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "Explain different ways of combining data from different sources, and the process of filtering and merging data.",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "Using the given HR/Superstore DataFrame, write Pandas code to group, filter and answer the given business questions.",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "Write a Tableau calculated field that labels orders as 'profit' or 'loss', and one to compute profit margin.",
+    "Find the outliers in the given dataset using the interquartile range (IQR), showing the steps.",
+    "Write the output of the given Pandas code snippets with explanation."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Introduction to Data Science - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-mid-2023"
+  ],
+  "importantTopics": [
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain",
+    "Green Chemistry and Atom Economy",
+    "Waste Water Treatment",
+    "Agriculture, Food Problems and Land Degradation",
+    "Natural Resources: Forests, Water, Minerals and Food"
+  ],
+  "likelyQuestions": [
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Explain the negative consequences of modern agriculture and differentiate its on-site and off-site impacts.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "Using Dulong's formula, calculate the HCV and LCV of the given coal and the minimum air required for complete combustion of 1 kg.",
+    "Explain the chemistry of photochemical smog and acid rain; describe two devices to control particulate emissions.",
+    "Calculate the atom economy of the desired product in the given reaction, and explain the green synthesis of adipic acid.",
+    "Discuss the removal of excess nutrients from waste water, and chlorination with break-point chlorination."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Environmental Science - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

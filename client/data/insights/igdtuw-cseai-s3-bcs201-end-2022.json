@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs201-end-2022"
+  ],
+  "importantTopics": [
+    "Arrays: Memory Representation and Algorithms",
+    "Graphs: Traversal, MST and Shortest Paths",
+    "Singly, Doubly and Circular Linked Lists",
+    "AVL Trees",
+    "B-Trees",
+    "Hashing and Collision Resolution",
+    "Queues and Circular Queues",
+    "Stacks and Expression Conversion"
+  ],
+  "likelyQuestions": [
+    "For a 2-D array stored from the given base address, find the address of A[i][j] in row-major and column-major order.",
+    "Find the minimum spanning tree of the given graph using Prim's and Kruskal's algorithms.",
+    "Write an algorithm to delete the kth element from the end of a singly linked list / print a linked list in reverse order.",
+    "Construct an AVL tree by inserting the given keys and then delete the given node, showing the rebalancing rotations.",
+    "Perform the given sequence of insertions and deletions on an initially empty B-tree of order 4.",
+    "What is hashing? Explain collision resolution techniques and build a hash table of size 10 for the given keys using chaining and linear probing.",
+    "Implement a queue using an array; what is the drawback of a linear queue and how does a circular queue solve it?",
+    "Convert the given infix expression to postfix and prefix using a stack, showing each step, and evaluate the postfix expression.",
+    "Find the preorder, inorder and postorder traversals of the given binary tree.",
+    "Write an algorithm to insert/delete an element in an array, count inversions, or find the second largest element, and analyse its complexity."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Data Structures - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

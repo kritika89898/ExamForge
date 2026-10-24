@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 416",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s8-bai416-end-2025-may-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Healthcare Data: Types, Sourcing, Enrichment and Pre-processing",
+    "Predictive Modelling and Model Evaluation",
+    "Ethics, Bias and Geographic/Demographic Variation",
+    "Patient Data Privacy: HIPAA and Data Protection",
+    "Healthcare Data Analysis Workflow",
+    "Medical Imaging and Disease Detection",
+    "AI in Healthcare: Evolution, Types, Benefits and Trends",
+    "Clinical Decision Support Systems"
+  ],
+  "likelyQuestions": [
+    "Differentiate structured and unstructured healthcare data and time-series vs non-time-series data, with examples.",
+    "Describe the process of developing a predictive model for patient risk assessment and common techniques.",
+    "Discuss the ethical guidelines and dilemmas in AI-driven diagnosis and CDSS, including bias and patient safety.",
+    "What is HIPAA compliance and why is it needed? How does it ensure privacy and security of patient data?",
+    "Describe the workflow of a healthcare data analysis project from data collection to deployment.",
+    "How can AI be used in medical imaging to advance precision medicine? Explain segmentation vs classification for early disease detection.",
+    "Define AI in healthcare and discuss its historical evolution and key milestones.",
+    "What is a CDSS? Describe its types and how AI enhances it; are CDSS life-critical systems?",
+    "What is an EHR? How does NLP extract value from EHRs and what specific NLP tasks are involved?",
+    "Why is data pre-processing the most critical step in healthcare AI? Explain data cleaning, enrichment and the challenges of data sourcing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "AI in Healthcare - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

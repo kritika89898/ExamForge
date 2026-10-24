@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2022",
+    "igdtuw-cseai-s1-bas107-end-2024"
+  ],
+  "importantTopics": [
+    "Maxwell's Equations and Displacement Current",
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Particle in a 1-D Infinite Potential Box",
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Fresnel Diffraction and Zone Plate",
+    "Poynting Theorem and Continuity Equation",
+    "Heisenberg Uncertainty Principle",
+    "Interference in Thin Films and Newton's Rings"
+  ],
+  "likelyQuestions": [
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Derive Fresnel diffraction at a straight edge for a line source and show the intensity in the illuminated and shadow regions.",
+    "State and prove the Poynting theorem and explain the physical significance of each term.",
+    "State Heisenberg's uncertainty principle and show that an electron cannot exist inside the nucleus.",
+    "Derive the conditions for constructive and destructive interference due to reflection from a thin film of thickness t and refractive index n. Why are reflected and transmitted fringes complementary?",
+    "State de Broglie's hypothesis and calculate the de Broglie wavelength of an electron accelerated through 100 V (or a proton/neutron of given energy).",
+    "Define accuracy, dead band, resolution, nonlinearity and repeatability of a sensor."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

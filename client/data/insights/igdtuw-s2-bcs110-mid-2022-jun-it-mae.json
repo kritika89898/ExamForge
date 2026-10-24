@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BCS 110 / HMC 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bcs110-mid-2022-jun-it-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Computer Fundamentals: Hardware, Memory, CPU, OS",
+    "Compilers, Interpreters, Algorithms and Flowcharts",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Structures, Unions and Storage Classes"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Explain the ALU and registers; differentiate main, secondary and cache memory and volatile vs non-volatile memory.",
+    "Differentiate compiler, interpreter and assembler with examples.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Differentiate structures and unions; write a program to store and print records of students/patients using an array of structures.",
+    "Evaluate the given expression showing operator precedence; explain logical, relational and ternary operators with examples.",
+    "What is an operating system? Write notes on batch, multiprogramming and time-sharing systems; convert the given storage units.",
+    "Write an algorithm and draw a flowchart to solve a quadratic equation / find the sum of digits of a number.",
+    "Differentiate break and continue, and while and do-while loops, with examples; write a program to check a leap year.",
+    "Explain the storage classes in C with examples; what is designated initialization of a structure?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming in C / Humanities and Social Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 202 (ACS)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec202acs-mid-2025-oct-ece-eceai"
+  ],
+  "importantTopics": [
+    "Amplitude Modulation: DSB, SSB, VSB and QAM",
+    "Probability and Random Variables",
+    "Fourier Analysis of Signals",
+    "Noise",
+    "AM Detection"
+  ],
+  "likelyQuestions": [
+    "Find the percentage power saving when the carrier and one sideband are suppressed for the given modulation depth.",
+    "Using the Poisson distribution, find the chance that more than 3 of 1000 people react badly to the given medicine.",
+    "Explain the properties of Fourier analysis of continuous and discrete signals.",
+    "Write short notes on thermal noise and white noise.",
+    "Explain the envelope detector with a block diagram.",
+    "Explain the phase-shift method of SSB generation, VSB transmission and QAM with block diagrams.",
+    "Define the expected value of a random variable; explain the uniform and Gaussian distributions.",
+    "Apply the Fourier properties to the given signal.",
+    "Explain the sources of noise in communication systems.",
+    "Discuss its limitations."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Analog Communication Systems - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

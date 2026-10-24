@@ -1,0 +1,36 @@
+{
+  "subjectCode": "HMC 302",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-hmc302-end-2026-may-cse-cseai-ece-eceai-aiml-mae"
+  ],
+  "importantTopics": [
+    "Controlling and Control Techniques",
+    "Organizing: Principles, Structure, Span of Control, Departmentation",
+    "Management: Concept, Nature, Levels and Skills",
+    "Evolution of Management Thought",
+    "Planning and MBO",
+    "Staffing",
+    "Directing: Motivation and Leadership"
+  ],
+  "likelyQuestions": [
+    "What is controlling? Explain its nature, scope, types and process, and the characteristics of an effective control system.",
+    "Define organizing and explain its principles, span of control and types of organization; design a structure for a growing start-up.",
+    "Explain the concept, nature, process and significance of management. Discuss the managerial levels and the skills required at each.",
+    "Critically compare the classical, neo-classical, behavioural, systems and contingency approaches to management.",
+    "What is planning? Explain its nature, objectives, types of plans and the planning process with an example.",
+    "Explain the concept, nature and importance of staffing and the steps in the staffing process.",
+    "Discuss the types of motivation (intrinsic vs extrinsic), the meaning of leadership and the traits of an effective leader.",
+    "Differentiate between traditional and modern control techniques and evaluate their usefulness.",
+    "What is matrix organization and when is it useful? Define departmentation and its forms; differentiate formal and informal organization.",
+    "Define management and mention its important characteristics."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Principles of Management - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

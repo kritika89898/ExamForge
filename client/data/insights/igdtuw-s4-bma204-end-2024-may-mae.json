@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BMA 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bma204-end-2024-may-mae"
+  ],
+  "importantTopics": [
+    "Gears and Gear Trains",
+    "Velocity Analysis and Instantaneous Centres",
+    "Cams and Followers",
+    "Balancing of Rotating Masses",
+    "Vibrations",
+    "Klein's Construction and Slider-Crank",
+    "Gyroscopic Effects",
+    "Inversions and Mechanisms: Quick-Return, Scotch Yoke, Oldham"
+  ],
+  "likelyQuestions": [
+    "Explain interference in gears with a diagram.",
+    "For the given four-bar mechanism, find the velocity of C and E and angular velocities of BC and CD.",
+    "Draw the cam profile for the given knife-edge follower with SHM rise and return and dwells.",
+    "Explain the graphical method of balancing four masses in one plane.",
+    "Find the natural frequencies of longitudinal and transverse vibration for the given shaft and disc/flywheel.",
+    "Explain Klein's construction for the slider-crank mechanism.",
+    "Find the gyroscopic couple on the given aeroplane making a half-circle turn and its effect.",
+    "Explain the Whitworth quick-return mechanism with a sketch.",
+    "State Grashof's law and check the given four-bar linkage; classify kinematic pairs.",
+    "Differentiate simple, compound, reverted and epicyclic gear trains; find the teeth numbers for the given reverted gear train."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Machines - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

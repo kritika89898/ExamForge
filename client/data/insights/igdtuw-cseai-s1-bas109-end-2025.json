@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-end-2025"
+  ],
+  "importantTopics": [
+    "Multiple Integrals and Change of Order",
+    "Vector Calculus: Line Integrals, Green's and Gauss Theorems",
+    "Eigenvalues, Eigenvectors and Special Matrices",
+    "Maxima, Minima and Lagrange Multipliers",
+    "Gradient, Divergence, Curl and Directional Derivatives",
+    "Partial Differentiation, Euler's Theorem and Jacobians",
+    "Limits, Continuity and Taylor Series in Two Variables",
+    "Systems of Linear Equations and Consistency"
+  ],
+  "likelyQuestions": [
+    "Change the order of integration in the given double integral and evaluate it.",
+    "State Green's theorem and use it to evaluate the given line integral.",
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "Test the given function f(x, y) for maxima and minima and find the extreme values.",
+    "Find the unit normal to the given surface at the given point and prove the given vector identity.",
+    "If u is homogeneous, use Euler's theorem to prove the given relation.",
+    "Test the given function f(x, y) for continuity at the origin; check whether fxy(0,0) = fyx(0,0).",
+    "For what values of λ and μ does the given system have (i) no solution, (ii) a unique solution, (iii) infinitely many solutions?",
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix.",
+    "Find the nth derivative of the given function."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

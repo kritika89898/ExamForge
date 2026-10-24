@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bit201-end-2024-dec-cse-it"
+  ],
+  "importantTopics": [
+    "SQL Queries",
+    "Functional Dependencies and Normalisation",
+    "Advanced Databases: Distributed, Multimedia, Object-Oriented",
+    "Keys and Integrity Constraints",
+    "ER Modelling and Mapping to Relations",
+    "Relational Algebra",
+    "Transactions, ACID and Serializability",
+    "Concurrency Control, Locking and Deadlocks"
+  ],
+  "likelyQuestions": [
+    "Write SQL queries on the given schema (flights/aircraft/employees, customer/vehicle/rental, employee/department).",
+    "For the given relation and FDs, find the closure, candidate keys and normalise to 2NF/3NF/BCNF.",
+    "Explain the framework of a distributed DBMS and fragmentation.",
+    "Differentiate super, candidate, primary, composite and alternate keys with examples.",
+    "Draw an ER diagram for the given scenario (music company / hospital / university academics / projects–clients) with all constraints.",
+    "Write relational algebra expressions for the given queries on the Sailors–Boats–Reserves / Customer–Vehicle–Rental schema.",
+    "Explain ACID properties and the transaction state diagram.",
+    "Explain two-phase locking and strict 2PL with benefits and drawbacks.",
+    "Explain the three-level schema architecture and logical/physical data independence.",
+    "Explain GROUP BY, views, DROP vs DELETE, COMMIT vs ROLLBACK, and inner vs outer join with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

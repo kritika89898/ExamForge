@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-hmc110-mid-2023-jan"
+  ],
+  "importantTopics": [
+    "Writing Skills: Paragraphs and Formal vs Informal Writing",
+    "Non-Verbal Communication: Kinesics, Proxemics, Paralanguage",
+    "7 Cs of Effective Communication",
+    "Barriers to Communication",
+    "Presentations",
+    "Communication Process and Feedback",
+    "Group Discussions and Interviews",
+    "Telephonic Communication"
+  ],
+  "likelyQuestions": [
+    "Discuss formal and informal writing styles and the characteristic features of informal writing.",
+    "'Kinesics is more powerful than words.' Justify with its sub-types and examples.",
+    "Comment on the importance of the 7 Cs of effective communication with relevant examples.",
+    "Barriers can be minimised but not completely removed. Discuss intrapersonal barriers and suggest remedies to overcome them.",
+    "What should a presenter keep in mind while delivering a presentation? Suggest ten tips and audience-engagement strategies.",
+    "Describe the process of communication. Why is the communication cycle incomplete without feedback?",
+    "Are group discussions merely a showcase of communication skills? Discuss the parameters on which participants are evaluated.",
+    "Suggest ten actionable steps to improve the quality of telephonic communication.",
+    "Rearrange the given sentences into a meaningful paragraph / write paragraphs underlining the topic and concluding sentences.",
+    "Explain proxemics and its zones, chronemics, and the role of paralanguage in communicating meaning beyond words."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Communication Skills - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

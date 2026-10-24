@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2022",
+    "igdtuw-cseai-s1-bas107-end-2023-dec",
+    "igdtuw-cseai-s1-bas107-end-2024"
+  ],
+  "importantTopics": [
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Particle in a 1-D Infinite Potential Box",
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Maxwell's Equations and Displacement Current",
+    "Poynting Theorem and Continuity Equation",
+    "Interference in Thin Films and Newton's Rings",
+    "Heisenberg Uncertainty Principle",
+    "Wave–Particle Duality and de Broglie Waves"
+  ],
+  "likelyQuestions": [
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "State and prove the Poynting theorem and explain the physical significance of each term.",
+    "Derive the conditions for constructive and destructive interference due to reflection from a thin film of thickness t and refractive index n. Why are reflected and transmitted fringes complementary?",
+    "State Heisenberg's uncertainty principle and show that an electron cannot exist inside the nucleus.",
+    "State de Broglie's hypothesis and calculate the de Broglie wavelength of an electron accelerated through 100 V (or a proton/neutron of given energy).",
+    "Explain total internal reflection in an optical fibre and derive the numerical aperture and acceptance angle; calculate them for given core and cladding indices.",
+    "Derive Fresnel diffraction at a straight edge for a line source and show the intensity in the illuminated and shadow regions."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

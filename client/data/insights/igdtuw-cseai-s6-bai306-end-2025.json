@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2025"
+  ],
+  "importantTopics": [
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering",
+    "Representation, Description and Object Recognition",
+    "Image Compression: Redundancy, Huffman and Run-Length",
+    "Morphological Image Processing",
+    "Point Operations and Intensity Transformations",
+    "Histogram Equalization and Matching",
+    "Colour Image Processing",
+    "Spatial Filtering: Smoothing, Sharpening and Edge Operators"
+  ],
+  "likelyQuestions": [
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Explain boundary and regional descriptors with examples; compute the 4-chain code of the given boundary; explain PCA for image description.",
+    "Construct Huffman codes for the given gray levels/probabilities and find the coding efficiency and compression ratio.",
+    "For the given binary image X and structuring element B, compute dilation, erosion, opening and closing.",
+    "Perform contrast stretching, thresholding, intensity-level slicing, negative and bit-plane slicing on the given image.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Explain the RGB, CMY and HSI colour models and pseudo-colour processing.",
+    "Apply 3×3 mean, Gaussian, median and Laplacian filters and the Sobel operator at the given pixel and compute the gradient magnitude.",
+    "Apply region growing (or region splitting and merging with a quad tree) to the given image with the given seed and threshold.",
+    "Explain the degradation/restoration model; compute the restored image using inverse and Wiener filtering for the given G(u,v), H(u,v) and noise spectra."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

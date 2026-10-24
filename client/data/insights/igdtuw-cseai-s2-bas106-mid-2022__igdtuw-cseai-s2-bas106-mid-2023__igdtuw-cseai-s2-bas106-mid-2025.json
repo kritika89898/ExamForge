@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-mid-2022",
+    "igdtuw-cseai-s2-bas106-mid-2023",
+    "igdtuw-cseai-s2-bas106-mid-2025"
+  ],
+  "importantTopics": [
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain",
+    "Green Chemistry and Atom Economy",
+    "Waste Water Treatment",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Hazardous and Solid Waste Management",
+    "Agriculture, Food Problems and Land Degradation",
+    "Water Quality: Hardness, Alkalinity, DO and COD"
+  ],
+  "likelyQuestions": [
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "Explain the negative consequences of modern agriculture and differentiate its on-site and off-site impacts.",
+    "Calculate the temporary, permanent and total hardness of the given water sample from EDTA titration data. Which buffer is used and why?",
+    "Discuss carbon dioxide sequestration (natural and artificial) along with the concept of carbon credits.",
+    "Explain the chemistry of photochemical smog and acid rain; describe two devices to control particulate emissions."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Environmental Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

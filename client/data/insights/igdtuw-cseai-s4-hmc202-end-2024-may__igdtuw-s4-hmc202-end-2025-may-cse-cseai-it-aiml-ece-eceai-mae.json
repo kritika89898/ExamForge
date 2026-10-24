@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-end-2024-may",
+    "igdtuw-s4-hmc202-end-2025-may-cse-cseai-it-aiml-ece-eceai-mae"
+  ],
+  "importantTopics": [
+    "Technology: GIS, Remote Sensing, GPS and NavIC",
+    "Search and Rescue, Fire and Evacuation Drills",
+    "Disaster Management Cycle: Pre-Disaster Stage",
+    "Institutional Framework: DM Act 2005, NDMA and UN Agencies",
+    "Earthquakes and Tsunamis",
+    "Hazard, Disaster, Risk, Vulnerability and Resilience",
+    "ICT, Mobile Technology and Drones",
+    "Post-Disaster Stage: Relief, Rehabilitation, Reconstruction"
+  ],
+  "likelyQuestions": [
+    "What is remote sensing? Discuss the use of GIS and remote sensing in disaster management.",
+    "What is a search and rescue operation? Explain one-person and two-person rescue methods.",
+    "Explain preparedness, mitigation and prevention in the pre-disaster stage with examples.",
+    "Discuss the Disaster Management Act 2005 and its main provisions.",
+    "What is an earthquake? Explain its causes and the pre- and post-disaster management steps (relief and recovery).",
+    "Define hazard, risk, vulnerability and resilience. How is a hazard different from a disaster?",
+    "Discuss the use of ICT and mobile technology in disaster risk reduction and preparedness.",
+    "Explain the post-disaster stage with its components: relief, rehabilitation and reconstruction.",
+    "Write short notes on the Bhopal gas tragedy and the Bhuj earthquake, with lessons learnt.",
+    "Differentiate between natural and man-made disasters and categorise disasters by causative factors with examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

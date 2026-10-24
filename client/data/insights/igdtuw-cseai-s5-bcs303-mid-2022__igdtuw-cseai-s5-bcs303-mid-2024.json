@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2022",
+    "igdtuw-cseai-s5-bcs303-mid-2024"
+  ],
+  "importantTopics": [
+    "Normal Forms: CNF and GNF",
+    "DFA Design and Finite Automata Basics",
+    "NFA to DFA Conversion and DFA Minimization",
+    "Pumping Lemma and Properties of Regular Languages",
+    "Regular Expressions and Arden's Theorem",
+    "Grammars, Chomsky Hierarchy and Derivations",
+    "Context-Free Grammars, Ambiguity and Simplification",
+    "Pushdown Automata"
+  ],
+  "likelyQuestions": [
+    "Convert the given context-free grammar into Chomsky normal form.",
+    "Design a DFA that accepts strings starting with 'aba' and ending with 'bb' (or the given language) and check the given strings.",
+    "Convert the given NFA (or ε-NFA) to an equivalent optimised DFA.",
+    "State the pumping lemma for regular languages and prove that {aⁿbⁿ | n ≥ 1} is not regular.",
+    "Obtain the regular expression for the given finite automaton using Arden's theorem.",
+    "Explain the Chomsky hierarchy of grammars and languages with examples.",
+    "Construct a CFG for the given language (e.g., aⁿbⁿcᵐdᵐ or wwᴿ).",
+    "Design a PDA that accepts {aⁿb²ⁿ | n > 0} (or 0ⁿ1ⁿ) and show the instantaneous descriptions for the given string.",
+    "What is Greibach normal form? Convert the given grammar to GNF and differentiate CNF and GNF.",
+    "How many tuples define a finite automaton? Differentiate DFA, NFA and ε-NFA and explain ε-closure."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

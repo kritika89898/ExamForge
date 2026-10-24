@@ -1,0 +1,44 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-mid-2023",
+    "igdtuw-cseai-s6-hmc306-mid-2024",
+    "igdtuw-cseai-s6-hmc306-mid-2025"
+  ],
+  "importantTopics": [
+    "Time Value of Money: Present Value, Annuities, Perpetuities",
+    "Cost of Capital and WACC",
+    "Capital Structure and Risk",
+    "Nature, Scope and Goals of Financial Management",
+    "Sources of Finance: Shares, Debentures and Bonds"
+  ],
+  "likelyQuestions": [
+    "Find the cash down payment for a house bought partly through equal annual instalments at the given rate using the given table values.",
+    "Explain the types of cost of capital: average vs marginal, future vs historical, explicit vs implicit, specific vs combined.",
+    "What is an optimum capital structure? Discuss the factors determining capital structure for a new start-up.",
+    "'Financial management is concerned with three major decisions.' Explain the investment, financing and dividend decisions and their inter-relationship.",
+    "What is an ordinary share and how does it differ from debentures? Highlight the features of preference shares.",
+    "Compute the present value of a perpetuity / the annual savings needed to accumulate a target sum; explain why individuals have a time preference for money.",
+    "Calculate the WACC for the given capital structure and tax rate; define the cost of equity and preference shares.",
+    "Differentiate business risk and financial risk; should a firm with high business risk use more debt?",
+    "Why is wealth maximisation a superior goal to profit maximisation? Is the modern approach an improvement over the traditional approach?",
+    "Explain long-term sources of finance and the difference between bonds and debentures."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Financial Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Financial Management - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Financial Management - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

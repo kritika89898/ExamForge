@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 416",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s8-bai416-mid-2026-mar-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Medical Imaging and Disease Detection",
+    "Healthcare Data: Types, Sourcing, Enrichment and Pre-processing",
+    "Clinical Decision Support Systems",
+    "AI in Healthcare: Evolution, Types, Benefits and Trends",
+    "Healthcare Data Analysis Workflow",
+    "Ethics, Bias and Geographic/Demographic Variation"
+  ],
+  "likelyQuestions": [
+    "How can AI be used in medical imaging to advance precision medicine? Explain segmentation vs classification for early disease detection.",
+    "Differentiate structured and unstructured healthcare data and time-series vs non-time-series data, with examples.",
+    "What is a CDSS? Describe its types and how AI enhances it; are CDSS life-critical systems?",
+    "Define AI in healthcare and discuss its historical evolution and key milestones.",
+    "Describe the workflow of a healthcare data analysis project from data collection to deployment.",
+    "Discuss the ethical guidelines and dilemmas in AI-driven diagnosis and CDSS, including bias and patient safety.",
+    "Explain disease detection with tabular medical data using ML techniques, and the challenges of using deep networks in healthcare.",
+    "Why is data pre-processing the most critical step in healthcare AI? Explain data cleaning, enrichment and the challenges of data sourcing.",
+    "What factors affect CDSS implementation and what are its known weaknesses and real-world challenges?",
+    "Explain the types of AI in healthcare and the jobs/benefits of AI; identify emerging trends such as AI-driven telemedicine and genomics."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "AI in Healthcare - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

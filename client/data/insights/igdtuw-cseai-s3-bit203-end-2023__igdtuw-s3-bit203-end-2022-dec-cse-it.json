@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-end-2023",
+    "igdtuw-s3-bit203-end-2022-dec-cse-it"
+  ],
+  "importantTopics": [
+    "Cost Estimation: Function Points and COCOMO",
+    "Project Management, Risk Management and Configuration",
+    "Data Flow Diagrams and Context Diagrams",
+    "Software Testing: CFG, Cyclomatic Complexity, Levels",
+    "Software Maintenance, Reverse Engineering and Legacy Systems",
+    "Prototyping vs Full Requirements Analysis Strategies",
+    "Software Design: Modularity, Coupling, Cohesion, Patterns",
+    "SRS, Traceability and Requirement Quality"
+  ],
+  "likelyQuestions": [
+    "Compute the function points for the given system with the given component complexities and adjustment factors.",
+    "You are managing a project that is behind schedule. How can renegotiating schedule, adding people or relaxing quality shorten it?",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw the CFG for the given program, calculate its cyclomatic complexity and identify independent paths with test cases.",
+    "Why is maintenance required after implementation? Describe the software maintenance activities and process.",
+    "For a hospital patient-planning system, discuss the pros and cons of thorough up-front analysis versus a pilot version. Which strategy do you favour?",
+    "Explain modularity in software design and the types of coupling; contrast coupling and cohesion.",
+    "What are the characteristics and goals of a good SRS? Why should requirements be numbered and traceable?",
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "Draw a use case diagram for an online food ordering system."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Software Engineering - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Software Engineering - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

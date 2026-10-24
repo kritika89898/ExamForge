@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-mid-2025"
+  ],
+  "importantTopics": [
+    "Data Types, Variables and Operators",
+    "Output Prediction (Code Tracing)",
+    "Conditional Statements and Loops",
+    "Pattern and Series Programs",
+    "Lists, Tuples and Sets",
+    "Dictionaries",
+    "NumPy Arrays"
+  ],
+  "likelyQuestions": [
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Write the output of the given code snippet with an explanation of each step.",
+    "Explain if, if-else and if-elif-else statements with a flow diagram and an example where if-elif-else is necessary.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain the different types of indexing of NumPy arrays with examples.",
+    "Discuss the built-in data types in Python and differentiate between mutable and immutable types.",
+    "Predict the output of the given loop/list-comprehension code and justify your answer.",
+    "Explain break, continue and pass statements with examples, and state when a while loop is preferred over a for loop."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

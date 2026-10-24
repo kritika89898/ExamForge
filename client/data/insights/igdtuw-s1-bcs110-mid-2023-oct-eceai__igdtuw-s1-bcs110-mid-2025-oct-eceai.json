@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BCS 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs110-mid-2023-oct-eceai",
+    "igdtuw-s1-bcs110-mid-2025-oct-eceai"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Output Prediction (Code Tracing)",
+    "Computer Fundamentals: Hardware, Memory, CPU, OS",
+    "Arrays and Matrices",
+    "Strings and String Functions",
+    "Compilers, Interpreters, Algorithms and Flowcharts"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "Explain the ALU and registers; differentiate main, secondary and cache memory and volatile vs non-volatile memory.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Differentiate compiler, interpreter and assembler with examples.",
+    "Evaluate the given expression showing operator precedence; explain logical, relational and ternary operators with examples.",
+    "Differentiate break and continue, and while and do-while loops, with examples; write a program to check a leap year.",
+    "Find the output of the given program using pointers / switch / loops and explain why."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Programming in C Language - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Programming in C Language - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

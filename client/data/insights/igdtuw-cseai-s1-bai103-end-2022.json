@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 103",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai103-end-2022"
+  ],
+  "importantTopics": [
+    "Decoders and Multiplexers",
+    "Computer Arithmetic: Multiplication Algorithms",
+    "I/O Organisation: Interrupts, DMA and Handshaking",
+    "Instruction Formats and Address Instructions",
+    "Boolean Algebra and De Morgan's Theorem",
+    "Parallel Processing and Pipelining",
+    "Memory Hierarchy, Cache and Associative Memory"
+  ],
+  "likelyQuestions": [
+    "Draw the logic diagram and truth table of a 2-to-4 decoder and build a 3×8 decoder from 2×4 decoders.",
+    "Draw the hardware and flowchart for multiplication of signed-magnitude data and multiply two given binary numbers step by step.",
+    "Explain handshaking and destination-initiated transfer with block diagrams.",
+    "Describe the types of instructions based on the address field. Evaluate X = (A+B)*(C+D) using three-, two-, one- and zero-address instructions.",
+    "Simplify the given Boolean expression using Boolean algebra and verify De Morgan's theorem for three variables with a truth table.",
+    "Explain parallel processing and array processors.",
+    "Explain the memory hierarchy, cache mapping techniques and associative (content-addressable) memory.",
+    "Draw the block diagram of a 4-to-1 multiplexer and implement f(A,B,C) = AB + BC + AC using a multiplexer.",
+    "Show the step-by-step multiplication of (+15) × (+13) using Booth's algorithm.",
+    "Explain the working of a DMA controller and the connection of the I/O bus to peripheral devices."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

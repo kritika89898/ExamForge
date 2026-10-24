@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BIT 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bit201-end-2023-dec-cse-it"
+  ],
+  "importantTopics": [
+    "Functional Dependencies and Normalisation",
+    "ER Modelling and Mapping to Relations",
+    "SQL Queries",
+    "Concurrency Control, Locking and Deadlocks",
+    "DBMS Concepts, Architecture and DBA",
+    "Transactions, ACID and Serializability"
+  ],
+  "likelyQuestions": [
+    "For the given relation and FDs, find the closure, candidate keys and normalise to 2NF/3NF/BCNF.",
+    "Draw an ER diagram for the given scenario (music company / hospital / university academics / projects–clients) with all constraints.",
+    "Write SQL queries on the given schema (flights/aircraft/employees, customer/vehicle/rental, employee/department).",
+    "Explain two-phase locking and strict 2PL with benefits and drawbacks.",
+    "Explain the three-level schema architecture and logical/physical data independence.",
+    "Explain ACID properties and the transaction state diagram.",
+    "Why is normalisation needed? Differentiate 3NF and BCNF; explain lossless-join decomposition and transitive dependency.",
+    "Differentiate strong and weak entity sets; explain specialisation/generalisation and ternary relationships; map the ER diagram to relations.",
+    "Explain GROUP BY, views, DROP vs DELETE, COMMIT vs ROLLBACK, and inner vs outer join with examples.",
+    "What is deadlock? Illustrate with three transactions and explain a prevention scheme."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

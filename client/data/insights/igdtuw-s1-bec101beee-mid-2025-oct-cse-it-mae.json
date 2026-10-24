@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 101 (BEEE)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bec101beee-mid-2025-oct-cse-it-mae"
+  ],
+  "importantTopics": [
+    "Network Theorems: Superposition, Thevenin, Maximum Power Transfer",
+    "Resonance in RLC Circuits",
+    "AC Fundamentals and Power",
+    "DC Circuits: Kirchhoff's Laws and Sources"
+  ],
+  "likelyQuestions": [
+    "Find the voltage across the given resistor using superposition; why can't power be found by superposition directly?",
+    "Derive the resonant frequency, impedance, current and Q-factor of a series RLC circuit with a phasor diagram.",
+    "Prove that the RMS value of Vm sin ωt is Vm/√2 and that power in a purely inductive/capacitive circuit is zero.",
+    "Explain Kirchhoff's current and voltage laws.",
+    "Find the Thevenin equivalent across AB, the load for maximum power transfer and the maximum power.",
+    "For the given coil and capacitor, find the resonant frequency, current and Q-factor; derive the resonance condition for parallel R-L and R-C branches.",
+    "Define active, reactive and apparent power and show them on the power triangle; find the total current and impedance of the given AC circuit.",
+    "Explain ideal and real voltage and current sources with equivalent circuits."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Basics of Electrical and Electronics Engineering - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BIT 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bit201-end-2022-dec-cse-it",
+    "igdtuw-s3-bit201-end-2023-dec-cse-it",
+    "igdtuw-s3-bit201-end-2024-dec-cse-it"
+  ],
+  "importantTopics": [
+    "Functional Dependencies and Normalisation",
+    "ER Modelling and Mapping to Relations",
+    "SQL Queries",
+    "Transactions, ACID and Serializability",
+    "Concurrency Control, Locking and Deadlocks",
+    "DBMS Concepts, Architecture and DBA",
+    "Relational Algebra",
+    "Advanced Databases: Distributed, Multimedia, Object-Oriented"
+  ],
+  "likelyQuestions": [
+    "For the given relation and FDs, find the closure, candidate keys and normalise to 2NF/3NF/BCNF.",
+    "Draw an ER diagram for the given scenario (music company / hospital / university academics / projects–clients) with all constraints.",
+    "Write SQL queries on the given schema (flights/aircraft/employees, customer/vehicle/rental, employee/department).",
+    "Explain ACID properties and the transaction state diagram.",
+    "Explain two-phase locking and strict 2PL with benefits and drawbacks.",
+    "Explain the three-level schema architecture and logical/physical data independence.",
+    "Write relational algebra expressions for the given queries on the Sailors–Boats–Reserves / Customer–Vehicle–Rental schema.",
+    "Explain the framework of a distributed DBMS and fragmentation.",
+    "Differentiate super, candidate, primary, composite and alternate keys with examples.",
+    "Why is normalisation needed? Differentiate 3NF and BCNF; explain lossless-join decomposition and transitive dependency."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Database Management Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

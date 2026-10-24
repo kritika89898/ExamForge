@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BAS 108",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas108-mid-2023",
+    "igdtuw-cseai-s2-bas108-mid-2024"
+  ],
+  "importantTopics": [
+    "Joint, Marginal and Conditional Distributions",
+    "Random Variables, PMF/PDF and CDF",
+    "Probability, Conditional Probability and Bayes' Theorem",
+    "Expectation, Variance and Covariance",
+    "Moment Generating Functions",
+    "Descriptive Statistics: Mean, Median, Mode, Dispersion, Moments"
+  ],
+  "likelyQuestions": [
+    "For the given joint pdf, find the constant c, the marginal density of X and the conditional density of Y given X.",
+    "A random variable X has the given probability distribution. Find k, the required probabilities and the smallest value of x for which P(X ≤ x) > 1/2.",
+    "Boxes A, B, C, D contain fuses with given defect rates. A fuse selected at random is defective; find the probability that it came from box D.",
+    "Find E[2X − 3Y + 7] and Var[2X − 3Y + 7] for independent X and Y with the given moments.",
+    "Derive the moment generating function of the Poisson / normal / exponential distribution and find its mean and variance.",
+    "Calculate the mean, median and mode of the given frequency distribution, and the standard deviation and coefficient of variation.",
+    "Three balls are drawn without replacement from a box; find the joint probability distribution of the numbers of white and red balls drawn.",
+    "Find the constant and the cumulative distribution function of the given density, and the distribution of Y = g(X).",
+    "Prove that if A and B are independent then A and B' are also independent; solve the given problem on alternate throws of dice.",
+    "Prove that Cov(aX + b, cY + d) = ac·Cov(X, Y), and find the covariance between X + Y and X − Y."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Probability and Statistics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Probability and Statistics - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

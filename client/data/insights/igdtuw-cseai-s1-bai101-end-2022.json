@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 101",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai101-end-2022"
+  ],
+  "importantTopics": [
+    "Propositional Logic and Formalisation",
+    "Classification, Regression and Clustering",
+    "Reasoning and Inference Rules",
+    "Training, Testing and Validation Split",
+    "Robotics, Drones and Autonomous Navigation",
+    "Autonomous Vehicles and Transportation",
+    "NLP, Speech Recognition and Computer Vision Applications",
+    "Applications in Healthcare, Education and Agriculture"
+  ],
+  "likelyQuestions": [
+    "Formalize the given English sentences into propositional logic and prepare the truth table for the compound proposition.",
+    "Differentiate between classification, regression and clustering with suitable examples.",
+    "What is reasoning in AI? Explain the various types of reasoning with examples.",
+    "What is the role of training, testing and validation sets? What ratios are typically used to split a dataset?",
+    "Explain the interaction of localization, mapping and path planning (SPLAM) in autonomous navigation of mobile robots.",
+    "Discuss the applications of intelligent systems in autonomous vehicles. Is it feasible to deploy self-driving cars in India? Justify.",
+    "Discuss the working of well-known speech recognition applications and the models used in them.",
+    "How can AI improve medical facilities in India? Discuss the benefits and challenges for stakeholders.",
+    "Differentiate between automation and intelligent automation with a real-life example.",
+    "Why is data crucial in machine learning? Explain the types of data, the five V's of data and the need for pre-processing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Intelligent Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

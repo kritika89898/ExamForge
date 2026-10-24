@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2022",
+    "igdtuw-cseai-s5-bai305-mid-2024",
+    "igdtuw-cseai-s5-bai305-mid-2025"
+  ],
+  "importantTopics": [
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Forward Pass and Backpropagation",
+    "Linear Separability and Single vs Multi-Layer Networks",
+    "Overfitting, Regularization, Dropout and Data Augmentation",
+    "Gradient Descent on a Sigmoid Neuron",
+    "McCulloch–Pitts Neuron and Thresholding Logic",
+    "Loss Functions",
+    "Activation Functions"
+  ],
+  "likelyQuestions": [
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "For the given network with initial weights and biases, compute the forward-pass output and the updated weights after one backpropagation step.",
+    "Explain linearly separable and non-linear data with diagrams, and how non-linear data can be transformed.",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Explain the MP-neuron model with its thresholding function, advantages and limitations; implement AND, OR and NOT with MP units.",
+    "Explain at least three loss functions with equations; compute cross-entropy loss and MAE for the given predictions.",
+    "Compare ReLU, sigmoid and tanh (and softmax), and explain when each is preferred; compute softmax for the given outputs.",
+    "Is initializing all weights to zero a wise decision? Explain weight initialization techniques and batch normalization.",
+    "Differentiate between the MP-neuron and the perceptron; why do both fail on non-linearly separable functions?"
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

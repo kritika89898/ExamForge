@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAI 416",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s8-bai416-mid-2024-mar-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Medical Imaging and Disease Detection",
+    "Clinical Decision Support Systems",
+    "Predictive Modelling and Model Evaluation",
+    "Healthcare Data: Types, Sourcing, Enrichment and Pre-processing"
+  ],
+  "likelyQuestions": [
+    "How can AI be used in medical imaging to advance precision medicine? Explain segmentation vs classification for early disease detection.",
+    "What is a CDSS? Describe its types and how AI enhances it; are CDSS life-critical systems?",
+    "Describe the process of developing a predictive model for patient risk assessment and common techniques.",
+    "Differentiate structured and unstructured healthcare data and time-series vs non-time-series data, with examples.",
+    "Explain disease detection with tabular medical data using ML techniques, and the challenges of using deep networks in healthcare.",
+    "What factors affect CDSS implementation and what are its known weaknesses and real-world challenges?",
+    "Explain how predictive models in healthcare AI are validated and evaluated, and the key performance metrics.",
+    "Why is data pre-processing the most critical step in healthcare AI? Explain data cleaning, enrichment and the challenges of data sourcing."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "AI in Healthcare - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2024"
+  ],
+  "importantTopics": [
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Linear Separability and Single vs Multi-Layer Networks",
+    "Forward Pass and Backpropagation",
+    "Gradient Descent on a Sigmoid Neuron"
+  ],
+  "likelyQuestions": [
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "Explain linearly separable and non-linear data with diagrams, and how non-linear data can be transformed.",
+    "For the given network with initial weights and biases, compute the forward-pass output and the updated weights after one backpropagation step.",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Differentiate between the MP-neuron and the perceptron; why do both fail on non-linearly separable functions?",
+    "Is a single hidden layer sufficient to represent all Boolean functions? Why do we use multi-layer networks? Explain the MLP architecture.",
+    "Draw the computational graph for the given expression and find all partial derivatives.",
+    "Explain gradient descent; what is the sign of the slope at the given points on the loss curve and how does the update change?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-I - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

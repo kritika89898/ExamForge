@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-end-2024-dec-cseai"
+  ],
+  "importantTopics": [
+    "Regularization, Overfitting and Weight Initialization",
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "RNNs, Attention and Image Captioning",
+    "k-NN and Linear Classification",
+    "Object Detection, Segmentation and Face Recognition",
+    "Generative Models, Adversarial Examples and Dataset Bias",
+    "Transformers and Vision Transformers",
+    "Neural Network Training: Backpropagation and Activation Functions"
+  ],
+  "likelyQuestions": [
+    "Differentiate overfitting and underfitting; explain L1/L2 regularization and early stopping in CNN training.",
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Explain the RNN architecture and its variants; compare RNNs with feedforward networks and CNNs in vision.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "Explain object detection and differentiate two-stage and single-stage detectors.",
+    "Explain the architecture and training objective of a GAN; what are conditional GANs and VAEs used for?",
+    "Explain self-attention in a Transformer encoder and the roles of query, key and value.",
+    "How does the backpropagation algorithm work? Describe the forward pass, loss computation and backward pass.",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Vision - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

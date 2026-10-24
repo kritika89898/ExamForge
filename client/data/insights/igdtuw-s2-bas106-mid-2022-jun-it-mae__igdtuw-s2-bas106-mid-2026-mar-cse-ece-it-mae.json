@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas106-mid-2022-jun-it-mae",
+    "igdtuw-s2-bas106-mid-2026-mar-cse-ece-it-mae"
+  ],
+  "importantTopics": [
+    "Green Chemistry and Atom Economy",
+    "Waste Water Treatment",
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain",
+    "Carbon Sequestration, Carbon Credits and Greenhouse Effect",
+    "Water Quality: Hardness, Alkalinity, DO and COD",
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Alternative and Renewable Energy"
+  ],
+  "likelyQuestions": [
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Discuss carbon dioxide sequestration (natural and artificial) along with the concept of carbon credits.",
+    "Calculate the temporary, permanent and total hardness of the given water sample from EDTA titration data. Which buffer is used and why?",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "Calculate the atom economy of the desired product in the given reaction, and explain the green synthesis of adipic acid."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Environmental Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 108",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai108-end-2024"
+  ],
+  "importantTopics": [
+    "Introduction to R: Features, Installation and Packages",
+    "Data Frames: Manipulation, Subsetting and Cleaning",
+    "Statistics in R: T-test, ANOVA and Linear Models",
+    "Data Visualisation in R",
+    "Objects, Data Types, Variables and Special Values",
+    "Data Structures: Lists, Matrices, Arrays, Data Frames",
+    "Control Statements and Basic Programs",
+    "Vectors and Vector Operations"
+  ],
+  "likelyQuestions": [
+    "What is R? Explain its features, applications and advantages over other languages, and the steps to install it.",
+    "Create a data frame of students, extract rows with score above 75 and add a Grade column based on the score.",
+    "Explain the different types of T-tests. What is the difference between a T-test and ANOVA?",
+    "Write an R program to create a boxplot for the mtcars dataset and explain it.",
+    "What are the data types in R? Write R code for numeric, complex, character and integer data types.",
+    "Explain the data structures in R (list, matrix, array, data frame) with examples.",
+    "What are control statements in R? Explain any three with examples.",
+    "What is a vector in R? Explain the types of vectors and vector operations with examples.",
+    "Write an R program demonstrating arithmetic, logical, relational and assignment operators.",
+    "What are R packages? How do you install and load a package such as ggplot2?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "IT Workshop - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

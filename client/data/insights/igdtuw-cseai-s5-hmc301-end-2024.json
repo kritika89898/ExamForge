@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-end-2024"
+  ],
+  "importantTopics": [
+    "Professional Ethics and Work–Life Balance (Case-based)",
+    "Theories of Moral Development: Kohlberg and Gilligan",
+    "Profession, Professionalism and Codes of Ethics",
+    "Engineering as Experimentation, Safety and Risk",
+    "Rights: IPR, Human Rights and Employee Rights",
+    "Corporate Social Responsibility",
+    "Computer, Business, Environmental and Research Ethics",
+    "Morals, Values, Ethics and Work Ethics"
+  ],
+  "likelyQuestions": [
+    "'Professional ethics and human values are highly relevant today.' Support this with an example of a company that promotes work–life balance.",
+    "Explain Kohlberg's theory of moral development and its limitations/critiques.",
+    "Differentiate between profession and professionalism; explain the responsibilities and expectations of a professional.",
+    "Explain 'engineering as social experimentation' and engineers' responsibility for safety and risk; explain risk–benefit analysis.",
+    "What are intellectual property rights? Why are they necessary? Illustrate how IPR protects a product.",
+    "Define CSR and explain two models (e.g., Carroll's model); evaluate the CSR initiatives of a company.",
+    "Describe computer ethics, its significance and related issues.",
+    "Define morals, values and ethics and explain their relationship with examples.",
+    "Explain the concept of religion and human values with examples; can the world have one religion?",
+    "Analyse the given workplace case (e.g., employee caring for an ill parent, accountant discovering fraud) and explain how you would act ethically."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

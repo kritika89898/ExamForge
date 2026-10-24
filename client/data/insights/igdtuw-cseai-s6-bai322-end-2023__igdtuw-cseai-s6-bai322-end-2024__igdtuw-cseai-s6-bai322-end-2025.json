@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 322",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai322-end-2023",
+    "igdtuw-cseai-s6-bai322-end-2024",
+    "igdtuw-cseai-s6-bai322-end-2025"
+  ],
+  "importantTopics": [
+    "Classification and Prediction: Decision Trees, KNN, Confusion Matrix",
+    "Data Mining, KDD and Applications",
+    "Dimensional Modelling: Star, Snowflake and Fact Constellation",
+    "Association Rule Mining and Apriori",
+    "OLAP Operations and MOLAP vs ROLAP",
+    "Database vs Data Warehouse and Need for DW",
+    "ETL, ELT and Data Cleaning",
+    "Other Techniques: Genetic Algorithms, Neural Networks, Link Analysis, MBR"
+  ],
+  "likelyQuestions": [
+    "Differentiate classification and prediction; explain decision tree induction with an example.",
+    "Define data mining and explain the KDD process and data mining architecture.",
+    "Explain and compare star, snowflake and fact constellation schemas with diagrams.",
+    "Using the Apriori algorithm, find the frequent itemsets and association rules for the given transactions with the given support and confidence.",
+    "Explain the OLAP operations drill-down, roll-up, slice and dice, pivot, drill-across and drill-through with examples.",
+    "Differentiate between an operational database system and a data warehouse; identify whether the given systems are DBMS or DW.",
+    "What is ETL? Explain each component and why transformation is the most complex step.",
+    "Discuss the operations of genetic algorithms and neural networks in data mining.",
+    "Apply k-means clustering with the given initial centroids to the given points and find the final clusters.",
+    "Explain the three-tier architecture of a data warehouse and the role of each tier and metadata."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Data Warehousing and Business Intelligence - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Data Warehousing and Business Intelligence - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Data Warehousing and Business Intelligence - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

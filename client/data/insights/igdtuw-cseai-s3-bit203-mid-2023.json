@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-mid-2023"
+  ],
+  "importantTopics": [
+    "Requirements Engineering and Elicitation",
+    "Software Process Models (SDLC) and Agile",
+    "Data Flow Diagrams and Context Diagrams",
+    "UML: Use Case, Sequence Diagrams and CRC Cards",
+    "Software Engineering Basics and Software Crisis"
+  ],
+  "likelyQuestions": [
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "Suggest the most appropriate process model for the given systems (anti-lock braking, university accounting, etc.) with reasons.",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw a use case diagram for an online food ordering system.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?",
+    "Discover ambiguities and omissions in the given requirements statement for an automated rail ticket machine.",
+    "Compare prescriptive and evolutionary process models; describe the common characteristics of agile methods.",
+    "Identify violations of DFD rules in the given context and level-1 diagrams.",
+    "Develop a sequence diagram for student course registration; explain why CRC cards are effective for conceptual modelling.",
+    "Discuss the failure curves for hardware and software, and the umbrella activities of the software process."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Software Engineering - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

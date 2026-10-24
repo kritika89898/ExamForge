@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-hmc110-end-2023",
+    "igdtuw-s1-bcs110-end-2024-dec-cse-it-ece-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Non-Verbal Communication: Kinesics, Proxemics, Paralanguage",
+    "Strings and String Functions",
+    "Functions, Recursion and Parameter Passing",
+    "Pointers and Dynamic Memory",
+    "Structures, Unions and Storage Classes",
+    "Pre-processor Directives and File Handling",
+    "Barriers to Communication"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "'Kinesics is more powerful than words.' Justify with its sub-types and examples.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Differentiate call by value and call by reference with examples.",
+    "Write a program to swap two numbers using pointers; explain array of pointers and pointer to array.",
+    "Differentiate structures and unions; write a program to store and print records of students/patients using an array of structures.",
+    "What are preprocessor directives? Explain #define and #include<> vs #include\"\".",
+    "Barriers can be minimised but not completely removed. Discuss intrapersonal barriers and suggest remedies to overcome them.",
+    "What are the different types of listening? How is listening different from hearing? Discuss barriers to listening and their remedies.",
+    "Discuss ethics in communication and plagiarism. What are the do's and don'ts of ethical communication?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Communication Skills - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Humanities and Social Science / Programming in C - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

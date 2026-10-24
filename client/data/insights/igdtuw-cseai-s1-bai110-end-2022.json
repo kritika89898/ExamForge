@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-end-2022"
+  ],
+  "importantTopics": [
+    "Exception Handling",
+    "Pattern and Series Programs",
+    "Matplotlib and Tkinter GUI",
+    "File Handling",
+    "Pandas DataFrames",
+    "Strings and String Methods",
+    "Dictionaries",
+    "Recursion"
+  ],
+  "likelyQuestions": [
+    "Explain exception handling using try, except, else and finally with an example.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Write a program to plot a pie chart / histogram for the given data using matplotlib.",
+    "Write a program to copy the content of one file to another, skipping lines that start with a special character.",
+    "Create a DataFrame of students' marks and compute total marks, percentage and the top 3 students.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain recursion and the importance of the base case with an example program.",
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

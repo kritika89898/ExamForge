@@ -1,0 +1,36 @@
+{
+  "subjectCode": "HMC 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-hmc102-end-2024-may-cse-it"
+  ],
+  "importantTopics": [
+    "Persuasion, Negotiation, Public Speaking and Interviews",
+    "Learning, Problem-Solving and Critical Thinking",
+    "Stress and Time Management",
+    "Conflict Management and the Thomas–Kilmann Model",
+    "Etiquette: Social, Professional and Digital",
+    "Soft Skills, Self-Awareness and Personal Branding",
+    "Interpersonal Relationships, Listening and Empathy"
+  ],
+  "likelyQuestions": [
+    "How can each component of the ACES method be used to persuade someone? Explain BATNA, WATNA and ZOPA.",
+    "How can engineering students apply Bloom's taxonomy to improve self-learning? Give examples for each level.",
+    "What are the common indicators of stress? Explain techniques to manage time and how they help manage stress.",
+    "Distinguish between intergroup and intragroup conflict, and identify which Thomas–Kilmann style would best resolve a given conflict.",
+    "Define social etiquette and explain the three types of professional etiquette.",
+    "Imagine you are joining a new office. Which key soft skills would you focus on to build a positive impression?",
+    "Explain the stages of building effective interpersonal relationships and the key skills required.",
+    "What competencies are needed for public speaking? How would you help a friend prepare for a job interview?",
+    "What is problem-solving? Explain it using the PAR formula, and discuss barriers to critical thinking.",
+    "How would you use the Eisenhower matrix to prioritise academic tasks? Explain its four quadrants."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Soft Skills and Personality Development - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

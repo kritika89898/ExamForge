@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-mid-2023",
+    "igdtuw-cseai-s1-bas109-mid-2024"
+  ],
+  "importantTopics": [
+    "Cayley–Hamilton Theorem and Matrix Inverse",
+    "Systems of Linear Equations and Consistency",
+    "Eigenvalues, Eigenvectors and Special Matrices",
+    "Partial Differentiation, Euler's Theorem and Jacobians",
+    "Vector Spaces, Subspaces, Basis and Dimension",
+    "Laplace Transforms and Convolution",
+    "Linear Transformations",
+    "Rank of a Matrix and Echelon/Normal Form"
+  ],
+  "likelyQuestions": [
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix.",
+    "For what values of λ and μ does the given system have (i) no solution, (ii) a unique solution, (iii) infinitely many solutions?",
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "If u is homogeneous, use Euler's theorem to prove the given relation.",
+    "Check whether the given set of vectors is linearly independent; if dependent, find the relation between them.",
+    "Use the convolution theorem to find the inverse Laplace transform of the given function.",
+    "Determine whether the given map T is a linear transformation and find T(a,b) from given images.",
+    "Define the rank of a matrix. Reduce the given matrix to normal (or echelon) form and find its rank.",
+    "Find the nth derivative of the given function.",
+    "Test the given function f(x, y) for continuity at the origin; check whether fxy(0,0) = fyx(0,0)."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Mathematics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

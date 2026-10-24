@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 108",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bai108-mid-2026-mar-ece-eceai"
+  ],
+  "importantTopics": [
+    "Data Structures: Lists, Matrices, Arrays, Data Frames",
+    "Operators and Built-in Functions",
+    "Objects, Data Types, Variables and Special Values",
+    "Vectors and Vector Operations",
+    "Introduction to R: Features, Installation and Packages"
+  ],
+  "likelyQuestions": [
+    "Explain the data structures in R (list, matrix, array, data frame) with examples.",
+    "Write an R program demonstrating arithmetic, logical, relational and assignment operators.",
+    "What are the data types in R? Write R code for numeric, complex, character and integer data types.",
+    "What is a vector in R? Explain the types of vectors and vector operations with examples.",
+    "What is R? Explain its features, applications and advantages over other languages, and the steps to install it.",
+    "Differentiate between matrices and data frames in R and explain matrix operations.",
+    "Explain built-in mathematical and summarising functions in R with examples; how is R used as a calculator?",
+    "What are objects in R? Describe the role of special values Inf, NaN and NULL.",
+    "Write an R program to calculate the mode of the elements in a vector.",
+    "What are R packages? How do you install and load a package such as ggplot2?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "IT Workshop - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

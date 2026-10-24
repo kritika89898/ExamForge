@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-end-2025-dec-cseai"
+  ],
+  "importantTopics": [
+    "RNNs, Attention and Image Captioning",
+    "Transformers and Vision Transformers",
+    "Generative Models, Adversarial Examples and Dataset Bias",
+    "CNN Layers: Convolution, Pooling, Parameter Sharing, Batch Norm",
+    "Regularization, Overfitting and Weight Initialization",
+    "Object Detection, Segmentation and Face Recognition",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet",
+    "Introduction to Computer Vision and the Data-Driven Approach"
+  ],
+  "likelyQuestions": [
+    "Explain the RNN architecture and its variants; compare RNNs with feedforward networks and CNNs in vision.",
+    "Explain self-attention in a Transformer encoder and the roles of query, key and value.",
+    "Explain the architecture and training objective of a GAN; what are conditional GANs and VAEs used for?",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "Differentiate overfitting and underfitting; explain L1/L2 regularization and early stopping in CNN training.",
+    "Explain object detection and differentiate two-stage and single-stage detectors.",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "What is computer vision? Why is vision so difficult? Give real-world examples of computer vision applications.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "How does the backpropagation algorithm work? Describe the forward pass, loss computation and backward pass."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Vision - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

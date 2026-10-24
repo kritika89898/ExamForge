@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-mid-2024",
+    "igdtuw-cseai-s6-bai306-mid-2025"
+  ],
+  "importantTopics": [
+    "DIP Fundamentals, Sampling and Quantization",
+    "Pixel Relationships: Adjacency, Connectivity, Distances",
+    "Spatial Filtering: Smoothing, Sharpening and Edge Operators",
+    "Point Operations and Intensity Transformations",
+    "Histogram Equalization and Matching",
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering"
+  ],
+  "likelyQuestions": [
+    "Explain the fundamental steps of a digital image processing system with a block diagram.",
+    "Explain the types of adjacency (4, 8, m) and connectivity with examples.",
+    "Apply 3×3 mean, Gaussian, median and Laplacian filters and the Sobel operator at the given pixel and compute the gradient magnitude.",
+    "Perform contrast stretching, thresholding, intensity-level slicing, negative and bit-plane slicing on the given image.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Differentiate between sampling and quantization and explain how they affect image quality.",
+    "For the given image segment and set V, compute the De, D4, D8 and Dm distances between p and q.",
+    "Why is the median filter better than the mean filter for salt-and-pepper noise? Discuss the problems of the Roberts cross operator."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Digital Image Processing - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

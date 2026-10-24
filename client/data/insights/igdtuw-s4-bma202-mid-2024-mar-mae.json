@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BMA 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bma202-mid-2024-mar-mae"
+  ],
+  "importantTopics": [
+    "Lathe Machine and Operations",
+    "Machining Time Calculations",
+    "Shaper, Slotter and Planer",
+    "Metal Cutting Basics and Tool Materials",
+    "CNC Machines"
+  ],
+  "likelyQuestions": [
+    "Explain a lathe and its parts with a diagram.",
+    "Calculate the machining time for turning the given hollow workpiece in four passes.",
+    "Why is the return stroke of a shaper quicker, and how is this achieved?",
+    "Define feed, depth of cut and cutting speed for a turning operation.",
+    "Differentiate CNC and conventional lathes.",
+    "Explain the operations performed on a lathe, including reaming.",
+    "Calculate the machining time for shaping the given CI plate with the given approach, overtravel and speeds.",
+    "Differentiate shaper/slotter and planer.",
+    "Name six cutting tool materials.",
+    "State the advantages of CNC machining."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Production Technology II - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

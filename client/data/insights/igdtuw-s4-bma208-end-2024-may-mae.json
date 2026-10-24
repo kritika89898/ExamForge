@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BMA 208",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bma208-end-2024-may-mae"
+  ],
+  "importantTopics": [
+    "Gas Turbines and Brayton Cycle",
+    "Compressible Flow",
+    "Reciprocating Air Compressors",
+    "Centrifugal Compressors",
+    "IC Engines: Cycles, Valve Timing and Indicator Diagrams",
+    "Jet Propulsion",
+    "Combustion and Ignition Systems"
+  ],
+  "likelyQuestions": [
+    "Find the work ratio and thermal efficiency of the given open-cycle gas turbine.",
+    "Find the stagnation pressure for the given air flow.",
+    "Explain the effect of clearance volume on the work of a reciprocating compressor.",
+    "Explain the working of a centrifugal compressor and the pressure/velocity variation in impeller and diffuser.",
+    "Draw the actual valve timing and p–V diagrams of a four-stroke petrol engine; explain the four-stroke diesel engine.",
+    "Explain turbojet and ramjet engines with diagrams.",
+    "Explain pre-ignition, detonation and knocking.",
+    "Explain regeneration and reheating effects and open vs closed gas turbines.",
+    "Explain Mach number, Mach wave, Mach cone and angle; discuss the continuity equation for compressible flow.",
+    "Derive the work for isothermal, adiabatic and polytropic compression; explain two-stage/multistage compression with intercooling."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Thermal Engineering II - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

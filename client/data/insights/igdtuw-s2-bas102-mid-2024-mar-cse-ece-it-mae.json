@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAS 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas102-mid-2024-mar-cse-ece-it-mae"
+  ],
+  "importantTopics": [
+    "Vector Calculus: Gradient, Divergence, Curl, Line Integrals",
+    "Linear ODEs: Operator Method and Cauchy–Euler",
+    "Green's, Stokes' and Gauss Divergence Theorems",
+    "Undetermined Coefficients, Variation of Parameters and Wronskian"
+  ],
+  "likelyQuestions": [
+    "Find the directional derivative of the given function and the tangent plane to the given surface; find a so that the given field is solenoidal.",
+    "Solve the given linear differential equation with constant coefficients using the operator method.",
+    "Verify Green's theorem for the given line integral over the given region.",
+    "Solve the given ODE using the method of undetermined coefficients / variation of parameters.",
+    "Check whether the given field is conservative and find its scalar potential; find the work done along the given circular path.",
+    "Solve the given Cauchy–Euler equation and the given simultaneous differential equations.",
+    "Verify Stokes' theorem / evaluate the surface integral using the Gauss divergence theorem for the given field and region.",
+    "Using the Wronskian, check whether the given solutions are linearly independent."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics II - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

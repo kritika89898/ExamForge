@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bai201-end-2023"
+  ],
+  "importantTopics": [
+    "Game Playing: Minimax",
+    "Uncertainty: Probability, Bayesian Networks and Fuzzy Logic",
+    "NLP: Bag of Words, TF-IDF and Word Embeddings",
+    "First-Order Logic, Clause Form and Resolution",
+    "Expert Systems",
+    "Learning: Decision Trees, Entropy and Perceptrons"
+  ],
+  "likelyQuestions": [
+    "Apply the minimax algorithm to the given game tree and find the backed-up values and the best move for MAX.",
+    "How do AI systems deal with uncertainty? Explain Bayesian belief networks and their applications.",
+    "What is NLP? Explain its components and any five applications.",
+    "Translate the given sentences (John likes all kinds of food...) into predicate logic, convert to clause form and prove 'John likes peanuts' using resolution.",
+    "What is an expert system? Explain its components and characteristics, and describe the MYCIN expert system.",
+    "Define entropy and information gain. Use the ID3 algorithm on the given dataset to find the best attribute for the first split.",
+    "What is the minimax algorithm? Explain its steps, advantages and disadvantages.",
+    "What is a membership function of a fuzzy set? Find the α-cut of the given fuzzy set and state where fuzzy logic is applied.",
+    "Explain the bag-of-words model and why TF-IDF is preferred; describe approaches to obtain word embeddings.",
+    "Explain quantifiers in predicate calculus and Skolemization; explain the syntax and semantics of first-order logic."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Artificial Intelligence - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

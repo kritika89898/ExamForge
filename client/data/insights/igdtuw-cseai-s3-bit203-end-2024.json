@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-end-2024"
+  ],
+  "importantTopics": [
+    "Cost Estimation: Function Points and COCOMO",
+    "Software Process Models (SDLC) and Agile",
+    "Software Design: Modularity, Coupling, Cohesion, Patterns",
+    "Requirements Engineering and Elicitation",
+    "Data Flow Diagrams and Context Diagrams",
+    "Software Testing: CFG, Cyclomatic Complexity, Levels",
+    "Software Engineering Basics and Software Crisis",
+    "SRS, Traceability and Requirement Quality"
+  ],
+  "likelyQuestions": [
+    "Compute the function points for the given system with the given component complexities and adjustment factors.",
+    "Suggest the most appropriate process model for the given systems (anti-lock braking, university accounting, etc.) with reasons.",
+    "Explain modularity in software design and the types of coupling; contrast coupling and cohesion.",
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw the CFG for the given program, calculate its cyclomatic complexity and identify independent paths with test cases.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?",
+    "What are the characteristics and goals of a good SRS? Why should requirements be numbered and traceable?",
+    "Calculate the effort and development time for the given KLOC using basic COCOMO in organic, semi-detached and embedded modes; explain cost drivers.",
+    "Compare prescriptive and evolutionary process models; describe the common characteristics of agile methods."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Software Engineering - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

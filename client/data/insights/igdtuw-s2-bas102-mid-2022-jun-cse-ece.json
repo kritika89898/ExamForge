@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAS 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas102-mid-2022-jun-cse-ece"
+  ],
+  "importantTopics": [
+    "Linear ODEs: Operator Method and Cauchy–Euler",
+    "Undetermined Coefficients, Variation of Parameters and Wronskian",
+    "Inverse Laplace Transform and Convolution",
+    "Laplace Transforms and Applications"
+  ],
+  "likelyQuestions": [
+    "Solve the given linear differential equation with constant coefficients using the operator method.",
+    "Solve the given ODE using the method of undetermined coefficients / variation of parameters.",
+    "State and prove the convolution theorem and use it to find the given inverse Laplace transform.",
+    "Find the Laplace transform of the given function using the shifting theorem; derive the transform of f'(t).",
+    "Solve the given Cauchy–Euler equation and the given simultaneous differential equations.",
+    "Using the Wronskian, check whether the given solutions are linearly independent.",
+    "Solve the given integral equation using Laplace transforms.",
+    "Solve the given initial value problem using Laplace transforms."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics II - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

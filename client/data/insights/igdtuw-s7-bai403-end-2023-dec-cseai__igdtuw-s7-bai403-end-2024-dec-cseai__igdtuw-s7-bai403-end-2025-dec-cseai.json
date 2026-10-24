@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-end-2023-dec-cseai",
+    "igdtuw-s7-bai403-end-2024-dec-cseai",
+    "igdtuw-s7-bai403-end-2025-dec-cseai"
+  ],
+  "importantTopics": [
+    "RNNs, Attention and Image Captioning",
+    "Generative Models, Adversarial Examples and Dataset Bias",
+    "Transformers and Vision Transformers",
+    "k-NN and Linear Classification",
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "Regularization, Overfitting and Weight Initialization",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet",
+    "CNN Layers: Convolution, Pooling, Parameter Sharing, Batch Norm"
+  ],
+  "likelyQuestions": [
+    "Explain the RNN architecture and its variants; compare RNNs with feedforward networks and CNNs in vision.",
+    "Explain the architecture and training objective of a GAN; what are conditional GANs and VAEs used for?",
+    "Explain self-attention in a Transformer encoder and the roles of query, key and value.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Differentiate overfitting and underfitting; explain L1/L2 regularization and early stopping in CNN training.",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "What is transfer learning? Explain using a CNN as a fixed feature extractor vs fine-tuning for a domain-specific task.",
+    "What is computer vision? Why is vision so difficult? Give real-world examples of computer vision applications."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Computer Vision - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Vision - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Vision - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

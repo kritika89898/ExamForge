@@ -1,0 +1,47 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2022",
+    "igdtuw-cseai-s5-hmc301-mid-2024",
+    "igdtuw-cseai-s5-hmc301-mid-2025"
+  ],
+  "importantTopics": [
+    "Religion, Vedas, Spirituality and Indian Values",
+    "Profession, Professionalism and Codes of Ethics",
+    "Theories of Moral Development: Kohlberg and Gilligan",
+    "Moral Dilemmas and Ethical Decision Making",
+    "Empathy, Knowledge Sharing and Time Management",
+    "Morals, Values, Ethics and Work Ethics",
+    "Ethical Theories and Feminist Ethics",
+    "Engineering as Experimentation, Safety and Risk"
+  ],
+  "likelyQuestions": [
+    "Explain the concept of religion and human values with examples; can the world have one religion?",
+    "Differentiate between profession and professionalism; explain the responsibilities and expectations of a professional.",
+    "Explain Kohlberg's theory of moral development and its limitations/critiques.",
+    "What is a moral dilemma? Enumerate the steps in confronting a moral dilemma with examples.",
+    "Write notes on sympathy vs empathy, sharing and caring, and normative enquiry.",
+    "Define morals, values and ethics and explain their relationship with examples.",
+    "Explain rights-based and duty-based ethical theories and differentiate them with examples; outline the history and classification of ethical theories.",
+    "Explain 'engineering as social experimentation' and engineers' responsibility for safety and risk; explain risk–benefit analysis.",
+    "Explain Indian values in the framework of the Vedas, spirituality, purushartha and nishkama karma.",
+    "Explain the code of ethics for engineers and unethical practices in engineering; explain training and skill sets of engineers."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

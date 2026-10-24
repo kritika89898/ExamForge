@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai106-end-2022",
+    "igdtuw-cseai-s2-bai106-end-2024"
+  ],
+  "importantTopics": [
+    "ER Model: Entities, Attributes, Relationships",
+    "SQL Queries, DDL/DML and Views",
+    "Functional Dependencies and Normalization",
+    "DBMS vs File System, Architecture and Data Independence",
+    "Query Processing, Triggers and OODBMS",
+    "Transactions and ACID Properties",
+    "Serializability, Concurrency Control and Deadlocks",
+    "Relational Algebra"
+  ],
+  "likelyQuestions": [
+    "Draw an E-R diagram for the given application (bank / supplier–parts), stating any assumptions.",
+    "Write SQL queries for the given schema using joins, GROUP BY and HAVING.",
+    "What is normalization? Explain 1NF, 2NF and 3NF with examples.",
+    "What are the advantages of a DBMS over file processing systems? When would it make sense not to use one?",
+    "Explain the steps of query processing with a diagram, and the measures of query cost.",
+    "What is a transaction? Explain the ACID properties.",
+    "What is a serializable schedule and how does it differ from a serial schedule? Explain conflict serializability.",
+    "Write the given queries on the Supplier–Parts–Catalog schema in relational algebra.",
+    "Write short notes on hierarchical and network data models. What is a schema?",
+    "Define primary, super, candidate, alternate and foreign keys with examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

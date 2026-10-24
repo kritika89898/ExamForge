@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-end-2022",
+    "igdtuw-cseai-s1-bai110-end-2023-dec"
+  ],
+  "importantTopics": [
+    "Exception Handling",
+    "Matplotlib and Tkinter GUI",
+    "Strings and String Methods",
+    "Pandas DataFrames",
+    "Dictionaries",
+    "Functions, Arguments and Scope",
+    "Pattern and Series Programs",
+    "Lists, Tuples and Sets"
+  ],
+  "likelyQuestions": [
+    "Explain exception handling using try, except, else and finally with an example.",
+    "Write a program to plot a pie chart / histogram for the given data using matplotlib.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable.",
+    "Create a DataFrame of students' marks and compute total marks, percentage and the top 3 students.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to copy the content of one file to another, skipping lines that start with a special character.",
+    "Explain recursion and the importance of the base case with an example program."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Programming with Python - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

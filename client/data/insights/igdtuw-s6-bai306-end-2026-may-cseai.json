@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bai306-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Representation, Description and Object Recognition",
+    "DIP Fundamentals, Sampling and Quantization",
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering",
+    "Image Compression: Redundancy, Huffman and Run-Length",
+    "Pixel Relationships: Adjacency, Connectivity, Distances",
+    "Colour Image Processing",
+    "Histogram Equalization and Matching"
+  ],
+  "likelyQuestions": [
+    "Explain boundary and regional descriptors with examples; compute the 4-chain code of the given boundary; explain PCA for image description.",
+    "Explain the fundamental steps of a digital image processing system with a block diagram.",
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Construct Huffman codes for the given gray levels/probabilities and find the coding efficiency and compression ratio.",
+    "Explain the types of adjacency (4, 8, m) and connectivity with examples.",
+    "Explain the RGB, CMY and HSI colour models and pseudo-colour processing.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Apply 3×3 mean, Gaussian, median and Laplacian filters and the Sobel operator at the given pixel and compute the gradient magnitude.",
+    "Apply region growing (or region splitting and merging with a quad tree) to the given image with the given seed and threshold."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

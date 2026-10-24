@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-mid-2025-oct-cseai"
+  ],
+  "importantTopics": [
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "CNN Layers: Convolution, Pooling, Parameter Sharing, Batch Norm",
+    "Neural Network Training: Backpropagation and Activation Functions",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet",
+    "Transfer Learning and Data Augmentation"
+  ],
+  "likelyQuestions": [
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "How does the backpropagation algorithm work? Describe the forward pass, loss computation and backward pass.",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "What is transfer learning? Explain using a CNN as a fixed feature extractor vs fine-tuning for a domain-specific task.",
+    "How are weights updated in SGD? Differentiate stochastic and batch gradient descent and explain gradient averaging.",
+    "What is parameter sharing and why is it crucial? Explain batch normalization and its placement; compute output sizes for the given pooling.",
+    "Compare sigmoid and ReLU activation functions; what is the function of the ReLU layer? How does a CNN differ from an ANN?",
+    "Explain the AlexNet and ResNet architectures.",
+    "Explain the different data augmentation techniques used in computer vision."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Vision - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs110-end-2023-dec-ece-cse"
+  ],
+  "importantTopics": [
+    "Computer Fundamentals: Hardware, Memory, CPU, OS",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Strings and String Functions",
+    "Data Types, Operators, Expressions and Type Casting",
+    "Output Prediction (Code Tracing)",
+    "Arrays and Matrices",
+    "Functions, Recursion and Parameter Passing",
+    "Structures, Unions and Storage Classes"
+  ],
+  "likelyQuestions": [
+    "Explain the ALU and registers; differentiate main, secondary and cache memory and volatile vs non-volatile memory.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Differentiate call by value and call by reference with examples.",
+    "Differentiate structures and unions; write a program to store and print records of students/patients using an array of structures.",
+    "Write a program to print prime numbers in a range, a given pattern, or the sum of the first and last digits of a number.",
+    "Differentiate compiler, interpreter and assembler with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Humanities and Social Science / Programming in C - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

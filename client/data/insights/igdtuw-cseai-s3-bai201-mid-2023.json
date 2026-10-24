@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bai201-mid-2023"
+  ],
+  "importantTopics": [
+    "Uninformed Search: BFS, DFS, DLS, IDS",
+    "Intelligent Agents, PEAS and AI Applications",
+    "Heuristic Search: Best-First and A*",
+    "First-Order Logic, Clause Form and Resolution",
+    "Knowledge Representation",
+    "NLP: Bag of Words, TF-IDF and Word Embeddings"
+  ],
+  "likelyQuestions": [
+    "For the given state space, list the order in which nodes are visited by BFS, depth-limited search (limit 3) and iterative deepening search.",
+    "Explain the architecture and characteristics of an intelligent agent; define simple reflex and goal-based agents with PEAS descriptions.",
+    "Explain A* search and prove its optimality. Find the most cost-effective path in the given graph using A*.",
+    "Translate the given sentences (John likes all kinds of food...) into predicate logic, convert to clause form and prove 'John likes peanuts' using resolution.",
+    "Define knowledge representation in AI, describe its techniques and the advantages of each.",
+    "What is NLP? Explain its components and any five applications.",
+    "Give an example where BFS works better than DFS; compare uninformed and informed search strategies and explain how search strategies are evaluated.",
+    "Explain the term artificial intelligence and discuss five real-world applications of AI and the AI code of ethics.",
+    "What is the role of heuristics in guiding search? Suggest two heuristics for the 8-puzzle and explain best-first search.",
+    "Explain quantifiers in predicate calculus and Skolemization; explain the syntax and semantics of first-order logic."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Artificial Intelligence - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

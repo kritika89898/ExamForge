@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BCS 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs102-mid-2024-oct-cse-it-aiml-cseai"
+  ],
+  "importantTopics": [
+    "CSS: Ways to Add CSS, Cascading and Box Model",
+    "XML vs HTML, DTD and XML Schema",
+    "HTML Forms and Form Elements",
+    "Multimedia, Image Maps and Page Design",
+    "Python for Web Development",
+    "Frames, Iframes and Framesets"
+  ],
+  "likelyQuestions": [
+    "Describe inline, internal and external CSS with examples. Which is most efficient for large websites and why?",
+    "What is XML and how does it differ from HTML in syntax strictness, structure and extensibility? Mention four uses of XML in web applications.",
+    "Explain HTML form elements (text box, password, checkbox, radio button, list box, text area, submit and reset) by designing a suitable form.",
+    "Define multimedia. How are audio and video embedded in an HTML page? Give examples.",
+    "Discuss how Python is used for building web applications, highlighting key frameworks.",
+    "What are frames in HTML? Give an example of a frameset dividing the window into two columns.",
+    "Explain the CSS box model and the concept of cascading; what are the advantages of grouping styles?",
+    "Explain DTD and XML Schema with an example of each, and state an advantage of Schema over DTD.",
+    "What is a combo box? Explain with an example.",
+    "Design a web front page with a header, table with caption and column span, image map and styling; provide the HTML code."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Web Application Development - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs203-end-2024"
+  ],
+  "importantTopics": [
+    "Planar Graphs, Colouring and Spanning Trees",
+    "Groups, Subgroups and Lagrange's Theorem",
+    "Propositional Logic, Tautologies and Equivalence",
+    "Relations: Equivalence and Partial Orders",
+    "Predicate Logic and Quantifiers",
+    "Mathematical Induction",
+    "Functions, Countability and Recurrence Relations",
+    "Rings and Fields"
+  ],
+  "likelyQuestions": [
+    "State and prove Euler's formula V − E + R = 2 for connected planar graphs.",
+    "State and prove Lagrange's theorem; prove that every group of prime order is cyclic.",
+    "Identify whether the given proposition is a tautology, contingency or contradiction; which of the given Boolean expressions are not tautologies?",
+    "Show that 'x R y iff x − y is divisible by 3' (congruence modulo m) is an equivalence relation.",
+    "Translate 'Not all that glitters is gold' and 'Some boys are taller than all the girls' into predicate logic.",
+    "Prove by mathematical induction that 1·2 + 2·3 + ... + n(n+1) = n(n+1)(n+2)/3.",
+    "Is the function f(x) = (x − 2)/(x − 3) from R − {3} to R − {1} one-one and onto? Find compositions f∘g and g∘f.",
+    "Define ring, field and cyclic group. Prove that (Z₅, +₅, ×₅) is a field.",
+    "Construct the Hasse diagram of the poset ({1,2,3,4,6,8,12,24}, |) and find its maximal, minimal, greatest and least elements and bounds of {1,2,3}.",
+    "Find the chromatic number of the given graph; prove that any planar graph is 5-colourable; find the number of distinct minimum spanning trees."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Discrete Structures - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

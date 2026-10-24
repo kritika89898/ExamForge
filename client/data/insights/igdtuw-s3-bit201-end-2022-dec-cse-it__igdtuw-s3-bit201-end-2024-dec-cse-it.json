@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bit201-end-2022-dec-cse-it",
+    "igdtuw-s3-bit201-end-2024-dec-cse-it"
+  ],
+  "importantTopics": [
+    "ER Modelling and Mapping to Relations",
+    "SQL Queries",
+    "Functional Dependencies and Normalisation",
+    "Relational Algebra",
+    "Transactions, ACID and Serializability",
+    "Advanced Databases: Distributed, Multimedia, Object-Oriented",
+    "Concurrency Control, Locking and Deadlocks",
+    "Keys and Integrity Constraints"
+  ],
+  "likelyQuestions": [
+    "Draw an ER diagram for the given scenario (music company / hospital / university academics / projects–clients) with all constraints.",
+    "Write SQL queries on the given schema (flights/aircraft/employees, customer/vehicle/rental, employee/department).",
+    "For the given relation and FDs, find the closure, candidate keys and normalise to 2NF/3NF/BCNF.",
+    "Write relational algebra expressions for the given queries on the Sailors–Boats–Reserves / Customer–Vehicle–Rental schema.",
+    "Explain ACID properties and the transaction state diagram.",
+    "Explain the framework of a distributed DBMS and fragmentation.",
+    "Explain two-phase locking and strict 2PL with benefits and drawbacks.",
+    "Differentiate super, candidate, primary, composite and alternate keys with examples.",
+    "Explain the three-level schema architecture and logical/physical data independence.",
+    "Differentiate strong and weak entity sets; explain specialisation/generalisation and ternary relationships; map the ER diagram to relations."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

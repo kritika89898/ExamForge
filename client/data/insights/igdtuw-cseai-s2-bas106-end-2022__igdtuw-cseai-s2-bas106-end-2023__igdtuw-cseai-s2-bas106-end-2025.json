@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-end-2022",
+    "igdtuw-cseai-s2-bas106-end-2023",
+    "igdtuw-cseai-s2-bas106-end-2025"
+  ],
+  "importantTopics": [
+    "Green Chemistry and Atom Economy",
+    "Toxicology: Toxic Metals and Dose–Response",
+    "Alternative and Renewable Energy",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Polymers: Bioplastics and Degradation",
+    "Environmental Impact Assessment and Management Systems",
+    "Waste Water Treatment",
+    "Fuels: Calorific Value and Bomb Calorimeter"
+  ],
+  "likelyQuestions": [
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Enumerate the forms of mercury/chromium/lead/arsenic and describe their sources and biochemical effects.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "What are bioplastics? Explain their methods of manufacture and applications (e.g., PLA, PCL).",
+    "What is EIA and why is it necessary before any project? Discuss the parameters considered.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "Explain the negative consequences of modern agriculture and differentiate its on-site and off-site impacts."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Environmental Science - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

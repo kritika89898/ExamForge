@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BEC 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec203-mid-2025-oct-ece"
+  ],
+  "importantTopics": [
+    "Fourier Series",
+    "Signal Classification and Waveform Sketching",
+    "System Properties",
+    "LTI Response and Differential Equations",
+    "Phase, Group Delay and All-Pass Systems",
+    "Fourier Transform and its Properties"
+  ],
+  "likelyQuestions": [
+    "Find the Fourier series of the half-wave rectified sine wave.",
+    "Differentiate even/odd and continuous/discrete signals; check whether the given signals are periodic.",
+    "Check whether the given systems are static/dynamic, causal/non-causal, linear and time-invariant.",
+    "Find the complete response of the given system from its differential equation and initial conditions.",
+    "Explain group delay and phase delay; differentiate linear and non-linear phase.",
+    "Find the Fourier transform of t e^{−at}u(t) / cos(ω₀t)u(t).",
+    "Find the Fourier series of the given waveform.",
+    "Sketch the given step/ramp signals such as u(t−2), u(−2t+1) and u(t)−2u(t−1)+u(t−3); describe the properties of periodic signals.",
+    "Explain homogeneity, superposition and BIBO stability; describe the properties of LTI systems.",
+    "State the relationship between step and impulse responses."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Signals and Systems - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

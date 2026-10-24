@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BMA 110 / BEC 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bma110-mid-2023-jan-it-mae"
+  ],
+  "importantTopics": [
+    "Force Systems, Resultants and Equilibrium",
+    "Friction: Blocks, Inclines, Ladders and Wedges",
+    "Moment of Inertia and Radius of Gyration",
+    "Plane Trusses",
+    "Centroid and Centre of Gravity"
+  ],
+  "likelyQuestions": [
+    "Find the magnitude and direction of the resultant of the given concurrent forces; reduce the given parallel force system to a single force / force–couple system.",
+    "Determine whether the given block slips and the friction force; find the inclination and cord tension for the two bodies on an incline about to slide.",
+    "Find the moment of inertia of the given section about its centroidal axes; derive I of a triangle/semicircle.",
+    "Find the forces in the given truss members using the method of joints or sections.",
+    "Locate the centroid of the given composite lamina (Z/C/T section, plate with hole); derive the centroid of a triangle and semicircle.",
+    "State Lami's, Varignon's and transmissibility principles; find the tensions/reactions for the given sphere, roller or beam in equilibrium with a free-body diagram.",
+    "Find the coefficient of friction for the given ladder just about to slip / the wedge force P to raise the column; explain cone of friction and angle of repose.",
+    "State the parallel and perpendicular axis theorems; find the rectangular and polar radii of gyration of the given area.",
+    "Classify perfect, deficient and redundant frames and check the given truss.",
+    "Find the centre of gravity of a solid hemisphere; use Pappus' theorems to find the volume/surface/mass of the given body of revolution."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Engineering Mechanics / Basic Electrical Engineering - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

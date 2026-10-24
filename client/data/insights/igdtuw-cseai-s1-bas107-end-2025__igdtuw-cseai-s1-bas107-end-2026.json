@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2025",
+    "igdtuw-cseai-s1-bas107-end-2026"
+  ],
+  "importantTopics": [
+    "Optical Fibres: NA, Acceptance Angle, Types",
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Conducting Media and Skin Depth",
+    "Wave Function and Schrödinger Equation",
+    "Polarisation, Double Refraction and Nicol Prism",
+    "Particle in a 1-D Infinite Potential Box",
+    "EM Wave Propagation in Free Space and Dielectrics"
+  ],
+  "likelyQuestions": [
+    "Explain total internal reflection in an optical fibre and derive the numerical aperture and acceptance angle; calculate them for given core and cladding indices.",
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Discuss the propagation of EM waves in a conducting medium and derive the skin depth and impedance of a good conductor.",
+    "Derive the time-independent Schrödinger wave equation and state the properties of an acceptable wave function.",
+    "What is double refraction? Describe the construction and working of a Nicol prism and explain the production of plane, circularly and elliptically polarised light.",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "Derive the EM wave equations in an isotropic dielectric medium and show that the wave speed is less than in vacuum; show that EM waves are transverse.",
+    "Derive Fresnel diffraction at a straight edge for a line source and show the intensity in the illuminated and shadow regions.",
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2025",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Physics - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

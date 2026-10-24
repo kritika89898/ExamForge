@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 211",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec211-mid-2024-oct-eceai"
+  ],
+  "importantTopics": [
+    "Random Variables and Probability",
+    "Amplitude Modulation and Power",
+    "Random Processes",
+    "AM Generation and Detection: Square-Law, Balanced, Ring Modulators, Envelope Detector",
+    "SSB, VSB and Superheterodyne Receiver"
+  ],
+  "likelyQuestions": [
+    "Find the second moment of X and the mean of Y = −6X + 22; find the pdf of Z = X + Y for the given independent variables.",
+    "Find the modulation index and sideband amplitudes for the given AM wave; find the power saving when carrier and one sideband are suppressed.",
+    "Differentiate SSS and WSS processes; prove Y(t) = X(t)cos(ω₀t + θ) is WSS.",
+    "Explain AM generation using a square-law modulator; explain DSB-SC generation with balanced/ring modulators.",
+    "Describe SSB generation by the phase discrimination method; compare SSB-SC, DSB-SC and VSB.",
+    "For the given joint pdf, check independence and find P(X<0, Y<0); find statistical averages of the uniform variable on (−10, 10).",
+    "Derive the power content of single-tone AM and draw its time and frequency representation; define modulation and its need.",
+    "Find the mean output of the given LTI system for a stationary input; prove |Rxy(τ)| ≤ √(Rxx(0)Ryy(0)).",
+    "Derive the envelope-detector condition to avoid diagonal clipping; analyse the given square-law demodulator.",
+    "Explain the superheterodyne receiver with a block diagram."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Communication Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 404",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s8-bai404-mid-2026-mar-cseai-aiml"
+  ],
+  "importantTopics": [
+    "SMA Concept, Need and Social Media Landscape",
+    "Social Networks: Nodes, Ties, Influencers, Graphs and Matrices",
+    "Network Models: Random Graphs, Evolution and Preferential Attachment",
+    "Web Analytics: Clickstream, Surveys, A/B Testing, Google Analytics",
+    "Web Crawling, Indexing and NLP for Micro-text",
+    "Network Analysis on Platforms (LinkedIn, Instagram, YouTube, Twitter)",
+    "Data Processing and Visualization in SMA"
+  ],
+  "likelyQuestions": [
+    "Define social media analytics and explain its significance; how does SMA turn raw social media data into actionable insights?",
+    "Explain nodes, ties and influencers in social networks and how graphs and adjacency matrices represent network data.",
+    "Explain random graphs and their role in modelling network evolution, with real-world examples.",
+    "What is clickstream analysis? Give metrics commonly analysed and write code to count clicks per user/session.",
+    "Explain web crawling and indexing for data collection; write Python steps to crawl Twitter (X) data and visualise hashtags.",
+    "Explain network analysis on social platforms to identify communities, influencers and engagement metrics.",
+    "Explain the principles of data visualization and the charts and dashboards used; how do node-link diagrams and heatmaps help?",
+    "Discuss the need for SMA in small vs large organizations and its applications in marketing, customer service, product development and crisis management; explain the social media landscape.",
+    "Define basic measures (degree, betweenness, clustering coefficient) to identify influential users; which measure identifies a bridge node?",
+    "Model how a new researcher chooses papers to read using preferential attachment, starting from the given small network."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Social Media Analytics - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

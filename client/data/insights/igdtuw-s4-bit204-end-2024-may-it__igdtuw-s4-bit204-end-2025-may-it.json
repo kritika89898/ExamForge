@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bit204-end-2024-may-it",
+    "igdtuw-s4-bit204-end-2025-may-it"
+  ],
+  "importantTopics": [
+    "Java: Features, Packages, Interfaces, Inheritance, Threads",
+    "Inheritance, Virtual Functions and Abstract Classes",
+    "File Handling in C++",
+    "Exception Handling and Namespaces",
+    "Operator and Function Overloading",
+    "Functions: Inline, Default Arguments, Call by Reference",
+    "OOP Concepts and C++ Basics",
+    "Constructors and Copy Constructors"
+  ],
+  "likelyQuestions": [
+    "Explain why Java is secure and portable and the JVM; differentiate abstract classes and interfaces.",
+    "Show the order of constructor calls in multiple inheritance; demonstrate a virtual base class and the protected specifier.",
+    "Count the characters, words and lines in a text file.",
+    "Explain exception handling with a diagram and show multiple catch blocks for one try.",
+    "Overload the unary ++ operator for the given Time class using member and friend functions.",
+    "Write a program using an inline function to find the minimum of two numbers; how does it differ from default arguments?",
+    "Explain five characteristics of OOP; are encapsulation and data abstraction the same?",
+    "Why is a copy constructor used? Demonstrate with a program.",
+    "Write an EMPLOYEE class with a static counter; explain two uses of static.",
+    "Find the output of the given program using the comma operator / pointer increment."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Object Oriented Programming - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Object Oriented Programming - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

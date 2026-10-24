@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bai110-end-2024-dec-eceai"
+  ],
+  "importantTopics": [
+    "Object-Oriented Programming",
+    "Lists, Tuples and Sets",
+    "File Handling",
+    "Pandas DataFrames",
+    "Data Types, Variables and Operators",
+    "Pattern and Series Programs",
+    "Output Prediction (Code Tracing)",
+    "Dictionaries"
+  ],
+  "likelyQuestions": [
+    "Create a class Car with attributes and methods to store and display details of three cars.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to copy the content of one file to another, skipping lines that start with a special character.",
+    "Create a DataFrame of students' marks and compute total marks, percentage and the top 3 students.",
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Write the output of the given code snippet with an explanation of each step.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Explain recursion and the importance of the base case with an example program."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

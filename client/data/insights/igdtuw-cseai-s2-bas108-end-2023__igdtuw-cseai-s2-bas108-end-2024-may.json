@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 108",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas108-end-2023",
+    "igdtuw-cseai-s2-bas108-end-2024-may"
+  ],
+  "importantTopics": [
+    "Joint, Marginal and Conditional Distributions",
+    "Random Variables, PMF/PDF and CDF",
+    "Correlation and Regression",
+    "Hypothesis Testing: Large Samples (Z-test)",
+    "Small Sample Tests: t-test and F-test",
+    "Probability, Conditional Probability and Bayes' Theorem",
+    "Expectation, Variance and Covariance",
+    "Discrete Distributions: Binomial, Poisson, Geometric"
+  ],
+  "likelyQuestions": [
+    "For the given joint pdf, find the constant c, the marginal density of X and the conditional density of Y given X.",
+    "A random variable X has the given probability distribution. Find k, the required probabilities and the smallest value of x for which P(X ≤ x) > 1/2.",
+    "Estimate the regression line of Y on X from the given data and predict Y for the given X.",
+    "Is there a significant difference between the proportions favouring a plan in two cities at 5% level?",
+    "Test whether the given sample of 9 items differs significantly from an assumed mean of 47.5.",
+    "Boxes A, B, C, D contain fuses with given defect rates. A fuse selected at random is defective; find the probability that it came from box D.",
+    "Find E[2X − 3Y + 7] and Var[2X − 3Y + 7] for independent X and Y with the given moments.",
+    "Out of 800 families with 4 children, how many are expected to have 2 boys and 2 girls, no girl, at most 2 girls?",
+    "Calculate the mean, median and mode of the given frequency distribution, and the standard deviation and coefficient of variation.",
+    "The resistance of resistors is normal with mean 100 Ω and SD 2 Ω; what percentage lie between 98 and 102 Ω?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Probability and Statistics - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Probability and Statistics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BMA 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bma204-mid-2024-mar-mae"
+  ],
+  "importantTopics": [
+    "Cams and Followers",
+    "Mechanisms: Kinematic Pairs, Grashof's Law, Degrees of Freedom",
+    "Inversions and Mechanisms: Quick-Return, Scotch Yoke, Oldham",
+    "Vibrations",
+    "Velocity Analysis and Instantaneous Centres"
+  ],
+  "likelyQuestions": [
+    "Draw the cam profile for the given knife-edge follower with SHM rise and return and dwells.",
+    "State Grashof's law and check the given four-bar linkage; classify kinematic pairs.",
+    "Explain the Whitworth quick-return mechanism with a sketch.",
+    "Find the natural frequencies of longitudinal and transverse vibration for the given shaft and disc/flywheel.",
+    "For the given four-bar mechanism, find the velocity of C and E and angular velocities of BC and CD.",
+    "Define base circle, trace point, pitch point, pitch curve and lift; draw displacement/velocity/acceleration diagrams for SHM and cycloidal motion; classify cams.",
+    "Find the degrees of freedom of the given linkages using Grübler's rule.",
+    "Explain the Scotch yoke and Oldham's coupling; name the inversions behind the crank-and-slotted-lever and rotary engine.",
+    "Differentiate free and forced vibrations; explain logarithmic decrement.",
+    "State the three-centres-in-line theorem; locate all instantaneous centres of the given mechanism and find ωBC."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Machines - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

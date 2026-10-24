@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-mid-2023"
+  ],
+  "importantTopics": [
+    "Eigenvalues, Eigenvectors and Special Matrices",
+    "Vector Spaces, Subspaces, Basis and Dimension",
+    "Laplace Transforms and Convolution",
+    "Systems of Linear Equations and Consistency",
+    "Cayley–Hamilton Theorem and Matrix Inverse",
+    "Linear Transformations"
+  ],
+  "likelyQuestions": [
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "Check whether the given set of vectors is linearly independent; if dependent, find the relation between them.",
+    "Use the convolution theorem to find the inverse Laplace transform of the given function.",
+    "For what values of λ and μ does the given system have (i) no solution, (ii) a unique solution, (iii) infinitely many solutions?",
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix.",
+    "Determine whether the given map T is a linear transformation and find T(a,b) from given images.",
+    "Show that the eigenvalues of a Hermitian/skew-Hermitian/unitary matrix are real/purely imaginary/of unit modulus.",
+    "Define basis and dimension of a vector space. Show that the given set W is a subspace and find a basis and its dimension.",
+    "Solve the given initial value problem using Laplace transforms.",
+    "Solve the given homogeneous / non-homogeneous system of linear equations, or check its consistency."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

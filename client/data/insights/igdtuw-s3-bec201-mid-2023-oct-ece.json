@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec201-mid-2023-oct-ece"
+  ],
+  "importantTopics": [
+    "Small-Signal Analysis of Amplifiers",
+    "Diodes, Rectifiers and Wave-Shaping Circuits",
+    "Multistage Amplifiers: Darlington, Cascade, Cascode, RC Coupled",
+    "BJT Configurations and Characteristics",
+    "Transistor Biasing and Thermal Stability"
+  ],
+  "likelyQuestions": [
+    "Analyse the given amplifier using small-signal modelling and find its voltage gain.",
+    "Differentiate transition and diffusion capacitance of a diode; explain the Zener diode as a voltage regulator and the effect of temperature on its V–I curve.",
+    "Explain the Darlington pair and why it is called a 'super-β' configuration.",
+    "Analyse the input and output characteristics of a CB configuration and its regions of operation.",
+    "What is biasing and why is it needed? Name common BJT biasing techniques.",
+    "Derive Rin, Ro, Avo, Av and Gv for the small-signal CE configuration; relate small-signal base and emitter resistances.",
+    "Sketch the output of the given clipper/clamper networks for the given input; why must the PIV of a full-wave rectifier diode be 2Vm?",
+    "Differentiate cascade and cascode amplifiers; explain the emitter follower and the advantages of RC coupling over transformer coupling.",
+    "Explain base-width modulation and channel-length modulation.",
+    "Identify the biasing techniques in the given circuits and compare their thermal stability using the stability factor S."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Analog Electronics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

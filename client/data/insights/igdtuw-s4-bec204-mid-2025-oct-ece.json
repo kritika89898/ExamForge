@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bec204-mid-2025-oct-ece"
+  ],
+  "importantTopics": [
+    "Counters and Shift Registers",
+    "Combinational Design with Decoders and MUX",
+    "Latches, Flip-Flops and Excitation Tables",
+    "Finite State Machines: Mealy and Moore"
+  ],
+  "likelyQuestions": [
+    "Design a 3-bit ripple down counter using T flip-flops and a synchronous MOD-5 counter using JK flip-flops.",
+    "Design the given combinational circuit using a decoder and external gates.",
+    "Draw the NOR-gate RS latch and the edge-triggered RS flip-flop with truth tables; differentiate level and edge triggering.",
+    "Differentiate Mealy and Moore machines; draw the state diagram and tables for the 1010 sequence detector.",
+    "Write notes on ring and Johnson counters and shift registers with timing diagrams.",
+    "Implement the given Boolean function using an 8:1 MUX; differentiate positive and negative logic.",
+    "Give the excitation tables and state diagrams of D, T, SR and JK flip-flops.",
+    "List the capabilities and limitations of FSMs; explain the transition matrix and secondary state assignment."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital System Design - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

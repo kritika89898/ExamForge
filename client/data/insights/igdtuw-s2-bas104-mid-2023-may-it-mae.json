@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAS 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas104-mid-2023-may-it-mae"
+  ],
+  "importantTopics": [
+    "Semiconductors and Fermi Level",
+    "EM Waves in Conductors, Skin Depth and Poynting Theorem",
+    "Maxwell's Equations, Displacement Current and Continuity",
+    "EM Waves in Dielectrics and Free Space",
+    "Crystal Structure: Miller Indices, Reciprocal Lattice",
+    "Band Theory: Kronig–Penney Model and Bloch Theorem"
+  ],
+  "likelyQuestions": [
+    "Derive the expression for the Fermi level in a p-type (or n-type) semiconductor and show its position with a diagram.",
+    "Discuss EM wave propagation in a conducting medium; why is the mobile signal weak inside a lift? Calculate the skin depth of silver at the given frequency.",
+    "Write Maxwell's equations in differential and integral form and discuss their physical significance; state and derive Gauss's law in differential form.",
+    "Using Maxwell's equations, derive the EM wave equations in a dielectric medium and show the speed is less than in vacuum; show EM waves are transverse.",
+    "Draw the crystal planes with the given Miller indices and find the Miller indices of a plane with given intercepts.",
+    "Discuss the Kronig–Penney model and explain the formation of allowed and forbidden bands using the E–k diagram.",
+    "Calculate the Fermi energy of the given metal / position of the Fermi level for the given doping; explain Fermi–Dirac statistics.",
+    "Explain Poynting's theorem and the physical significance of the Poynting vector.",
+    "What is displacement current? Explain how Maxwell modified Ampère's law; find the displacement current for the given capacitor/dielectric.",
+    "For the given plane wave in a lossless medium, find the velocity, intrinsic impedance, peak magnetic field and Poynting vector; find E from the given B."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics II - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

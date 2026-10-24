@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bai201-end-2022"
+  ],
+  "importantTopics": [
+    "Learning: Decision Trees, Entropy and Perceptrons",
+    "First-Order Logic, Clause Form and Resolution",
+    "NLP: Bag of Words, TF-IDF and Word Embeddings",
+    "Expert Systems",
+    "Heuristic Search: Best-First and A*",
+    "Uncertainty: Probability, Bayesian Networks and Fuzzy Logic",
+    "Intelligent Agents, PEAS and AI Applications",
+    "Uninformed Search: BFS, DFS, DLS, IDS"
+  ],
+  "likelyQuestions": [
+    "Define entropy and information gain. Use the ID3 algorithm on the given dataset to find the best attribute for the first split.",
+    "Translate the given sentences (John likes all kinds of food...) into predicate logic, convert to clause form and prove 'John likes peanuts' using resolution.",
+    "What is NLP? Explain its components and any five applications.",
+    "What is an expert system? Explain its components and characteristics, and describe the MYCIN expert system.",
+    "Explain A* search and prove its optimality. Find the most cost-effective path in the given graph using A*.",
+    "How do AI systems deal with uncertainty? Explain Bayesian belief networks and their applications.",
+    "Explain the architecture and characteristics of an intelligent agent; define simple reflex and goal-based agents with PEAS descriptions.",
+    "For the given state space, list the order in which nodes are visited by BFS, depth-limited search (limit 3) and iterative deepening search.",
+    "Explain the water jug problem using state-space search and write its production rules.",
+    "Determine whether the given propositional formula is valid or contradictory, and check whether two statements are logically equivalent."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Artificial Intelligence - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

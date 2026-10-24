@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-mid-2023-jan"
+  ],
+  "importantTopics": [
+    "Pattern and Series Programs",
+    "Data Types, Variables and Operators",
+    "Conditional Statements and Loops",
+    "Lists, Tuples and Sets",
+    "Functions, Arguments and Scope",
+    "Strings and String Methods"
+  ],
+  "likelyQuestions": [
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Explain if, if-else and if-elif-else statements with a flow diagram and an example where if-elif-else is necessary.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable.",
+    "Write a Python program to print the Fibonacci series (or a given series) up to n terms.",
+    "Discuss the built-in data types in Python and differentiate between mutable and immutable types.",
+    "Explain break, continue and pass statements with examples, and state when a while loop is preferred over a for loop.",
+    "Write a Python program to check whether two lists/sets have any common element and display the common elements."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

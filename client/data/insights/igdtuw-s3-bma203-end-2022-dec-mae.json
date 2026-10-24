@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BMA 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bma203-end-2022-dec-mae"
+  ],
+  "importantTopics": [
+    "Deflection of Beams: Macaulay, Castigliano",
+    "Pressure Vessels: Thin and Thick Cylinders",
+    "Simple Stress and Strain, Elastic Constants",
+    "Shear Force and Bending Moment Diagrams",
+    "Torsion of Shafts",
+    "Principal Stresses and Mohr's Circle",
+    "Columns and Springs",
+    "Bending Stresses"
+  ],
+  "likelyQuestions": [
+    "Using Macaulay's method, find the maximum deflection of the beam with an eccentric point load.",
+    "Find the hoop and longitudinal stresses in the given thin cylinder.",
+    "Find the stresses and total elongation of the given stepped/composite bar under load; find the elongation of a uniformly tapered bar.",
+    "Draw the SFD and BMD for the given beam and locate the maximum bending moment and point of contraflexure.",
+    "Find the maximum safe torque for the given shaft with the given twist and shear-stress limits.",
+    "For the given principal stresses, find the normal, shear and resultant stress on the given inclined plane and the maximum shear stress.",
+    "Find the safe Euler load for the given fixed–hinged strut; define slenderness ratio.",
+    "Derive the simple bending formula and list its assumptions.",
+    "State Castigliano's theorem and find the deflection under the load for the given beam.",
+    "Derive Lamé's equations for radial and hoop stress in thick cylinders; differentiate thin and thick vessels."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Strength of Materials - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

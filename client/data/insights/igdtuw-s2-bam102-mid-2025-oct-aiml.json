@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAM 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bam102-mid-2025-oct-aiml"
+  ],
+  "importantTopics": [
+    "Arrays: Memory Representation and Operations",
+    "Linked Lists",
+    "Stacks and Expression Conversion",
+    "Data Structure Basics and Algorithm Complexity",
+    "Queues and Priority Queues",
+    "Searching and Sorting"
+  ],
+  "likelyQuestions": [
+    "How is an array represented in memory? Differentiate row-major and column-major order and find the address of the given element.",
+    "Write an algorithm to insert a node at the end of a singly linked list; compare singly and circular linked lists.",
+    "Implement PUSH and POP on a stack using an array and analyse the complexity; list stack applications.",
+    "Define data structure; differentiate linear and non-linear data structures and discuss two in detail.",
+    "Differentiate a queue and a priority queue; implement a priority queue using linked lists.",
+    "Write insertion sort / selection sort with an example and analyse its complexity.",
+    "Write an algorithm for insertion at the end and deletion at the front of an array; list merits and demerits of array implementation of lists.",
+    "Write a program to reverse a circular linked list / return the nth element of a doubly linked list; list advantages and applications of linked lists.",
+    "Convert the given infix expression to prefix and postfix, and evaluate the given postfix expression using a stack.",
+    "Explain the complexity of algorithms and the time–space trade-off; give the time complexity of the given code segment."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Fundamentals of Data Structure - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

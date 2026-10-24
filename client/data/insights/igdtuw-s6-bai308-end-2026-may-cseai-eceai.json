@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 308",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bai308-end-2026-may-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Service Models: SaaS, PaaS, IaaS",
+    "Deployment Models: Public, Private, Hybrid, Community",
+    "Evolution, Trends, Benefits and Challenges of Cloud",
+    "Cloud Architecture and Cloud Service Providers",
+    "Virtualization, Hypervisors and VM Provisioning",
+    "Containers and Docker",
+    "SDN and NFV",
+    "Blockchain and Smart Contracts in Cloud"
+  ],
+  "likelyQuestions": [
+    "Explain SaaS, PaaS and IaaS in detail with features, control and business applications; identify the model for Gmail, Google App Engine and Amazon EC2.",
+    "Explain the cloud deployment models and compare them on cost, security, scalability and control.",
+    "Explain the trends in computing that led to cloud computing and the key milestones in its evolution.",
+    "Explain the layers of cloud architecture and front-end vs back-end components with a diagram.",
+    "Explain virtualization, virtual machines and hardware support for virtualization; differentiate full virtualization and paravirtualization.",
+    "Explain containerization and Docker and how they improve deployment and scalability.",
+    "How does software-defined networking redefine network control and forwarding? Illustrate with an architecture diagram.",
+    "Explain how blockchain transforms cloud environments: its structure, working and advantages.",
+    "An organisation needs full control over VMs, storage and OS. Identify the most suitable service model and explain its features.",
+    "Which deployment model suits a company with high security needs, cost constraints and scalability needs? Explain the principles for designing public, private and hybrid clouds."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

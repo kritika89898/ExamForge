@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bas203-end-2023-dec-cse-it-cseai-aiml",
+    "igdtuw-s3-bas203-end-2024-dec-cse-it-cseai-aiml"
+  ],
+  "importantTopics": [
+    "Numerical Solution of ODEs",
+    "Roots of Equations: Bisection, Fixed-Point, Secant, Newton–Raphson",
+    "Linear Systems: Gauss Elimination, Gauss–Seidel, SOR",
+    "Eigenvalues: Power Method",
+    "Interpolation and Finite Differences",
+    "Numerical Integration",
+    "Number Representation and Errors",
+    "Curve Fitting by Least Squares"
+  ],
+  "likelyQuestions": [
+    "Use the fourth-order Runge–Kutta method to find y(0.2) for the given ODE / pair of ODEs.",
+    "Find a real root of the given equation correct to four decimal places using the Newton–Raphson method.",
+    "Solve the given system of linear equations by Gauss elimination with partial pivoting.",
+    "Using the power method, find the smallest (or largest) eigenvalue in magnitude and the corresponding eigenvector of the given matrix.",
+    "Derive Newton's forward difference interpolation formula and find the cubic polynomial through the given points.",
+    "Derive the Newton–Cotes quadrature formula and evaluate the given integral by Simpson's 1/3 and 3/8 rules.",
+    "Represent the given number in binary floating-point form and find the percentage relative error due to rounding.",
+    "Fit a straight line to the given data using the method of least squares.",
+    "Solve the given IVP using Euler's / modified Euler's method, Taylor series and Picard's method, and compute the error.",
+    "Derive the secant formula and use it to find a root; describe fixed-point iteration and bisection, and the generalised Newton method for double roots."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Numerical Methods - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Numerical Methods - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

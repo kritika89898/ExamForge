@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BEC 206",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec206-end-2024-may-ece-eceai",
+    "igdtuw-s4-bec206-end-2025-may-ece"
+  ],
+  "importantTopics": [
+    "Electrostatics: Coulomb, Gauss's Law and Charge Distributions",
+    "Magnetostatics: Biot–Savart and Ampère's Law",
+    "Transmission Lines",
+    "Current, Continuity and Boundary Conditions",
+    "EM Waves and Poynting Theorem",
+    "Maxwell's Equations and Displacement Current",
+    "Potential, Laplace and Poisson Equations",
+    "Vector Analysis and Coordinate Systems"
+  ],
+  "likelyQuestions": [
+    "State Gauss's law in differential form and give its applications; find D at the given point due to the given point and line charges.",
+    "State Biot–Savart's law and derive H for line, surface and volume currents; find H at the given point for the given loop.",
+    "Explain the equivalent circuit, line parameters, characteristic impedance and propagation constant; discuss lossless and distortionless lines.",
+    "Derive the relation between E and current density; explain the continuity equation and relaxation time.",
+    "State and derive the Poynting theorem.",
+    "Write Maxwell's equations in differential and integral form and explain their significance.",
+    "Derive the relation between E and V; find D from the given potential; explain equipotential surfaces.",
+    "Derive the relation between spherical and Cartesian coordinates; convert the given vector into Cartesian form.",
+    "Derive E due to a line charge; differentiate line, surface and volume charge density; explain the conservative nature of the electrostatic field.",
+    "State Ampère's circuital law; explain conservation of magnetic flux and why magnetic monopoles don't exist."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Electromagnetic Field Theory - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Electromagnetic Field Theory - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

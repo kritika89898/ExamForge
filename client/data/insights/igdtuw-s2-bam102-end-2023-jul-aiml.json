@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAM 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bam102-end-2023-jul-aiml"
+  ],
+  "importantTopics": [
+    "Graphs: Representation, Shortest Paths and Spanning Trees",
+    "Stacks and Expression Conversion",
+    "Trees: BST, Traversals, AVL and Threaded Trees",
+    "Data Structure Basics and Algorithm Complexity",
+    "Arrays: Memory Representation and Operations",
+    "Linked Lists",
+    "Searching and Sorting",
+    "Hashing and Collision Resolution"
+  ],
+  "likelyQuestions": [
+    "Give two representations of graphs and define in-degree and out-degree; illustrate Dijkstra's algorithm with an example.",
+    "Implement PUSH and POP on a stack using an array and analyse the complexity; list stack applications.",
+    "Insert the given keys into an empty BST and show the result of deleting the root; write the BST search/insert algorithm.",
+    "Define data structure; differentiate linear and non-linear data structures and discuss two in detail.",
+    "How is an array represented in memory? Differentiate row-major and column-major order and find the address of the given element.",
+    "Write an algorithm to insert a node at the end of a singly linked list; compare singly and circular linked lists.",
+    "Write insertion sort / selection sort with an example and analyse its complexity.",
+    "Define hashing and explain why it is needed.",
+    "Differentiate a queue and a priority queue; implement a priority queue using linked lists.",
+    "What is a minimum spanning tree? Explain Prim's and Kruskal's algorithms with examples; illustrate topological sort."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Fundamentals of Data Structure - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

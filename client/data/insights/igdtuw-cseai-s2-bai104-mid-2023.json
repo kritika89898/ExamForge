@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-mid-2023"
+  ],
+  "importantTopics": [
+    "Pandas Series and DataFrames",
+    "Data Ethics, Privacy and the C's of Data",
+    "NumPy Arrays, Indexing and Operations",
+    "Data Science Process, Life Cycle and Applications",
+    "Types of Data and Big Data V's"
+  ],
+  "likelyQuestions": [
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "Describe the various types of data in data science with examples.",
+    "Write the output of the given Pandas code snippets with explanation.",
+    "Explain the C's to be followed while handling data and the aspects of privacy with sensitive data.",
+    "Write NumPy programs to create, reshape, split and stack arrays and perform row/column-wise operations on them.",
+    "Give examples of applications of data science in healthcare, finance, education and other industries.",
+    "Explain the V's of big data. Is veracity related to the accuracy of data? Justify."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

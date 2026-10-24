@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BIT 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bit204-mid-2024-mar-cse-it-mae-eceai"
+  ],
+  "importantTopics": [
+    "Inheritance, Virtual Functions and Abstract Classes",
+    "Classes, Static Members and Friend Functions",
+    "OOP Concepts and C++ Basics",
+    "Operator and Function Overloading",
+    "Functions: Inline, Default Arguments, Call by Reference"
+  ],
+  "likelyQuestions": [
+    "Show the order of constructor calls in multiple inheritance; demonstrate a virtual base class and the protected specifier.",
+    "Write an EMPLOYEE class with a static counter; explain two uses of static.",
+    "Explain five characteristics of OOP; are encapsulation and data abstraction the same?",
+    "Overload the unary ++ operator for the given Time class using member and friend functions.",
+    "Write a program using an inline function to find the minimum of two numbers; how does it differ from default arguments?",
+    "Create the abstract UniversityEmployee class with a pure virtual salary() and derived teaching/non-teaching classes; design the student–test–sports–result hierarchy.",
+    "Use a friend function to swap private data of two classes / compare areas of Rectangle and Triangle; how does a friend differ from a member function?",
+    "Explain derived and user-defined data types, type casting (implicit and explicit), references vs pointers, and dynamic memory allocation.",
+    "Calculate the area of a rectangle or circle using function overloading; explain compile-time polymorphism.",
+    "Square an integer using call by pointer and call by reference."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Object Oriented Programming - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

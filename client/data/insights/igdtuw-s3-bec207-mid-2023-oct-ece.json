@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 207",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec207-mid-2023-oct-ece"
+  ],
+  "importantTopics": [
+    "Boolean Algebra and K-Map Minimisation",
+    "Codes and Number Systems",
+    "Decoders, Multiplexers and Combinational Design",
+    "Flip-Flops"
+  ],
+  "likelyQuestions": [
+    "Prove the given Boolean identities and convert expressions to canonical SOP/POS.",
+    "Differentiate weighted and non-weighted codes, and reflective and self-complementing codes; justify that Excess-3 is self-complementing.",
+    "Realise the given functions using the 74154 4-to-16 decoder; draw a 2-to-4 decoder using NOR gates.",
+    "Realise an SR flip-flop using NOR and NAND gates; design a master–slave JK flip-flop with NAND gates.",
+    "Minimise the given function with don't-cares using K-maps in SOP and POS and implement with NAND/NOR gates only.",
+    "Convert the given Gray code to binary.",
+    "Implement an 8:1 MUX using 4:1 MUXes; design an equality detector using NAND gates.",
+    "Give the excitation tables of JK and T flip-flops."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Electronics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-mid-2023",
+    "igdtuw-s3-bit203-mid-2022-oct-cse-it"
+  ],
+  "importantTopics": [
+    "Data Flow Diagrams and Context Diagrams",
+    "Requirements Engineering and Elicitation",
+    "SRS, Traceability and Requirement Quality",
+    "Software Process Models (SDLC) and Agile",
+    "Prototyping vs Full Requirements Analysis Strategies",
+    "Project Management, Risk Management and Configuration",
+    "UML: Use Case, Sequence Diagrams and CRC Cards",
+    "Software Engineering Basics and Software Crisis"
+  ],
+  "likelyQuestions": [
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "What are the characteristics and goals of a good SRS? Why should requirements be numbered and traceable?",
+    "Suggest the most appropriate process model for the given systems (anti-lock braking, university accounting, etc.) with reasons.",
+    "For a hospital patient-planning system, discuss the pros and cons of thorough up-front analysis versus a pilot version. Which strategy do you favour?",
+    "You are managing a project that is behind schedule. How can renegotiating schedule, adding people or relaxing quality shorten it?",
+    "Draw a use case diagram for an online food ordering system.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?",
+    "Identify violations of DFD rules in the given context and level-1 diagrams.",
+    "Discover ambiguities and omissions in the given requirements statement for an automated rail ticket machine."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Software Engineering - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Software Engineering - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

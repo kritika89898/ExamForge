@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-mid-2024-nov-remid-cseai"
+  ],
+  "importantTopics": [
+    "Neural Network Training: Backpropagation and Activation Functions",
+    "Introduction to Computer Vision and the Data-Driven Approach",
+    "k-NN and Linear Classification",
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "CNN Layers: Convolution, Pooling, Parameter Sharing, Batch Norm",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet"
+  ],
+  "likelyQuestions": [
+    "How does the backpropagation algorithm work? Describe the forward pass, loss computation and backward pass.",
+    "What is computer vision? Why is vision so difficult? Give real-world examples of computer vision applications.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "Compare sigmoid and ReLU activation functions; what is the function of the ReLU layer? How does a CNN differ from an ANN?",
+    "Explain the data-driven approach to computer vision versus hand-engineered approaches; explain image digitization and edge detection.",
+    "Explain linear classification and how a linear classifier separates classes; explain K-means clustering for vector quantization.",
+    "How are weights updated in SGD? Differentiate stochastic and batch gradient descent and explain gradient averaging."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Vision - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

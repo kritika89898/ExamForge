@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-mid-2022",
+    "igdtuw-cseai-s2-bas106-mid-2024"
+  ],
+  "importantTopics": [
+    "Green Chemistry and Atom Economy",
+    "Waste Water Treatment",
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain",
+    "Hazardous and Solid Waste Management",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Water Quality: Hardness, Alkalinity, DO and COD",
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Agriculture, Food Problems and Land Degradation"
+  ],
+  "likelyQuestions": [
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "Calculate the temporary, permanent and total hardness of the given water sample from EDTA titration data. Which buffer is used and why?",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Explain the negative consequences of modern agriculture and differentiate its on-site and off-site impacts.",
+    "Calculate the atom economy of the desired product in the given reaction, and explain the green synthesis of adipic acid.",
+    "Discuss the removal of excess nutrients from waste water, and chlorination with break-point chlorination."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Environmental Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

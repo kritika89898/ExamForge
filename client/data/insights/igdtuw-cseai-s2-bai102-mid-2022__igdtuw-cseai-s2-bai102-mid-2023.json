@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BAI 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai102-mid-2022",
+    "igdtuw-cseai-s2-bai102-mid-2023"
+  ],
+  "importantTopics": [
+    "Basic Programs: Strings, Patterns and Arrays",
+    "Polymorphism: Overloading, Overriding, Binding",
+    "Java Basics: JVM, JRE, JDK and Features",
+    "Constructors, Overloading and Chaining",
+    "Abstract Classes and Interfaces",
+    "Classes, Objects and Variables",
+    "Inheritance and the super/final Keywords"
+  ],
+  "likelyQuestions": [
+    "Write a Java program to remove all vowels from a string entered by the user / print a reverse pyramid pattern.",
+    "Differentiate between ad-hoc and pure polymorphism, and between early and late binding.",
+    "Explain JVM, JRE and JDK with a diagram. Why is Java robust and architecture-neutral?",
+    "Differentiate between constructor overloading and constructor chaining with a Box class example.",
+    "What is an abstract class? Create an abstract class Animal and inherit it in Cat, Dog and Duck.",
+    "Differentiate between class, instance and local variables. Write a program where a class variable auto-assigns unique roll numbers to Student objects.",
+    "What are the forms of inheritance in Java? Why is multiple inheritance not allowed and how is it achieved using interfaces?",
+    "Write a Java program to find the minimum, maximum and average of elements in an array.",
+    "Create a superclass Vehicle and derived classes Car and Bike that override print(), and demonstrate method overloading and overriding.",
+    "Find the errors in the given Java code and give the output of the given code with reasons."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

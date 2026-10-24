@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BMA 206",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bma206-end-2024-may-mae"
+  ],
+  "importantTopics": [
+    "Crystal Structure and Unit Cells",
+    "Crystal Defects",
+    "Alloys and the Iron–Carbon Phase Diagram",
+    "Heat Treatment",
+    "Corrosion",
+    "Failure: Fracture, Fatigue and Creep",
+    "Strengthening Mechanisms"
+  ],
+  "likelyQuestions": [
+    "What is a unit cell? Explain the types of unit cells with diagrams.",
+    "Explain point defects with a diagram.",
+    "Why study the Fe–C diagram? Explain it with a neat sketch.",
+    "Why are metals heat treated? Explain carburising and nitriding.",
+    "What is corrosion? Explain its types and methods of protection.",
+    "Define fatigue and creep and explain their failures with examples.",
+    "Explain strain hardening as a strengthening mechanism with a diagram.",
+    "Explain amorphous and polycrystalline materials with examples.",
+    "Define edge dislocation and twin boundary defects with diagrams.",
+    "Explain the microstructures of the phases of steel; what is an alloy?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Engineering Materials - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

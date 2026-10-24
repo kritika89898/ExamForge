@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 101",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai101-mid-2023-jan"
+  ],
+  "importantTopics": [
+    "Reasoning and Inference Rules",
+    "Data, Data Types and Pre-processing",
+    "Knowledge Representation",
+    "Training, Testing and Validation Split",
+    "Propositional Logic and Formalisation",
+    "Agents and Agent Structure",
+    "Pattern Recognition",
+    "Applications in Healthcare, Education and Agriculture"
+  ],
+  "likelyQuestions": [
+    "What is reasoning in AI? Explain the various types of reasoning with examples.",
+    "Why is data crucial in machine learning? Explain the types of data, the five V's of data and the need for pre-processing.",
+    "What is knowledge representation? Discuss various approaches and strategies of knowledge representation in intelligent systems.",
+    "What is the role of training, testing and validation sets? What ratios are typically used to split a dataset?",
+    "Formalize the given English sentences into propositional logic and prepare the truth table for the compound proposition.",
+    "Explain the structure of an intelligent agent.",
+    "What is pattern recognition? Discuss its phases and real-world applications.",
+    "How can AI improve medical facilities in India? Discuss the benefits and challenges for stakeholders.",
+    "Differentiate between deductive and inductive reasoning, and explain the main rules of inference.",
+    "How do the quality and size of a dataset affect the performance of machine learning algorithms?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Intelligent Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

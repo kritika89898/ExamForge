@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 404",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s8-bai404-end-2024-may-cseai-aiml"
+  ],
+  "importantTopics": [
+    "Link Analysis and Link Prediction",
+    "SMA Concept, Need and Social Media Landscape",
+    "Facebook Analytics and Social Campaigns",
+    "Data Processing and Visualization in SMA",
+    "Future Trends and Challenges in SMA",
+    "Web Crawling, Indexing and NLP for Micro-text",
+    "Network Analysis on Platforms (LinkedIn, Instagram, YouTube, Twitter)",
+    "Web Analytics: Clickstream, Surveys, A/B Testing, Google Analytics"
+  ],
+  "likelyQuestions": [
+    "What is link analysis and how does it uncover relationships between entities in a network?",
+    "Define social media analytics and explain its significance; how does SMA turn raw social media data into actionable insights?",
+    "A Facebook campaign reached 15,000 people with 6.5% engagement. Compute the engaged users and how many more were needed for 10%; suggest improvements.",
+    "Explain the principles of data visualization and the charts and dashboards used; how do node-link diagrams and heatmaps help?",
+    "Discuss future trends in SMA and the influence of AI/ML; explain game analytics.",
+    "Explain web crawling and indexing for data collection; write Python steps to crawl Twitter (X) data and visualise hashtags.",
+    "Explain network analysis on social platforms to identify communities, influencers and engagement metrics.",
+    "What is clickstream analysis? Give metrics commonly analysed and write code to count clicks per user/session.",
+    "Explain nodes, ties and influencers in social networks and how graphs and adjacency matrices represent network data.",
+    "Explain random graphs and their role in modelling network evolution, with real-world examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Social Media Analytics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

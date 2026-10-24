@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 308",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai308-end-2024",
+    "igdtuw-cseai-s6-bai308-end-2025"
+  ],
+  "importantTopics": [
+    "Scalability, Migration, Serverless, Fog and Utility Computing",
+    "Virtualization, Hypervisors and VM Provisioning",
+    "Deployment Models: Public, Private, Hybrid, Community",
+    "Cloud Security, Monitoring and Incident Response",
+    "Evolution, Trends, Benefits and Challenges of Cloud",
+    "Service Models: SaaS, PaaS, IaaS",
+    "SDN and NFV",
+    "Blockchain and Smart Contracts in Cloud"
+  ],
+  "likelyQuestions": [
+    "What is dynamic scalability? Discuss its types; explain the need for and steps of cloud migration.",
+    "Explain virtualization, virtual machines and hardware support for virtualization; differentiate full virtualization and paravirtualization.",
+    "Explain the cloud deployment models and compare them on cost, security, scalability and control.",
+    "What are the security challenges in cloud computing at different levels? Discuss them from an organisational view.",
+    "Explain the trends in computing that led to cloud computing and the key milestones in its evolution.",
+    "Explain SaaS, PaaS and IaaS in detail with features, control and business applications; identify the model for Gmail, Google App Engine and Amazon EC2.",
+    "How does software-defined networking redefine network control and forwarding? Illustrate with an architecture diagram.",
+    "Explain how blockchain transforms cloud environments: its structure, working and advantages.",
+    "Explain containerization and Docker and how they improve deployment and scalability.",
+    "Explain the layers of cloud architecture and front-end vs back-end components with a diagram."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cloud Computing - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cloud Computing - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

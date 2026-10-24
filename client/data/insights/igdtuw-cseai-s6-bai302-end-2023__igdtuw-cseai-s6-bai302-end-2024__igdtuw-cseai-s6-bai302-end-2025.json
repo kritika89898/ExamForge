@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 302",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai302-end-2023",
+    "igdtuw-cseai-s6-bai302-end-2024",
+    "igdtuw-cseai-s6-bai302-end-2025"
+  ],
+  "importantTopics": [
+    "Machine Translation: Rule-based, Statistical, Neural and Anusaaraka",
+    "RNN, LSTM, GRU and CNN for NLP",
+    "Word Embeddings: Word2Vec (CBOW, Skip-gram), GloVe, Doc2Vec",
+    "NLP Overview, Phases and Pipeline",
+    "Bag of Words and TF-IDF",
+    "Text Pre-processing: Tokenization, Stop Words, Stemming, Lemmatization",
+    "Chatbots, Conversational Models and Sentiment Analysis",
+    "Syntax: Parsing and Parse Trees"
+  ],
+  "likelyQuestions": [
+    "Compare rule-based, statistical and neural machine translation with examples; compare word-based and phrase-based MT.",
+    "Explain GRU and LSTM architectures and how they overcome the limitations of standard RNNs; discuss the advantages and disadvantages of LSTM.",
+    "Create Word2Vec vectors using CBOW and one-hot encoding for the given sentences; explain the skip-gram model.",
+    "Define NLP and explain its phases/pipeline (phonology, morphology, syntax, semantics, pragmatics) with examples of each.",
+    "Create bag-of-words and TF-IDF vectors for the given sentences using a term–document matrix, before and after cleaning.",
+    "Perform sentence tokenization, word tokenization and stop-word removal on the given paragraph.",
+    "Explain the working and types of conversational models and chatbot architectures.",
+    "What is parsing in NLP? Describe parsing techniques and how context-free grammars aid syntactic analysis.",
+    "Explain NLTK and spaCy; discuss the use of NLTK for deep learning-based NLP tasks with examples.",
+    "Explain sequence-to-sequence and attention models with diagrams and compare them."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Natural Language Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Natural Language Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Natural Language Processing - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bit203-end-2022-dec-cse-it"
+  ],
+  "importantTopics": [
+    "Cost Estimation: Function Points and COCOMO",
+    "Requirements Engineering and Elicitation",
+    "Data Flow Diagrams and Context Diagrams",
+    "Software Testing: CFG, Cyclomatic Complexity, Levels",
+    "Project Management, Risk Management and Configuration",
+    "Software Design: Modularity, Coupling, Cohesion, Patterns",
+    "Software Maintenance, Reverse Engineering and Legacy Systems",
+    "Prototyping vs Full Requirements Analysis Strategies"
+  ],
+  "likelyQuestions": [
+    "Compute the function points for the given system with the given component complexities and adjustment factors.",
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw the CFG for the given program, calculate its cyclomatic complexity and identify independent paths with test cases.",
+    "You are managing a project that is behind schedule. How can renegotiating schedule, adding people or relaxing quality shorten it?",
+    "Explain modularity in software design and the types of coupling; contrast coupling and cohesion.",
+    "Why is maintenance required after implementation? Describe the software maintenance activities and process.",
+    "For a hospital patient-planning system, discuss the pros and cons of thorough up-front analysis versus a pilot version. Which strategy do you favour?",
+    "Draw a use case diagram for an online food ordering system.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Software Engineering - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai102-end-2022",
+    "igdtuw-cseai-s2-bai102-end-2024"
+  ],
+  "importantTopics": [
+    "Multithreading",
+    "Applets, AWT and Event Handling",
+    "Polymorphism: Overloading, Overriding, Binding",
+    "Exception Handling",
+    "I/O Streams, Files and Serialization",
+    "Classes, Objects and Variables",
+    "Constructors, Overloading and Chaining",
+    "Packages and Access Modifiers"
+  ],
+  "likelyQuestions": [
+    "Explain the life cycle of a thread. Why do we use the Runnable interface? Write a program using multiple threads.",
+    "Explain the life cycle of an applet and create an applet with labels, text fields and a submit button.",
+    "Differentiate between ad-hoc and pure polymorphism, and between early and late binding.",
+    "Explain try, catch, throw, throws and finally with examples.",
+    "What is serialization and deserialization? Write a program to store Employee objects in a file and read them back.",
+    "Differentiate between class, instance and local variables. Write a program where a class variable auto-assigns unique roll numbers to Student objects.",
+    "Differentiate between constructor overloading and constructor chaining with a Box class example.",
+    "Explain the access modifiers in Java. What is a package and how is it used?",
+    "Write a Java program to remove all vowels from a string entered by the user / print a reverse pyramid pattern.",
+    "What are the forms of inheritance in Java? Why is multiple inheritance not allowed and how is it achieved using interfaces?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Object Oriented Programming using Java - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Object Oriented Programming using Java - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

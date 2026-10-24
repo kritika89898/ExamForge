@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2023",
+    "igdtuw-s6-bai306-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Representation, Description and Object Recognition",
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "Image Compression: Redundancy, Huffman and Run-Length",
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering",
+    "Image Segmentation: Thresholding, Edges, Region Growing",
+    "Morphological Image Processing",
+    "DIP Fundamentals, Sampling and Quantization",
+    "Histogram Equalization and Matching"
+  ],
+  "likelyQuestions": [
+    "Explain boundary and regional descriptors with examples; compute the 4-chain code of the given boundary; explain PCA for image description.",
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Construct Huffman codes for the given gray levels/probabilities and find the coding efficiency and compression ratio.",
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Apply region growing (or region splitting and merging with a quad tree) to the given image with the given seed and threshold.",
+    "For the given binary image X and structuring element B, compute dilation, erosion, opening and closing.",
+    "Explain the fundamental steps of a digital image processing system with a block diagram.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Explain the types of adjacency (4, 8, m) and connectivity with examples.",
+    "Perform contrast stretching, thresholding, intensity-level slicing, negative and bit-plane slicing on the given image."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

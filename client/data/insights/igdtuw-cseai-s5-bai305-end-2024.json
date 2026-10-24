@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2024"
+  ],
+  "importantTopics": [
+    "CNN Architectures and Transfer Learning",
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Gradient Descent on a Sigmoid Neuron",
+    "Activation Functions",
+    "Overfitting, Regularization, Dropout and Data Augmentation",
+    "LSTM and GRU",
+    "McCulloch–Pitts Neuron and Thresholding Logic"
+  ],
+  "likelyQuestions": [
+    "Explain VGG16, ResNet and InceptionNet with their architectural differences; differentiate AlexNet and VGG.",
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Compare ReLU, sigmoid and tanh (and softmax), and explain when each is preferred; compute softmax for the given outputs.",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?",
+    "Explain the architecture of LSTM with its gates and equations, and how it differs from a standard RNN.",
+    "Explain the MP-neuron model with its thresholding function, advantages and limitations; implement AND, OR and NOT with MP units.",
+    "Explain transfer learning with an example and its techniques; is CNN better than RNN for image classification?",
+    "Differentiate between the MP-neuron and the perceptron; why do both fail on non-linearly separable functions?",
+    "Explain gradient descent; what is the sign of the slope at the given points on the loss curve and how does the update change?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-I - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

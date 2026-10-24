@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bas102-end-2022-aug-it-mae",
+    "igdtuw-s2-bas102-end-2023-jul-it-mae"
+  ],
+  "importantTopics": [
+    "Complex Integration: Cauchy's Theorem, Laurent Series and Residues",
+    "Analytic Functions and Cauchy–Riemann Equations",
+    "Linear ODEs: Operator Method and Cauchy–Euler",
+    "Undetermined Coefficients, Variation of Parameters and Wronskian",
+    "Laplace Transforms and Applications",
+    "Inverse Laplace Transform and Convolution",
+    "Green's, Stokes' and Gauss Divergence Theorems",
+    "Vector Calculus: Gradient, Divergence, Curl, Line Integrals"
+  ],
+  "likelyQuestions": [
+    "Find the Laurent series of the given function valid in the given annulus.",
+    "If u − v is given, find the analytic function f(z); find the harmonic conjugate of u = eˣ cos y.",
+    "Solve the given linear differential equation with constant coefficients using the operator method.",
+    "Solve the given ODE using the method of undetermined coefficients / variation of parameters.",
+    "Find the Laplace transform of the given function using the shifting theorem; derive the transform of f'(t).",
+    "State and prove the convolution theorem and use it to find the given inverse Laplace transform.",
+    "Verify Green's theorem for the given line integral over the given region.",
+    "Find the directional derivative of the given function and the tangent plane to the given surface; find a so that the given field is solenoidal.",
+    "Using the residue theorem, evaluate the given contour integral; classify the singularities of the given function.",
+    "Show that the given f(z) satisfies the C-R equations at the origin but is not differentiable there; find the image of the given strip under the mapping."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Mathematics II - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics II - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

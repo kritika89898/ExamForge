@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BCS 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bcs202-mid-2024-mar-cse-it"
+  ],
+  "importantTopics": [
+    "Digital Logic: Universal Gates, Boolean Simplification and Flip-Flops",
+    "Instruction Cycle and Arithmetic Circuits",
+    "Number Representation: 2's Complement and IEEE-754",
+    "Bus Structure and Micro-operations",
+    "Microprogrammed Control Unit"
+  ],
+  "likelyQuestions": [
+    "Realise the given gate using only NAND or NOR gates and show its truth table.",
+    "Explain an instruction with the help of the instruction cycle for MOV A, #30h.",
+    "Find the 2's complement of the given binary numbers and represent them in IEEE-754 floating-point format.",
+    "What is a bus? Explain the different buses in computer organisation with a block diagram.",
+    "What is a microprogrammed control unit? How is an instruction sequence generated using a microprogram?",
+    "Simplify and realise the given Boolean expression using basic gates; explain the D flip-flop and how it acts as a memory element.",
+    "Design a 4-bit parallel adder/subtractor; how many full and half adders are needed?",
+    "What methods are used to represent numbers in computers? Explain two with merits and demerits.",
+    "What are micro-operations? Explain the micro-operations for an instruction with an example.",
+    "Define the function of the control registers in a microprogrammed control unit."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

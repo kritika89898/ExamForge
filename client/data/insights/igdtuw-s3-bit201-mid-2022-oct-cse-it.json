@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BIT 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bit201-mid-2022-oct-cse-it"
+  ],
+  "importantTopics": [
+    "ER Modelling and Mapping to Relations",
+    "Relational Algebra",
+    "DBMS Concepts, Architecture and DBA",
+    "SQL Queries"
+  ],
+  "likelyQuestions": [
+    "Draw an ER diagram for the given scenario (music company / hospital / university academics / projects–clients) with all constraints.",
+    "Write relational algebra expressions for the given queries on the Sailors–Boats–Reserves / Customer–Vehicle–Rental schema.",
+    "Explain the three-level schema architecture and logical/physical data independence.",
+    "Write SQL queries on the given schema (flights/aircraft/employees, customer/vehicle/rental, employee/department).",
+    "Differentiate strong and weak entity sets; explain specialisation/generalisation and ternary relationships; map the ER diagram to relations.",
+    "Convert the given SQL to relational algebra; express cross product via join; differentiate selection and projection; when are relations union-compatible?",
+    "Why use a DBMS over a file system? Give DBMS functions and applications, design anomalies, and the role of a DBA.",
+    "Explain GROUP BY, views, DROP vs DELETE, COMMIT vs ROLLBACK, and inner vs outer join with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

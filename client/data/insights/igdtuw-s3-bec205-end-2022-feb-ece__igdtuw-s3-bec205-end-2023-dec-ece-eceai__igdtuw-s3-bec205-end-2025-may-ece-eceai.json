@@ -1,0 +1,46 @@
+{
+  "subjectCode": "BEC 205",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bec205-end-2022-feb-ece",
+    "igdtuw-s3-bec205-end-2023-dec-ece-eceai",
+    "igdtuw-s3-bec205-end-2025-may-ece-eceai"
+  ],
+  "importantTopics": [
+    "Two-Port Networks: Z, Y, h and ABCD Parameters",
+    "Transient Response of RL, RC and RLC Circuits",
+    "Mesh and Nodal Analysis",
+    "Network Theorems",
+    "Network Synthesis: Positive Real Functions, Foster and Cauer Forms",
+    "Laplace Transform in Circuit Analysis",
+    "Circuit Basics: KCL/KVL, Source Transformation, Star–Delta"
+  ],
+  "likelyQuestions": [
+    "Find the h/T parameters of the given network; derive h-parameters in terms of Z-parameters.",
+    "Find i(0⁺), di/dt(0⁺) and i(t) for the given RLC circuit after the switch operates.",
+    "Using nodal analysis, find all branch currents / the power in the 4 Ω resistor of the given network.",
+    "Find the current through the 10 Ω resistor using superposition, Thevenin's and Norton's theorems; give Millman's Vth and Rth.",
+    "What is a positive real function? State the conditions for driving-point functions and the restrictions on poles and zeros.",
+    "Using Laplace transforms, find i(t) for the given RLC circuit with sinusoidal input / RL circuit with a pulse.",
+    "State KCL and KVL; derive the current division rule and explain source transformation with an example.",
+    "Derive the symmetry and reciprocity conditions; show that H = H₁ + H₂ for series–parallel connection and give the cascade parameters.",
+    "For the given RC/RL circuit with DC source, find the time constant, current growth/decay and charge; why can't inductor current change instantly?",
+    "Find the current through the 10 Ω resistor using mesh analysis."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Network Analysis and Synthesis - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

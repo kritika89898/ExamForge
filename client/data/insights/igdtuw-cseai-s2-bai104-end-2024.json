@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-end-2024"
+  ],
+  "importantTopics": [
+    "Tableau: Calculated Fields, Filters and Pareto Charts",
+    "Pandas Analysis: GroupBy, Filtering and Pivot",
+    "Data Visualisation with Matplotlib",
+    "Data Science Process, Life Cycle and Applications",
+    "Data Cleaning, Missing Values and Outliers",
+    "Data Ethics, Privacy and the C's of Data",
+    "Pandas Series and DataFrames",
+    "NumPy Arrays, Indexing and Operations"
+  ],
+  "likelyQuestions": [
+    "Write a Tableau calculated field that labels orders as 'profit' or 'loss', and one to compute profit margin.",
+    "Using the given HR/Superstore DataFrame, write Pandas code to group, filter and answer the given business questions.",
+    "Write Matplotlib code to plot a line chart with given style properties, a pie chart, a bar chart and a histogram for the given data.",
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "What is a Pareto chart? Describe the steps to create one in Tableau using the Superstore dataset; explain filters vs parameters.",
+    "Write an equivalent Pandas program for the given pivot_table without using pivot, and write each year's data to a separate Excel sheet."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

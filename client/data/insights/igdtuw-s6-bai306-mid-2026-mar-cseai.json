@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s6-bai306-mid-2026-mar-cseai"
+  ],
+  "importantTopics": [
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "DIP Fundamentals, Sampling and Quantization",
+    "Pixel Relationships: Adjacency, Connectivity, Distances",
+    "Histogram Equalization and Matching",
+    "Spatial Filtering: Smoothing, Sharpening and Edge Operators",
+    "Point Operations and Intensity Transformations"
+  ],
+  "likelyQuestions": [
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Explain the fundamental steps of a digital image processing system with a block diagram.",
+    "Explain the types of adjacency (4, 8, m) and connectivity with examples.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Apply 3×3 mean, Gaussian, median and Laplacian filters and the Sobel operator at the given pixel and compute the gradient magnitude.",
+    "Perform contrast stretching, thresholding, intensity-level slicing, negative and bit-plane slicing on the given image.",
+    "Explain ideal, Butterworth and Gaussian low-pass and high-pass filters, the ringing effect and the convolution theorem; smooth the given image in the frequency domain with D₀ = 0.5.",
+    "Differentiate between sampling and quantization and explain how they affect image quality.",
+    "For the given image segment and set V, compute the De, D4, D8 and Dm distances between p and q.",
+    "Perform histogram matching/specification to modify the given histogram to the desired histogram."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Image Processing - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

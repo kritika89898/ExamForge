@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-mid-2023",
+    "igdtuw-cseai-s5-bai305-mid-2024"
+  ],
+  "importantTopics": [
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Forward Pass and Backpropagation",
+    "Linear Separability and Single vs Multi-Layer Networks",
+    "Gradient Descent on a Sigmoid Neuron",
+    "Overfitting, Regularization, Dropout and Data Augmentation",
+    "McCulloch–Pitts Neuron and Thresholding Logic"
+  ],
+  "likelyQuestions": [
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "For the given network with initial weights and biases, compute the forward-pass output and the updated weights after one backpropagation step.",
+    "Explain linearly separable and non-linear data with diagrams, and how non-linear data can be transformed.",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?",
+    "Explain the MP-neuron model with its thresholding function, advantages and limitations; implement AND, OR and NOT with MP units.",
+    "Differentiate between the MP-neuron and the perceptron; why do both fail on non-linearly separable functions?",
+    "Draw the computational graph for the given expression and find all partial derivatives.",
+    "Is a single hidden layer sufficient to represent all Boolean functions? Why do we use multi-layer networks? Explain the MLP architecture.",
+    "Explain gradient descent; what is the sign of the slope at the given points on the loss curve and how does the update change?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

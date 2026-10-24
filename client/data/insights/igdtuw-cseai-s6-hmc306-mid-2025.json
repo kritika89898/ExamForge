@@ -1,0 +1,34 @@
+{
+  "subjectCode": "HMC 306",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-hmc306-mid-2025"
+  ],
+  "importantTopics": [
+    "Cost of Capital and WACC",
+    "Nature, Scope and Goals of Financial Management",
+    "Time Value of Money: Present Value, Annuities, Perpetuities",
+    "Sources of Finance: Shares, Debentures and Bonds",
+    "Capital Structure and Risk"
+  ],
+  "likelyQuestions": [
+    "Explain the types of cost of capital: average vs marginal, future vs historical, explicit vs implicit, specific vs combined.",
+    "'Financial management is concerned with three major decisions.' Explain the investment, financing and dividend decisions and their inter-relationship.",
+    "Find the cash down payment for a house bought partly through equal annual instalments at the given rate using the given table values.",
+    "What is an ordinary share and how does it differ from debentures? Highlight the features of preference shares.",
+    "What is an optimum capital structure? Discuss the factors determining capital structure for a new start-up.",
+    "Calculate the WACC for the given capital structure and tax rate; define the cost of equity and preference shares.",
+    "Why is wealth maximisation a superior goal to profit maximisation? Is the modern approach an improvement over the traditional approach?",
+    "Compute the present value of a perpetuity / the annual savings needed to accumulate a target sum; explain why individuals have a time preference for money.",
+    "Explain long-term sources of finance and the difference between bonds and debentures.",
+    "Differentiate business risk and financial risk; should a firm with high business risk use more debt?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Financial Management - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

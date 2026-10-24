@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 201",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bai201-mid-2022"
+  ],
+  "importantTopics": [
+    "Uninformed Search: BFS, DFS, DLS, IDS",
+    "Heuristic Search: Best-First and A*",
+    "First-Order Logic, Clause Form and Resolution",
+    "Propositional Logic",
+    "Intelligent Agents, PEAS and AI Applications"
+  ],
+  "likelyQuestions": [
+    "For the given state space, list the order in which nodes are visited by BFS, depth-limited search (limit 3) and iterative deepening search.",
+    "Explain A* search and prove its optimality. Find the most cost-effective path in the given graph using A*.",
+    "Translate the given sentences (John likes all kinds of food...) into predicate logic, convert to clause form and prove 'John likes peanuts' using resolution.",
+    "Determine whether the given propositional formula is valid or contradictory, and check whether two statements are logically equivalent.",
+    "Explain the architecture and characteristics of an intelligent agent; define simple reflex and goal-based agents with PEAS descriptions.",
+    "Give an example where BFS works better than DFS; compare uninformed and informed search strategies and explain how search strategies are evaluated.",
+    "What is the role of heuristics in guiding search? Suggest two heuristics for the 8-puzzle and explain best-first search.",
+    "Explain quantifiers in predicate calculus and Skolemization; explain the syntax and semantics of first-order logic.",
+    "What are the limitations of propositional logic in representing a knowledge base?",
+    "Explain the term artificial intelligence and discuss five real-world applications of AI and the AI code of ethics."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Artificial Intelligence - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

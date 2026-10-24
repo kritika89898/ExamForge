@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 322",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s6-bai322-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Dimensional Modelling: Star, Snowflake and Fact Constellation",
+    "Classification and Prediction: Decision Trees, KNN, Confusion Matrix",
+    "DW Architecture, Components and Metadata",
+    "ETL, ELT and Data Cleaning",
+    "OLAP Operations and MOLAP vs ROLAP",
+    "Data Mining, KDD and Applications",
+    "Clustering: k-Means and Hierarchical",
+    "Other Techniques: Genetic Algorithms, Neural Networks, Link Analysis, MBR"
+  ],
+  "likelyQuestions": [
+    "Explain and compare star, snowflake and fact constellation schemas with diagrams.",
+    "Differentiate classification and prediction; explain decision tree induction with an example.",
+    "Explain the three-tier architecture of a data warehouse and the role of each tier and metadata.",
+    "What is ETL? Explain each component and why transformation is the most complex step.",
+    "Explain the OLAP operations drill-down, roll-up, slice and dice, pivot, drill-across and drill-through with examples.",
+    "Define data mining and explain the KDD process and data mining architecture.",
+    "Apply k-means clustering with the given initial centroids to the given points and find the final clusters.",
+    "Discuss the operations of genetic algorithms and neural networks in data mining.",
+    "Differentiate between an operational database system and a data warehouse; identify whether the given systems are DBMS or DW.",
+    "Using the Apriori algorithm, find the frequent itemsets and association rules for the given transactions with the given support and confidence."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Data Warehousing and Business Intelligence - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

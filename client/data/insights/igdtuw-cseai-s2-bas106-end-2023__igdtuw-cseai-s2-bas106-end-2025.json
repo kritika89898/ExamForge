@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-end-2023",
+    "igdtuw-cseai-s2-bas106-end-2025"
+  ],
+  "importantTopics": [
+    "Green Chemistry and Atom Economy",
+    "Toxicology: Toxic Metals and Dose–Response",
+    "Alternative and Renewable Energy",
+    "Hazardous and Solid Waste Management",
+    "Polymers: Bioplastics and Degradation",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Environmental Impact Assessment and Management Systems",
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain"
+  ],
+  "likelyQuestions": [
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Enumerate the forms of mercury/chromium/lead/arsenic and describe their sources and biochemical effects.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "What are bioplastics? Explain their methods of manufacture and applications (e.g., PLA, PCL).",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "What is EIA and why is it necessary before any project? Discuss the parameters considered.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Calculate the number-average and weight-average molecular masses of the given polypropylene sample.",
+    "Calculate the temporary, permanent and total hardness of the given water sample from EDTA titration data. Which buffer is used and why?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Environmental Science - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

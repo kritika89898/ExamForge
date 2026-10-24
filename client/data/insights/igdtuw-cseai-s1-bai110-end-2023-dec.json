@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-end-2023-dec"
+  ],
+  "importantTopics": [
+    "Exception Handling",
+    "Strings and String Methods",
+    "Lists, Tuples and Sets",
+    "Dictionaries",
+    "Functions, Arguments and Scope",
+    "Pandas DataFrames",
+    "Matplotlib and Tkinter GUI",
+    "Modules, Packages and Command-Line Arguments"
+  ],
+  "likelyQuestions": [
+    "Explain exception handling using try, except, else and finally with an example.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Create a DataFrame of students' marks and compute total marks, percentage and the top 3 students.",
+    "Write a program to plot a pie chart / histogram for the given data using matplotlib.",
+    "What are the key differences between a module and a package in Python?",
+    "Write a program to raise an exception if the user's password does not contain an uppercase letter, a lowercase letter and a digit.",
+    "Write a Python program to reverse a string / check whether a string is a palindrome, and explain join() and split()."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

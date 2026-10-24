@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAS 105",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bas105-mid-2023-jan-cse-ece"
+  ],
+  "importantTopics": [
+    "Water Softening: Lime–Soda, Zeolite, Ion Exchange",
+    "Catalysis: Acid–Base Catalysis and Adsorption Theory",
+    "Phase Rule and Phase Diagrams",
+    "Water: Hardness, Alkalinity and EDTA Titration",
+    "Boiler Water Treatment: Conditioning and Deaeration"
+  ],
+  "likelyQuestions": [
+    "Calculate the lime (and soda) required to soften the given volume of hard water of the given composition and purity.",
+    "What are acid–base catalysts? Discuss the mechanism of acid-catalysed reactions.",
+    "Determine the number of components and phases in the given systems; explain congruent melting point and eutectic point.",
+    "Calculate the type and extent of alkalinity from the given phenolphthalein and methyl orange titre values.",
+    "Why is Calgon conditioning better than phosphate conditioning? Explain with reactions.",
+    "Describe the demineralisation/deionisation process and why water passes first through the cation exchanger; calculate the water softened by an exhausted zeolite.",
+    "Why does rough platinum act as a better catalyst in the contact process? Explain adsorption theory, promoters and catalyst poisons in Haber's and contact processes.",
+    "Explain the lead–silver system (Pattinson's process for desilverisation) / water system with a phase diagram.",
+    "Calculate the temporary and permanent hardness from the given EDTA titration data; what is the role of the buffer?",
+    "Describe chemical and physical methods for removal of dissolved oxygen from water; explain blow-down."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Chemistry - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

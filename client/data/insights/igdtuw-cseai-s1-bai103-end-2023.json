@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 103",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai103-end-2023"
+  ],
+  "importantTopics": [
+    "Flip-Flops and Counters",
+    "Instruction Formats and Address Instructions",
+    "Parallel Processing and Pipelining",
+    "Memory Hierarchy, Cache and Associative Memory",
+    "Computer Arithmetic: Multiplication Algorithms",
+    "Boolean Algebra and De Morgan's Theorem",
+    "Decoders and Multiplexers",
+    "Registers, Instruction Cycle and Micro-operations"
+  ],
+  "likelyQuestions": [
+    "Explain the working of an SR flip-flop and its disadvantages, and compare JK, D and T flip-flops.",
+    "Describe the types of instructions based on the address field. Evaluate X = (A+B)*(C+D) using three-, two-, one- and zero-address instructions.",
+    "Explain parallel processing and array processors.",
+    "Explain the memory hierarchy, cache mapping techniques and associative (content-addressable) memory.",
+    "Draw the hardware and flowchart for multiplication of signed-magnitude data and multiply two given binary numbers step by step.",
+    "Simplify the given Boolean expression using Boolean algebra and verify De Morgan's theorem for three variables with a truth table.",
+    "Draw the logic diagram and truth table of a 2-to-4 decoder and build a 3×8 decoder from 2×4 decoders.",
+    "List the registers of the basic computer and explain the phases of the instruction cycle with a flowchart.",
+    "What are the two types of control unit? Explain one in detail with a diagram.",
+    "Explain handshaking and destination-initiated transfer with block diagrams."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

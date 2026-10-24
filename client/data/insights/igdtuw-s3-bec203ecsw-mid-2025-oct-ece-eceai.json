@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 203 (ECSW)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec203ecsw-mid-2025-oct-ece-eceai"
+  ],
+  "importantTopics": [
+    "h-Parameter Model and Analysis",
+    "UJT, SCR and TRIAC",
+    "Hybrid-π Model",
+    "Transistor Configurations and Darlington Pair"
+  ],
+  "likelyQuestions": [
+    "Explain the h-parameter model of a transistor at low frequency.",
+    "Find the parameters of the given UJT relaxation oscillator.",
+    "Draw the hybrid-π equivalent circuit of a CE amplifier and explain each element.",
+    "Compare CB and CE configurations in input resistance and current gain.",
+    "For the given CE amplifier and h-parameters, compute Ai, Ri, Av and Ro by exact and approximate analysis.",
+    "Explain the thyristor and the characteristics and applications of TRIAC and DIAC.",
+    "Explain the significance of Cπ and Cμ at high frequency.",
+    "Explain the Darlington pair amplifier with diagrams."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Electronic Circuit Simulation Workshop - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

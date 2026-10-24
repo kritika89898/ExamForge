@@ -1,0 +1,41 @@
+{
+  "subjectCode": "HMC 401",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s8-hmc401-end-2025-may-supp-cseai-aiml",
+    "igdtuw-s8-hmc401-end-2026-may-cseai-aiml"
+  ],
+  "importantTopics": [
+    "Ethical AI, Bias and Responsible AI",
+    "Scaling and Global Expansion of AI Startups",
+    "AI Entrepreneurship, Business Models and Lean Startup",
+    "Creativity and Creative Thinking Techniques in AI",
+    "Innovation: Types, Process and Disruptive AI",
+    "IPR in AI: Patents, Copyrights and Licensing",
+    "Brainstorming and Creative Problem-Solving Frameworks"
+  ],
+  "likelyQuestions": [
+    "Define ethical AI development principles and how they reduce bias and ensure fairness and transparency, with examples.",
+    "Discuss the challenges of developing and scaling AI startups and strategies to overcome them.",
+    "What are the key elements of AI entrepreneurship and how does identifying AI opportunities differ from traditional ventures?",
+    "Define creativity in AI and explain three techniques for fostering creativity in AI projects with real-world examples.",
+    "Define innovation and its types; explain how the AI innovation process differs from traditional innovation.",
+    "Explain the importance of IPR in AI; differentiate patents and copyrights and the role of licensing in protecting AI innovations.",
+    "Discuss the importance of brainstorming in generating AI business ideas and give three strategies for effective sessions.",
+    "What is AI bias? Discuss two approaches to address it; explain responsible AI and AI for social good.",
+    "Discuss the opportunities and challenges of international expansion of AI startups.",
+    "Explain the lean startup methodology, market validation and the business model canvas for an AI startup."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Creativity, Innovation and Entrepreneurship - End Semester 2025",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Creativity, Innovation and Entrepreneurship - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

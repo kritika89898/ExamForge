@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2024"
+  ],
+  "importantTopics": [
+    "Cryptography: Symmetric and Asymmetric Encryption",
+    "Advanced Persistent Threats and the Cyber Attack Lifecycle",
+    "DoS/DDoS, Session Hijacking, MITM and Spoofing",
+    "Hash Functions, MAC and Digital Signatures",
+    "Security Fundamentals: CIA Triad, Threats and Attack Types",
+    "Phishing and Social Engineering"
+  ],
+  "likelyQuestions": [
+    "Differentiate between symmetric and asymmetric key encryption with examples; explain DES and RSA.",
+    "What is an Advanced Persistent Threat? Explain its characteristics, working cycle and defence mechanisms.",
+    "Explain the levels of denial-of-service attacks, the difference between DoS and DDoS, and their countermeasures.",
+    "What are hash functions? Explain their properties and the role of SHA (vs MD5) in integrity and digital signatures.",
+    "What is the CIA triad? Explain the goals of cyber security and the classification of security threats.",
+    "Discuss the types of phishing (spear phishing, whaling, pharming, smishing, vishing) and prevention techniques.",
+    "Encrypt the given text using a transposition cipher with the given key.",
+    "Explain the cyber attack lifecycle and the role of reconnaissance (email harvesting, port scanning, vulnerability scanning).",
+    "Describe session hijacking, man-in-the-middle and ARP spoofing attacks and their prevention.",
+    "Explain message authentication codes, their properties and limitations, and the birthday attack."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

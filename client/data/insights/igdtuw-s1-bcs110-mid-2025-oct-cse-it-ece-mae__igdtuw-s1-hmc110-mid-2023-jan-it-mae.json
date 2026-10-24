@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs110-mid-2025-oct-cse-it-ece-mae",
+    "igdtuw-s1-hmc110-mid-2023-jan-it-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Non-Verbal Communication: Kinesics, Proxemics, Paralanguage",
+    "Listening Skills",
+    "Ethics, Plagiarism, Netiquette and Gender-Sensitive Language",
+    "Barriers to Communication",
+    "Output Prediction (Code Tracing)",
+    "Arrays and Matrices"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "'Kinesics is more powerful than words.' Justify with its sub-types and examples.",
+    "What are the different types of listening? How is listening different from hearing? Discuss barriers to listening and their remedies.",
+    "Discuss ethics in communication and plagiarism. What are the do's and don'ts of ethical communication?",
+    "Barriers can be minimised but not completely removed. Discuss intrapersonal barriers and suggest remedies to overcome them.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Are group discussions merely a showcase of communication skills? Discuss the parameters on which participants are evaluated."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Humanities and Social Science / Programming in C - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Humanities and Social Science / Programming in C - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bas106-mid-2022-jun-it-mae"
+  ],
+  "importantTopics": [
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Air Pollution: SOx, NOx, CO, Particulates, Smog, Acid Rain",
+    "Green Chemistry and Atom Economy",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Alternative and Renewable Energy",
+    "Waste Water Treatment",
+    "Carbon Sequestration, Carbon Credits and Greenhouse Effect"
+  ],
+  "likelyQuestions": [
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Discuss carbon dioxide sequestration (natural and artificial) along with the concept of carbon credits.",
+    "Using Dulong's formula, calculate the HCV and LCV of the given coal and the minimum air required for complete combustion of 1 kg.",
+    "Explain the chemistry of photochemical smog and acid rain; describe two devices to control particulate emissions.",
+    "Calculate the atom economy of the desired product in the given reaction, and explain the green synthesis of adipic acid."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Environmental Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

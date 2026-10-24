@@ -1,0 +1,34 @@
+{
+  "subjectCode": "HMC 110 / BCS 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s1-bcs110-mid-2025-oct-cse-it-ece-mae"
+  ],
+  "importantTopics": [
+    "Data Types, Operators, Expressions and Type Casting",
+    "Control Statements: if-else, switch, Loops, break/continue",
+    "Output Prediction (Code Tracing)",
+    "Arrays and Matrices",
+    "Strings and String Functions"
+  ],
+  "likelyQuestions": [
+    "Explain the data types in C and implicit vs explicit type casting with examples, including loss of precision.",
+    "Write a calculator program using a switch statement for the four basic operations.",
+    "Find the output of the given C program with increment/decrement and logical operators, showing the execution steps.",
+    "Write a program for matrix addition/multiplication or to find the largest and smallest element in a 3×3 matrix.",
+    "Write a program to concatenate/compare two strings or find string length without library functions.",
+    "Evaluate the given expression showing operator precedence; explain logical, relational and ternary operators with examples.",
+    "Differentiate break and continue, and while and do-while loops, with examples; write a program to check a leap year.",
+    "Find the output of the given program using pointers / switch / loops and explain why.",
+    "Write a program to print the transpose of a matrix and the sum of its elements; can an array be passed to a function?",
+    "Explain strcpy(), strrev(), strcat() and strlen() with examples; explain getchar() and putchar()."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Humanities and Social Science / Programming in C - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

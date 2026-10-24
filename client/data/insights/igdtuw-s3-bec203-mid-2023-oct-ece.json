@@ -1,0 +1,28 @@
+{
+  "subjectCode": "BEC 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec203-mid-2023-oct-ece"
+  ],
+  "importantTopics": [
+    "System Properties",
+    "Fourier Transform and its Properties",
+    "Signal Classification and Waveform Sketching"
+  ],
+  "likelyQuestions": [
+    "Check whether the given systems are static/dynamic, causal/non-causal, linear and time-invariant.",
+    "Find the Fourier transform of t e^{−at}u(t) / cos(ω₀t)u(t).",
+    "Differentiate even/odd and continuous/discrete signals; check whether the given signals are periodic.",
+    "Explain homogeneity, superposition and BIBO stability; describe the properties of LTI systems.",
+    "Prove the linearity, time-shifting, frequency-shifting and time-reversal properties; explain Parseval's theorem.",
+    "Sketch the given step/ramp signals such as u(t−2), u(−2t+1) and u(t)−2u(t−1)+u(t−3); describe the properties of periodic signals."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Signals and Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

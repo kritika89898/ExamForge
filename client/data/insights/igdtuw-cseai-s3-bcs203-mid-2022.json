@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BCS 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs203-mid-2022"
+  ],
+  "importantTopics": [
+    "Posets, Hasse Diagrams and Lattices",
+    "Propositional Logic, Tautologies and Equivalence",
+    "Predicate Logic and Quantifiers",
+    "Rules of Inference and Proof Techniques",
+    "Sets, Counting, Inclusion–Exclusion and Pigeonhole",
+    "Relations: Equivalence and Partial Orders"
+  ],
+  "likelyQuestions": [
+    "Construct the Hasse diagram of the poset ({1,2,3,4,6,8,12,24}, |) and find its maximal, minimal, greatest and least elements and bounds of {1,2,3}.",
+    "Identify whether the given proposition is a tautology, contingency or contradiction; which of the given Boolean expressions are not tautologies?",
+    "Translate 'Not all that glitters is gold' and 'Some boys are taller than all the girls' into predicate logic.",
+    "Using rules of inference, show that the given premises lead to the given conclusion.",
+    "Find the number of positive integers up to the given limit divisible by 3, 5 or 7 using inclusion–exclusion.",
+    "Show that 'x R y iff x − y is divisible by 3' (congruence modulo m) is an equivalence relation.",
+    "Prove that 'divides' on the integers is a partial order and draw the Hasse diagram of D45 or of the power set P(A) under ⊆.",
+    "Prove that ¬(P ∨ (¬P ∧ Q)) is logically equivalent to ¬P ∧ ¬Q without using a truth table.",
+    "Determine the truth value of the given quantified statements over the real numbers.",
+    "Prove that if 3n + 2 is even then n is even, by contraposition and by contradiction."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Discrete Structures - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

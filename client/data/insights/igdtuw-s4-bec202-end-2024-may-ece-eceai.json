@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BEC 202",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec202-end-2024-may-ece-eceai"
+  ],
+  "importantTopics": [
+    "Power Amplifiers and OTA",
+    "Op-Amp Parameters: Offset, CMRR, Slew Rate, Drift",
+    "Comparators, Multivibrators and Waveform Generators",
+    "Active Filters",
+    "555 Timer and Phase-Locked Loop",
+    "Frequency Compensation",
+    "Linear Applications: Integrator, Differentiator, Log Amplifier, Precision Rectifier",
+    "Op-Amp Internal Structure and Basic Concepts"
+  ],
+  "likelyQuestions": [
+    "Explain the Class A push-pull amplifier, crossover distortion and Class A efficiency.",
+    "Explain input offset voltage/current, bias current, total output offset, CMRR, SVRR, output swing and slew rate.",
+    "List comparator types with waveforms and define hysteresis width.",
+    "Design a first-order wide band-pass filter / fifth-order Butterworth low-pass filter for the given specifications.",
+    "Explain the 555 timer in monostable mode with its functional diagram and waveforms.",
+    "Explain pole–zero compensation and compare it with dominant-pole compensation using gain–frequency plots.",
+    "Draw an integrator/differentiator and give its output for sine, step and square inputs; design a differentiator for the given fmax.",
+    "Draw the internal block diagram of an op-amp and explain each stage; why is an emitter follower used there?",
+    "Identify the given OTA circuits and give OTA limitations; find the transfer function of the given circuit.",
+    "Find the slew rate for the given output change; explain thermal drift and methods to improve CMRR."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Linear Integrated Circuits - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

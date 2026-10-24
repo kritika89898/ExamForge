@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BEC 208",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bec208-end-2024-may-ece"
+  ],
+  "importantTopics": [
+    "Amplitude Modulation: DSB, SSB, VSB",
+    "Angle Modulation: FM and PM",
+    "Probability, CDF and PDF",
+    "Noise",
+    "AM Receivers",
+    "Digital Communication System Block Diagram"
+  ],
+  "likelyQuestions": [
+    "Derive the total AM power in terms of carrier power and draw the single-tone AM spectrum.",
+    "Explain narrowband and wideband FM with spectra; state Carson's rule.",
+    "Plot the CDF and PDF for the number of heads when a coin is tossed twice; state the properties of the CDF.",
+    "Find the output noise power when white noise of the given PSD passes through the given LPF.",
+    "Draw and explain the AM radio broadcast block diagram.",
+    "Draw and explain the block diagram of a digital communication system.",
+    "Compare DSB-FC, DSB-SC, SSB-SC and VSB in bandwidth and power; explain under-, critical and over-modulation and the square-law modulator.",
+    "Relate FM and PM with block diagrams; explain pre-emphasis and de-emphasis.",
+    "Find all statistical averages of the given uniform density; find the relation between a and b for the given PDF.",
+    "What is narrowband noise? Give its expression and properties; explain figure of merit."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Communication Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

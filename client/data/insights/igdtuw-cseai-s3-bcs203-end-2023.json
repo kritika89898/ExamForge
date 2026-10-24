@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bcs203-end-2023"
+  ],
+  "importantTopics": [
+    "Groups, Subgroups and Lagrange's Theorem",
+    "Planar Graphs, Colouring and Spanning Trees",
+    "Relations: Equivalence and Partial Orders",
+    "Predicate Logic and Quantifiers",
+    "Sets, Counting, Inclusion–Exclusion and Pigeonhole",
+    "Functions, Countability and Recurrence Relations",
+    "Graphs: Euler and Hamiltonian Paths, Isomorphism",
+    "Rules of Inference and Proof Techniques"
+  ],
+  "likelyQuestions": [
+    "State and prove Lagrange's theorem; prove that every group of prime order is cyclic.",
+    "State and prove Euler's formula V − E + R = 2 for connected planar graphs.",
+    "Show that 'x R y iff x − y is divisible by 3' (congruence modulo m) is an equivalence relation.",
+    "Translate 'Not all that glitters is gold' and 'Some boys are taller than all the girls' into predicate logic.",
+    "Find the number of positive integers up to the given limit divisible by 3, 5 or 7 using inclusion–exclusion.",
+    "Is the function f(x) = (x − 2)/(x − 3) from R − {3} to R − {1} one-one and onto? Find compositions f∘g and g∘f.",
+    "Examine whether the given graph has an Euler path/circuit and a Hamiltonian path/circuit.",
+    "Using rules of inference, show that the given premises lead to the given conclusion.",
+    "Prove by mathematical induction that 1·2 + 2·3 + ... + n(n+1) = n(n+1)(n+2)/3.",
+    "Construct the Hasse diagram of the poset ({1,2,3,4,6,8,12,24}, |) and find its maximal, minimal, greatest and least elements and bounds of {1,2,3}."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Discrete Structures - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

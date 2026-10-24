@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 304",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai304-end-2025"
+  ],
+  "importantTopics": [
+    "Neurons, Perceptron, MLP and Activation Functions",
+    "Forward Propagation and Backpropagation",
+    "Optimizers: Momentum, NAG, Adagrad, RMSprop, Adam",
+    "Bias–Variance, Overfitting and Regularization",
+    "Performance Metrics and Confusion Matrix",
+    "Hyperparameter Tuning",
+    "Autoencoders and Representation Learning",
+    "Generative Adversarial Networks"
+  ],
+  "likelyQuestions": [
+    "Explain the MP-neuron and perceptron and how thresholding affects the output; describe the structure and advantages of an MLP.",
+    "For the given network with initial weights and MSE loss, find the prediction and error in the first forward pass and the updated weights after one backpropagation step.",
+    "Explain the Adam optimizer and how it differs from RMSprop and gradient descent with momentum.",
+    "Explain the bias–variance trade-off; what does low bias and high variance indicate and how do you tackle it?",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1-score.",
+    "Differentiate parameter tuning and hyperparameter tuning; explain grid search vs random search.",
+    "Explain the architecture of autoencoders, their types (undercomplete, regularized, convolutional) and applications.",
+    "Explain the GAN architecture, its generator and discriminator, and its loss functions.",
+    "For the given CNN configuration, compute the output feature-map size after each layer and the depth of each kernel.",
+    "Explain transfer learning with a diagram and its advantages."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Deep Learning-II - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

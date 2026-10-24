@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BIT 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bit204-mid-2026-mar-it"
+  ],
+  "importantTopics": [
+    "OOP Concepts and C++ Basics",
+    "Classes, Static Members and Friend Functions",
+    "Output Prediction in C++",
+    "Functions: Inline, Default Arguments, Call by Reference",
+    "Operator and Function Overloading",
+    "Constructors and Copy Constructors"
+  ],
+  "likelyQuestions": [
+    "Explain five characteristics of OOP; are encapsulation and data abstraction the same?",
+    "Write an EMPLOYEE class with a static counter; explain two uses of static.",
+    "Find the output of the given program using the comma operator / pointer increment.",
+    "Write a program using an inline function to find the minimum of two numbers; how does it differ from default arguments?",
+    "Overload the unary ++ operator for the given Time class using member and friend functions.",
+    "Why is a copy constructor used? Demonstrate with a program.",
+    "Explain derived and user-defined data types, type casting (implicit and explicit), references vs pointers, and dynamic memory allocation.",
+    "Use a friend function to swap private data of two classes / compare areas of Rectangle and Triangle; how does a friend differ from a member function?",
+    "Find the output of the given constructor–destructor program and explain the execution order.",
+    "Square an integer using call by pointer and call by reference."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Object Oriented Programming - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

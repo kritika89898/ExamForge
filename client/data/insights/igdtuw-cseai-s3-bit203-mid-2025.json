@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-mid-2025"
+  ],
+  "importantTopics": [
+    "Software Process Models (SDLC) and Agile",
+    "Prototyping vs Full Requirements Analysis Strategies",
+    "SRS, Traceability and Requirement Quality",
+    "Data Flow Diagrams and Context Diagrams",
+    "UML: Use Case, Sequence Diagrams and CRC Cards",
+    "Software Design: Modularity, Coupling, Cohesion, Patterns",
+    "Software Engineering Basics and Software Crisis"
+  ],
+  "likelyQuestions": [
+    "Suggest the most appropriate process model for the given systems (anti-lock braking, university accounting, etc.) with reasons.",
+    "For a hospital patient-planning system, discuss the pros and cons of thorough up-front analysis versus a pilot version. Which strategy do you favour?",
+    "What are the characteristics and goals of a good SRS? Why should requirements be numbered and traceable?",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw a use case diagram for an online food ordering system.",
+    "Explain modularity in software design and the types of coupling; contrast coupling and cohesion.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?",
+    "Compare prescriptive and evolutionary process models; describe the common characteristics of agile methods.",
+    "Explain how prototyping is used for requirements determination and user participation in the SDLC.",
+    "Describe why documentation of requirements is important, and the difference between good requirements and a good specification."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Software Engineering - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

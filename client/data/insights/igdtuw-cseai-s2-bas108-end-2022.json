@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 108",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas108-end-2022"
+  ],
+  "importantTopics": [
+    "Random Variables, PMF/PDF and CDF",
+    "Joint, Marginal and Conditional Distributions",
+    "Correlation and Regression",
+    "Small Sample Tests: t-test and F-test",
+    "Chi-Square Test",
+    "Descriptive Statistics: Mean, Median, Mode, Dispersion, Moments",
+    "Expectation, Variance and Covariance",
+    "Moment Generating Functions"
+  ],
+  "likelyQuestions": [
+    "A random variable X has the given probability distribution. Find k, the required probabilities and the smallest value of x for which P(X ≤ x) > 1/2.",
+    "For the given joint pdf, find the constant c, the marginal density of X and the conditional density of Y given X.",
+    "Estimate the regression line of Y on X from the given data and predict Y for the given X.",
+    "Test whether the given sample of 9 items differs significantly from an assumed mean of 47.5.",
+    "Test whether the production of bad parts is independent of the shift at 5% level using the chi-square test.",
+    "Calculate the mean, median and mode of the given frequency distribution, and the standard deviation and coefficient of variation.",
+    "Find E[2X − 3Y + 7] and Var[2X − 3Y + 7] for independent X and Y with the given moments.",
+    "Derive the moment generating function of the Poisson / normal / exponential distribution and find its mean and variance.",
+    "The resistance of resistors is normal with mean 100 Ω and SD 2 Ω; what percentage lie between 98 and 102 Ω?",
+    "Boxes A, B, C, D contain fuses with given defect rates. A fuse selected at random is defective; find the probability that it came from box D."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Probability and Statistics - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

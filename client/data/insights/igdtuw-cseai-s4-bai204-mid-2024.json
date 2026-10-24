@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai204-mid-2024"
+  ],
+  "importantTopics": [
+    "Optimization Basics: Objective, Constraints, Feasible Region",
+    "Problem Formulation as Mathematical Programs",
+    "LP: Graphical Method",
+    "LP: Simplex Method",
+    "Integer, Nonlinear and Semidefinite Programming"
+  ],
+  "likelyQuestions": [
+    "What is optimization? Explain decision variables, objective function and constraints with an LPP example.",
+    "Explain the steps involved in formulating design problems as mathematical programming problems.",
+    "Solve the given product-mix / airline-ticket problem using the graphical method and find the maximum profit.",
+    "Solve the given LP problem using the simplex method.",
+    "What is an integer programming problem? Discuss the knapsack problem / formulate the given route-selection problem as an IP.",
+    "Define the role of constraints in defining the feasible region; discuss the constraint surface in a two-dimensional design space with a diagram.",
+    "Formulate the given production-planning problem (e.g., customised vs standard products) as a linear programming problem.",
+    "Explain the merits and limitations of the graphical method, and multiple and unbounded solutions in LP.",
+    "Discuss the conditions under which the simplex method terminates and how it detects an unbounded solution.",
+    "Write a short note on semidefinite programming; give a nonlinear formulation for minimising the sum of Euclidean distances to n points."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Optimization Techniques and Decision Making - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2023",
+    "igdtuw-cseai-s5-bai305-end-2024",
+    "igdtuw-cseai-s5-bai305-end-2025"
+  ],
+  "importantTopics": [
+    "CNN Architectures and Transfer Learning",
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Overfitting, Regularization, Dropout and Data Augmentation",
+    "Activation Functions",
+    "LSTM and GRU",
+    "McCulloch–Pitts Neuron and Thresholding Logic",
+    "Forward Pass and Backpropagation",
+    "Convolutional Neural Networks: Convolution, Pooling and Parameters"
+  ],
+  "likelyQuestions": [
+    "Explain VGG16, ResNet and InceptionNet with their architectural differences; differentiate AlexNet and VGG.",
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?",
+    "Compare ReLU, sigmoid and tanh (and softmax), and explain when each is preferred; compute softmax for the given outputs.",
+    "Explain the architecture of LSTM with its gates and equations, and how it differs from a standard RNN.",
+    "Explain the MP-neuron model with its thresholding function, advantages and limitations; implement AND, OR and NOT with MP units.",
+    "For the given network with initial weights and biases, compute the forward-pass output and the updated weights after one backpropagation step.",
+    "Perform the convolution of the given image with the given filter for the stated padding and stride.",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Explain RNNs with all equations, the role of hidden states, and backpropagation through time."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BEC 103 (EW)",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bec103ew-end-2025-dec-ece-eceai"
+  ],
+  "importantTopics": [
+    "Boolean Algebra, K-Maps and Decoders",
+    "Transistor Biasing and Stabilisation",
+    "BJT Construction, Configurations and Characteristics",
+    "Semiconductors and Diodes",
+    "Digital Multimeter and True-RMS Measurement",
+    "Measuring Instruments and Errors"
+  ],
+  "likelyQuestions": [
+    "Minimise the given function with don't-cares using a K-map and implement with NAND gates; convert to canonical POS.",
+    "For the given voltage-divider bias circuit, find VB, VE, IC and VCE; find the Q-point and draw the DC load line.",
+    "Explain the construction, operation and characteristics of a BJT in CE configuration.",
+    "Find the forward current of the given silicon diode using the diode equation.",
+    "Explain the construction and working of a digital multimeter.",
+    "Explain the characteristics of measuring instruments, absolute vs secondary instruments, and types of measurement errors.",
+    "Implement the given three functions using a 3:8 decoder with NAND gates.",
+    "Explain the need for bias stabilisation and derive the stability factors with respect to ICO, VBE and β.",
+    "Derive the relation between α and β; define cut-off and saturation and the transistor operating modes.",
+    "Draw and explain the V–I characteristics of a PN diode; find the conductance of the given n-type semiconductor."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Electronics Workshop - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

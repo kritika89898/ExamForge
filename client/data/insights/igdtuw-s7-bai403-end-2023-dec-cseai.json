@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-end-2023-dec-cseai"
+  ],
+  "importantTopics": [
+    "Introduction to Computer Vision and the Data-Driven Approach",
+    "k-NN and Linear Classification",
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet",
+    "Transfer Learning and Data Augmentation",
+    "RNNs, Attention and Image Captioning",
+    "Transformers and Vision Transformers",
+    "Generative Models, Adversarial Examples and Dataset Bias"
+  ],
+  "likelyQuestions": [
+    "What is computer vision? Why is vision so difficult? Give real-world examples of computer vision applications.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "What is transfer learning? Explain using a CNN as a fixed feature extractor vs fine-tuning for a domain-specific task.",
+    "Explain the RNN architecture and its variants; compare RNNs with feedforward networks and CNNs in vision.",
+    "Explain self-attention in a Transformer encoder and the roles of query, key and value.",
+    "Explain the architecture and training objective of a GAN; what are conditional GANs and VAEs used for?",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "Differentiate overfitting and underfitting; explain L1/L2 regularization and early stopping in CNN training."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Vision - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

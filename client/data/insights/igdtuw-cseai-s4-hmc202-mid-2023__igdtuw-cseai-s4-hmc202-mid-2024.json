@@ -1,0 +1,42 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2023",
+    "igdtuw-cseai-s4-hmc202-mid-2024"
+  ],
+  "importantTopics": [
+    "Cyclones, Floods, Landslides and Other Hazards",
+    "Case Studies: Bhopal, Bhuj, Joshimath and Others",
+    "Disaster Management Cycle: Pre-Disaster Stage",
+    "Post-Disaster Stage: Relief, Rehabilitation, Reconstruction",
+    "Hazard, Disaster, Risk, Vulnerability and Resilience",
+    "Types of Disasters: Natural and Man-Made",
+    "Institutional Framework: DM Act 2005, NDMA and UN Agencies",
+    "Earthquakes and Tsunamis"
+  ],
+  "likelyQuestions": [
+    "What are tropical cyclones? Explain their causes and preparedness steps.",
+    "Write short notes on the Bhopal gas tragedy and the Bhuj earthquake, with lessons learnt.",
+    "Explain preparedness, mitigation and prevention in the pre-disaster stage with examples.",
+    "Explain the post-disaster stage with its components: relief, rehabilitation and reconstruction.",
+    "Define hazard, risk, vulnerability and resilience. How is a hazard different from a disaster?",
+    "Differentiate between natural and man-made disasters and categorise disasters by causative factors with examples.",
+    "Discuss the Disaster Management Act 2005 and its main provisions.",
+    "What is an earthquake? Explain its causes and the pre- and post-disaster management steps (relief and recovery).",
+    "Explain the causes, effects and management of landslides and floods; discuss hazards from volcanic eruptions and soil erosion.",
+    "Explain the causes and effects of the Joshimath disaster / the Bengal famine."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

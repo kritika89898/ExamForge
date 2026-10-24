@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bai110-end-2024-dec-eceai",
+    "igdtuw-s2-bai110-end-2025-dec-eceai"
+  ],
+  "importantTopics": [
+    "Object-Oriented Programming",
+    "Lists, Tuples and Sets",
+    "File Handling",
+    "NumPy Arrays",
+    "Pattern and Series Programs",
+    "Dictionaries",
+    "Data Types, Variables and Operators",
+    "Functions, Arguments and Scope"
+  ],
+  "likelyQuestions": [
+    "Create a class Car with attributes and methods to store and display details of three cars.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to copy the content of one file to another, skipping lines that start with a special character.",
+    "Explain the different types of indexing of NumPy arrays with examples.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Explain the different types of operators in Python, including identity and membership operators, with examples.",
+    "Explain default, keyword, arbitrary positional (*args) and arbitrary keyword (**kwargs) arguments with examples.",
+    "Explain recursion and the importance of the base case with an example program.",
+    "Write a program to plot a pie chart / histogram for the given data using matplotlib."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Programming with Python - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

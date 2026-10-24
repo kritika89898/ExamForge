@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-end-2023"
+  ],
+  "importantTopics": [
+    "Vector Calculus: Line Integrals, Green's and Gauss Theorems",
+    "Linear Transformations",
+    "Laplace Transforms and Convolution",
+    "Fourier Series",
+    "Eigenvalues, Eigenvectors and Special Matrices",
+    "Limits, Continuity and Taylor Series in Two Variables",
+    "Rank of a Matrix and Echelon/Normal Form",
+    "Systems of Linear Equations and Consistency"
+  ],
+  "likelyQuestions": [
+    "State Green's theorem and use it to evaluate the given line integral.",
+    "Determine whether the given map T is a linear transformation and find T(a,b) from given images.",
+    "Use the convolution theorem to find the inverse Laplace transform of the given function.",
+    "Find the Fourier series of the given function on the stated interval.",
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "Test the given function f(x, y) for continuity at the origin; check whether fxy(0,0) = fyx(0,0).",
+    "Define the rank of a matrix. Reduce the given matrix to normal (or echelon) form and find its rank.",
+    "For what values of λ and μ does the given system have (i) no solution, (ii) a unique solution, (iii) infinitely many solutions?",
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix.",
+    "Find the nth derivative of the given function."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

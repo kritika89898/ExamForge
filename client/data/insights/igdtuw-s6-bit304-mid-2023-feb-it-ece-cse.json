@@ -1,0 +1,28 @@
+{
+  "subjectCode": "BIT 304",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s6-bit304-mid-2023-feb-it-ece-cse"
+  ],
+  "importantTopics": [
+    "Cloud Architecture Design: SOA, EDA, Hybrid and Load Balancing",
+    "Cloud Cube and Linthicum Models, Vendor Lock-in and Multi-tenancy",
+    "Virtualization, Hypervisors and Containers"
+  ],
+  "likelyQuestions": [
+    "Design a hybrid cloud architecture (front end and back end) for the IGDTUW ERP/Taarangana portal incorporating scalability and security.",
+    "Discuss the four dimensions of the Jericho Forum Cloud Cube model and the Linthicum deployment model.",
+    "Differentiate Type-1 and Type-2 hypervisors and explain the virtualization reference model.",
+    "Suggest a service-oriented / event-driven / load-balanced cloud architecture for the IGDTUW examination portal.",
+    "Discuss the vendor lock-in problem, data lock-in, data segregation and multi-tenant security in cloud computing.",
+    "Differentiate virtualization and containerization in terms of isolation, deployment, OS and storage; compare server, network, desktop and application virtualization."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Cloud Computing - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

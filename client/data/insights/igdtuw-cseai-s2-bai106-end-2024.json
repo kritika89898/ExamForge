@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai106-end-2024"
+  ],
+  "importantTopics": [
+    "Query Processing, Triggers and OODBMS",
+    "ER Model: Entities, Attributes, Relationships",
+    "Transactions and ACID Properties",
+    "DBMS vs File System, Architecture and Data Independence",
+    "SQL Queries, DDL/DML and Views",
+    "Functional Dependencies and Normalization",
+    "Data Models, Schema and DBMS Users",
+    "Relational Algebra"
+  ],
+  "likelyQuestions": [
+    "Explain the steps of query processing with a diagram, and the measures of query cost.",
+    "Draw an E-R diagram for the given application (bank / supplier–parts), stating any assumptions.",
+    "What is a transaction? Explain the ACID properties.",
+    "What are the advantages of a DBMS over file processing systems? When would it make sense not to use one?",
+    "Write SQL queries for the given schema using joins, GROUP BY and HAVING.",
+    "What is normalization? Explain 1NF, 2NF and 3NF with examples.",
+    "Write short notes on hierarchical and network data models. What is a schema?",
+    "Write the given queries on the Supplier–Parts–Catalog schema in relational algebra.",
+    "What is a serializable schedule and how does it differ from a serial schedule? Explain conflict serializability.",
+    "What is a database trigger? Explain the features of OODBMS and how they differ from RDBMS/ORDBMS."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

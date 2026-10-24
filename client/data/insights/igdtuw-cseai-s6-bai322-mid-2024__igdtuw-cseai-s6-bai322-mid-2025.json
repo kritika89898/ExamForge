@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BAI 322",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai322-mid-2024",
+    "igdtuw-cseai-s6-bai322-mid-2025"
+  ],
+  "importantTopics": [
+    "OLAP Operations and MOLAP vs ROLAP",
+    "DW Architecture, Components and Metadata",
+    "Building a DW: Top-down vs Bottom-up, Requirements and Information Packages",
+    "Dimensional Modelling: Star, Snowflake and Fact Constellation",
+    "Database vs Data Warehouse and Need for DW",
+    "ETL, ELT and Data Cleaning"
+  ],
+  "likelyQuestions": [
+    "Explain the OLAP operations drill-down, roll-up, slice and dice, pivot, drill-across and drill-through with examples.",
+    "Explain the three-tier architecture of a data warehouse and the role of each tier and metadata.",
+    "Compare the top-down and bottom-up approaches for building a data warehouse with merits and demerits.",
+    "Explain and compare star, snowflake and fact constellation schemas with diagrams.",
+    "Differentiate between an operational database system and a data warehouse; identify whether the given systems are DBMS or DW.",
+    "What is ETL? Explain each component and why transformation is the most complex step.",
+    "Differentiate MOLAP and ROLAP models; what is a hypercube in OLAP?",
+    "What are the components of a data warehouse? Explain the types of metadata and data marts (dependent vs independent).",
+    "Explain the lifecycle of defining business requirements and how information packages support dimensional design.",
+    "Design a star schema for the given e-commerce scenario; identify facts and dimensions; explain data cubes."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Data Warehousing and Business Intelligence - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Data Warehousing and Business Intelligence - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

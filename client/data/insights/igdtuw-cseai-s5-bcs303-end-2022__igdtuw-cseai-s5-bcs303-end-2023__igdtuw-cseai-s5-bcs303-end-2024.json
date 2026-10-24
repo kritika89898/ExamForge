@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2022",
+    "igdtuw-cseai-s5-bcs303-end-2023",
+    "igdtuw-cseai-s5-bcs303-end-2024"
+  ],
+  "importantTopics": [
+    "NFA to DFA Conversion and DFA Minimization",
+    "Pushdown Automata",
+    "Mealy and Moore Machines",
+    "Normal Forms: CNF and GNF",
+    "Turing Machines and Linear Bounded Automata",
+    "Context-Free Grammars, Ambiguity and Simplification",
+    "DFA Design and Finite Automata Basics",
+    "Grammars, Chomsky Hierarchy and Derivations"
+  ],
+  "likelyQuestions": [
+    "Convert the given NFA (or ε-NFA) to an equivalent optimised DFA.",
+    "Design a PDA that accepts {aⁿb²ⁿ | n > 0} (or 0ⁿ1ⁿ) and show the instantaneous descriptions for the given string.",
+    "Design a Moore machine that outputs A if the input ends in 101, B if it ends in 110, otherwise C.",
+    "Convert the given context-free grammar into Chomsky normal form.",
+    "Design a Turing machine that accepts {aⁿbⁿcⁿ | n ≥ 1} and show the IDs for the given string.",
+    "Construct a CFG for the given language (e.g., aⁿbⁿcᵐdᵐ or wwᴿ).",
+    "Design a DFA that accepts strings starting with 'aba' and ending with 'bb' (or the given language) and check the given strings.",
+    "Explain the Chomsky hierarchy of grammars and languages with examples.",
+    "What is the halting problem? Explain the Post correspondence problem with an example.",
+    "Using the pumping lemma for CFLs, show that {aⁿbⁿcⁿ | n ≥ 1} (or the given language) is not context-free."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Theory of Computation - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

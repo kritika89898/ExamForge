@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BEC 104",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bec104-end-2023-jul-eceai"
+  ],
+  "importantTopics": [
+    "Sequential Circuit Analysis and Counters",
+    "Flip-Flops and Excitation Tables",
+    "Memories and Programmable Logic: ROM, RAM, PLA, PAL",
+    "Shift Registers",
+    "D/A Converters",
+    "Boolean Algebra and K-Map Minimisation",
+    "Number Systems and Codes",
+    "Combinational Circuits: Adders, Decoders, Encoders, MUX"
+  ],
+  "likelyQuestions": [
+    "Analyse the given sequential circuit using a state diagram.",
+    "Realise an SR flip-flop using NOR gates and explain with a truth table; differentiate logic gates and flip-flops.",
+    "Differentiate SRAM and DRAM; write short notes on ROM, RAM, PLA and PAL.",
+    "What is a shift register? List its types and applications.",
+    "Write notes on R-2R ladder and binary-weighted DACs with diagrams.",
+    "State De Morgan's theorems; convert the given expression to sum of products.",
+    "Convert the given Gray code to binary; differentiate binary code and BCD.",
+    "Draw the block diagram and truth table of a full adder.",
+    "Design a synchronous 3-bit up/down counter using JK flip-flops; design a pulse-train generator for the given waveform.",
+    "Derive the excitation tables of SR, JK, D and T flip-flops."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Electronics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

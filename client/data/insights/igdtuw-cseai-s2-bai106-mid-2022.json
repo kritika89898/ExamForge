@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAI 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai106-mid-2022"
+  ],
+  "importantTopics": [
+    "ER Model: Entities, Attributes, Relationships",
+    "Relational Algebra",
+    "SQL Queries, DDL/DML and Views",
+    "Keys and Integrity Constraints",
+    "DBMS vs File System, Architecture and Data Independence",
+    "Data Models, Schema and DBMS Users"
+  ],
+  "likelyQuestions": [
+    "Draw an E-R diagram for the given application (bank / supplier–parts), stating any assumptions.",
+    "Write the given queries on the Supplier–Parts–Catalog schema in relational algebra.",
+    "Write SQL queries for the given schema using joins, GROUP BY and HAVING.",
+    "Define primary, super, candidate, alternate and foreign keys with examples.",
+    "What are the advantages of a DBMS over file processing systems? When would it make sense not to use one?",
+    "Write short notes on hierarchical and network data models. What is a schema?",
+    "Distinguish strong and weak entity sets, generalisation and specialisation; find the minimum number of tables for a given ER diagram.",
+    "Convert the given SQL query into an equivalent relational algebra expression; when are two relations union-compatible?",
+    "Explain the differences between UPDATE vs ALTER and DELETE vs DROP, list DML commands, and explain views with syntax.",
+    "Explain entity and referential integrity rules and how they are enforced."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

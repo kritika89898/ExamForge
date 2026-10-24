@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-end-2024-may"
+  ],
+  "importantTopics": [
+    "Waste Water Treatment",
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Petroleum, Knocking, Octane Number and Cracking",
+    "Alternative and Renewable Energy",
+    "Green Chemistry and Atom Economy",
+    "Hazardous and Solid Waste Management",
+    "Polymers: Bioplastics and Degradation",
+    "Toxicology: Toxic Metals and Dose–Response"
+  ],
+  "likelyQuestions": [
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "What is octane number? How is the chemical structure of a fuel related to its knocking characteristics?",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "What are bioplastics? Explain their methods of manufacture and applications (e.g., PLA, PCL).",
+    "Enumerate the forms of mercury/chromium/lead/arsenic and describe their sources and biochemical effects.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "Discuss the sources, sinks, effects and control of oxides of sulphur / nitrogen / carbon monoxide."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Environmental Science - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

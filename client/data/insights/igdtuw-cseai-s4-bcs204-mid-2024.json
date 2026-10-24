@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-mid-2024"
+  ],
+  "importantTopics": [
+    "Divide and Conquer: Sorting, Searching, Strassen",
+    "Dynamic Programming: Matrix Chain, LCS, OBST, 0/1 Knapsack",
+    "Recurrence Relations: Master Theorem and Recursion Tree",
+    "Greedy: Activity Selection, Fractional Knapsack, Scheduling",
+    "Huffman Coding"
+  ],
+  "likelyQuestions": [
+    "Apply Strassen's algorithm to the given matrices and analyse its complexity.",
+    "Find an optimal parenthesisation of the matrix-chain product with the given dimensions.",
+    "Solve the recurrences T(n) = 2T(√n) + log n and T(n) = 4T(n/2) + n²√n.",
+    "Compute a schedule with the maximum number of activities for the given start and finish times.",
+    "Construct the Huffman tree for the given characters and frequencies and calculate the total bits needed.",
+    "Design an O(log n) divide-and-conquer algorithm for the given search problem (index with T[i] = i / minimum of a decreasing-then-increasing array / missing term); analyse quick sort best and worst cases.",
+    "Write the algorithm for the longest common subsequence and find the LCS of the given strings; construct an optimal binary search tree for the given probabilities.",
+    "Solve T(n) = T(n/5) + T(4n/5) + n using the recursion tree method; compare algorithms A, B and C given by their recurrences.",
+    "Solve the given knapsack instance with the greedy method; design a greedy algorithm to place songs on CDs or programs on a disk.",
+    "Explain the greedy Huffman coding algorithm, write its pseudocode and analyse its complexity."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

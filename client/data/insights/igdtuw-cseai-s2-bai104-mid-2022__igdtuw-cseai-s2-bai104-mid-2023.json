@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-mid-2022",
+    "igdtuw-cseai-s2-bai104-mid-2023"
+  ],
+  "importantTopics": [
+    "Pandas Series and DataFrames",
+    "Data Ethics, Privacy and the C's of Data",
+    "NumPy Arrays, Indexing and Operations",
+    "Pandas Analysis: GroupBy, Filtering and Pivot",
+    "Data Science Process, Life Cycle and Applications",
+    "Types of Data and Big Data V's",
+    "Data Cleaning, Missing Values and Outliers",
+    "Tableau: Calculated Fields, Filters and Pareto Charts"
+  ],
+  "likelyQuestions": [
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "Using the given HR/Superstore DataFrame, write Pandas code to group, filter and answer the given business questions.",
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "Describe the various types of data in data science with examples.",
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Write a Tableau calculated field that labels orders as 'profit' or 'loss', and one to compute profit margin.",
+    "Write the output of the given Pandas code snippets with explanation.",
+    "Explain the C's to be followed while handling data and the aspects of privacy with sensitive data."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Introduction to Data Science - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,25 @@
+{
+  "subjectCode": "BEC 205",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec205-mid-2026-mar-ece-eceai"
+  ],
+  "importantTopics": [
+    "Network Theorems",
+    "Transient Response of RL, RC and RLC Circuits"
+  ],
+  "likelyQuestions": [
+    "Find the current through the 10 Ω resistor using superposition, Thevenin's and Norton's theorems; give Millman's Vth and Rth.",
+    "Find i(0⁺), di/dt(0⁺) and i(t) for the given RLC circuit after the switch operates.",
+    "Prove that maximum power is delivered when ZL = Zs*; find RL for maximum power and the power transferred.",
+    "For the given RC/RL circuit with DC source, find the time constant, current growth/decay and charge; why can't inductor current change instantly?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Network Analysis and Synthesis - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

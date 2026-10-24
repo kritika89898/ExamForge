@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BAI 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bai202-mid-2022",
+    "igdtuw-cseai-s4-bai202-mid-2024"
+  ],
+  "importantTopics": [
+    "Flow Control: Stop-and-Wait, Go-Back-N, Selective Repeat",
+    "Transmission Media and Fibre Optics",
+    "Medium Access Control: ALOHA, CSMA/CD, LAN Standards",
+    "Error Detection and Correction: CRC, Parity, LDPC",
+    "OSI and TCP/IP Reference Models",
+    "Network Basics: Topologies, Classification and Addresses"
+  ],
+  "likelyQuestions": [
+    "Explain the sliding window protocol using Go-Back-N with an example; why move from Stop-and-Wait ARQ to Go-Back-N?",
+    "Explain the principle of fibre-optic communication and light propagation through optical fibre, with its advantages.",
+    "Terminals share a 9600 bps channel with 200-bit frames; estimate the number of terminals supported by pure and slotted ALOHA at maximum throughput.",
+    "Given the data word and divisor, find the CRC and the transmitted codeword.",
+    "Draw the OSI reference model and explain the functions of every layer.",
+    "For n devices, find the number of cable links needed for mesh, ring and star topologies; classify networks by geography.",
+    "For the given timeouts in selective repeat, find the contents of the sender's window; explain piggybacking.",
+    "Explain guided media (STP, UTP, coaxial) and the types of unguided media.",
+    "What is CSMA? Explain the persistence methods and the CSMA/CD protocol in Ethernet; compare Token Bus and Token Ring.",
+    "Explain CRC, LRC and VRC with examples; what are LDPC codes?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Networks - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Networks - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

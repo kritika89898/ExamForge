@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2023",
+    "igdtuw-cseai-s5-bai305-end-2024"
+  ],
+  "importantTopics": [
+    "CNN Architectures and Transfer Learning",
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Overfitting, Regularization, Dropout and Data Augmentation",
+    "LSTM and GRU",
+    "Activation Functions",
+    "McCulloch–Pitts Neuron and Thresholding Logic",
+    "Gradient Descent on a Sigmoid Neuron",
+    "Forward Pass and Backpropagation"
+  ],
+  "likelyQuestions": [
+    "Explain VGG16, ResNet and InceptionNet with their architectural differences; differentiate AlexNet and VGG.",
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?",
+    "Explain the architecture of LSTM with its gates and equations, and how it differs from a standard RNN.",
+    "Compare ReLU, sigmoid and tanh (and softmax), and explain when each is preferred; compute softmax for the given outputs.",
+    "Explain the MP-neuron model with its thresholding function, advantages and limitations; implement AND, OR and NOT with MP units.",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "For the given network with initial weights and biases, compute the forward-pass output and the updated weights after one backpropagation step.",
+    "Perform the convolution of the given image with the given filter for the stated padding and stride.",
+    "Explain RNNs with all equations, the role of hidden states, and backpropagation through time."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

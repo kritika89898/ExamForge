@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 109",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas109-end-2022",
+    "igdtuw-cseai-s1-bas109-end-2023"
+  ],
+  "importantTopics": [
+    "Vector Calculus: Line Integrals, Green's and Gauss Theorems",
+    "Laplace Transforms and Convolution",
+    "Linear Transformations",
+    "Rank of a Matrix and Echelon/Normal Form",
+    "Vector Spaces, Subspaces, Basis and Dimension",
+    "Multiple Integrals and Change of Order",
+    "Successive Differentiation and Leibnitz Theorem",
+    "Limits, Continuity and Taylor Series in Two Variables"
+  ],
+  "likelyQuestions": [
+    "State Green's theorem and use it to evaluate the given line integral.",
+    "Use the convolution theorem to find the inverse Laplace transform of the given function.",
+    "Determine whether the given map T is a linear transformation and find T(a,b) from given images.",
+    "Define the rank of a matrix. Reduce the given matrix to normal (or echelon) form and find its rank.",
+    "Check whether the given set of vectors is linearly independent; if dependent, find the relation between them.",
+    "Change the order of integration in the given double integral and evaluate it.",
+    "Find the nth derivative of the given function.",
+    "Test the given function f(x, y) for continuity at the origin; check whether fxy(0,0) = fyx(0,0).",
+    "Find the eigenvalues and eigenvectors of the given matrix, and find the modal matrix P.",
+    "State the Cayley–Hamilton theorem and use it to find the inverse of the given matrix."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Mathematics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

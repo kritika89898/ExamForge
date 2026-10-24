@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bec104-mid-2023-may-eceai"
+  ],
+  "importantTopics": [
+    "Combinational Circuits: Adders, Decoders, Encoders, MUX",
+    "Flip-Flops and Excitation Tables",
+    "Boolean Algebra and K-Map Minimisation",
+    "Sequential Circuit Analysis and Counters",
+    "Number Systems and Codes"
+  ],
+  "likelyQuestions": [
+    "Draw the block diagram and truth table of a full adder.",
+    "Realise an SR flip-flop using NOR gates and explain with a truth table; differentiate logic gates and flip-flops.",
+    "State De Morgan's theorems; convert the given expression to sum of products.",
+    "Analyse the given sequential circuit using a state diagram.",
+    "Convert the given Gray code to binary; differentiate binary code and BCD.",
+    "Construct a 4×16 decoder from two 3×8 decoders and a 16:1 MUX from 4:1 MUXes; explain an encoder with a circuit diagram.",
+    "Derive the excitation tables of SR, JK, D and T flip-flops.",
+    "Minimise the given four-variable function using a K-map and realise it using only NAND or only NOR gates; implement the given expression with XOR and AND gates.",
+    "Design a synchronous 3-bit up/down counter using JK flip-flops; design a pulse-train generator for the given waveform.",
+    "Explain the given number-system conversions and code types with examples."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Digital Electronics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

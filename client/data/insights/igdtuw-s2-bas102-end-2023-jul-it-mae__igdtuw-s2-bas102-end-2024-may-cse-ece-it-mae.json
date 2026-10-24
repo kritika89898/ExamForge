@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bas102-end-2023-jul-it-mae",
+    "igdtuw-s2-bas102-end-2024-may-cse-ece-it-mae"
+  ],
+  "importantTopics": [
+    "Green's, Stokes' and Gauss Divergence Theorems",
+    "Complex Integration: Cauchy's Theorem, Laurent Series and Residues",
+    "Linear ODEs: Operator Method and Cauchy–Euler",
+    "Undetermined Coefficients, Variation of Parameters and Wronskian",
+    "Laplace Transforms and Applications",
+    "Analytic Functions and Cauchy–Riemann Equations",
+    "Inverse Laplace Transform and Convolution",
+    "Vector Calculus: Gradient, Divergence, Curl, Line Integrals"
+  ],
+  "likelyQuestions": [
+    "Verify Green's theorem for the given line integral over the given region.",
+    "Find the Laurent series of the given function valid in the given annulus.",
+    "Solve the given linear differential equation with constant coefficients using the operator method.",
+    "Solve the given ODE using the method of undetermined coefficients / variation of parameters.",
+    "Find the Laplace transform of the given function using the shifting theorem; derive the transform of f'(t).",
+    "If u − v is given, find the analytic function f(z); find the harmonic conjugate of u = eˣ cos y.",
+    "State and prove the convolution theorem and use it to find the given inverse Laplace transform.",
+    "Find the directional derivative of the given function and the tangent plane to the given surface; find a so that the given field is solenoidal.",
+    "Verify Stokes' theorem / evaluate the surface integral using the Gauss divergence theorem for the given field and region.",
+    "Using the residue theorem, evaluate the given contour integral; classify the singularities of the given function."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Applied Mathematics II - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Applied Mathematics II - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

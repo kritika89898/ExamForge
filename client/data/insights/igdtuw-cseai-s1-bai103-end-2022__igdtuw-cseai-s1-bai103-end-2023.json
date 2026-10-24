@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 103",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai103-end-2022",
+    "igdtuw-cseai-s1-bai103-end-2023"
+  ],
+  "importantTopics": [
+    "Computer Arithmetic: Multiplication Algorithms",
+    "Decoders and Multiplexers",
+    "Instruction Formats and Address Instructions",
+    "Parallel Processing and Pipelining",
+    "I/O Organisation: Interrupts, DMA and Handshaking",
+    "Boolean Algebra and De Morgan's Theorem",
+    "Memory Hierarchy, Cache and Associative Memory",
+    "Flip-Flops and Counters"
+  ],
+  "likelyQuestions": [
+    "Draw the hardware and flowchart for multiplication of signed-magnitude data and multiply two given binary numbers step by step.",
+    "Draw the logic diagram and truth table of a 2-to-4 decoder and build a 3×8 decoder from 2×4 decoders.",
+    "Describe the types of instructions based on the address field. Evaluate X = (A+B)*(C+D) using three-, two-, one- and zero-address instructions.",
+    "Explain parallel processing and array processors.",
+    "Explain handshaking and destination-initiated transfer with block diagrams.",
+    "Simplify the given Boolean expression using Boolean algebra and verify De Morgan's theorem for three variables with a truth table.",
+    "Explain the memory hierarchy, cache mapping techniques and associative (content-addressable) memory.",
+    "Explain the working of an SR flip-flop and its disadvantages, and compare JK, D and T flip-flops.",
+    "List the registers of the basic computer and explain the phases of the instruction cycle with a flowchart.",
+    "What are the two types of control unit? Explain one in detail with a diagram."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Organization and Architecture - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

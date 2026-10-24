@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAS 205",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bas205-mid-2025-oct-mae"
+  ],
+  "importantTopics": [
+    "Roots of Equations: Bisection, Newton–Raphson, Secant, Fixed Point",
+    "Linear Systems: LU Decomposition, Gauss–Seidel, SOR, Conditioning",
+    "Errors and Number Representation",
+    "Eigenvalues: Power Method"
+  ],
+  "likelyQuestions": [
+    "Find a root of the given equation by the bisection method correct to four decimal places.",
+    "Solve the given system by LU (Crout's) decomposition / Gauss–Seidel iteration.",
+    "Find the absolute and relative errors of the given sum to four significant digits; how many digits are needed to keep the error under 0.1%?",
+    "Find the largest eigenvalue and eigenvector of the given matrix by Rayleigh's power method.",
+    "Use Newton–Raphson / secant / fixed-point iteration on the given equation and find the rate of convergence of Newton–Raphson.",
+    "Find the condition number of the given system and decide if it is ill-conditioned; write the SOR iteration formula.",
+    "Express the given number in base-2 floating point and IEEE-754 single precision.",
+    "Perform five iterations of the power method from the given starting vector."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Numerical Techniques for Engineers - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

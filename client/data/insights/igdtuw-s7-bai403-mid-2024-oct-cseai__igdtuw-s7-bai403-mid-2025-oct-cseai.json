@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 403",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s7-bai403-mid-2024-oct-cseai",
+    "igdtuw-s7-bai403-mid-2025-oct-cseai"
+  ],
+  "importantTopics": [
+    "Loss Functions and Optimization (Gradient Descent, SGD)",
+    "CNN Layers: Convolution, Pooling, Parameter Sharing, Batch Norm",
+    "CNN Architectures: LeNet, AlexNet, VGG-16, ResNet",
+    "Transfer Learning and Data Augmentation",
+    "Introduction to Computer Vision and the Data-Driven Approach",
+    "k-NN and Linear Classification",
+    "Neural Network Training: Backpropagation and Activation Functions",
+    "Regularization, Overfitting and Weight Initialization"
+  ],
+  "likelyQuestions": [
+    "What is the optimization of the loss function and its role in computer vision? Explain MSE and its applications.",
+    "Explain the convolutional, pooling, activation and fully connected layers in a CNN; why does max-pooling give translation invariance?",
+    "Compare LeNet and VGG-16; why is VGG-16 computationally expensive?",
+    "What is transfer learning? Explain using a CNN as a fixed feature extractor vs fine-tuning for a domain-specific task.",
+    "What is computer vision? Why is vision so difficult? Give real-world examples of computer vision applications.",
+    "How does the k-NN algorithm work and how is k chosen? Why is an odd k preferred? Discuss its limitations for large-scale image classification.",
+    "How does the backpropagation algorithm work? Describe the forward pass, loss computation and backward pass.",
+    "Differentiate overfitting and underfitting; explain L1/L2 regularization and early stopping in CNN training.",
+    "How are weights updated in SGD? Differentiate stochastic and batch gradient descent and explain gradient averaging.",
+    "What is parameter sharing and why is it crucial? Explain batch normalization and its placement; compute output sizes for the given pooling."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Computer Vision - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Computer Vision - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

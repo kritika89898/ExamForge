@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-end-2022",
+    "igdtuw-cseai-s2-bai104-end-2023",
+    "igdtuw-cseai-s2-bai104-end-2024"
+  ],
+  "importantTopics": [
+    "Data Visualisation with Matplotlib",
+    "Tableau: Calculated Fields, Filters and Pareto Charts",
+    "Pandas Analysis: GroupBy, Filtering and Pivot",
+    "Data Cleaning, Missing Values and Outliers",
+    "NumPy Arrays, Indexing and Operations",
+    "Pandas Series and DataFrames",
+    "Data Science Process, Life Cycle and Applications",
+    "Data Ethics, Privacy and the C's of Data"
+  ],
+  "likelyQuestions": [
+    "Write Matplotlib code to plot a line chart with given style properties, a pie chart, a bar chart and a histogram for the given data.",
+    "Write a Tableau calculated field that labels orders as 'profit' or 'loss', and one to compute profit margin.",
+    "Using the given HR/Superstore DataFrame, write Pandas code to group, filter and answer the given business questions.",
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Explain indexing, advanced indexing and slicing in NumPy arrays with examples.",
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Explain the life cycle / different phases of a data science project. How do you define goals in a data science project?",
+    "Define data science ethics and describe ethical issues and the consequences of unethical practices.",
+    "Describe the various types of data in data science with examples.",
+    "Explain different ways of combining data from different sources, and the process of filtering and merging data."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Introduction to Data Science - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Introduction to Data Science - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

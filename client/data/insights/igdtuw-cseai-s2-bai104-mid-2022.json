@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BAI 104",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai104-mid-2022"
+  ],
+  "importantTopics": [
+    "Pandas Series and DataFrames",
+    "Pandas Analysis: GroupBy, Filtering and Pivot",
+    "Data Cleaning, Missing Values and Outliers",
+    "Tableau: Calculated Fields, Filters and Pareto Charts"
+  ],
+  "likelyQuestions": [
+    "Write a Pandas program to create a DataFrame from given lists and add a computed column.",
+    "Using the given HR/Superstore DataFrame, write Pandas code to group, filter and answer the given business questions.",
+    "How should missing values be imputed for numeric and categorical variables? Should imputation be done before removing outliers?",
+    "Write a Tableau calculated field that labels orders as 'profit' or 'loss', and one to compute profit margin.",
+    "Write the output of the given Pandas code snippets with explanation.",
+    "Write an equivalent Pandas program for the given pivot_table without using pivot, and write each year's data to a separate Excel sheet.",
+    "Find the outliers in the given dataset using the interquartile range (IQR), showing the steps.",
+    "What is a Pareto chart? Describe the steps to create one in Tableau using the Superstore dataset; explain filters vs parameters."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Introduction to Data Science - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

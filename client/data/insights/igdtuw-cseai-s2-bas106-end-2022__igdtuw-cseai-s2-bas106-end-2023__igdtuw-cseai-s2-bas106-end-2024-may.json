@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-end-2022",
+    "igdtuw-cseai-s2-bas106-end-2023",
+    "igdtuw-cseai-s2-bas106-end-2024-may"
+  ],
+  "importantTopics": [
+    "Toxicology: Toxic Metals and Dose–Response",
+    "Green Chemistry and Atom Economy",
+    "Natural Resources: Forests, Water, Minerals and Food",
+    "Fuels: Calorific Value and Bomb Calorimeter",
+    "Alternative and Renewable Energy",
+    "Polymers: Bioplastics and Degradation",
+    "Agriculture, Food Problems and Land Degradation",
+    "Petroleum, Knocking, Octane Number and Cracking"
+  ],
+  "likelyQuestions": [
+    "Enumerate the forms of mercury/chromium/lead/arsenic and describe their sources and biochemical effects.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Why are forests economically and ecologically important? Explain deforestation and its consequences.",
+    "A coal sample of given composition was tested in a bomb calorimeter with the given data. Calculate its gross and net calorific values.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "What are bioplastics? Explain their methods of manufacture and applications (e.g., PLA, PCL).",
+    "Explain the negative consequences of modern agriculture and differentiate its on-site and off-site impacts.",
+    "What is octane number? How is the chemical structure of a fuel related to its knocking characteristics?",
+    "What is EIA and why is it necessary before any project? Discuss the parameters considered.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Environmental Science - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Environmental Science - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

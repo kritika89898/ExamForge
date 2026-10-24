@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BMA 208",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s4-bma208-mid-2024-mar-mae"
+  ],
+  "importantTopics": [
+    "IC Engines: Cycles, Valve Timing and Indicator Diagrams",
+    "Reciprocating Air Compressors",
+    "Centrifugal Compressors",
+    "Combustion and Ignition Systems"
+  ],
+  "likelyQuestions": [
+    "Draw the actual valve timing and p–V diagrams of a four-stroke petrol engine; explain the four-stroke diesel engine.",
+    "Explain the effect of clearance volume on the work of a reciprocating compressor.",
+    "Explain the working of a centrifugal compressor and the pressure/velocity variation in impeller and diffuser.",
+    "Explain pre-ignition, detonation and knocking.",
+    "Why is a four-stroke engine more efficient than a two-stroke? Compare efficiencies at different compression ratios; find the clearance ratio for the given data.",
+    "Derive the work for isothermal, adiabatic and polytropic compression; explain two-stage/multistage compression with intercooling.",
+    "Draw the velocity triangles and find the impeller work; explain surging, choking, static and total head.",
+    "Explain the coil/battery ignition system of an SI engine."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Thermal Engineering II - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

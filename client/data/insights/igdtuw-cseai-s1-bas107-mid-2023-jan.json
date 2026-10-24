@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-mid-2023-jan"
+  ],
+  "importantTopics": [
+    "Fresnel Diffraction and Zone Plate",
+    "Interference in Thin Films and Newton's Rings",
+    "EM Wave Propagation in Free Space and Dielectrics",
+    "Maxwell's Equations and Displacement Current",
+    "Conducting Media and Skin Depth",
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Poynting Theorem and Continuity Equation"
+  ],
+  "likelyQuestions": [
+    "Derive Fresnel diffraction at a straight edge for a line source and show the intensity in the illuminated and shadow regions.",
+    "Derive the conditions for constructive and destructive interference due to reflection from a thin film of thickness t and refractive index n. Why are reflected and transmitted fringes complementary?",
+    "Derive the EM wave equations in an isotropic dielectric medium and show that the wave speed is less than in vacuum; show that EM waves are transverse.",
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "Discuss the propagation of EM waves in a conducting medium and derive the skin depth and impedance of a good conductor.",
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "State and prove the Poynting theorem and explain the physical significance of each term.",
+    "Differentiate between Fresnel and Fraunhofer diffraction, and find the radius of the first half-period zone of a zone plate.",
+    "In a Newton's rings experiment, the radii of the 10th and 20th rings are given. Calculate the wavelength of light used.",
+    "For a given E or H field of a plane wave, find the amplitude, frequency, wavelength, velocity and impedance of the medium."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

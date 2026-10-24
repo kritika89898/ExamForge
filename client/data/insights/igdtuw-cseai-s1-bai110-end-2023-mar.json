@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAI 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai110-end-2023-mar"
+  ],
+  "importantTopics": [
+    "Exception Handling",
+    "Pattern and Series Programs",
+    "Output Prediction (Code Tracing)",
+    "NumPy Arrays",
+    "Pandas DataFrames",
+    "Conditional Statements and Loops",
+    "Strings and String Methods",
+    "Lists, Tuples and Sets"
+  ],
+  "likelyQuestions": [
+    "Explain exception handling using try, except, else and finally with an example.",
+    "Write a Python program using nested loops to print the given number/alphabet pattern.",
+    "Write the output of the given code snippet with an explanation of each step.",
+    "Explain the different types of indexing of NumPy arrays with examples.",
+    "Create a DataFrame of students' marks and compute total marks, percentage and the top 3 students.",
+    "Explain if, if-else and if-elif-else statements with a flow diagram and an example where if-elif-else is necessary.",
+    "Explain string slicing with positive and negative indices, and why strings are immutable.",
+    "Differentiate between list, tuple and dictionary with suitable examples.",
+    "Write a program to store student roll numbers and marks as key-value pairs in a dictionary and display the highest and lowest scorers.",
+    "Write a program to plot a pie chart / histogram for the given data using matplotlib."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Programming with Python - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

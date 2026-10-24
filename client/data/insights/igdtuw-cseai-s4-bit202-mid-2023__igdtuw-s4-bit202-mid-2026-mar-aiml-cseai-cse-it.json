@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bit202-mid-2023",
+    "igdtuw-s4-bit202-mid-2026-mar-aiml-cseai-cse-it"
+  ],
+  "importantTopics": [
+    "CPU Scheduling: FCFS, SJF, SRTF, Priority, Round Robin",
+    "Virtual Memory and Page Replacement",
+    "Processes, PCB, States and Context Switching",
+    "Memory Management: Allocation, Paging, Segmentation",
+    "Deadlocks and Banker's Algorithm",
+    "Threads",
+    "OS Types, System Calls and Structure",
+    "Process Synchronization, Semaphores and Classical Problems"
+  ],
+  "likelyQuestions": [
+    "For the given processes, draw Gantt charts and calculate the average waiting and turnaround times under SJF, SRTF, round robin (q = 3) and priority scheduling.",
+    "For the given reference string and number of frames, find the page faults under FIFO, LRU and optimal page replacement.",
+    "Explain the process life cycle and process states with a diagram, and the contents of a PCB.",
+    "Explain contiguous allocation and fragmentation; allocate the given processes using first fit, best fit, worst fit and next fit.",
+    "Define deadlock and its four necessary conditions, and the methods of prevention, avoidance and detection.",
+    "How is a thread different from a process? Compare single-threaded and multithreaded processes with a diagram.",
+    "Explain the different types of operating systems with examples; differentiate hard and soft real-time OS.",
+    "Define the critical section and its three requirements; when does a race condition arise?",
+    "Explain preemption in CPU scheduling and how it changes the average waiting time for the given process set.",
+    "Define page fault and demand paging; explain the role of the valid/invalid bit."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Operating Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Operating Systems - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

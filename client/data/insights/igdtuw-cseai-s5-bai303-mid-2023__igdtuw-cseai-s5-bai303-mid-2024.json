@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai303-mid-2023",
+    "igdtuw-cseai-s5-bai303-mid-2024"
+  ],
+  "importantTopics": [
+    "Cryptography: Symmetric and Asymmetric Encryption",
+    "DoS/DDoS, Session Hijacking, MITM and Spoofing",
+    "Hash Functions, MAC and Digital Signatures",
+    "Security Fundamentals: CIA Triad, Threats and Attack Types",
+    "Malware: Viruses, Worms, Rootkits, Backdoors, Ransomware",
+    "Advanced Persistent Threats and the Cyber Attack Lifecycle",
+    "Secure Protocols: SSL/TLS, IPSec, SSH and VPN",
+    "Wireless, Mobile, Cloud and Social Network Security"
+  ],
+  "likelyQuestions": [
+    "Differentiate between symmetric and asymmetric key encryption with examples; explain DES and RSA.",
+    "Explain the levels of denial-of-service attacks, the difference between DoS and DDoS, and their countermeasures.",
+    "What are hash functions? Explain their properties and the role of SHA (vs MD5) in integrity and digital signatures.",
+    "What is the CIA triad? Explain the goals of cyber security and the classification of security threats.",
+    "Explain the different types of malware (worms, ransomware, backdoors) with their attack methods, impact and defences.",
+    "What is an Advanced Persistent Threat? Explain its characteristics, working cycle and defence mechanisms.",
+    "Explain SSL/TLS, its handshake and how it secures e-commerce; compare SSL/TLS, IPSec and SSH.",
+    "Explain Wi-Fi security, the significance of SSID and measures for secure Wi-Fi; discuss security in laptops and smartphones.",
+    "Discuss the types of phishing (spear phishing, whaling, pharming, smishing, vishing) and prevention techniques.",
+    "Encrypt the given text using a transposition cipher with the given key."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cyber Security - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cyber Security - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

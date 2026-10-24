@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAS 108",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas108-end-2022",
+    "igdtuw-cseai-s2-bas108-end-2024-dec"
+  ],
+  "importantTopics": [
+    "Descriptive Statistics: Mean, Median, Mode, Dispersion, Moments",
+    "Joint, Marginal and Conditional Distributions",
+    "Discrete Distributions: Binomial, Poisson, Geometric",
+    "Correlation and Regression",
+    "Random Variables, PMF/PDF and CDF",
+    "Continuous Distributions: Normal, Exponential, Uniform and CLT",
+    "Hypothesis Testing: Large Samples (Z-test)",
+    "Small Sample Tests: t-test and F-test"
+  ],
+  "likelyQuestions": [
+    "Calculate the mean, median and mode of the given frequency distribution, and the standard deviation and coefficient of variation.",
+    "For the given joint pdf, find the constant c, the marginal density of X and the conditional density of Y given X.",
+    "Out of 800 families with 4 children, how many are expected to have 2 boys and 2 girls, no girl, at most 2 girls?",
+    "Estimate the regression line of Y on X from the given data and predict Y for the given X.",
+    "A random variable X has the given probability distribution. Find k, the required probabilities and the smallest value of x for which P(X ≤ x) > 1/2.",
+    "The resistance of resistors is normal with mean 100 Ω and SD 2 Ω; what percentage lie between 98 and 102 Ω?",
+    "Is there a significant difference between the proportions favouring a plan in two cities at 5% level?",
+    "Test whether the given sample of 9 items differs significantly from an assumed mean of 47.5.",
+    "Test whether the production of bad parts is independent of the shift at 5% level using the chi-square test.",
+    "Derive the moment generating function of the Poisson / normal / exponential distribution and find its mean and variance."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Probability and Statistics - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Probability and Statistics - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

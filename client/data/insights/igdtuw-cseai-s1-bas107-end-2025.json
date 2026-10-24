@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 107",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bas107-end-2025"
+  ],
+  "importantTopics": [
+    "Fraunhofer Diffraction (Single Slit, N-Slit and Grating)",
+    "Optical Fibres: NA, Acceptance Angle, Types",
+    "Conducting Media and Skin Depth",
+    "Particle in a 1-D Infinite Potential Box",
+    "Lasers: Einstein Coefficients and He-Ne Laser",
+    "Wave Function and Schrödinger Equation",
+    "Fresnel Diffraction and Zone Plate",
+    "Maxwell's Equations and Displacement Current"
+  ],
+  "likelyQuestions": [
+    "Derive the intensity distribution for Fraunhofer diffraction at a single slit and show that successive maxima are in the ratio 1 : 4/9π² : 4/25π².",
+    "Explain total internal reflection in an optical fibre and derive the numerical aperture and acceptance angle; calculate them for given core and cladding indices.",
+    "Discuss the propagation of EM waves in a conducting medium and derive the skin depth and impedance of a good conductor.",
+    "Solve the Schrödinger equation for a particle in a one-dimensional infinite potential well and show that its energy levels are discrete; sketch the first two wave functions.",
+    "Derive the relation between Einstein's A and B coefficients for spontaneous and stimulated emission. Why is lasing not possible in a two-level system?",
+    "Derive the time-independent Schrödinger wave equation and state the properties of an acceptable wave function.",
+    "Derive Fresnel diffraction at a straight edge for a line source and show the intensity in the illuminated and shadow regions.",
+    "Derive Maxwell's equations in differential form and discuss their integral form and physical significance.",
+    "What is double refraction? Describe the construction and working of a Nicol prism and explain the production of plane, circularly and elliptically polarised light.",
+    "Find the value of the constant so that the given vector field is solenoidal/irrotational."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Physics - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

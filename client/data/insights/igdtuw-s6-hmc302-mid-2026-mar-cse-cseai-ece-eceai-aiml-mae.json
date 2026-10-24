@@ -1,0 +1,28 @@
+{
+  "subjectCode": "HMC 302",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s6-hmc302-mid-2026-mar-cse-cseai-ece-eceai-aiml-mae"
+  ],
+  "importantTopics": [
+    "Evolution of Management Thought",
+    "Organizing: Principles, Structure, Span of Control, Departmentation",
+    "Planning and MBO"
+  ],
+  "likelyQuestions": [
+    "Critically compare the classical, neo-classical, behavioural, systems and contingency approaches to management.",
+    "Define organizing and explain its principles, span of control and types of organization; design a structure for a growing start-up.",
+    "What is planning? Explain its nature, objectives, types of plans and the planning process with an example.",
+    "State the contributions of F.W. Taylor and the Hawthorne studies; 'Contingency approach is a common-sense approach.' Comment.",
+    "What is matrix organization and when is it useful? Define departmentation and its forms; differentiate formal and informal organization.",
+    "'Planning is a bridge between the present and the future.' Comment; explain MBO."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Principles of Management - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

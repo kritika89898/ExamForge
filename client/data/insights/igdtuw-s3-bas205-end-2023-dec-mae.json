@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAS 205",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bas205-end-2023-dec-mae"
+  ],
+  "importantTopics": [
+    "ODEs: Taylor Series, Euler and Runge–Kutta",
+    "Roots of Equations: Bisection, Newton–Raphson, Secant, Fixed Point",
+    "Linear Systems: LU Decomposition, Gauss–Seidel, SOR, Conditioning",
+    "Eigenvalues: Power Method",
+    "Interpolation: Lagrange and Newton's Divided Difference",
+    "Numerical Integration: Trapezoidal, Simpson's Rules, Newton–Cotes",
+    "Errors and Number Representation"
+  ],
+  "likelyQuestions": [
+    "Evaluate y(1.1) and y(1.2) by Taylor's series for the given IVP.",
+    "Find a root of the given equation by the bisection method correct to four decimal places.",
+    "Solve the given system by LU (Crout's) decomposition / Gauss–Seidel iteration.",
+    "Find the largest eigenvalue and eigenvector of the given matrix by Rayleigh's power method.",
+    "Find the missing term using Lagrange's interpolation formula.",
+    "Evaluate the given integral by Simpson's 1/3 and 3/8 rules.",
+    "Find the absolute and relative errors of the given sum to four significant digits; how many digits are needed to keep the error under 0.1%?",
+    "Solve the given IVP by fourth-order Runge–Kutta; write the modified Euler formula.",
+    "Use Newton–Raphson / secant / fixed-point iteration on the given equation and find the rate of convergence of Newton–Raphson.",
+    "Find the condition number of the given system and decide if it is ill-conditioned; write the SOR iteration formula."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Numerical Techniques for Engineers - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

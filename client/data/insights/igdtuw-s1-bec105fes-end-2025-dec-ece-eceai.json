@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BEC 105 (FES)",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bec105fes-end-2025-dec-ece-eceai"
+  ],
+  "importantTopics": [
+    "Kirchhoff's Laws, Mesh and Nodal Analysis",
+    "Transformers and DC Machines",
+    "Network Theorems",
+    "Resonance in RLC Circuits",
+    "Measuring Instruments: PMMC, Moving Iron, Dynamometer",
+    "Three-Phase Power Measurement",
+    "AC Fundamentals and Transients"
+  ],
+  "likelyQuestions": [
+    "Explain KCL and KVL with examples; differentiate mesh and nodal analysis.",
+    "Draw the equivalent circuit of a single-phase transformer, derive its EMF equation and explain core and copper losses; define voltage regulation.",
+    "Using Thevenin's theorem, find the current through the 10 Ω resistor; state and prove maximum power transfer.",
+    "Derive the resonant frequency, Q-factor and bandwidth of a series RLC circuit and plot the response.",
+    "Describe the construction and working of a moving-iron instrument and compare with moving-coil.",
+    "Explain the two-wattmeter method of measuring three-phase power.",
+    "Derive the average value of a sinusoidal wave; draw the phasor diagram of series RL and derive its impedance.",
+    "Find the current through the 10 Ω resistor in the given circuit using mesh and nodal analysis.",
+    "Explain the construction of a DC generator and the working of a DC motor; derive the back-EMF and torque equations.",
+    "State and explain superposition and Millman's theorems."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Fundamentals of Electrical Sciences - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

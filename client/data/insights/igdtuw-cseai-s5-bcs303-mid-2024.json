@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-mid-2024"
+  ],
+  "importantTopics": [
+    "Grammars, Chomsky Hierarchy and Derivations",
+    "NFA to DFA Conversion and DFA Minimization",
+    "Pumping Lemma and Properties of Regular Languages",
+    "Pushdown Automata",
+    "DFA Design and Finite Automata Basics",
+    "Normal Forms: CNF and GNF"
+  ],
+  "likelyQuestions": [
+    "Explain the Chomsky hierarchy of grammars and languages with examples.",
+    "Convert the given NFA (or ε-NFA) to an equivalent optimised DFA.",
+    "State the pumping lemma for regular languages and prove that {aⁿbⁿ | n ≥ 1} is not regular.",
+    "Design a PDA that accepts {aⁿb²ⁿ | n > 0} (or 0ⁿ1ⁿ) and show the instantaneous descriptions for the given string.",
+    "Design a DFA that accepts strings starting with 'aba' and ending with 'bb' (or the given language) and check the given strings.",
+    "Convert the given context-free grammar into Chomsky normal form.",
+    "Explain leftmost and rightmost derivations and draw the derivation tree for id+id*id using the given grammar.",
+    "Explain the steps of DFA minimisation and minimise the given finite automaton.",
+    "Why is a*b* regular but aⁿbⁿ not? State the properties of regular languages and regular grammar.",
+    "Define a PDA using tuples; why is a stack used as its memory?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

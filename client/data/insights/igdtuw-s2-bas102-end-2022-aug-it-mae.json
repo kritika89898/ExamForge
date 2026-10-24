@@ -1,0 +1,35 @@
+{
+  "subjectCode": "BAS 102",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s2-bas102-end-2022-aug-it-mae"
+  ],
+  "importantTopics": [
+    "Analytic Functions and Cauchy–Riemann Equations",
+    "Complex Integration: Cauchy's Theorem, Laurent Series and Residues",
+    "Linear ODEs: Operator Method and Cauchy–Euler",
+    "Inverse Laplace Transform and Convolution",
+    "Undetermined Coefficients, Variation of Parameters and Wronskian",
+    "Laplace Transforms and Applications"
+  ],
+  "likelyQuestions": [
+    "If u − v is given, find the analytic function f(z); find the harmonic conjugate of u = eˣ cos y.",
+    "Find the Laurent series of the given function valid in the given annulus.",
+    "Solve the given linear differential equation with constant coefficients using the operator method.",
+    "State and prove the convolution theorem and use it to find the given inverse Laplace transform.",
+    "Solve the given ODE using the method of undetermined coefficients / variation of parameters.",
+    "Find the Laplace transform of the given function using the shifting theorem; derive the transform of f'(t).",
+    "Show that the given f(z) satisfies the C-R equations at the origin but is not differentiable there; find the image of the given strip under the mapping.",
+    "Using the residue theorem, evaluate the given contour integral; classify the singularities of the given function.",
+    "Solve the given Cauchy–Euler equation and the given simultaneous differential equations.",
+    "Solve the given integral equation using Laplace transforms."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Mathematics II - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "subjectCode": "GEC 402",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s8-gec402-end-2025-dec-cse-cseai-it-aiml-ece-eceai-mae"
+  ],
+  "importantTopics": [
+    "Concepts of Happiness and Subjective Well-being",
+    "Mindsets, Coping and the 'Monkey Brain'",
+    "Pleasure vs Happiness, Hedonic Adaptation and Miswanting",
+    "Environment and Quality of Life (Veenhoven's Matrix)",
+    "Character Strengths",
+    "Gratitude and Emotional Regulation",
+    "PERMA Model and Positive Psychology"
+  ],
+  "likelyQuestions": [
+    "How is happiness conceptualised in positive psychology? Discuss its core characteristics and the major theoretical perspectives.",
+    "Compare a judger's and a learner's mindset in the given stress scenario; how can one shift to a positive, problem-solving mindset?",
+    "Using the smartphone example, explain the difference between short-term pleasure and long-term happiness and why pleasure fades.",
+    "Using the given scenario, evaluate how environmental factors affect subjective well-being and recommend improvements.",
+    "Analyse how strengths such as hope and perseverance contribute to team well-being; how can others identify and cultivate such strengths?",
+    "How can gratitude journaling serve as a tool for emotional regulation and resilience?",
+    "Explain the PERMA model (positive emotion, engagement, relationships, meaning, achievement) with examples of practices for each element.",
+    "Define subjective well-being and its components (life satisfaction and emotional balance).",
+    "Explain the 'monkey brain' and how mindfulness reduces rumination and impulsive reactivity.",
+    "What is miswanting and affective forecasting? How do they influence decision-making, and how can their effects be reduced?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Science and Practice of Happiness - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

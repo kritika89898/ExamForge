@@ -1,0 +1,39 @@
+{
+  "subjectCode": "BIT 304",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s6-bit304-mid-2023-feb-it-ece-cse",
+    "igdtuw-s6-bit304-mid-2024-mar-it-ece-cse"
+  ],
+  "importantTopics": [
+    "Cloud Architecture Design: SOA, EDA, Hybrid and Load Balancing",
+    "Cloud Cube and Linthicum Models, Vendor Lock-in and Multi-tenancy",
+    "Virtualization, Hypervisors and Containers",
+    "Cloud Models: SPI vs Traditional IT, Cloud vs Grid, Web 3.0",
+    "Cloud Services and Concepts (XaaS, Fog, Testing)"
+  ],
+  "likelyQuestions": [
+    "Design a hybrid cloud architecture (front end and back end) for the IGDTUW ERP/Taarangana portal incorporating scalability and security.",
+    "Discuss the four dimensions of the Jericho Forum Cloud Cube model and the Linthicum deployment model.",
+    "Differentiate Type-1 and Type-2 hypervisors and explain the virtualization reference model.",
+    "Differentiate the SPI model of cloud computing from the traditional IT model with schematic illustrations.",
+    "Explain BPaaS, IDaaS, fog computing, cloud analytics and network virtualization.",
+    "Suggest a service-oriented / event-driven / load-balanced cloud architecture for the IGDTUW examination portal.",
+    "Discuss the vendor lock-in problem, data lock-in, data segregation and multi-tenant security in cloud computing.",
+    "Differentiate virtualization and containerization in terms of isolation, deployment, OS and storage; compare server, network, desktop and application virtualization.",
+    "Differentiate cloud and grid computing; analyse the benefits and limitations of distributed and decentralised computing in Web 3.0.",
+    "Differentiate internet-based software testing and cloud testing with examples."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cloud Computing - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cloud Computing - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

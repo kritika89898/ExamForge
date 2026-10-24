@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BEC 110 / BMA 110",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s2-bec110-mid-2024-mar-it-mae"
+  ],
+  "importantTopics": [
+    "Network Theorems: Superposition, Thevenin, Norton, Millman, Maximum Power",
+    "AC Circuits, Impedance and Power",
+    "AC Fundamentals: RMS, Average, Form and Peak Factor",
+    "Resonance in RLC Circuits",
+    "DC Circuits: Kirchhoff's Laws, Series–Parallel, Star–Delta"
+  ],
+  "likelyQuestions": [
+    "State and prove the maximum power transfer theorem and find the load and maximum power for the given circuit.",
+    "A 50 Ω resistor in series with a 100 µF capacitor across 100 V, 50 Hz: find the impedance, current, power factor and voltages.",
+    "For i = 42.42 sin 628t, find the maximum value, frequency, RMS, average value and form factor.",
+    "For the given series RLC circuit, find the capacitance for resonance, voltages across L and C, bandwidth, Q-factor and power.",
+    "Explain Kirchhoff's laws; find the currents through all resistors in the given circuit and verify KVL/KCL.",
+    "Find the current in the given resistor by superposition; find the Thevenin/Norton equivalent of the given circuit.",
+    "Explain true, reactive and apparent power with the power triangle; find the equivalent impedance of the given parallel impedances; find the coil parameters from DC and AC readings.",
+    "Find the average and RMS values, form factor and peak factor of the given waveform / half-wave rectified wave.",
+    "Derive the impedance, current, resonant frequency and Q-factor of a series RLC circuit with a phasor diagram.",
+    "Convert the given delta network to star (and star to delta) and derive the conversion formulas."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Basic Electrical Engineering / Engineering Mechanics - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

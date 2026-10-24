@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BMA 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bma201-end-2023-dec-mae"
+  ],
+  "importantTopics": [
+    "Metal Forming: Forging, Extrusion, Wire Drawing",
+    "Sand Casting: Patterns, Allowances, Moulding Sand",
+    "Special Casting Processes",
+    "Arc and Resistance Welding: SMAW, SAW, GMAW, TIG, Spot",
+    "Powder Metallurgy",
+    "Additive Manufacturing and 3D Printing",
+    "Advanced Welding: Electron Beam, Laser, Induction",
+    "Metrology and Inspection"
+  ],
+  "likelyQuestions": [
+    "Differentiate hot and cold working; explain drop, roll, press and upset forging with sketches.",
+    "Explain the five pattern allowances and calculate the pattern dimensions for the given cast-iron casting with shrinkage allowance.",
+    "Explain centrifugal (true vs semi-centrifugal) and investment casting with sketches, advantages and disadvantages.",
+    "Explain GMAW with a sketch, MIG vs MAG and modes of metal transfer; explain TIG welding and why it is preferred over MIG.",
+    "Explain the powder metallurgy process and the steps of powder production with a diagram.",
+    "Explain the working of a 3D printer and the difference between 3D printing and additive manufacturing.",
+    "Explain electron beam welding with a diagram and applications.",
+    "Differentiate line and end standards and explain how length standards are transferred to end standards.",
+    "Explain wire drawing, intermediate annealing and lubrication; explain extrusion.",
+    "Explain types of patterns (including sweep patterns) with sketches; describe the sand-mould features and desirable properties of moulding sand."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Production Technology I - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

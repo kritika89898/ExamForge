@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 101",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai101-end-2022",
+    "igdtuw-cseai-s1-bai101-end-2023"
+  ],
+  "importantTopics": [
+    "Robotics, Drones and Autonomous Navigation",
+    "Applications in Healthcare, Education and Agriculture",
+    "Propositional Logic and Formalisation",
+    "Data, Data Types and Pre-processing",
+    "NLP, Speech Recognition and Computer Vision Applications",
+    "Autonomous Vehicles and Transportation",
+    "Classification, Regression and Clustering",
+    "Knowledge Representation"
+  ],
+  "likelyQuestions": [
+    "Explain the interaction of localization, mapping and path planning (SPLAM) in autonomous navigation of mobile robots.",
+    "How can AI improve medical facilities in India? Discuss the benefits and challenges for stakeholders.",
+    "Formalize the given English sentences into propositional logic and prepare the truth table for the compound proposition.",
+    "Why is data crucial in machine learning? Explain the types of data, the five V's of data and the need for pre-processing.",
+    "Discuss the working of well-known speech recognition applications and the models used in them.",
+    "Discuss the applications of intelligent systems in autonomous vehicles. Is it feasible to deploy self-driving cars in India? Justify.",
+    "Differentiate between classification, regression and clustering with suitable examples.",
+    "What is knowledge representation? Discuss various approaches and strategies of knowledge representation in intelligent systems.",
+    "What is reasoning in AI? Explain the various types of reasoning with examples.",
+    "What is the role of training, testing and validation sets? What ratios are typically used to split a dataset?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Intelligent Systems - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Intelligent Systems - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

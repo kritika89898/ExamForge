@@ -1,0 +1,36 @@
+{
+  "subjectCode": "BAI 103",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s1-bai103-mid-2023-jan"
+  ],
+  "importantTopics": [
+    "Boolean Algebra and De Morgan's Theorem",
+    "Instruction Formats and Address Instructions",
+    "Flip-Flops and Counters",
+    "Addressing Modes",
+    "K-Map Minimisation and Combinational Design",
+    "Adders and Number Representation",
+    "Registers, Instruction Cycle and Micro-operations"
+  ],
+  "likelyQuestions": [
+    "Simplify the given Boolean expression using Boolean algebra and verify De Morgan's theorem for three variables with a truth table.",
+    "Describe the types of instructions based on the address field. Evaluate X = (A+B)*(C+D) using three-, two-, one- and zero-address instructions.",
+    "Explain the working of an SR flip-flop and its disadvantages, and compare JK, D and T flip-flops.",
+    "Describe the different addressing modes of an instruction with examples.",
+    "Simplify F(A,B,C,D) = Σm(0,2,3,5,6,7,10,11,14,15) using a K-map and draw the logic circuit.",
+    "Explain how a full adder is obtained from half adders with a block diagram.",
+    "List the registers of the basic computer and explain the phases of the instruction cycle with a flowchart.",
+    "Explain any five laws of Boolean algebra with examples.",
+    "A memory unit has 256K words of 32 bits with an indirect bit, opcode, register code and address part. Find the number of bits in each part and draw the instruction format.",
+    "Explain the working of a 4-bit asynchronous binary counter with logic diagram, timing diagram and truth table."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Computer Organization and Architecture - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

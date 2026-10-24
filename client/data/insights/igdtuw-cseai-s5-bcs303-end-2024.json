@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BCS 303",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bcs303-end-2024"
+  ],
+  "importantTopics": [
+    "Mealy and Moore Machines",
+    "DFA Design and Finite Automata Basics",
+    "NFA to DFA Conversion and DFA Minimization",
+    "Normal Forms: CNF and GNF",
+    "Pushdown Automata",
+    "Turing Machines and Linear Bounded Automata",
+    "Decidability, Halting Problem, PCP and P vs NP",
+    "Context-Free Grammars, Ambiguity and Simplification"
+  ],
+  "likelyQuestions": [
+    "Design a Moore machine that outputs A if the input ends in 101, B if it ends in 110, otherwise C.",
+    "Design a DFA that accepts strings starting with 'aba' and ending with 'bb' (or the given language) and check the given strings.",
+    "Convert the given NFA (or ε-NFA) to an equivalent optimised DFA.",
+    "Convert the given context-free grammar into Chomsky normal form.",
+    "Design a PDA that accepts {aⁿb²ⁿ | n > 0} (or 0ⁿ1ⁿ) and show the instantaneous descriptions for the given string.",
+    "Design a Turing machine that accepts {aⁿbⁿcⁿ | n ≥ 1} and show the IDs for the given string.",
+    "What is the halting problem? Explain the Post correspondence problem with an example.",
+    "Construct a CFG for the given language (e.g., aⁿbⁿcᵐdᵐ or wwᴿ).",
+    "Using the pumping lemma for CFLs, show that {aⁿbⁿcⁿ | n ≥ 1} (or the given language) is not context-free.",
+    "State the pumping lemma for regular languages and prove that {aⁿbⁿ | n ≥ 1} is not regular."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Theory of Computation - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

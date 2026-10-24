@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BIT 203",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s3-bit203-end-2024",
+    "igdtuw-s3-bit203-end-2022-dec-cse-it"
+  ],
+  "importantTopics": [
+    "Cost Estimation: Function Points and COCOMO",
+    "Software Process Models (SDLC) and Agile",
+    "Requirements Engineering and Elicitation",
+    "Software Design: Modularity, Coupling, Cohesion, Patterns",
+    "Data Flow Diagrams and Context Diagrams",
+    "Software Testing: CFG, Cyclomatic Complexity, Levels",
+    "Software Engineering Basics and Software Crisis",
+    "Project Management, Risk Management and Configuration"
+  ],
+  "likelyQuestions": [
+    "Compute the function points for the given system with the given component complexities and adjustment factors.",
+    "Suggest the most appropriate process model for the given systems (anti-lock braking, university accounting, etc.) with reasons.",
+    "Why is requirements engineering a critical stage? Discuss its three main activities and why no single elicitation technique works in all situations.",
+    "Explain modularity in software design and the types of coupling; contrast coupling and cohesion.",
+    "Draw the context diagram and level-1 DFD for the given system (hospital pharmacy / order system / student registration).",
+    "Draw the CFG for the given program, calculate its cyclomatic complexity and identify independent paths with test cases.",
+    "What are the reasons software engineering is important? Why do software projects go wrong?",
+    "You are managing a project that is behind schedule. How can renegotiating schedule, adding people or relaxing quality shorten it?",
+    "Why is maintenance required after implementation? Describe the software maintenance activities and process.",
+    "For a hospital patient-planning system, discuss the pros and cons of thorough up-front analysis versus a pilot version. Which strategy do you favour?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Software Engineering - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Software Engineering - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

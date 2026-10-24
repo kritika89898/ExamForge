@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 105",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bas105-end-2022-apr-it-mae"
+  ],
+  "importantTopics": [
+    "Nanomaterials and Composites",
+    "Thermal Analysis: TGA and DTA",
+    "Water: Hardness, Alkalinity and EDTA Titration",
+    "Catalysis: Acid–Base Catalysis and Adsorption Theory",
+    "Spectroscopy: UV-Visible and Beer–Lambert Law",
+    "Phase Rule and Phase Diagrams",
+    "Water Softening: Lime–Soda, Zeolite, Ion Exchange",
+    "Boiler Water Treatment: Conditioning and Deaeration"
+  ],
+  "likelyQuestions": [
+    "How do the properties of materials change from bulk to nano? Discuss top-down and bottom-up approaches; explain fullerenes and carbon nanotubes.",
+    "Explain the principle and instrumentation of thermogravimetric analysis and the factors affecting results.",
+    "Calculate the type and extent of alkalinity from the given phenolphthalein and methyl orange titre values.",
+    "What are acid–base catalysts? Discuss the mechanism of acid-catalysed reactions.",
+    "State the Beer–Lambert law and its limitations; calculate the concentration from the given absorbance data.",
+    "Determine the number of components and phases in the given systems; explain congruent melting point and eutectic point.",
+    "Calculate the lime (and soda) required to soften the given volume of hard water of the given composition and purity.",
+    "Why is Calgon conditioning better than phosphate conditioning? Explain with reactions.",
+    "What factors are considered in making fibre-reinforced and structural composites? What are the advantages of composites over metals?",
+    "How are the peaks in a DTA curve analysed and what information do they give?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Applied Chemistry - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

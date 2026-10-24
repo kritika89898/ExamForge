@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BIT 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s4-bit204-end-2025-may-it"
+  ],
+  "importantTopics": [
+    "Java: Features, Packages, Interfaces, Inheritance, Threads",
+    "Operator and Function Overloading",
+    "Classes, Static Members and Friend Functions",
+    "Inheritance, Virtual Functions and Abstract Classes",
+    "File Handling in C++",
+    "Exception Handling and Namespaces",
+    "OOP Concepts and C++ Basics",
+    "Functions: Inline, Default Arguments, Call by Reference"
+  ],
+  "likelyQuestions": [
+    "Explain why Java is secure and portable and the JVM; differentiate abstract classes and interfaces.",
+    "Overload the unary ++ operator for the given Time class using member and friend functions.",
+    "Write an EMPLOYEE class with a static counter; explain two uses of static.",
+    "Show the order of constructor calls in multiple inheritance; demonstrate a virtual base class and the protected specifier.",
+    "Count the characters, words and lines in a text file.",
+    "Explain exception handling with a diagram and show multiple catch blocks for one try.",
+    "Explain five characteristics of OOP; are encapsulation and data abstraction the same?",
+    "Write a program using an inline function to find the minimum of two numbers; how does it differ from default arguments?",
+    "Why is a copy constructor used? Demonstrate with a program.",
+    "Explain packages, multithreading and multilevel inheritance using super with programs."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Object Oriented Programming - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

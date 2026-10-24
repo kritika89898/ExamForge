@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BMA 205",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bma205-mid-2023-oct-mae"
+  ],
+  "importantTopics": [
+    "First Law: Closed Systems and Processes",
+    "Second Law, Heat Engines and Carnot Cycle",
+    "First Law: Steady Flow Energy Equation",
+    "Entropy and Clausius Inequality"
+  ],
+  "likelyQuestions": [
+    "For the given quasi-static process p = (8−4V) bar, find the final pressure and volume; find the work and internal energy for the given three-process cycle.",
+    "State Kelvin–Planck and Clausius statements and show their equivalence; explain PMM1 and PMM2.",
+    "Apply the SFEE to a throttle, nozzle and turbine.",
+    "Prove the Clausius inequality and justify that entropy is a point function.",
+    "Derive the heat transfer in a polytropic process in terms of work, γ and n; find the work for the given adiabatic compression of a monoatomic gas.",
+    "Check the given engine claim using the first and second laws; solve the given multi-reservoir Carnot engine; relate COP of refrigerator and heat pump.",
+    "Find the heat transfer in the given condenser / compressor using the SFEE.",
+    "Find the heat from the hot reservoir for the given entropy change; derive the entropy change for a polytropic process and find it for the given nitrogen heating."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Thermal Engineering I - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

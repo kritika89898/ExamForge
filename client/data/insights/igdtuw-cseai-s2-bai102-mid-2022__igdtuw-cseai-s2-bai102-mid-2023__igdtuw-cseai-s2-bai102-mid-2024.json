@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 102",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai102-mid-2022",
+    "igdtuw-cseai-s2-bai102-mid-2023",
+    "igdtuw-cseai-s2-bai102-mid-2024"
+  ],
+  "importantTopics": [
+    "Polymorphism: Overloading, Overriding, Binding",
+    "Constructors, Overloading and Chaining",
+    "Abstract Classes and Interfaces",
+    "Basic Programs: Strings, Patterns and Arrays",
+    "Classes, Objects and Variables",
+    "Java Basics: JVM, JRE, JDK and Features",
+    "Inheritance and the super/final Keywords",
+    "Packages and Access Modifiers"
+  ],
+  "likelyQuestions": [
+    "Differentiate between ad-hoc and pure polymorphism, and between early and late binding.",
+    "Differentiate between constructor overloading and constructor chaining with a Box class example.",
+    "What is an abstract class? Create an abstract class Animal and inherit it in Cat, Dog and Duck.",
+    "Write a Java program to remove all vowels from a string entered by the user / print a reverse pyramid pattern.",
+    "Differentiate between class, instance and local variables. Write a program where a class variable auto-assigns unique roll numbers to Student objects.",
+    "Explain JVM, JRE and JDK with a diagram. Why is Java robust and architecture-neutral?",
+    "What are the forms of inheritance in Java? Why is multiple inheritance not allowed and how is it achieved using interfaces?",
+    "Explain the access modifiers in Java. What is a package and how is it used?",
+    "Create a superclass Vehicle and derived classes Car and Bike that override print(), and demonstrate method overloading and overriding.",
+    "Create a class Complex with constructors and a method to add two complex numbers."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Object Oriented Programming using Java - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

@@ -1,0 +1,47 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2023",
+    "igdtuw-cseai-s5-bai301-end-2024",
+    "igdtuw-cseai-s5-bai301-end-2025"
+  ],
+  "importantTopics": [
+    "Data Pre-processing, EDA and Feature Engineering",
+    "Dimensionality Reduction: PCA and LDA",
+    "Ensemble Learning: Bagging, Boosting, Random Forest",
+    "Naive Bayes Classifier",
+    "Evaluation Metrics: Confusion Matrix, ROC and AUC",
+    "Linear Regression and Regularization (Ridge, LASSO)",
+    "Clustering: k-Means, Hierarchical and EM",
+    "ML Basics, ML Cycle and Supervised vs Unsupervised"
+  ],
+  "likelyQuestions": [
+    "Discuss data exploration and pre-processing: data cleaning, integration, handling missing values and outliers, and feature extraction.",
+    "Transform the given data into the new coordinate system using PCA.",
+    "Contrast bagging and boosting; explain how Random Forest improves accuracy over a single decision tree.",
+    "Using the given COVID-19 symptom dataset, build a naive Bayes model and compute the required probabilities.",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1 score.",
+    "Fit a least-squares regression line to the given points and calculate R².",
+    "Cluster the given points into k clusters using k-means with the given initial centroids, showing each iteration.",
+    "Explain the machine learning cycle with an example; compare supervised and unsupervised learning.",
+    "Explain the working of SVM, the maximum-margin hyperplane and the significance of the margin.",
+    "Explain logistic regression and how it is used for binary classification; how does the cut-off change along the ROC curve?"
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

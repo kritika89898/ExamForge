@@ -1,0 +1,31 @@
+{
+  "subjectCode": "BEC 204 (AEW)",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec204aew-mid-2025-oct-ece-eceai"
+  ],
+  "importantTopics": [
+    "Feedback Amplifiers",
+    "Amplifier Gain, Noise and Distortion",
+    "Frequency Response and Bandwidth",
+    "Multistage Amplifiers"
+  ],
+  "likelyQuestions": [
+    "For the given negative-feedback amplifier, find the feedback fraction, gain and input/output impedance with feedback.",
+    "Find the input and output S/N ratio and noise factor for the given amplifier.",
+    "For the given gain readings, find the bandwidth and cut-off frequencies and draw the frequency response.",
+    "Explain the block diagram of a multistage amplifier.",
+    "Compare positive and negative feedback; explain transconductance and transresistance amplifiers.",
+    "Find the output power for the given input and dB gain; explain amplifier distortion.",
+    "Explain the RC-coupled amplifier and the components affecting its bandwidth.",
+    "Explain the input and output resistance of a multistage amplifier."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Advanced Electronic Workshop - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

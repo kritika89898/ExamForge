@@ -1,0 +1,36 @@
+{
+  "subjectCode": "HMC 301",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-hmc301-mid-2024"
+  ],
+  "importantTopics": [
+    "Moral Dilemmas and Ethical Decision Making",
+    "Theories of Moral Development: Kohlberg and Gilligan",
+    "Empathy, Knowledge Sharing and Time Management",
+    "Religion, Vedas, Spirituality and Indian Values",
+    "Profession, Professionalism and Codes of Ethics",
+    "Engineering as Experimentation, Safety and Risk",
+    "Morals, Values, Ethics and Work Ethics"
+  ],
+  "likelyQuestions": [
+    "What is a moral dilemma? Enumerate the steps in confronting a moral dilemma with examples.",
+    "Explain Kohlberg's theory of moral development and its limitations/critiques.",
+    "Write notes on sympathy vs empathy, sharing and caring, and normative enquiry.",
+    "Explain the concept of religion and human values with examples; can the world have one religion?",
+    "Differentiate between profession and professionalism; explain the responsibilities and expectations of a professional.",
+    "Explain 'engineering as social experimentation' and engineers' responsibility for safety and risk; explain risk–benefit analysis.",
+    "Define morals, values and ethics and explain their relationship with examples.",
+    "Analyse the given situational dilemma (beggar snatching a wallet / reporting corruption) and justify your action.",
+    "Explain Gilligan's theory; differentiate justice-based and care-based morality.",
+    "What is knowledge sharing and how would you create such an environment? Explain techniques of time management."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Professional Ethics and Human Values - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

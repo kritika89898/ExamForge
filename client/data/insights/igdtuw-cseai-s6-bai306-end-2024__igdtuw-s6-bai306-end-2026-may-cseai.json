@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 306",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai306-end-2024",
+    "igdtuw-s6-bai306-end-2026-may-cseai"
+  ],
+  "importantTopics": [
+    "Frequency Domain: Fourier Transform, DFT/DCT and Filters",
+    "Representation, Description and Object Recognition",
+    "Image Compression: Redundancy, Huffman and Run-Length",
+    "Image Segmentation: Thresholding, Edges, Region Growing",
+    "Morphological Image Processing",
+    "Histogram Equalization and Matching",
+    "Image Restoration: Noise Models, Inverse and Wiener Filtering",
+    "Pixel Relationships: Adjacency, Connectivity, Distances"
+  ],
+  "likelyQuestions": [
+    "Compute the 2-D DFT (or DCT) of the given image and its inverse; check whether the DFT matrix is unitary.",
+    "Explain boundary and regional descriptors with examples; compute the 4-chain code of the given boundary; explain PCA for image description.",
+    "Construct Huffman codes for the given gray levels/probabilities and find the coding efficiency and compression ratio.",
+    "Apply region growing (or region splitting and merging with a quad tree) to the given image with the given seed and threshold.",
+    "For the given binary image X and structuring element B, compute dilation, erosion, opening and closing.",
+    "Perform histogram equalization on the given image and obtain the final image.",
+    "Define noise and its sources; explain four noise models with their PDFs.",
+    "Explain the types of adjacency (4, 8, m) and connectivity with examples.",
+    "Apply 3×3 mean, Gaussian, median and Laplacian filters and the Sobel operator at the given pixel and compute the gradient magnitude.",
+    "Explain the fundamental steps of a digital image processing system with a block diagram."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Digital Image Processing - End Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Digital Image Processing - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

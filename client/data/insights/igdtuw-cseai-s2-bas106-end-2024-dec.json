@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BAS 106",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bas106-end-2024-dec"
+  ],
+  "importantTopics": [
+    "Environmental Impact Assessment and Management Systems",
+    "Alternative and Renewable Energy",
+    "Water Quality: Hardness, Alkalinity, DO and COD",
+    "Toxicology: Toxic Metals and Dose–Response",
+    "Waste Water Treatment",
+    "Green Chemistry and Atom Economy",
+    "Hazardous and Solid Waste Management",
+    "Polymers: Bioplastics and Degradation"
+  ],
+  "likelyQuestions": [
+    "What is EIA and why is it necessary before any project? Discuss the parameters considered.",
+    "List alternative energy sources and explain the merits and limitations of ocean thermal, geothermal and wind energy.",
+    "Calculate the temporary, permanent and total hardness of the given water sample from EDTA titration data. Which buffer is used and why?",
+    "Enumerate the forms of mercury/chromium/lead/arsenic and describe their sources and biochemical effects.",
+    "Explain the primary, secondary (trickling filter) and tertiary treatment of waste water.",
+    "Discuss any five principles of green chemistry with suitable examples.",
+    "Explain the physical and chemical processes for the treatment of hazardous waste.",
+    "What are bioplastics? Explain their methods of manufacture and applications (e.g., PLA, PCL).",
+    "Discuss carbon dioxide sequestration (natural and artificial) along with the concept of carbon credits.",
+    "Calculate the number-average and weight-average molecular masses of the given polypropylene sample."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Environmental Science - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

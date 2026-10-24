@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BCS 204",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-bcs204-end-2022",
+    "igdtuw-s4-bcs204-end-2026-may-cseai-it-aiml-eceai"
+  ],
+  "importantTopics": [
+    "Shortest Paths: Dijkstra, Bellman–Ford, Floyd–Warshall",
+    "Divide and Conquer: Sorting, Searching, Strassen",
+    "String Matching: Naive, Rabin–Karp, KMP, Finite Automata",
+    "Recurrence Relations: Master Theorem and Recursion Tree",
+    "NP-Completeness and Reductions",
+    "Huffman Coding",
+    "Backtracking and Branch and Bound",
+    "Graph Traversal and Topological Sort"
+  ],
+  "likelyQuestions": [
+    "Run the Bellman–Ford algorithm on the given graph from the source and show how it detects negative-weight cycles.",
+    "Apply Strassen's algorithm to the given matrices and analyse its complexity.",
+    "Explain the Rabin–Karp algorithm and find the spurious hits for the given text and pattern modulo q.",
+    "Solve the recurrences T(n) = 2T(√n) + log n and T(n) = 4T(n/2) + n²√n.",
+    "Discuss the classes P, NP, NP-hard and NP-complete with a diagram, and the steps to prove a problem NP-complete.",
+    "Construct the Huffman tree for the given characters and frequencies and calculate the total bits needed.",
+    "Explain the N-Queen problem and solve the 4/5-queen problem using backtracking with the state-space tree.",
+    "Find the topological sort of the given DAG and how many topological orderings it has.",
+    "Find an optimal parenthesisation of the matrix-chain product with the given dimensions.",
+    "Discuss Big-O and Big-Omega notations and prove that ½n(n−1) = O(n²) by finding c and n₀."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Design and Analysis of Algorithms - End Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

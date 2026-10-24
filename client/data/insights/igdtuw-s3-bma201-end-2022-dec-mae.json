@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BMA 201",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s3-bma201-end-2022-dec-mae"
+  ],
+  "importantTopics": [
+    "Metrology and Inspection",
+    "Gas Welding",
+    "Cores, Chaplets, Gating and Risers",
+    "Metal Forming: Forging, Extrusion, Wire Drawing",
+    "Powder Metallurgy",
+    "Special Casting Processes",
+    "Additive Manufacturing and 3D Printing",
+    "Advanced Welding: Electron Beam, Laser, Induction"
+  ],
+  "likelyQuestions": [
+    "Differentiate line and end standards and explain how length standards are transferred to end standards.",
+    "Explain oxy-acetylene welding, its tools and the three flames with sketches.",
+    "What is the use of cores and chaplets in casting? Show with a sketch.",
+    "Differentiate hot and cold working; explain drop, roll, press and upset forging with sketches.",
+    "Explain the powder metallurgy process and the steps of powder production with a diagram.",
+    "Explain centrifugal (true vs semi-centrifugal) and investment casting with sketches, advantages and disadvantages.",
+    "Explain the working of a 3D printer and the difference between 3D printing and additive manufacturing.",
+    "Explain electron beam welding with a diagram and applications.",
+    "Explain slip gauges, limit and snap gauges; brief about radiography and ultrasonic testing.",
+    "How are the flames identified and what are the mixing ratios? Discuss welding positions."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Production Technology I - End Semester 2022",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

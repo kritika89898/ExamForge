@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 417",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s7-bai417-end-2025-dec-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Speech Processing: Short-Term Analysis, Energy, Spectral Features",
+    "Multimodal Learning, Fusion and Co-learning",
+    "Image/Video Processing: Point, Neighbourhood and Edge Processing",
+    "Text Statistics: Zipf's Law and Heaps' Law",
+    "Biomedical Signals and Spatio-Temporal Data"
+  ],
+  "likelyQuestions": [
+    "Calculate the short-term energy of the given speech segment and the spectral centroid of the given spectrum; explain windowing in short-term analysis.",
+    "What are the different multimodal learning techniques and combining models? Discuss their advantages and limitations.",
+    "Explain point processing and neighbourhood processing techniques in multimodal/video data analysis and their challenges.",
+    "Using Heaps' law with the given k and β, estimate the vocabulary size for the given total word count.",
+    "What are the types, characteristics and applications of biomedical signals? Explain the challenges in processing them.",
+    "Define formant frequencies and calculate the first three formants for a vocal tract of 17 cm; discuss applications of speech processing.",
+    "Define co-learning and its application in multimodal data integration; give applications of multimodal recommendation.",
+    "Compute the consecutive differences of the given audio amplitudes to detect edges; discuss the benefits of enhancement.",
+    "Using Zipf's law, estimate the total number of words given the frequency of the first-ranked word; give examples and applications of both laws.",
+    "Explain the handling of spatial and temporal data in multimodal analysis."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Multimodal Data Analysis - End Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

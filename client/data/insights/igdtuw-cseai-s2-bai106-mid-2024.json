@@ -1,0 +1,34 @@
+{
+  "subjectCode": "BAI 106",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s2-bai106-mid-2024"
+  ],
+  "importantTopics": [
+    "Data Models, Schema and DBMS Users",
+    "DBMS vs File System, Architecture and Data Independence",
+    "Keys and Integrity Constraints",
+    "ER Model: Entities, Attributes, Relationships",
+    "SQL Queries, DDL/DML and Views"
+  ],
+  "likelyQuestions": [
+    "Write short notes on hierarchical and network data models. What is a schema?",
+    "What are the advantages of a DBMS over file processing systems? When would it make sense not to use one?",
+    "Define primary, super, candidate, alternate and foreign keys with examples.",
+    "Draw an E-R diagram for the given application (bank / supplier–parts), stating any assumptions.",
+    "Write SQL queries for the given schema using joins, GROUP BY and HAVING.",
+    "What are the different types of DBMS users and the roles of a database administrator?",
+    "Draw and explain the detailed system architecture (three-tier) of a DBMS, and differentiate physical and logical data independence.",
+    "Explain entity and referential integrity rules and how they are enforced.",
+    "Distinguish strong and weak entity sets, generalisation and specialisation; find the minimum number of tables for a given ER diagram.",
+    "Explain the differences between UPDATE vs ALTER and DELETE vs DROP, list DML commands, and explain views with syntax."
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Database Management Systems - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

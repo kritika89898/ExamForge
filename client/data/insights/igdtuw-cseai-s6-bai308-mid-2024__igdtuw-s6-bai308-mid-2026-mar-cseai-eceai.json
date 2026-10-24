@@ -1,0 +1,41 @@
+{
+  "subjectCode": "BAI 308",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s6-bai308-mid-2024",
+    "igdtuw-s6-bai308-mid-2026-mar-cseai-eceai"
+  ],
+  "importantTopics": [
+    "Evolution, Trends, Benefits and Challenges of Cloud",
+    "Service Models: SaaS, PaaS, IaaS",
+    "Deployment Models: Public, Private, Hybrid, Community",
+    "Cloud Architecture and Cloud Service Providers",
+    "Virtualization, Hypervisors and VM Provisioning",
+    "Scalability, Migration, Serverless, Fog and Utility Computing",
+    "Cloud Security, Monitoring and Incident Response"
+  ],
+  "likelyQuestions": [
+    "Explain the trends in computing that led to cloud computing and the key milestones in its evolution.",
+    "Explain SaaS, PaaS and IaaS in detail with features, control and business applications; identify the model for Gmail, Google App Engine and Amazon EC2.",
+    "Explain the cloud deployment models and compare them on cost, security, scalability and control.",
+    "Explain the layers of cloud architecture and front-end vs back-end components with a diagram.",
+    "Explain virtualization, virtual machines and hardware support for virtualization; differentiate full virtualization and paravirtualization.",
+    "What is dynamic scalability? Discuss its types; explain the need for and steps of cloud migration.",
+    "What are the security challenges in cloud computing at different levels? Discuss them from an organisational view.",
+    "Discuss the benefits and challenges of cloud computing and its impact on modern IT infrastructure; compare cloud, grid and distributed computing.",
+    "An organisation needs full control over VMs, storage and OS. Identify the most suitable service model and explain its features.",
+    "Which deployment model suits a company with high security needs, cost constraints and scalability needs? Explain the principles for designing public, private and hybrid clouds."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Cloud Computing - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Cloud Computing - Mid Semester 2026",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

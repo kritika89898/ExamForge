@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 305",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai305-end-2022",
+    "igdtuw-cseai-s5-bai305-end-2024"
+  ],
+  "importantTopics": [
+    "LSTM and GRU",
+    "Activation Functions",
+    "Loss Functions",
+    "CNN Architectures and Transfer Learning",
+    "Perceptron and the Perceptron Learning Algorithm",
+    "Recurrent Neural Networks and BPTT",
+    "Convolutional Neural Networks: Convolution, Pooling and Parameters",
+    "Linear Separability and Single vs Multi-Layer Networks"
+  ],
+  "likelyQuestions": [
+    "Explain the architecture of LSTM with its gates and equations, and how it differs from a standard RNN.",
+    "Compare ReLU, sigmoid and tanh (and softmax), and explain when each is preferred; compute softmax for the given outputs.",
+    "Explain at least three loss functions with equations; compute cross-entropy loss and MAE for the given predictions.",
+    "Explain VGG16, ResNet and InceptionNet with their architectural differences; differentiate AlexNet and VGG.",
+    "Describe the perceptron learning algorithm and prove its convergence. Why are there separate weight-update rules for positive and negative samples?",
+    "Explain RNNs with all equations, the role of hidden states, and backpropagation through time.",
+    "Perform the convolution of the given image with the given filter for the stated padding and stride.",
+    "Explain linearly separable and non-linear data with diagrams, and how non-linear data can be transformed.",
+    "For the given sigmoid neuron with initial weights, bias and learning rate, compute the weights after two iterations of gradient descent on the given samples.",
+    "Explain overfitting and underfitting using learning curves and the bias–variance trade-off; how do you recover from each?"
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Deep Learning I - End Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Deep Learning-I - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

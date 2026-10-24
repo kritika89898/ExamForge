@@ -1,0 +1,37 @@
+{
+  "subjectCode": "BMA 110 / BEC 110",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-s1-bec110-end-2023-dec-ece-cse"
+  ],
+  "importantTopics": [
+    "Network Theorems: Superposition, Thevenin, Norton, Millman, Maximum Power",
+    "Three-Phase Systems and Two-Wattmeter Method",
+    "Measuring Instruments",
+    "Transformers and DC Machines",
+    "AC Fundamentals: RMS, Average, Form and Peak Factor",
+    "Resonance in RLC Circuits",
+    "DC Circuits: Kirchhoff's Laws, Series–Parallel, Star–Delta",
+    "AC Circuits, Impedance and Power"
+  ],
+  "likelyQuestions": [
+    "State and prove the maximum power transfer theorem and find the load and maximum power for the given circuit.",
+    "Explain the two-wattmeter method for a three-phase star load and derive the power factor from the readings.",
+    "Explain the construction of a PMMC instrument; derive the expressions for a shunt and a multiplier.",
+    "Find the efficiency of the given transformer at half load and unity power factor; draw its equivalent circuit and phasor diagram; why is it rated in kVA?",
+    "For i = 42.42 sin 628t, find the maximum value, frequency, RMS, average value and form factor.",
+    "For the given series RLC circuit, find the capacitance for resonance, voltages across L and C, bandwidth, Q-factor and power.",
+    "Explain Kirchhoff's laws; find the currents through all resistors in the given circuit and verify KVL/KCL.",
+    "A 50 Ω resistor in series with a 100 µF capacitor across 100 V, 50 Hz: find the impedance, current, power factor and voltages.",
+    "Find the current in the given resistor by superposition; find the Thevenin/Norton equivalent of the given circuit.",
+    "Find the line current for the given balanced star load; what is the significance of power factor?"
+  ],
+  "sourceCount": 1,
+  "sources": [
+    {
+      "label": "Engineering Mechanics / Basic Electrical Engineering - End Semester 2023",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

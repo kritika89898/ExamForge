@@ -1,0 +1,46 @@
+{
+  "subjectCode": "HMC 202",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-cseai-s4-hmc202-mid-2022",
+    "igdtuw-cseai-s4-hmc202-mid-2024",
+    "igdtuw-cseai-s4-hmc202-mid-2025"
+  ],
+  "importantTopics": [
+    "Disaster Management Cycle: Pre-Disaster Stage",
+    "Cyclones, Floods, Landslides and Other Hazards",
+    "Earthquakes and Tsunamis",
+    "Hazard, Disaster, Risk, Vulnerability and Resilience",
+    "Case Studies: Bhopal, Bhuj, Joshimath and Others",
+    "Types of Disasters: Natural and Man-Made",
+    "Post-Disaster Stage: Relief, Rehabilitation, Reconstruction"
+  ],
+  "likelyQuestions": [
+    "Explain preparedness, mitigation and prevention in the pre-disaster stage with examples.",
+    "What are tropical cyclones? Explain their causes and preparedness steps.",
+    "What is an earthquake? Explain its causes and the pre- and post-disaster management steps (relief and recovery).",
+    "Define hazard, risk, vulnerability and resilience. How is a hazard different from a disaster?",
+    "Write short notes on the Bhopal gas tragedy and the Bhuj earthquake, with lessons learnt.",
+    "Differentiate between natural and man-made disasters and categorise disasters by causative factors with examples.",
+    "Explain the post-disaster stage with its components: relief, rehabilitation and reconstruction.",
+    "Discuss the disaster management cycle and a disaster preparedness plan.",
+    "Explain the causes, effects and management of landslides and floods; discuss hazards from volcanic eruptions and soil erosion.",
+    "What is a tsunami? Explain its causes, management steps, the 2004 Indian Ocean tsunami and the Indian Tsunami Early Warning System."
+  ],
+  "sourceCount": 3,
+  "sources": [
+    {
+      "label": "Disaster Management - Mid Semester 2022",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - Mid Semester 2024",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Disaster Management - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

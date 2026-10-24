@@ -1,0 +1,40 @@
+{
+  "subjectCode": "BEC 203",
+  "examType": "Mid Semester",
+  "paperIds": [
+    "igdtuw-s3-bec203-mid-2023-oct-ece",
+    "igdtuw-s3-bec203-mid-2025-oct-ece"
+  ],
+  "importantTopics": [
+    "System Properties",
+    "Signal Classification and Waveform Sketching",
+    "Fourier Transform and its Properties",
+    "Fourier Series",
+    "LTI Response and Differential Equations",
+    "Phase, Group Delay and All-Pass Systems"
+  ],
+  "likelyQuestions": [
+    "Check whether the given systems are static/dynamic, causal/non-causal, linear and time-invariant.",
+    "Differentiate even/odd and continuous/discrete signals; check whether the given signals are periodic.",
+    "Find the Fourier transform of t e^{−at}u(t) / cos(ω₀t)u(t).",
+    "Find the Fourier series of the half-wave rectified sine wave.",
+    "Find the complete response of the given system from its differential equation and initial conditions.",
+    "Explain group delay and phase delay; differentiate linear and non-linear phase.",
+    "Explain homogeneity, superposition and BIBO stability; describe the properties of LTI systems.",
+    "Sketch the given step/ramp signals such as u(t−2), u(−2t+1) and u(t)−2u(t−1)+u(t−3); describe the properties of periodic signals.",
+    "Prove the linearity, time-shifting, frequency-shifting and time-reversal properties; explain Parseval's theorem.",
+    "Find the Fourier series of the given waveform."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Signals and Systems - Mid Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Signals and Systems - Mid Semester 2025",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}

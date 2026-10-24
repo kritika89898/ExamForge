@@ -1,0 +1,42 @@
+{
+  "subjectCode": "BAI 301",
+  "examType": "End Semester",
+  "paperIds": [
+    "igdtuw-cseai-s5-bai301-end-2023",
+    "igdtuw-cseai-s5-bai301-end-2024"
+  ],
+  "importantTopics": [
+    "Data Pre-processing, EDA and Feature Engineering",
+    "Clustering: k-Means, Hierarchical and EM",
+    "Ensemble Learning: Bagging, Boosting, Random Forest",
+    "Dimensionality Reduction: PCA and LDA",
+    "Naive Bayes Classifier",
+    "Logistic Regression",
+    "Evaluation Metrics: Confusion Matrix, ROC and AUC",
+    "Linear Regression and Regularization (Ridge, LASSO)"
+  ],
+  "likelyQuestions": [
+    "Discuss data exploration and pre-processing: data cleaning, integration, handling missing values and outliers, and feature extraction.",
+    "Cluster the given points into k clusters using k-means with the given initial centroids, showing each iteration.",
+    "Contrast bagging and boosting; explain how Random Forest improves accuracy over a single decision tree.",
+    "Transform the given data into the new coordinate system using PCA.",
+    "Using the given COVID-19 symptom dataset, build a naive Bayes model and compute the required probabilities.",
+    "Explain logistic regression and how it is used for binary classification; how does the cut-off change along the ROC curve?",
+    "For the given confusion matrix, calculate accuracy, precision, recall, specificity and F1 score.",
+    "Fit a least-squares regression line to the given points and calculate R².",
+    "Explain k-fold cross-validation; for the given dataset size, find the training and test samples per fold for 5-fold and stratified k-fold CV.",
+    "Explain the machine learning cycle with an example; compare supervised and unsupervised learning."
+  ],
+  "sourceCount": 2,
+  "sources": [
+    {
+      "label": "Machine Learning - End Semester 2023",
+      "origin": "ExamForge archive"
+    },
+    {
+      "label": "Machine Learning - End Semester 2024",
+      "origin": "ExamForge archive"
+    }
+  ],
+  "generatedAt": "2026-10-24T03:56:36Z"
+}
