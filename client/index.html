@@ -53,22 +53,55 @@
     <header class="hero" id="home">
         <div class="hero-glow hero-glow-one"></div>
         <div class="hero-glow hero-glow-two"></div>
-        <div class="shell hero-grid">
+        <div class="shell hero-grid hero-split">
             <div class="hero-copy">
-                <div class="eyebrow"><span>✦</span> IGDTUW exam archive + official syllabus map</div>
-                <h1>Ace semester exams with <span>papers that make sense.</span></h1>
-                <p class="hero-lead">Find subject-specific PYQs without opening a 50-page bundle. Browse every B.Tech branch and semester from one clean, fast workspace.</p>
-                <div class="hero-actions">
+                <div class="eyebrow reveal" style="--d:0ms"><span>✦</span> Your IGDTUW exam prep platform</div>
+                <h1 class="reveal" style="--d:90ms">Prepare smarter. <span>Score better.</span></h1>
+                <p class="hero-lead reveal" style="--d:180ms">Previous-year papers, official syllabus maps, AI-picked important topics and a CGPA calculator, all in one place for IGDTUW students.</p>
+                <div class="hero-actions reveal" style="--d:270ms">
                     <a class="button button-primary" href="#explore">Browse papers <span>→</span></a>
                     <a class="button button-secondary" href="prediction.html"><span aria-hidden="true">✦</span> AI question studio</a>
                 </div>
-                <dl class="hero-stats" aria-label="ExamForge catalogue summary">
+                <dl class="hero-stats reveal" style="--d:360ms" aria-label="ExamForge catalogue summary">
                     <div><dt id="branch-count">7</dt><dd>B.Tech branches</dd></div>
                     <div><dt id="semester-count">56</dt><dd>Semesters mapped</dd></div>
                     <div><dt id="paper-count">10</dt><dd>Verified PDFs live</dd></div>
                 </dl>
             </div>
 
+            <div class="hero-art" aria-hidden="true">
+                <div class="orbit orbit-one"><span class="orbit-dot"></span></div>
+                <div class="orbit orbit-two"><span class="orbit-dot"></span></div>
+                <div class="art-glow"></div>
+
+                <div class="book-stack">
+                    <svg class="grad-cap" viewBox="0 0 200 120">
+                        <defs>
+                            <linearGradient id="capTop" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#7c3aed"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M60 52 v24 c0 12 80 12 80 0 v-24" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+                        <path d="M100 18 L190 46 L100 74 L10 46 Z" fill="url(#capTop)" stroke="#a5b4fc" stroke-width="1.5"/>
+                        <circle cx="100" cy="46" r="4" fill="#fbbf24"/>
+                        <path class="tassel" d="M100 46 Q150 50 160 60 L160 92" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+                        <path class="tassel" d="M155 92 h10 l-2 16 h-6 z" fill="#fbbf24"/>
+                    </svg>
+                    <div class="book b1" style="--i:0"><span>PYQs</span><span class="book-icon"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></span></div>
+                    <div class="book b2" style="--i:1"><span>Syllabus maps</span><span class="book-icon"><svg viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg></span></div>
+                    <div class="book b3" style="--i:2"><span>AI insights</span><span class="book-icon"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span></div>
+                    <div class="book b4" style="--i:3"><span>CGPA calculator</span><span class="book-icon"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg></span></div>
+                </div>
+
+                <div class="note-card">
+                    <span class="sparkle s1">✦</span><span class="sparkle s2">✦</span>
+                    <p>Less searching.<br>More studying.</p>
+                    <svg viewBox="0 0 80 10"><path d="M2 7 Q20 1 40 6 T78 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </div>
+
+                <div class="chip chip-a"><b>✓</b> Subject-wise papers</div>
+                <div class="chip chip-b"><b>✦</b> Important topics</div>
+            </div>
         </div>
     </header>
 
@@ -111,13 +144,22 @@
         </div>
     </section>
 
-    <footer>
-        <div class="shell footer-grid">
-            <div><div class="brand footer-brand"><span class="brand-mark">ϟ</span><span>Exam<span>Forge</span></span></div><p>Track trends. Spot topics. Get ahead.</p></div>
-            <div class="footer-links"><a href="#explore">Browse archive</a><a href="prediction.html">AI studio</a><a href="cgpa.html">CGPA Calculator</a><a href="admin/upload.html">Contribute</a><a href="https://www.igdtuw.ac.in/academics/scheme-syllabus" target="_blank" rel="noopener noreferrer">IGDTUW syllabus ↗</a></div>
-            <p class="copyright">© <span id="current-year"></span> ExamForge</p>
-        </div>
-    </footer>
+    <footer class="site-footer">
+  <div class="shell footer-cols">
+    <div class="footer-about">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">ϟ</span><span>Exam<span>Forge</span></span></a>
+      <p>IGDTUW previous-year papers, syllabus maps and AI exam insights, all in one place.</p>
+      <div class="footer-social">
+        <a href="https://github.com/kritika89898/ExamForge" aria-label="GitHub"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+        <a href="https://youtu.be/0jvvX_hamBg" aria-label="YouTube demo"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg></a>
+      </div>
+    </div>
+    <div><h3>Explore</h3><ul><li><a href="index.html#explore"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Browse archive</a></li><li><a href="prediction.html"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>AI Studio</a></li><li><a href="cgpa.html"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>CGPA Calculator</a></li><li><a href="admin/upload.html"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Contribute</a></li></ul></div>
+    
+    <div><h3>Resources</h3><ul><li><a href="https://www.igdtuw.ac.in/academics/scheme-syllabus" target="_blank" rel="noopener noreferrer"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>IGDTUW syllabus ↗</a></li><li><a href="https://forms.gle/g3nsTYhQQ3k7Aat38" target="_blank" rel="noopener noreferrer"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Submit a paper ↗</a></li><li><a href="https://youtu.be/0jvvX_hamBg" target="_blank" rel="noopener noreferrer"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Watch the demo ↗</a></li><li><a href="https://github.com/kritika89898/ExamForge/issues" target="_blank" rel="noopener noreferrer"><svg class="fchev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Report an issue ↗</a></li></ul></div>
+  </div>
+  <div class="shell footer-bottom"><p>© <span id="current-year"></span> ExamForge. All rights reserved.</p><p>Not affiliated with IGDTUW.</p></div>
+</footer>
 
     <dialog class="search-dialog" id="search-dialog">
         <div class="search-dialog-head">
