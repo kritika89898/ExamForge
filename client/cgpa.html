@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculate your IGDTUW SGPA and CGPA from marks and credits, using the university's absolute grading scale.">
+    <meta name="theme-color" content="#070b14">
+    <title>CGPA Calculator - ExamForge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cgpa.css">
+</head>
+<body>
+    <a class="skip-link" href="#calculator">Skip to calculator</a>
+
+    <nav class="topbar" aria-label="Primary navigation">
+        <div class="shell nav-shell calc-nav">
+            <a class="brand" href="index.html" aria-label="ExamForge home">
+                <span class="brand-mark" aria-hidden="true">ϟ</span>
+                <span>Exam<span>Forge</span></span>
+            </a>
+            <div class="desktop-nav">
+                <a href="index.html#explore">Explore</a>
+                <a href="index.html#explore">Departments</a>
+                <a href="prediction.html">AI Studio</a>
+                <a class="active-nav" href="cgpa.html" aria-current="page">CGPA Calculator</a>
+                <a href="admin/upload.html">Contribute</a>
+            </div>
+            <a class="back-home" href="index.html">← Back to archive</a>
+        </div>
+    </nav>
+
+    <header class="calc-hero">
+        <div class="shell calc-shell">
+                        <h1>SGPA &amp; CGPA Calculator</h1>
+            <p>Add your subjects, enter marks and credits, then click Calculate. Based on IGDTUW's Schemata of Evaluation.</p>
+        </div>
+    </header>
+
+    <main class="calc-wrap" id="calculator">
+        <div class="shell calc-shell">
+            <div class="calc-tabs" role="tablist" aria-label="Calculator type">
+                <button class="calc-tab active" type="button" role="tab" id="tab-sgpa" aria-selected="true" aria-controls="panel-sgpa" data-tab="sgpa">Semester SGPA</button>
+                <button class="calc-tab" type="button" role="tab" id="tab-cgpa" aria-selected="false" aria-controls="panel-cgpa" data-tab="cgpa">Cumulative CGPA</button>
+            </div>
+
+            <!-- SGPA -->
+            <section class="calc-card" id="panel-sgpa" role="tabpanel" aria-labelledby="tab-sgpa">
+                <div class="table-scroll">
+                    <table class="calc-table">
+                        <thead>
+                            <tr><th>Subject</th><th>Marks</th><th>Credits</th><th>Grade</th><th>Points</th><th><span class="sr-only">Remove</span></th></tr>
+                        </thead>
+                        <tbody id="sgpa-rows"></tbody>
+                    </table>
+                </div>
+                <div class="calc-actions">
+                    <button class="plain-btn" type="button" id="sgpa-add">+ Add subject</button>
+                    <button class="plain-btn" type="button" id="sgpa-reset">Reset</button>
+                    <button class="calc-btn" type="button" id="sgpa-calc">Calculate</button>
+                </div>
+                <p class="calc-error" id="sgpa-error" role="alert" hidden></p>
+                <p class="calc-result" id="sgpa-result" aria-live="polite" hidden></p>
+            </section>
+
+            <!-- CGPA -->
+            <section class="calc-card" id="panel-cgpa" role="tabpanel" aria-labelledby="tab-cgpa" hidden>
+                <div class="table-scroll">
+                    <table class="calc-table">
+                        <thead>
+                            <tr><th>Semester</th><th>SGPA</th><th>Credits</th><th>Credit points</th><th><span class="sr-only">Remove</span></th></tr>
+                        </thead>
+                        <tbody id="cgpa-rows"></tbody>
+                    </table>
+                </div>
+                <div class="calc-actions">
+                    <button class="plain-btn" type="button" id="cgpa-add">+ Add semester</button>
+                    <button class="plain-btn" type="button" id="cgpa-reset">Reset</button>
+                    <button class="calc-btn" type="button" id="cgpa-calc">Calculate</button>
+                </div>
+                <p class="calc-error" id="cgpa-error" role="alert" hidden></p>
+                <p class="calc-result" id="cgpa-result" aria-live="polite" hidden></p>
+            </section>
+
+            <details class="calc-info">
+                <summary>IGDTUW grading scale</summary>
+                <table class="info-table">
+                    <thead><tr><th>Marks</th><th>Grade</th><th>Points</th></tr></thead>
+                    <tbody>
+                        <tr><td>93 – 100</td><td>A+</td><td>10</td></tr>
+                        <tr><td>85 – 92</td><td>A</td><td>9</td></tr>
+                        <tr><td>77 – 84</td><td>B+</td><td>8</td></tr>
+                        <tr><td>69 – 76</td><td>B</td><td>7</td></tr>
+                        <tr><td>61 – 68</td><td>C+</td><td>6</td></tr>
+                        <tr><td>53 – 60</td><td>C</td><td>5</td></tr>
+                        <tr><td>45 – 52</td><td>D</td><td>4</td></tr>
+                        <tr><td>Below 45</td><td>F</td><td>0</td></tr>
+                    </tbody>
+                </table>
+                <p>SGPA = Σ(Credits × Grade points) ÷ Σ Credits. Division: 8.5 and above First with Distinction, 6.0 – 8.49 First, 5.0 – 5.99 Second, below 5.0 Fail. Courses graded F aren't counted in CGPA, so leave their credits out of a semester's total.</p>
+            </details>
+        </div>
+    </main>
+
+    <footer>
+        <div class="shell footer-grid">
+            <div><div class="brand footer-brand"><span class="brand-mark">ϟ</span><span>Exam<span>Forge</span></span></div><p>Track trends. Spot topics. Get ahead.</p></div>
+            <div class="footer-links"><a href="index.html#explore">Browse archive</a><a href="prediction.html">AI Studio</a><a href="cgpa.html">CGPA Calculator</a><a href="admin/upload.html">Contribute</a></div>
+            <p class="copyright">© <span id="current-year"></span> ExamForge</p>
+        </div>
+    </footer>
+
+    <script src="cgpa.js"></script>
+</body>
+</html>
